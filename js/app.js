@@ -4,9 +4,9 @@ const APP = document.getElementById('app');
 const HEADER_NAV = document.getElementById('header-nav');
 const HEADER_ACTION = document.getElementById('header-action');
 
-/* Subscription tiers. Papers/essays/MCQs are placeholders for now — the app
-   shows the correct counts and structure per tier, but the questions
-   themselves haven't been written yet (see js/data.js for what's real). */
+/* Subscription tiers. Section A papers unlock from SECTION_A_PAPERS as
+   they're written (see js/section-a-papers.js); slots beyond what's
+   written show "Coming soon". Section B / MCQ are still all placeholder. */
 const TIERS = {
   'crash-course': { key: 'crash-course', rank: 1, name: 'Crash Course', price: '£45', period: 'one-off', papers: 7, essays: 7, mcq: 70 },
   'intensive': { key: 'intensive', rank: 2, name: 'Intensive', price: '£80', period: 'one-off', papers: 15, essays: 15, mcq: 120 },
@@ -30,6 +30,8 @@ const state = {
   paymentReturn: null, // 'dashboard' (first-time onboarding) | 'account' (upgrading later)
   auth: null, // { email, name?, plan, paid } once logged in — plan/paid are null/false until checkout completes
   marketingPractice: { qIndex: 0, answers: {} }, // free-practice teaser (uses PASSAGES[0])
+  paperAttempt: null, // { paperIndex, order, pos, answers, timeLeft, timerId } — a Section A paper in progress
+  paperResultsData: null, // set by submitPaper(), read by renderPaperResults()
 };
 
 /* ---------------- Supabase-backed auth (falls back to local demo mode) ----------------
@@ -125,6 +127,12 @@ function loadTeaserEssays() {
 }
 function saveTeaserEssays(d) { localStorage.setItem('praxis_teaser_essays', JSON.stringify(d)); }
 
+function loadPaperProgress() {
+  try { return JSON.parse(localStorage.getItem('praxis_paper_progress') || '{}'); }
+  catch (e) { return {}; }
+}
+function savePaperProgress(p) { localStorage.setItem('praxis_paper_progress', JSON.stringify(p)); }
+
 /* ---------------- helpers ---------------- */
 function letter(i) { return String.fromCharCode(65 + i); }
 function el(html) {
@@ -144,6 +152,12 @@ function wordCount(text) {
 }
 
 function go(route, opts) {
+  // Stop a running paper timer if navigating away from the attempt —
+  // otherwise it can auto-submit while the user is looking elsewhere.
+  if (route !== 'section-a-paper' && state.paperAttempt && state.paperAttempt.timerId) {
+    clearInterval(state.paperAttempt.timerId);
+    state.paperAttempt.timerId = null;
+  }
   state.route = route;
   Object.assign(state, opts || {});
   render();
@@ -751,6 +765,13 @@ function renderDashboard() {
   const tier = getTier();
   const firstName = state.auth && state.auth.name ? state.auth.name.trim().split(/\s+/)[0] : null;
 
+  const paperProgress = loadPaperProgress();
+  const availablePapers = SECTION_A_PAPERS.slice(0, tier.papers);
+  const completedPapers = availablePapers.filter(p => paperProgress[p.paper_id]);
+  const avgScore = completedPapers.length
+    ? Math.round(completedPapers.reduce((s, p) => s + (paperProgress[p.paper_id].score / paperProgress[p.paper_id].total), 0) / completedPapers.length * 100)
+    : null;
+
   APP.appendChild(el(`
     <section class="hero">
       <p class="kicker">${escapeHtml(tier.name)} plan</p>
@@ -759,10 +780,10 @@ function renderDashboard() {
     </section>
 
     <div class="stats-row">
-      <div class="stat-box"><div class="stat-num">0/${tier.papers}</div><div class="stat-label">Papers completed</div></div>
+      <div class="stat-box"><div class="stat-num">${completedPapers.length}/${tier.papers}</div><div class="stat-label">Papers completed</div></div>
       <div class="stat-box"><div class="stat-num">0/${tier.essays}</div><div class="stat-label">Essays written</div></div>
       <div class="stat-box"><div class="stat-num">0/${tier.mcq}</div><div class="stat-label">MCQs answered</div></div>
-      <div class="stat-box"><div class="stat-num">—</div><div class="stat-label">Average score</div></div>
+      <div class="stat-box"><div class="stat-num">${avgScore === null ? '—' : avgScore + '%'}</div><div class="stat-label">Average score</div></div>
     </div>
 
     <div class="section-heading"><h2>Practice</h2></div>
@@ -819,13 +840,261 @@ function renderPlaceholderList(opts) {
 
 function renderSectionA() {
   const tier = getTier();
-  renderPlaceholderList({
-    crumbLabel: 'Section A',
-    heading: `Papers — ${tier.name} plan`,
-    blurb: "Each paper is a full 42-question Section A, timed like the real thing. We're writing these now — papers will unlock here as they're ready.",
-    count: tier.papers,
-    itemLabel: 'Paper',
-    itemMeta: '42 questions',
+  const progress = loadPaperProgress();
+
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / Section A</div>
+    <div class="section-heading"><h2>Papers — ${escapeHtml(tier.name)} plan</h2></div>
+    <p style="color:var(--ink-soft);font-size:13.5px;max-width:600px;margin-bottom:20px;">Each paper is a full 42-question Section A, timed exactly like the real thing (95 minutes). More papers unlock here as they're written.</p>
+    <div class="passage-list" id="papers-list"></div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+
+  const list = wrap.querySelector('#papers-list');
+  for (let i = 1; i <= tier.papers; i++) {
+    const paper = SECTION_A_PAPERS[i - 1];
+    if (paper) {
+      const totalQ = paper.passages.reduce((s, p) => s + p.questions.length, 0);
+      const prog = progress[paper.paper_id];
+      const row = el(`
+        <button class="passage-row">
+          <span class="pr-num">${String(i).padStart(2, '0')}</span>
+          <div class="pr-main">
+            <div class="pr-title">${escapeHtml(paper.title)}</div>
+            <div class="pr-cat">${totalQ} questions · ${paper.time_limit_minutes} min</div>
+          </div>
+          <span class="pr-status ${prog ? 'done' : ''}">${prog ? `${prog.score}/${prog.total} — retake` : 'Start paper'}</span>
+        </button>
+      `);
+      row.onclick = () => confirmStartPaper(i - 1);
+      list.appendChild(row);
+    } else {
+      list.appendChild(el(`
+        <div class="passage-row" style="cursor:default;">
+          <span class="pr-num">${String(i).padStart(2, '0')}</span>
+          <div class="pr-main">
+            <div class="pr-title">Paper ${i}</div>
+            <div class="pr-cat">42 questions</div>
+          </div>
+          <span class="pr-status coming">Coming soon</span>
+        </div>
+      `));
+    }
+  }
+}
+
+function confirmStartPaper(paperIndex) {
+  const paper = SECTION_A_PAPERS[paperIndex];
+  showConfirm(
+    `Start ${paper.title}?`,
+    `${paper.time_limit_minutes} minutes on the clock, ${paper.passages.reduce((s, p) => s + p.questions.length, 0)} questions across ${paper.passages.length} passages, no feedback until you submit — just like the real thing. You can move freely between questions before then.`,
+    'Start paper',
+    () => startPaper(paperIndex)
+  );
+}
+
+function startPaper(paperIndex) {
+  const paper = SECTION_A_PAPERS[paperIndex];
+  const order = [];
+  paper.passages.forEach((p, pi) => p.questions.forEach((q, qi) => order.push({ pi, qi })));
+  state.paperAttempt = {
+    paperIndex,
+    order,
+    pos: 0,
+    answers: {},
+    timeLeft: paper.time_limit_minutes * 60,
+    timerId: null,
+  };
+  go('section-a-paper');
+  startPaperTimer();
+}
+
+function startPaperTimer() {
+  const attempt = state.paperAttempt;
+  attempt.timerId = setInterval(() => {
+    attempt.timeLeft--;
+    const pill = document.getElementById('paper-timer-pill');
+    if (pill) {
+      const low = attempt.timeLeft <= 300;
+      pill.className = 'timer-pill' + (low ? ' low' : '');
+      pill.innerHTML = `<span class="timer-dot"></span>${fmtSecs(attempt.timeLeft)}`;
+    }
+    if (attempt.timeLeft <= 0) {
+      clearInterval(attempt.timerId);
+      submitPaper(true);
+    }
+  }, 1000);
+}
+
+function fmtSecs(sec) {
+  sec = Math.max(0, Math.round(sec));
+  const m = Math.floor(sec / 60), s = sec % 60;
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
+function renderSectionAPaper() {
+  const attempt = state.paperAttempt;
+  const paper = SECTION_A_PAPERS[attempt.paperIndex];
+  const { pi, qi } = attempt.order[attempt.pos];
+  const p = paper.passages[pi];
+  const q = p.questions[qi];
+  const flatKey = attempt.pos;
+
+  const wrap = el(`
+    <div class="breadcrumb" style="display:flex;justify-content:space-between;align-items:center;">
+      <span>${escapeHtml(paper.title)} — do not refresh this page</span>
+      <span id="paper-timer-pill" class="timer-pill ${attempt.timeLeft <= 300 ? 'low' : ''}"><span class="timer-dot"></span>${fmtSecs(attempt.timeLeft)}</span>
+    </div>
+    <div class="exam-layout">
+      <div class="passage-pane">
+        <p class="p-cat">${escapeHtml(p.topic)}</p>
+        <h2>Passage ${pi + 1} of ${paper.passages.length}</h2>
+        <div class="p-body">${p.text.split('\n\n').map(par => `<p>${escapeHtml(par)}</p>`).join('')}</div>
+      </div>
+      <div class="question-pane" id="qpane"></div>
+    </div>
+  `);
+  APP.appendChild(wrap);
+
+  const qpane = wrap.querySelector('#qpane');
+  const navGrid = attempt.order.map((o, i) => {
+    const cls = i === attempt.pos ? 'current' : (attempt.answers[i] !== undefined ? 'answered' : '');
+    return `<span class="q-dot ${cls}" data-pos="${i}" style="cursor:pointer;"></span>`;
+  }).join('');
+
+  qpane.appendChild(el(`
+    <div class="q-progress"><span>Question ${attempt.pos + 1} of ${attempt.order.length}</span><span class="q-dots" id="navdots">${navGrid}</span></div>
+    <div class="q-text">${escapeHtml(q.prompt)}</div>
+    <div class="options" id="opts"></div>
+    <div class="q-actions" id="qactions"></div>
+  `));
+
+  qpane.querySelectorAll('#navdots .q-dot').forEach(dot => {
+    dot.onclick = () => { attempt.pos = parseInt(dot.dataset.pos, 10); render(); };
+  });
+
+  const optsWrap = qpane.querySelector('#opts');
+  const selected = attempt.answers[flatKey];
+  q.options.forEach((opt) => {
+    const optEl = el(`<div class="option ${selected === opt.id ? 'selected' : ''}"><span class="opt-letter">${opt.id}</span><span class="opt-text">${escapeHtml(opt.text)}</span></div>`);
+    optEl.onclick = () => { attempt.answers[flatKey] = opt.id; render(); };
+    optsWrap.appendChild(optEl);
+  });
+
+  const actions = qpane.querySelector('#qactions');
+  const backBtn = el(`<button class="btn btn-ghost" ${attempt.pos === 0 ? 'disabled' : ''}>Back</button>`);
+  backBtn.onclick = () => { attempt.pos--; render(); };
+  actions.appendChild(backBtn);
+
+  const rightGroup = el(`<div style="display:flex;gap:10px;"></div>`);
+  const answeredCount = Object.keys(attempt.answers).length;
+  const submitBtn = el(`<button class="btn ${attempt.pos === attempt.order.length - 1 ? 'btn-primary' : 'btn-ghost'}">Submit paper (${answeredCount}/${attempt.order.length})</button>`);
+  submitBtn.onclick = () => confirmSubmitPaper();
+  rightGroup.appendChild(submitBtn);
+
+  if (attempt.pos < attempt.order.length - 1) {
+    const nextBtn = el(`<button class="btn btn-primary">Next</button>`);
+    nextBtn.onclick = () => { attempt.pos++; render(); };
+    rightGroup.appendChild(nextBtn);
+  }
+  actions.appendChild(rightGroup);
+}
+
+function confirmSubmitPaper() {
+  const attempt = state.paperAttempt;
+  const answeredCount = Object.keys(attempt.answers).length;
+  const remaining = attempt.order.length - answeredCount;
+  showConfirm(
+    'Submit your paper?',
+    remaining > 0
+      ? `You have <strong>${remaining} unanswered question${remaining === 1 ? '' : 's'}</strong>. Submitting now will mark them as incorrect. This cannot be undone.`
+      : `All ${attempt.order.length} questions answered. Submitting will end the timed paper and show your results.`,
+    'Submit',
+    () => submitPaper(false)
+  );
+}
+
+function submitPaper(timedOut) {
+  const attempt = state.paperAttempt;
+  if (attempt.timerId) clearInterval(attempt.timerId);
+  const paper = SECTION_A_PAPERS[attempt.paperIndex];
+
+  let score = 0;
+  const items = attempt.order.map((o, i) => {
+    const p = paper.passages[o.pi], q = p.questions[o.qi];
+    const correct = attempt.answers[i] === q.correct_option_id;
+    if (correct) score++;
+    return { passageTopic: p.topic, q, selected: attempt.answers[i] };
+  });
+
+  const progress = loadPaperProgress();
+  progress[paper.paper_id] = { score, total: attempt.order.length, date: Date.now() };
+  savePaperProgress(progress);
+
+  go('paper-results', {
+    paperResultsData: { paperTitle: paper.title, score, total: attempt.order.length, timedOut, items },
+  });
+  state.paperAttempt = null;
+}
+
+function paperVerdictLine(pct) {
+  if (pct >= 85) return 'Excellent work — that is a strong Section A performance.';
+  if (pct >= 70) return 'A solid result. Review the questions you missed to close the gap.';
+  if (pct >= 50) return 'A reasonable base to build from — focus on inference and weaken/strengthen questions.';
+  return 'Treat this as a diagnostic. Re-read the explanations closely before your next attempt.';
+}
+
+function renderPaperResults() {
+  const d = state.paperResultsData;
+  const pct = Math.round((d.score / d.total) * 100);
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / ${escapeHtml(d.paperTitle)} / Results</div>
+    <div class="results-hero">
+      <div class="score-big">${pct}%</div>
+      <div class="score-frac">${d.score} / ${d.total} correct${d.timedOut ? ' · time expired' : ''}</div>
+      <div class="score-verdict">${paperVerdictLine(pct)}</div>
+    </div>
+    <div class="section-heading"><h2>Review</h2></div>
+    <div id="review-list"></div>
+    <div style="display:flex;gap:10px;margin-top:20px;">
+      <button class="btn btn-primary" id="rb-dash">Back to dashboard</button>
+      <button class="btn" id="rb-list">Back to papers</button>
+    </div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#rb-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#rb-list').onclick = () => go('section-a');
+
+  const list = wrap.querySelector('#review-list');
+  d.items.forEach((item, idx) => {
+    const correct = item.selected === item.q.correct_option_id;
+    const row = el(`
+      <div class="review-item">
+        <div class="review-item-head">
+          <span class="ri-q">Q${idx + 1}. ${escapeHtml(item.q.prompt)}</span>
+          <span class="review-badge ${correct ? 'correct' : 'incorrect'}">${correct ? 'Correct' : 'Incorrect'}</span>
+        </div>
+        <div class="review-item-body" style="display:none;">
+          <p style="font-size:12px;color:var(--ink-faint);margin:14px 0 10px;">${escapeHtml(item.passageTopic)}</p>
+          <div class="options" style="margin-bottom:14px;"></div>
+          <div class="explanation"><strong>Why:</strong> ${escapeHtml(item.q.explanation)}</div>
+        </div>
+      </div>
+    `);
+    const body = row.querySelector('.review-item-body');
+    row.querySelector('.review-item-head').onclick = () => {
+      body.style.display = body.style.display === 'none' ? 'block' : 'none';
+    };
+    const optsWrap = body.querySelector('.options');
+    item.q.options.forEach((opt) => {
+      const optEl = el(`<div class="option"><span class="opt-letter">${opt.id}</span><span class="opt-text">${escapeHtml(opt.text)}</span></div>`);
+      if (opt.id === item.q.correct_option_id) optEl.classList.add('correct');
+      else if (opt.id === item.selected) optEl.classList.add('incorrect');
+      optsWrap.appendChild(optEl);
+    });
+    list.appendChild(row);
   });
 }
 
@@ -1483,6 +1752,8 @@ function render() {
   switch (state.route) {
     case 'dashboard': renderDashboard(); break;
     case 'section-a': renderSectionA(); break;
+    case 'section-a-paper': renderSectionAPaper(); break;
+    case 'paper-results': renderPaperResults(); break;
     case 'section-b': renderSectionB(); break;
     case 'mcq': renderMcq(); break;
     case 'account': renderAccount(); break;
