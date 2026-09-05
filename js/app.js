@@ -149,6 +149,30 @@ function loadMcqProgress() {
 }
 function saveMcqProgress(p) { localStorage.setItem('praxis_mcq_progress', JSON.stringify(p)); }
 
+/* ---- Cookie consent banner — shown once until dismissed ---- */
+function initCookieBanner() {
+  if (localStorage.getItem('praxis_cookie_consent')) return;
+  const banner = el(`
+    <div class="cookie-banner" id="cookie-banner">
+      <p>We use cookies and local storage to keep you signed in and save your practice progress. See how in our <a href="#" id="cookie-learn-more" style="color:inherit;text-decoration:underline;">Contact</a> page if you have questions.</p>
+      <button class="btn btn-ghost btn-sm" id="cookie-decline">Decline</button>
+      <button class="btn btn-primary btn-sm" id="cookie-accept">Accept</button>
+    </div>
+  `);
+  document.body.appendChild(banner);
+  const dismiss = (value) => {
+    localStorage.setItem('praxis_cookie_consent', value);
+    banner.remove();
+  };
+  banner.querySelector('#cookie-accept').onclick = () => dismiss('accepted');
+  banner.querySelector('#cookie-decline').onclick = () => dismiss('declined');
+  banner.querySelector('#cookie-learn-more').onclick = (e) => {
+    e.preventDefault();
+    goToMarketingPage('contact');
+    dismiss('accepted');
+  };
+}
+
 /* ---------------- helpers ---------------- */
 function letter(i) { return String.fromCharCode(65 + i); }
 function el(html) {
@@ -345,6 +369,9 @@ function renderMarketingShell() {
   if (state.marketingRoute === 'contact') {
     mountContactForm(wrap.querySelector('#contact-form'));
   }
+  if (!state.marketingRoute || state.marketingRoute === 'home') {
+    mountFaq(wrap.querySelector('#faq-list'));
+  }
 }
 
 function homePageHtml() {
@@ -379,7 +406,103 @@ function homePageHtml() {
         ${outcomesChartSvg()}
       </div>
     </section>
+
+    <section class="marketing-page" style="border-top:1px solid var(--rule);padding-top:56px;">
+      <p class="kicker">Plan your sitting</p>
+      <h2 style="font-size:26px;">When to sit the LNAT.</h2>
+      <p class="lede" style="font-size:15px;max-width:640px;">Roughly how the LNAT calendar runs each cycle. Dates shift slightly year to year, so always confirm the exact ones on <a href="https://lnat.ac.uk" target="_blank" rel="noopener" style="color:var(--maroon);">lnat.ac.uk</a> before you plan around them.</p>
+      <div class="timeline-grid">
+        <div class="timeline-step active">
+          <p class="ts-num">Early September</p>
+          <h3>Early entry deadline</h3>
+          <p>The cut-off if you're applying somewhere with an early LNAT deadline — Oxford is the main one. Sit the test with time to spare before mid-October.</p>
+        </div>
+        <div class="timeline-step active">
+          <p class="ts-num">Mid-January</p>
+          <h3>Standard entry deadline</h3>
+          <p>The deadline for everyone else, aligned with the main UCAS deadline. This is when most candidates sit the test — don't leave it to the final week.</p>
+        </div>
+        <div class="timeline-step">
+          <p class="ts-num">Before decisions</p>
+          <h3>Results reach universities</h3>
+          <p>Your score goes straight to the universities you've applied to, alongside the rest of your UCAS application, ahead of their admissions decisions.</p>
+        </div>
+      </div>
+      <p class="timeline-note">These are typical windows, not confirmed dates for any specific year — treat this as a planning guide, not a source of record.</p>
+    </section>
+
+    <section class="marketing-page" style="border-top:1px solid var(--rule);padding-top:56px;">
+      <p class="kicker">How it works</p>
+      <h2 style="font-size:26px;">Practice, review, track.</h2>
+      <div class="mode-grid">
+        <div class="mode-card" style="cursor:default;">
+          <div class="mc-icon">1</div>
+          <h3>Sit a real-format paper</h3>
+          <p>Full Section A papers on a real clock, essay prompts against a 40-minute timer, or quick MCQ reps — whichever fits the time you've got.</p>
+        </div>
+        <div class="mode-card" style="cursor:default;">
+          <div class="mc-icon">2</div>
+          <h3>Read every explanation</h3>
+          <p>Every question comes with a worked explanation, not just a correct answer — so a mistake actually teaches you something before your next attempt.</p>
+        </div>
+        <div class="mode-card" style="cursor:default;">
+          <div class="mc-icon">3</div>
+          <h3>Watch your score move</h3>
+          <p>Your dashboard tracks papers completed, essays written, MCQ accuracy and your average score over time, so you can see what's actually improving.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="marketing-page" style="border-top:1px solid var(--rule);padding-top:56px;">
+      <p class="kicker">Frequently asked questions</p>
+      <h2 style="font-size:26px;">Before you get started.</h2>
+      <div class="faq-list" id="faq-list"></div>
+    </section>
   `;
+}
+
+const FAQ_ITEMS = [
+  {
+    q: 'What actually is the LNAT?',
+    a: 'The Law National Aptitude Test is a two-part admissions test used by a group of UK (and some international) law schools. Section A is 42 multiple-choice questions across 12 passages in 95 minutes, testing comprehension and reasoning. Section B is a single essay, written in 40 minutes, sent to universities alongside your UCAS application.',
+  },
+  {
+    q: 'Do I need to pay before I can try anything?',
+    a: 'No — the Free practice page gives you one full passage and two essay prompts with no account needed. If you want the full paper bank, essay bank and MCQ practice, you\'ll need one of the paid plans.',
+  },
+  {
+    q: 'Can I upgrade my plan later?',
+    a: 'Yes. You can move up from Crash Course to Intensive or Masterclass at any point — you\'ll only pay the difference. Plans don\'t downgrade, since that would mean losing access to material you\'ve already paid for.',
+  },
+  {
+    q: 'Is my progress saved if I stop partway through?',
+    a: 'Section A papers are timed like the real thing, so a paper you leave mid-attempt doesn\'t save — that matches real exam conditions. Section B essay drafts and MCQ answers do save automatically as you go.',
+  },
+  {
+    q: 'How closely does this match the real LNAT?',
+    a: 'Section A papers use the real 95-minute, 42-question, 12-passage structure. Section B uses the real 40-minute single-essay format. The content itself is original — written specifically to test the same reasoning skills, not adapted from past papers.',
+  },
+  {
+    q: 'What if I want a refund?',
+    a: 'Plans are a one-off payment rather than a subscription, so there\'s nothing to cancel — but if something\'s gone wrong on our end, get in touch via the Contact page and we\'ll sort it out.',
+  },
+];
+
+function mountFaq(container) {
+  if (!container) return;
+  FAQ_ITEMS.forEach((item) => {
+    const row = el(`
+      <div class="review-item">
+        <div class="review-item-head"><span class="ri-q">${escapeHtml(item.q)}</span><span style="font-family:var(--mono);color:var(--ink-faint);font-size:16px;">+</span></div>
+        <div class="review-item-body" style="display:none;"><p style="font-family:var(--sans);font-size:13.5px;color:var(--ink-soft);line-height:1.6;margin:14px 0 0;">${escapeHtml(item.a)}</p></div>
+      </div>
+    `);
+    const body = row.querySelector('.review-item-body');
+    row.querySelector('.review-item-head').onclick = () => {
+      body.style.display = body.style.display === 'none' ? 'block' : 'none';
+    };
+    container.appendChild(row);
+  });
 }
 
 /* Part-to-whole horizontal stacked bar: where TwoStepsFurther users end up studying.
@@ -441,6 +564,19 @@ function aboutPageHtml() {
         <p>Every passage in TwoStepsFurther is original, written specifically to test the same skills the real LNAT tests: reading closely, spotting how an argument is built, and telling a strong inference from a tempting but wrong one. It's the tool we wished we'd had when we were the ones revising for it.</p>
       </div>
       <p style="max-width:720px;color:var(--ink-soft);font-size:14.5px;line-height:1.65;margin-top:8px;">TwoStepsAhead started as one-to-one tutoring — working through past papers line by line with individual applicants. TwoStepsFurther is that same method, rebuilt so it doesn't require booking a session to access it: the same standard of material, available whenever you're ready to practise.</p>
+
+      <div class="trust-row">
+        <span class="trust-badge"><span class="tb-dot"></span>Original content — nothing lifted or AI-generated</span>
+        <span class="trust-badge"><span class="tb-dot"></span>Secure checkout via Square</span>
+        <span class="trust-badge"><span class="tb-dot"></span>One-off payment, no hidden subscription</span>
+        <span class="trust-badge"><span class="tb-dot"></span>Written by LNAT-sitting graduates, not content writers</span>
+      </div>
+
+      <div class="founder-note">
+        <p>"We built the tool we wished existed when we were the ones sitting the LNAT — material that respects your time enough to be genuinely difficult, and explains itself when you get something wrong. That's the whole standard we're holding ourselves to."</p>
+        <div class="founder-sign">The TwoStepsFurther team</div>
+        <div class="founder-role">Part of TwoStepsAhead</div>
+      </div>
 
       <h2 style="margin-top:48px;font-size:20px;">How we build every passage</h2>
       <div class="principles-grid">
@@ -781,6 +917,38 @@ function mountTeaserEssays(container) {
 /* ==================================================================
    DASHBOARD, SECTION A, SECTION B, MCQ QUICK PRACTICE (gated app)
    ================================================================== */
+/* Horizontal bar chart of Section A score % per completed paper, in
+   paper order — lets a user see whether their score is trending up
+   across attempts. Returns null when nothing's been completed yet. */
+function paperTrendChartSvg(papers, paperProgress) {
+  const rows = papers.map((p, i) => {
+    const prog = paperProgress[p.paper_id];
+    return prog ? { label: `Paper ${i + 1}`, pct: Math.round((prog.score / prog.total) * 100) } : null;
+  }).filter(Boolean);
+  if (!rows.length) return null;
+
+  const x0 = 92, plotW = 470, barH = 16, rowPitch = 28, topPad = 8;
+  const scaleX = (v) => x0 + (v / 100) * plotW;
+  const chartH = topPad + rows.length * rowPitch + 8;
+
+  const bars = rows.map((r, i) => {
+    const y = topPad + i * rowPitch;
+    const xEnd = scaleX(r.pct);
+    const w = xEnd - x0;
+    const rad = 3;
+    const path = w > rad * 2
+      ? `M ${x0},${y} L ${xEnd - rad},${y} Q ${xEnd},${y} ${xEnd},${y + rad} L ${xEnd},${y + barH - rad} Q ${xEnd},${y + barH} ${xEnd - rad},${y + barH} L ${x0},${y + barH} Z`
+      : `M ${x0},${y} L ${xEnd},${y} L ${xEnd},${y + barH} L ${x0},${y + barH} Z`;
+    return `
+      <path d="${path}" style="fill:var(--maroon);"/>
+      <text x="${x0 - 10}" y="${y + barH / 2 + 4}" text-anchor="end" font-family="var(--sans)" font-size="11.5" font-weight="500" fill="var(--ink-soft)">${escapeHtml(r.label)}</text>
+      <text x="${xEnd + 8}" y="${y + barH / 2 + 4}" text-anchor="start" font-family="var(--mono)" font-size="11" font-weight="600" fill="var(--ink)">${r.pct}%</text>
+    `;
+  }).join('');
+
+  return `<svg viewBox="0 0 640 ${chartH}" width="100%" role="img" aria-label="Section A score by paper">${bars}</svg>`;
+}
+
 function renderDashboard() {
   const tier = getTier();
   const firstName = state.auth && state.auth.name ? state.auth.name.trim().split(/\s+/)[0] : null;
@@ -799,6 +967,12 @@ function renderDashboard() {
   const mcqProgress = loadMcqProgress();
   const availableMcqs = MCQ_QUESTIONS.slice(0, tier.mcq);
   const answeredMcqs = availableMcqs.filter(q => mcqProgress[q.question_id]);
+  const correctMcqs = answeredMcqs.filter(q => mcqProgress[q.question_id].correct);
+  const mcqAccuracy = answeredMcqs.length ? Math.round((correctMcqs.length / answeredMcqs.length) * 100) : null;
+  const essayCompletionPct = availableEssays.length ? Math.round((completedEssays.length / availableEssays.length) * 100) : 0;
+
+  const hasAnyProgress = completedPapers.length > 0 || completedEssays.length > 0 || answeredMcqs.length > 0;
+  const trendChart = paperTrendChartSvg(availablePapers, paperProgress);
 
   APP.appendChild(el(`
     <section class="hero">
@@ -813,6 +987,36 @@ function renderDashboard() {
       <div class="stat-box"><div class="stat-num">${answeredMcqs.length}/${tier.mcq}</div><div class="stat-label">MCQs answered</div></div>
       <div class="stat-box"><div class="stat-num">${avgScore === null ? '—' : avgScore + '%'}</div><div class="stat-label">Average score</div></div>
     </div>
+
+    <div class="section-heading"><h2>Your progress</h2></div>
+    ${hasAnyProgress ? `
+      <div class="progress-grid">
+        <div class="progress-card">
+          <h3>Section A score by paper</h3>
+          ${trendChart ? trendChart : '<p class="progress-empty">Complete a Section A paper to see your score trend here.</p>'}
+        </div>
+        <div class="progress-card">
+          <h3>Overall breakdown</h3>
+          <div class="breakdown-row">
+            <span class="breakdown-label">Section A avg</span>
+            <div class="breakdown-bar-track"><div class="breakdown-bar-fill" style="width:${avgScore === null ? 0 : avgScore}%;"></div></div>
+            <span class="breakdown-val">${avgScore === null ? '—' : avgScore + '%'}</span>
+          </div>
+          <div class="breakdown-row">
+            <span class="breakdown-label">Section B done</span>
+            <div class="breakdown-bar-track"><div class="breakdown-bar-fill" style="width:${essayCompletionPct}%;"></div></div>
+            <span class="breakdown-val">${essayCompletionPct}%</span>
+          </div>
+          <div class="breakdown-row">
+            <span class="breakdown-label">MCQ accuracy</span>
+            <div class="breakdown-bar-track"><div class="breakdown-bar-fill" style="width:${mcqAccuracy === null ? 0 : mcqAccuracy}%;"></div></div>
+            <span class="breakdown-val">${mcqAccuracy === null ? '—' : mcqAccuracy + '%'}</span>
+          </div>
+        </div>
+      </div>
+    ` : `
+      <p class="progress-empty" style="margin-bottom:40px;">Complete a paper, essay or MCQ set to start seeing your progress analysis here.</p>
+    `}
 
     <div class="section-heading"><h2>Practice</h2></div>
     <div class="mode-grid">
@@ -841,18 +1045,84 @@ function renderDashboard() {
   document.getElementById('card-mcq').onclick = () => go('mcq');
 }
 
+function renderSectionAGuide() {
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / <a id="bc-section-a">Section A</a> / Guide</div>
+    <div class="section-heading"><h2>Section A guide</h2></div>
+    <div class="guide-content">
+      <h2>The format</h2>
+      <p>Section A is 12 passages, each with 3 or 4 questions, 42 questions total, in 95 minutes — roughly 2 minutes 15 seconds per question, or about 8 minutes per passage including the reading time. That's tight. The test is designed so that most candidates don't comfortably finish, so pacing matters as much as accuracy.</p>
+
+      <h2>The question types</h2>
+      <ul>
+        <li><strong>Main idea / summary</strong> — what is the passage's central argument, as opposed to a true but secondary detail from it.</li>
+        <li><strong>Inference</strong> — what the passage implies without stating outright. The right answer follows necessarily from the text; a tempting wrong answer usually requires an extra assumption the passage never makes.</li>
+        <li><strong>Logical structure</strong> — what a specific sentence, example or paragraph is doing in the argument (supporting a claim, pre-empting an objection, drawing a contrast).</li>
+        <li><strong>Strengthen / weaken</strong> — which new piece of evidence would most affect the argument's force. Ignore whether a statement is interesting; ask only whether it bears on the specific claim being made.</li>
+        <li><strong>Assumption</strong> — the unstated premise the argument needs to hold. Test it with the "negation test": if the assumption were false, would the argument collapse?</li>
+        <li><strong>Vocabulary in context</strong> — what a word means as used in this specific passage, not its most common dictionary sense.</li>
+      </ul>
+
+      <h2>How to read the passage</h2>
+      <p>Read it once, properly — don't skim looking for keywords and don't read it twice hoping something clicks. LNAT passages are dense but short enough to hold in your head after one careful pass. As you read, notice where the author's own view sits versus views they're describing or arguing against; almost every wrong answer works by quietly swapping one for the other.</p>
+
+      <h2>Process of elimination</h2>
+      <p>With five options, actively ruling out four wrong answers is often faster and more reliable than trying to spot the right one directly. Watch for two common wrong-answer patterns: options using extreme, unqualified language ("always", "never", "proves") when the passage itself is measured, and options that are true statements but don't actually answer the question asked.</p>
+
+      <div class="guide-callout"><strong>Before you sit a timed paper:</strong> do a couple of untimed passages first so the question types feel familiar — then move to full timed papers so the pacing itself becomes practice, not just the reasoning.</div>
+    </div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#bc-section-a').onclick = () => go('section-a');
+}
+
+function renderSectionBGuide() {
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / <a id="bc-section-b">Section B</a> / Guide</div>
+    <div class="section-heading"><h2>Section B guide</h2></div>
+    <div class="guide-content">
+      <h2>The format</h2>
+      <p>Section B gives you a choice of essay questions; you write on one, in 40 minutes, aiming for roughly 500–600 words. It isn't scored by the test itself — your essay is sent to universities as part of your application, and admissions tutors read it directly. There's no "correct" opinion; what's assessed is the quality of your reasoning.</p>
+
+      <h2>What's actually being assessed</h2>
+      <ul>
+        <li><strong>A clear position</strong> — take a side and hold it. An essay that hedges throughout reads as unable to reason to a conclusion, not as balanced.</li>
+        <li><strong>Structured argument</strong> — each paragraph should do one job: introduce your position, make one supporting point, address the strongest opposing view, or conclude. Avoid paragraphs that drift across several ideas at once.</li>
+        <li><strong>Engagement with counterarguments</strong> — address the single strongest objection to your position and explain why your view survives it. Ignoring counterarguments entirely is the single most common reason a strong argument reads as weak.</li>
+        <li><strong>Clarity over flourish</strong> — precise, plain sentences that make the reasoning easy to follow beat elaborate prose that obscures it.</li>
+      </ul>
+
+      <h2>A time budget that actually fits 40 minutes</h2>
+      <p>Roughly: 5 minutes deciding your position and sketching two or three supporting points plus the counterargument you'll address; 30 minutes writing; 5 minutes reading back for clarity and obvious errors. Skipping the planning stage is the most common cause of an essay that starts strong and loses its structure halfway through.</p>
+
+      <h2>Common mistakes</h2>
+      <p>Restating the question instead of answering it. Listing points without connecting them into an argument. Introducing a counterargument only to dismiss it in a single dismissive sentence, rather than genuinely engaging with why it's wrong. Running out of time because the plan was skipped.</p>
+
+      <div class="guide-callout"><strong>How to practise this:</strong> write a full essay against the real 40-minute clock at least a few times before your sitting — reading advice about essay structure and actually producing one under time pressure are very different skills.</div>
+    </div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#bc-section-b').onclick = () => go('section-b');
+}
+
 function renderSectionA() {
   const tier = getTier();
   const progress = loadPaperProgress();
 
   const wrap = el(`
     <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / Section A</div>
-    <div class="section-heading"><h2>Papers — ${escapeHtml(tier.name)} plan</h2></div>
+    <div class="section-heading">
+      <h2>Papers — ${escapeHtml(tier.name)} plan</h2>
+      <button class="btn btn-ghost btn-sm" id="bc-guide">Read the Section A guide</button>
+    </div>
     <p style="color:var(--ink-soft);font-size:13.5px;max-width:600px;margin-bottom:20px;">Each paper is a full 42-question Section A, timed exactly like the real thing (95 minutes). More papers unlock here as they're written.</p>
     <div class="passage-list" id="papers-list"></div>
   `);
   APP.appendChild(wrap);
   wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#bc-guide').onclick = () => go('section-a-guide');
 
   const list = wrap.querySelector('#papers-list');
   for (let i = 1; i <= tier.papers; i++) {
@@ -1107,12 +1377,16 @@ function renderSectionB() {
 
   const wrap = el(`
     <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / Section B</div>
-    <div class="section-heading"><h2>Essay prompts — ${escapeHtml(tier.name)} plan</h2></div>
+    <div class="section-heading">
+      <h2>Essay prompts — ${escapeHtml(tier.name)} plan</h2>
+      <button class="btn btn-ghost btn-sm" id="bc-guide">Read the Section B guide</button>
+    </div>
     <p style="color:var(--ink-soft);font-size:13.5px;max-width:600px;margin-bottom:20px;">Choose a prompt and write a structured, persuasive essay against a 40-minute clock, just like the real Section B (${escapeHtml(SECTION_B_WORD_GUIDANCE)}). More prompts unlock here as they're written.</p>
     <div class="passage-list" id="essays-list"></div>
   `);
   APP.appendChild(wrap);
   wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#bc-guide').onclick = () => go('section-b-guide');
 
   const list = wrap.querySelector('#essays-list');
   for (let i = 1; i <= tier.essays; i++) {
@@ -2067,9 +2341,11 @@ function render() {
   switch (state.route) {
     case 'dashboard': renderDashboard(); break;
     case 'section-a': renderSectionA(); break;
+    case 'section-a-guide': renderSectionAGuide(); break;
     case 'section-a-paper': renderSectionAPaper(); break;
     case 'paper-results': renderPaperResults(); break;
     case 'section-b': renderSectionB(); break;
+    case 'section-b-guide': renderSectionBGuide(); break;
     case 'section-b-essay': renderSectionBEssay(); break;
     case 'essay-done': renderEssayDone(); break;
     case 'mcq': renderMcq(); break;
@@ -2145,5 +2421,6 @@ async function boot() {
     }
   }
   render();
+  initCookieBanner();
 }
 boot();
