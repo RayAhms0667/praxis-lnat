@@ -6837,5 +6837,13665 @@ const SECTION_A_PAPERS = [
       ]
     }
   ]
+},
+{
+  "paper_id": "praxis-p06",
+  "title": "Praxis LNAT Practice Paper 6",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p06-01",
+      "topic": "Hate speech regulation and the harm principle",
+      "word_count": 240,
+      "text": "John Stuart Mill's harm principle holds that the only legitimate ground for restricting speech is preventing harm to others, not mere offence. Applying this to hate speech regulation requires distinguishing speech that causes harm, incitement to violence, credible threats, from speech that merely causes offence or distress, however serious. Advocates of narrow regulation argue only the former qualifies as harm in Mill's sense, since offence is a subjective reaction rather than an objective injury.\\n\\nCritics respond that this distinction understates a specific category: speech that, while not inciting immediate violence, systematically degrades a group's standing in public life, normalising discrimination against them in employment, housing, or social interaction over time. This is a real but diffuse and cumulative harm, difficult to attribute to any single utterance, which makes it structurally different from the immediate, attributable harm Mill's framework was designed around, and correspondingly harder to regulate without also capturing legitimate, merely offensive speech in the same net.\\n\\nA workable middle position distinguishes speech targeting a group's status as such from speech merely criticising a group's beliefs or practices, on the reasoning that the former aims at exclusion from public life in a way the latter does not, even though drawing this line in specific cases remains genuinely contested rather than mechanically applicable.",
+      "questions": [
+        {
+          "question_id": "p06-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mill's harm principle permits no restriction on speech whatsoever."
+            },
+            {
+              "id": "B",
+              "text": "Diffuse, cumulative harms from hate speech sit awkwardly within Mill's framework, and a status-versus-criticism distinction offers a workable but genuinely contested middle position."
+            },
+            {
+              "id": "C",
+              "text": "All offensive speech should be banned regardless of harm."
+            },
+            {
+              "id": "D",
+              "text": "Hate speech has never caused any measurable harm."
+            },
+            {
+              "id": "E",
+              "text": "Mill's harm principle applies only to physical violence."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure: introducing the diffuse-harm complication and the proposed middle position.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies that cumulative, status-degrading harm differs from Mill's original conception of harm because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Is impossible to attribute to any single utterance, unlike the immediate harm Mill's framework was built around"
+            },
+            {
+              "id": "B",
+              "text": "Never actually affects anyone's employment or housing prospects"
+            },
+            {
+              "id": "C",
+              "text": "Is identical in every respect to incitement to violence"
+            },
+            {
+              "id": "D",
+              "text": "Only ever occurs in online speech"
+            },
+            {
+              "id": "E",
+              "text": "Was fully anticipated by Mill's original writings"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly: this harm is 'difficult to attribute to any single utterance,' unlike Mill's attributable harm.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-01-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph's status-versus-criticism distinction functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Offer a practical middle ground while acknowledging it remains contested in application"
+            },
+            {
+              "id": "B",
+              "text": "Prove the distinction is mechanically easy to apply"
+            },
+            {
+              "id": "C",
+              "text": "Reject Mill's harm principle entirely"
+            },
+            {
+              "id": "D",
+              "text": "Argue that criticism of beliefs should always be banned"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about defamation law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Explicitly presented as workable yet 'genuinely contested rather than mechanically applicable.'",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'diffuse' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spread across many instances rather than concentrated in one attributable act"
+            },
+            {
+              "id": "B",
+              "text": "Legally prohibited under Mill's framework"
+            },
+            {
+              "id": "C",
+              "text": "Identical to incitement to violence"
+            },
+            {
+              "id": "D",
+              "text": "Concentrated entirely in a single utterance"
+            },
+            {
+              "id": "E",
+              "text": "Reserved exclusively for online speech"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Contrasted with harm 'attributable to any single utterance', describing spread-out cumulative harm.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-02",
+      "topic": "The doctrine of separation of powers",
+      "word_count": 255,
+      "text": "Separation of powers divides governing authority among legislative, executive, and judicial branches, on the theory that concentrating all three in one body invites tyranny, since the same actor who makes a law, enforces it, and judges compliance with it faces no external check on any of these functions. Pure separation, however, is rarely fully realised in practice; most systems instead combine separation with overlapping checks, a legislature that can override a veto, a judiciary that can strike down legislation, an executive that can pardon judicial sentences, deliberately blending the branches' functions rather than isolating them completely.\\n\\nCritics of strict separation argue this blending is not a corruption of the underlying principle but its more sophisticated realisation, since a branch wholly insulated from the others' influence lacks any incentive to exercise restraint, while a branch subject to another's check has reason to anticipate that check and moderate its own conduct accordingly. The relevant question is therefore not whether powers are kept rigidly apart, an unattainable and possibly undesirable standard, but whether each branch retains enough independent capacity to resist domination by the others while remaining meaningfully answerable to them, a balance that shifts considerably depending on a constitution's specific structural design.",
+      "questions": [
+        {
+          "question_id": "p06-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central claim is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Strict, total separation of powers is both unattainable and possibly undesirable; overlapping checks better serve the principle's underlying purpose."
+            },
+            {
+              "id": "B",
+              "text": "All governing systems currently achieve perfect separation of powers."
+            },
+            {
+              "id": "C",
+              "text": "Judicial review is illegitimate under any separation-of-powers system."
+            },
+            {
+              "id": "D",
+              "text": "Executives should never be permitted to pardon anyone."
+            },
+            {
+              "id": "E",
+              "text": "Legislatures should have unlimited power over the judiciary."
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Matches the passage's reframing in the final paragraph.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies a branch with no external check would be:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Automatically more efficient than a checked branch"
+            },
+            {
+              "id": "B",
+              "text": "Lacking incentive to exercise restraint, unlike a branch anticipating another's check"
+            },
+            {
+              "id": "C",
+              "text": "Legally required to dissolve itself"
+            },
+            {
+              "id": "D",
+              "text": "Identical in function to a checked branch"
+            },
+            {
+              "id": "E",
+              "text": "Immune from ever making mistakes"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly regarding insulated branches lacking incentive for restraint.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-02-q3",
+          "type": "logical_structure",
+          "prompt": "The examples of veto override, judicial review, and pardon power function to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate how real systems deliberately blend branch functions rather than isolating them"
+            },
+            {
+              "id": "B",
+              "text": "Prove separation of powers has never existed anywhere"
+            },
+            {
+              "id": "C",
+              "text": "Show that executives always dominate legislatures"
+            },
+            {
+              "id": "D",
+              "text": "Argue that judiciaries should never review legislation"
+            },
+            {
+              "id": "E",
+              "text": "Undermine the passage's overall argument"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "These examples support the claim that blending, not pure isolation, characterises real systems.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-02-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'domination' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "One branch's ability to render another effectively powerless or subordinate"
+            },
+            {
+              "id": "B",
+              "text": "A minor procedural disagreement between branches"
+            },
+            {
+              "id": "C",
+              "text": "The physical location of a legislature's chamber"
+            },
+            {
+              "id": "D",
+              "text": "A synonym for judicial review specifically"
+            },
+            {
+              "id": "E",
+              "text": "An electoral majority in the legislature"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Context concerns branches resisting being overridden/subordinated by others.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-03",
+      "topic": "Algorithmic content moderation and free expression",
+      "word_count": 245,
+      "text": "Large online platforms increasingly rely on automated systems to detect and remove content violating stated policies, a scale-driven necessity given that human review of every post would be practically impossible on platforms hosting billions of daily posts. Automated moderation nonetheless makes errors of two distinct kinds: over-removal, deleting legitimate speech that superficially resembles prohibited content, and under-removal, failing to catch genuinely harmful content that evades pattern-based detection through minor variation.\\n\\nThe two error types are not symmetric in their political salience. Over-removal is typically visible and attributable, a specific user can point to a specific removed post and object, generating public controversy and platform accountability pressure. Under-removal is comparatively invisible, since the harm consists precisely in content that was never flagged, making it structurally difficult for affected communities to demonstrate the scale of the problem in the same concrete, individually attributable way. This asymmetry in visibility creates a systematic incentive for platforms to calibrate moderation toward reducing visible over-removal complaints, potentially at the cost of under-addressing the harder-to-observe problem of harmful content that persists undetected, regardless of which error type is actually more consequential in aggregate.",
+      "questions": [
+        {
+          "question_id": "p06-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Automated moderation makes no errors of any kind."
+            },
+            {
+              "id": "B",
+              "text": "An asymmetry in the visibility of over-removal versus under-removal creates a systematic incentive for platforms to prioritise reducing visible complaints, regardless of which error is more consequential overall."
+            },
+            {
+              "id": "C",
+              "text": "Human review is always more accurate than automated moderation."
+            },
+            {
+              "id": "D",
+              "text": "Under-removal never actually occurs on any platform."
+            },
+            {
+              "id": "E",
+              "text": "Platforms should stop moderating content entirely."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's closing claim about visibility-driven incentives.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies under-removal is harder to address politically because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "It generates more public controversy than over-removal"
+            },
+            {
+              "id": "B",
+              "text": "Its harm consists in content never flagged, making the scale of the problem structurally harder to demonstrate concretely"
+            },
+            {
+              "id": "C",
+              "text": "It never actually causes any real harm"
+            },
+            {
+              "id": "D",
+              "text": "Platforms are legally prohibited from discussing it"
+            },
+            {
+              "id": "E",
+              "text": "It affects only a single user at a time, like over-removal"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly regarding the invisibility of under-removal's scale.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-03-q3",
+          "type": "logical_structure",
+          "prompt": "The distinction between over-removal and under-removal functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why platform incentives may not track which error is actually more consequential"
+            },
+            {
+              "id": "B",
+              "text": "Prove automated moderation is always superior to human review"
+            },
+            {
+              "id": "C",
+              "text": "Show both error types are identical in every respect"
+            },
+            {
+              "id": "D",
+              "text": "Argue that platforms never make moderation errors"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about server infrastructure costs"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The distinction sets up the visibility-asymmetry argument about incentive misalignment.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-04",
+      "topic": "The ethics of organ markets",
+      "word_count": 258,
+      "text": "Chronic shortages of transplantable organs, particularly kidneys, coexist with waiting lists on which patients die before a compatible donor is found. Proposals to permit a regulated market in living-donor kidneys, paying donors rather than relying solely on altruistic donation, aim to increase supply by offering an incentive current systems withhold entirely. Economic modelling suggests even modest payments could substantially reduce shortages, since many potential donors currently decline for reasons, lost wages during recovery, travel costs, that a market payment could directly offset.\\n\\nOpponents raise a specific concern distinct from a general discomfort with commodifying the body: that a market in organs would predictably draw disproportionately from lower-income donors facing financial pressure, producing a system in which the wealthy purchase organs extracted, in practice if not in strict legal coercion, from the economically desperate, a pattern of exploitation that voluntary but financially pressured consent does not fully dispel even where no direct force is involved. Proponents respond that regulated markets, unlike black markets that already exist and exploit desperate sellers with none of the safety standards or aftercare a regulated system would require, could actually improve donor welfare and outcomes relative to the unregulated alternative currently operating in several countries, making the relevant comparison not market versus no market but regulated market versus the black market that persists regardless of official prohibition.",
+      "questions": [
+        {
+          "question_id": "p06-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Organ markets have no genuine ethical concerns attached to them."
+            },
+            {
+              "id": "B",
+              "text": "The debate turns partly on whether the relevant comparison is market versus no market, or regulated market versus the black market that already exists and exploits sellers unregulated."
+            },
+            {
+              "id": "C",
+              "text": "Kidney shortages do not actually exist."
+            },
+            {
+              "id": "D",
+              "text": "All forms of organ donation should be banned immediately."
+            },
+            {
+              "id": "E",
+              "text": "Wealthy patients never purchase organs under any current system."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's reframing of the relevant comparison in the final paragraph.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies the exploitation concern about organ markets is distinct from mere commodification discomfort because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Concerns disproportionate donation from financially pressured lower-income sellers, not the principle of payment itself"
+            },
+            {
+              "id": "B",
+              "text": "Applies equally to wealthy and poor donors alike"
+            },
+            {
+              "id": "C",
+              "text": "Has nothing to do with financial pressure"
+            },
+            {
+              "id": "D",
+              "text": "Only applies to altruistic, unpaid donation"
+            },
+            {
+              "id": "E",
+              "text": "Is shared by proponents and opponents equally"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as concerning who would predictably supply organs under financial pressure.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-04-q3",
+          "type": "strengthen_weaken",
+          "prompt": "Which finding would most weaken proponents' black-market comparison argument?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Evidence that regulated organ markets in practice replicate, rather than improve upon, the exploitative dynamics and poor donor outcomes of existing black markets"
+            },
+            {
+              "id": "B",
+              "text": "Evidence that kidney waiting lists remain long in several countries"
+            },
+            {
+              "id": "C",
+              "text": "Evidence that black markets for organs currently exist"
+            },
+            {
+              "id": "D",
+              "text": "Evidence that some donors report positive experiences under current altruistic systems"
+            },
+            {
+              "id": "E",
+              "text": "Evidence that transplant surgery has improved over time"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This would directly undercut the claim that regulation improves outcomes relative to the black-market alternative.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p06-04-q4",
+          "type": "inference",
+          "prompt": "The passage implies that economic modelling suggests kidney shortages could be substantially reduced because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many potential donors decline for reasons, such as lost wages, that a market payment could directly offset"
+            },
+            {
+              "id": "B",
+              "text": "Kidney transplants are no longer medically necessary"
+            },
+            {
+              "id": "C",
+              "text": "All countries currently permit unregulated organ sales"
+            },
+            {
+              "id": "D",
+              "text": "Waiting lists have already been eliminated in most countries"
+            },
+            {
+              "id": "E",
+              "text": "Donors never decline for financial reasons"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the specific mechanism modelling relies on.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-05",
+      "topic": "Sweatshop labour and global supply chains",
+      "word_count": 250,
+      "text": "Manufacturing jobs in low-income countries, often characterised as sweatshop labour by critics, typically pay wages far below those in wealthier countries and involve working conditions that would be illegal in the countries where the finished products are ultimately sold. A widely cited economic argument holds that, however harsh these jobs appear by wealthy-country standards, they typically pay more than the local alternatives available to workers who choose them, meaning restricting or boycotting such labour, however well-intentioned, risks removing the best available option for workers whose remaining alternatives are worse, not better.\\n\\nCritics of this defence do not generally dispute that such jobs beat the next-best local alternative for individual workers, but argue the relevant comparison is incomplete: the same multinational firms benefiting from low labour costs are frequently the parties with the greatest capacity to improve conditions without eliminating the jobs entirely, since profit margins on finished goods sold in wealthy markets typically leave considerable room for wage increases or safety investments that would not make the operation unviable, meaning the 'best available alternative' framing obscures a genuine choice available to firms between the current conditions and a meaningfully better, still-viable alternative that has simply not been made available to workers.",
+      "questions": [
+        {
+          "question_id": "p06-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sweatshop labour provides no benefit whatsoever to workers who accept it."
+            },
+            {
+              "id": "B",
+              "text": "While such jobs may beat local alternatives, critics argue firms often have unused capacity to improve conditions without eliminating jobs, complicating the simple 'best available alternative' defence."
+            },
+            {
+              "id": "C",
+              "text": "All multinational firms should immediately cease operations in low-income countries."
+            },
+            {
+              "id": "D",
+              "text": "Wages in low-income countries are always higher than in wealthy countries."
+            },
+            {
+              "id": "E",
+              "text": "Boycotts of sweatshop labour have never been proposed by anyone."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's balanced structure between the economic defence and the critics' complication.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-05-q2",
+          "type": "logical_structure",
+          "prompt": "The critics' argument in the second paragraph relates to the first paragraph's defence by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fully rejecting the claim that such jobs beat local alternatives"
+            },
+            {
+              "id": "B",
+              "text": "Accepting that claim while arguing the comparison is incomplete, since firms often have room to offer a better, still-viable alternative"
+            },
+            {
+              "id": "C",
+              "text": "Introducing an unrelated argument about currency exchange rates"
+            },
+            {
+              "id": "D",
+              "text": "Proving that no firm has ever profited from low labour costs"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that sweatshop labour should be immediately banned"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Critics accept the comparative claim but argue it omits a further viable alternative firms could offer.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-05-q3",
+          "type": "inference",
+          "prompt": "The passage implies that the 'best available alternative' framing is potentially misleading because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Compares current conditions only to worse local alternatives, not to a better, still-viable alternative firms could offer"
+            },
+            {
+              "id": "B",
+              "text": "Assumes local alternatives never exist"
+            },
+            {
+              "id": "C",
+              "text": "Applies only to firms operating in wealthy countries"
+            },
+            {
+              "id": "D",
+              "text": "Has never been used in any actual argument"
+            },
+            {
+              "id": "E",
+              "text": "Proves that all sweatshop labour should continue unchanged"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as omitting a genuine choice available to firms.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-06",
+      "topic": "The problem of biased training data in machine learning",
+      "word_count": 260,
+      "text": "Machine learning models trained on historical data inherit whatever patterns, including discriminatory ones, are embedded in that data, since the training process optimises for statistical regularities in the data provided without any independent capacity to distinguish a regularity worth preserving from one reflecting historical injustice the model should not perpetuate. A hiring algorithm trained on a company's past hiring decisions will learn to replicate those decisions' patterns, including any historical bias against particular groups, unless specifically corrected, since the model has no basis beyond the training data itself for identifying which patterns to reproduce and which to reject.\\n\\nTechnical correction strategies, reweighting training examples, removing protected characteristics as explicit input features, adjusting decision thresholds across groups, each address part of the problem but face a common limitation: protected characteristics frequently correlate strongly with other, facially neutral features, postcode, educational institution attended, that remain in the data and can allow a model to reconstruct the excluded information indirectly, reproducing the same discriminatory pattern through a different statistical pathway even after the explicit protected characteristic has been removed. This means technical fixes targeting a single identified pathway address a narrower problem than the underlying one, and comprehensive correction requires ongoing auditing for indirect reconstruction rather than a single upfront technical adjustment applied once at model training.",
+      "questions": [
+        {
+          "question_id": "p06-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Machine learning models are always free of bias by default."
+            },
+            {
+              "id": "B",
+              "text": "Removing an explicit protected characteristic is insufficient, since correlated neutral features can allow a model to indirectly reconstruct the same discriminatory pattern, requiring ongoing auditing rather than a single fix."
+            },
+            {
+              "id": "C",
+              "text": "No machine learning model has ever been trained on biased data."
+            },
+            {
+              "id": "D",
+              "text": "Protected characteristics never correlate with any other feature."
+            },
+            {
+              "id": "E",
+              "text": "Technical correction strategies always fully eliminate bias permanently."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's conclusion about indirect reconstruction and the need for ongoing auditing.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies a model can reproduce discriminatory patterns even after a protected characteristic is removed because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Correlated, facially neutral features remaining in the data can allow indirect reconstruction of the excluded information"
+            },
+            {
+              "id": "B",
+              "text": "Removing a feature always increases a model's overall accuracy"
+            },
+            {
+              "id": "C",
+              "text": "Training data never contains any correlated features"
+            },
+            {
+              "id": "D",
+              "text": "Models cannot process any data once a feature is removed"
+            },
+            {
+              "id": "E",
+              "text": "Protected characteristics have no relationship to hiring outcomes"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly regarding correlated neutral features enabling reconstruction.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of technical correction strategies functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show these strategies are worthless and should never be attempted"
+            },
+            {
+              "id": "B",
+              "text": "Identify a common limitation shared by several distinct correction strategies, motivating the case for ongoing auditing"
+            },
+            {
+              "id": "C",
+              "text": "Prove that bias in training data cannot exist in principle"
+            },
+            {
+              "id": "D",
+              "text": "Argue that hiring algorithms should never be used under any circumstances"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about model training speed"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "The paragraph identifies a shared limitation across strategies, motivating the ongoing-auditing conclusion.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'facially neutral' most nearly describes a feature that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Appears unrelated to any protected characteristic on its face, even if it correlates with one in practice"
+            },
+            {
+              "id": "B",
+              "text": "Is always completely unrelated to any outcome"
+            },
+            {
+              "id": "C",
+              "text": "Refers exclusively to features involving a person's physical face"
+            },
+            {
+              "id": "D",
+              "text": "Is legally prohibited from being used in any model"
+            },
+            {
+              "id": "E",
+              "text": "Was deliberately selected to discriminate against a protected group"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes features like postcode that appear neutral but may correlate with protected characteristics.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-07",
+      "topic": "Parental licensing and reproductive autonomy",
+      "word_count": 245,
+      "text": "Some philosophers have argued, largely as a thought experiment rather than a genuine policy proposal, that since society requires competence licences for activities far less consequential than raising a child, driving, practising medicine, it is at least worth examining why no comparable competence requirement exists for parenthood, an activity with profound and lasting effects on a genuinely non-consenting third party, the child. The argument does not claim existing licensing regimes are a perfect model, only that the disanalogy between heavily regulated lower-stakes activities and entirely unregulated parenthood calls for justification rather than simply being assumed as obviously correct.\\n\\nThe standard response is not that parenthood carries no risks worth regulating, but that the specific mechanism of licensing, requiring prior state approval before an activity may be undertaken, carries enforcement costs that are uniquely troubling when applied to reproduction: any such licence would require the state to prevent or forcibly terminate pregnancies of unlicensed individuals, an intrusion into bodily autonomy and family life so severe that it would likely produce far greater harm than the parenting failures it aims to prevent, a cost that does not have a comparable analogue in licensing regimes for driving or medical practice, where refusal simply prevents the specific licensed activity rather than requiring intervention into a person's own body.",
+      "questions": [
+        {
+          "question_id": "p06-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parental licensing has been widely adopted and is uncontroversial."
+            },
+            {
+              "id": "B",
+              "text": "While the disanalogy between licensed low-stakes activities and unregulated parenthood deserves justification, licensing's specific enforcement mechanism would require bodily intrusions with no comparable analogue in other licensing regimes."
+            },
+            {
+              "id": "C",
+              "text": "Driving licences should be abolished for consistency with parenting's lack of regulation."
+            },
+            {
+              "id": "D",
+              "text": "Parenthood carries no risks whatsoever worth considering."
+            },
+            {
+              "id": "E",
+              "text": "All philosophers agree parental licensing should be implemented immediately."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure of raising the disanalogy, then explaining the enforcement objection.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies that enforcing a parental licensing regime would specifically require:",
+          "options": [
+            {
+              "id": "A",
+              "text": "No intervention beyond ordinary paperwork, identical to a driving licence"
+            },
+            {
+              "id": "B",
+              "text": "The state to prevent or forcibly terminate pregnancies of unlicensed individuals, a uniquely severe bodily intrusion"
+            },
+            {
+              "id": "C",
+              "text": "Abolishing all existing licensing regimes for other activities"
+            },
+            {
+              "id": "D",
+              "text": "No enforcement mechanism of any kind"
+            },
+            {
+              "id": "E",
+              "text": "Universal agreement among all philosophers on the policy"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the specific enforcement cost distinguishing this case from other licensing regimes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-07-q3",
+          "type": "logical_structure",
+          "prompt": "The comparison to driving and medical licensing in the final paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that parental licensing enforcement lacks a comparable analogue in the harm its enforcement would require"
+            },
+            {
+              "id": "B",
+              "text": "Prove that driving licences should be abolished"
+            },
+            {
+              "id": "C",
+              "text": "Argue that medical licensing has never been justified"
+            },
+            {
+              "id": "D",
+              "text": "Support the case for parental licensing without qualification"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about traffic safety statistics"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The comparison highlights the disanalogy in enforcement cost, undermining the licensing proposal.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-08",
+      "topic": "The public/private distinction in constitutional rights",
+      "word_count": 255,
+      "text": "Most constitutional rights frameworks bind only the state, restricting what governments may do to individuals, while leaving private actors, employers, landlords, private clubs, largely free to discriminate or restrict conduct in ways a government could not, since constitutional rights are typically understood as protections against state power specifically rather than general moral entitlements enforceable against anyone. This distinction has practical significance: an employer may generally restrict an employee's speech in ways a government could never restrict a citizen's speech, since the employer is a private actor whose relationship with the employee is governed by contract and ordinary law rather than constitutional constraint.\\n\\nCritics of a strict public/private divide argue it becomes increasingly strained as private entities, dominant technology platforms, large employers with quasi-monopolistic market power, come to exercise a degree of practical control over individuals' lives that rivals or exceeds that of many government functions, making the traditional justification for exempting private actors, that individuals retain meaningful freedom to simply go elsewhere, considerably weaker where genuine alternatives are scarce or non-existent in practice. Some jurisdictions have responded by extending limited rights protections to specific categories of powerful private actor, without abandoning the public/private distinction altogether, reflecting an attempt to preserve the distinction's underlying rationale, protection against unaccountable concentrated power, while adapting its application to circumstances the original framework did not anticipate.",
+      "questions": [
+        {
+          "question_id": "p06-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Constitutional rights have always applied equally to private and state actors."
+            },
+            {
+              "id": "B",
+              "text": "The traditional public/private divide is strained by powerful private actors resembling state functions, prompting limited rights extensions that preserve the distinction's underlying rationale while adapting to new circumstances."
+            },
+            {
+              "id": "C",
+              "text": "Private employers should have unlimited power over employees with no exceptions."
+            },
+            {
+              "id": "D",
+              "text": "No jurisdiction has ever extended rights protections to private actors."
+            },
+            {
+              "id": "E",
+              "text": "The public/private distinction has no rationale of any kind."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure and its closing point about adaptation rather than abandonment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies the traditional justification for exempting private actors weakens specifically where:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Individuals retain abundant genuine alternatives"
+            },
+            {
+              "id": "B",
+              "text": "Genuine alternatives to a dominant private actor are scarce or non-existent in practice"
+            },
+            {
+              "id": "C",
+              "text": "A private actor has no market power of any kind"
+            },
+            {
+              "id": "D",
+              "text": "Government functions are entirely privatised"
+            },
+            {
+              "id": "E",
+              "text": "Constitutional rights apply to that actor directly"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the condition under which the 'go elsewhere' justification weakens.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-08-q3",
+          "type": "logical_structure",
+          "prompt": "The final sentence's phrase 'without abandoning the public/private distinction altogether' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clarify that the described response is an adaptation, not a wholesale rejection, of the traditional framework"
+            },
+            {
+              "id": "B",
+              "text": "Prove the public/private distinction has already been abolished everywhere"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all private actors should be treated identically to governments"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about corporate taxation"
+            },
+            {
+              "id": "E",
+              "text": "Undermine the passage's central argument"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This qualifies the described reform as a targeted adaptation rather than full abandonment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-08-q4",
+          "type": "main_idea",
+          "prompt": "The rationale underlying the public/private distinction is best described in the passage as protection against:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unaccountable concentrated power, whether exercised by state or, increasingly, dominant private actors"
+            },
+            {
+              "id": "B",
+              "text": "Any restriction on private employers whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Government regulation of private contracts generally"
+            },
+            {
+              "id": "D",
+              "text": "Constitutional amendment procedures"
+            },
+            {
+              "id": "E",
+              "text": "Judicial review of legislation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The passage names this explicitly as the distinction's 'underlying rationale.'",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-09",
+      "topic": "Sortition versus election in democratic representation",
+      "word_count": 248,
+      "text": "Sortition, selecting representatives by random lottery from the citizenry rather than by election, was central to Athenian democracy and has recently attracted renewed interest as a supplement or alternative to electoral representation. Advocates argue sortition avoids a specific pathology of election, that campaigning selects for skills, fundraising ability, charisma, media presentation, only loosely correlated with governing competence, while producing a body demographically representative of the population in a way elected legislatures, skewed toward wealthier, more educated, and more politically connected citizens, typically are not.\\n\\nCritics respond that sortition sacrifices a distinct value election provides: accountability through the possibility of removal. An elected representative who governs poorly faces the prospect of losing office at the next election, an incentive structure entirely absent for a randomly selected representative serving a fixed term with no prospect of re-selection based on performance, since sortition, by design, removes the connection between conduct in office and continuation in office that gives elected representatives a reason to attend to constituents' interests between elections. Proposed hybrid models, randomly selected citizens' assemblies advising or reviewing decisions made by elected bodies, attempt to combine sortition's representativeness with election's accountability, though the precise division of authority between the two bodies in such hybrids remains a genuinely unresolved design question.",
+      "questions": [
+        {
+          "question_id": "p06-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sortition is entirely superior to election and should replace it fully."
+            },
+            {
+              "id": "B",
+              "text": "Sortition and election each offer a distinct value, representativeness and accountability respectively, and hybrid models attempt to combine them though the division of authority remains unresolved."
+            },
+            {
+              "id": "C",
+              "text": "Elected legislatures are always demographically representative of the population."
+            },
+            {
+              "id": "D",
+              "text": "Sortition has never been used in any political system."
+            },
+            {
+              "id": "E",
+              "text": "Accountability has no value in a democratic system."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's balanced treatment of both mechanisms and its closing point about unresolved hybrid design.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies that campaigning selects for qualities that are:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Perfectly correlated with governing competence"
+            },
+            {
+              "id": "B",
+              "text": "Only loosely correlated with governing competence"
+            },
+            {
+              "id": "C",
+              "text": "Entirely irrelevant to any democratic system"
+            },
+            {
+              "id": "D",
+              "text": "Identical to the qualities sortition selects for"
+            },
+            {
+              "id": "E",
+              "text": "Guaranteed to produce demographically representative bodies"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly regarding campaigning skills and governing competence.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-09-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' accountability objection relates to the advocates' argument by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fully agreeing with every claim advocates make about representativeness"
+            },
+            {
+              "id": "B",
+              "text": "Identifying a distinct value, absent from sortition by design, that election uniquely provides"
+            },
+            {
+              "id": "C",
+              "text": "Denying that election has ever produced accountability"
+            },
+            {
+              "id": "D",
+              "text": "Proving sortition has never been practised anywhere"
+            },
+            {
+              "id": "E",
+              "text": "Introducing an unrelated argument about campaign finance law"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "The objection identifies accountability as a value sortition structurally lacks, distinct from the representativeness point.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-10",
+      "topic": "The ethics of preventive detention",
+      "word_count": 252,
+      "text": "Preventive detention, confining a person not for a crime already committed but because they are assessed as likely to commit a future offence, most commonly discussed regarding individuals with severe mental illness or a documented history of violence nearing the end of a sentence, sits uneasily with the ordinary criminal justice principle that punishment should follow proven past conduct rather than predicted future conduct, since predicting future behaviour is inherently probabilistic and therefore certain to be wrong in some proportion of individual cases, confining some people who would not, in fact, have gone on to offend.\\n\\nDefenders argue preventive detention is not, properly understood, punishment at all but a distinct protective measure, more akin to quarantine than sentencing, justified by the state's obligation to prevent serious, identifiable risk to public safety rather than by any claim that the detained person deserves confinement for wrongdoing not yet committed, a distinction that matters because it changes what standard of proof and what conditions of confinement are appropriate, protective and rehabilitative rather than punitive. Critics respond that this reclassification does little to soften the deprivation of liberty actually experienced by the detained individual, who remains confined against their will for a projected risk rather than a proven act, regardless of the conceptual label attached to their confinement, meaning the practical experience the reclassification is meant to distinguish from ordinary punishment may not, in fact, differ from it in any way that matters to the person confined.",
+      "questions": [
+        {
+          "question_id": "p06-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Preventive detention has never been practised in any legal system."
+            },
+            {
+              "id": "B",
+              "text": "Defenders reclassify preventive detention as protective rather than punitive, but critics argue this reclassification may not meaningfully differ from ordinary punishment for the person actually confined."
+            },
+            {
+              "id": "C",
+              "text": "All predictions of future criminal behaviour are perfectly accurate."
+            },
+            {
+              "id": "D",
+              "text": "Preventive detention should be expanded to apply to all offenders regardless of risk level."
+            },
+            {
+              "id": "E",
+              "text": "Criminal justice systems never rely on any prediction of future conduct."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure presenting the reclassification and its critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies that predicting future offending is inherently problematic because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Is always completely accurate for every individual"
+            },
+            {
+              "id": "B",
+              "text": "Is probabilistic and therefore certain to be wrong in some proportion of individual cases"
+            },
+            {
+              "id": "C",
+              "text": "Has never been attempted by any legal system"
+            },
+            {
+              "id": "D",
+              "text": "Applies only to individuals with no criminal history"
+            },
+            {
+              "id": "E",
+              "text": "Requires no assessment of any kind"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly regarding the probabilistic nature of such predictions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-10-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' response in the final sentence functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fully accept the defenders' reclassification as decisive"
+            },
+            {
+              "id": "B",
+              "text": "Argue that the conceptual relabelling does not address the practical experience of confinement that the label is meant to distinguish"
+            },
+            {
+              "id": "C",
+              "text": "Prove that quarantine and punishment are legally identical concepts"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about mental health funding"
+            },
+            {
+              "id": "E",
+              "text": "Concede that preventive detention causes no deprivation of liberty"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "The critique targets the gap between conceptual reclassification and lived experience of confinement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-10-q4",
+          "type": "assumption",
+          "prompt": "The defenders' argument that preventive detention is 'not punishment' depends on which assumption?",
+          "options": [
+            {
+              "id": "A",
+              "text": "That the conceptual distinction between protective and punitive confinement tracks a morally relevant difference, regardless of the detainee's actual experience"
+            },
+            {
+              "id": "B",
+              "text": "That no detained individual ever experiences any deprivation of liberty"
+            },
+            {
+              "id": "C",
+              "text": "That all predictions of future offending are certain to be correct"
+            },
+            {
+              "id": "D",
+              "text": "That quarantine has never been used to justify any confinement"
+            },
+            {
+              "id": "E",
+              "text": "That preventive detention applies only to convicted offenders who have completed their sentence"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The defenders' argument depends on the conceptual label itself carrying moral weight, which is exactly what critics dispute.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-11",
+      "topic": "Currency unions and fiscal sovereignty",
+      "word_count": 250,
+      "text": "Countries joining a shared currency union surrender an independent monetary policy, the ability to set their own interest rates or devalue their own currency in response to a country-specific economic shock, in exchange for reduced transaction costs and exchange-rate stability with trading partners inside the union. This trade-off matters most acutely when member economies experience asymmetric shocks, a downturn concentrated in one member country but not others, since the shared central bank sets a single interest rate calibrated to the union's aggregate economic conditions, which may be poorly suited to the specific member experiencing the localised downturn, a policy mismatch a country retaining its own currency could address through independent monetary adjustment.\\n\\nOptimal currency area theory holds that this cost is manageable where member economies are sufficiently integrated through other channels, labour mobility allowing workers to relocate from a depressed region to a thriving one, fiscal transfers from stronger to weaker regions, wage and price flexibility that allows adjustment without requiring currency movement at all, channels that can substitute for the lost monetary policy tool. Currency unions formed among economies lacking these integrating channels in sufficient degree face a structural vulnerability: an asymmetric shock cannot be absorbed through monetary policy, and absent adequate substitute mechanisms, the burden of adjustment falls disproportionately on the affected region's own labour market, typically through prolonged unemployment rather than through the more evenly distributed adjustment a flexible exchange rate would otherwise have provided.",
+      "questions": [
+        {
+          "question_id": "p06-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Currency unions have no costs of any kind for member states."
+            },
+            {
+              "id": "B",
+              "text": "Currency unions surrender independent monetary policy, a cost manageable only where sufficient substitute integrating channels exist; absent these, asymmetric shocks fall disproportionately on the affected region's labour market."
+            },
+            {
+              "id": "C",
+              "text": "All currency unions inevitably fail regardless of integration."
+            },
+            {
+              "id": "D",
+              "text": "Labour mobility has no relevance to currency union stability."
+            },
+            {
+              "id": "E",
+              "text": "Fiscal transfers are irrelevant to optimal currency area theory."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about optimal currency area theory and its conditions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies that a member state's asymmetric downturn is particularly difficult to address within a currency union because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The shared central bank sets a single interest rate calibrated to aggregate, not member-specific, conditions"
+            },
+            {
+              "id": "B",
+              "text": "Currency unions always ban fiscal transfers between members"
+            },
+            {
+              "id": "C",
+              "text": "Labour mobility is always perfectly free within any currency union"
+            },
+            {
+              "id": "D",
+              "text": "Independent monetary policy is retained by every member regardless of union membership"
+            },
+            {
+              "id": "E",
+              "text": "Asymmetric shocks never actually occur in currency unions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly regarding the mismatch between a single rate and localised conditions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-11-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph's discussion of substitute integrating channels functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain the specific conditions under which the cost of surrendered monetary policy can be manageably offset"
+            },
+            {
+              "id": "B",
+              "text": "Prove that currency unions never face any structural vulnerability"
+            },
+            {
+              "id": "C",
+              "text": "Argue that labour mobility is harmful to currency union stability"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about tariff policy"
+            },
+            {
+              "id": "E",
+              "text": "Undermine optimal currency area theory entirely"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This paragraph specifies the conditions theory says are needed to offset the described cost.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p06-12",
+      "topic": "The doctrine of proportionality in rights adjudication",
+      "word_count": 250,
+      "text": "Proportionality analysis, used by many constitutional and human rights courts to assess whether a state measure infringing a protected right is nonetheless justified, typically proceeds through a structured sequence: whether the measure pursues a legitimate aim, whether it is rationally connected to that aim, whether a less restrictive alternative achieving the same aim was available, and finally whether the measure's benefits, on balance, outweigh the harm it causes to the right in question. This structured approach is credited with bringing analytical discipline to a task, weighing competing values, that might otherwise collapse into unstructured judicial intuition dressed in legal language.\\n\\nCritics argue the final balancing stage, weighing a right's importance against a policy's benefit, reintroduces exactly the kind of unstructured value judgement the earlier stages were meant to discipline, since there is no neutral metric for comparing the weight of, say, a restriction on free expression against a gain in public safety, meaning the proportionality framework's apparent rigour at the earlier stages can mask a final step that is, in substance, no more constrained by legal method than the intuitive weighing the framework was designed to replace. Defenders respond that even an imperfectly constrained final balancing stage is preferable to no structured analysis at all, since the earlier stages meaningfully narrow the range of cases reaching the final balance and require courts to articulate their reasoning at each step, producing more transparent and challengeable decisions than an unstructured approach would.",
+      "questions": [
+        {
+          "question_id": "p06-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Proportionality analysis is completely free of any subjective judgement at every stage."
+            },
+            {
+              "id": "B",
+              "text": "Critics argue the final balancing stage reintroduces unstructured value judgement, but defenders respond that even imperfect structure at earlier stages produces more transparent decisions than no framework at all."
+            },
+            {
+              "id": "C",
+              "text": "Proportionality analysis has never been used by any court."
+            },
+            {
+              "id": "D",
+              "text": "Courts should never assess whether a measure pursues a legitimate aim."
+            },
+            {
+              "id": "E",
+              "text": "There exists a fully neutral, objective metric for weighing any right against any policy benefit."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's balanced structure presenting the critique and the defence.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies the final balancing stage is controversial because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "It requires no reasoning of any kind from courts"
+            },
+            {
+              "id": "B",
+              "text": "There is no neutral metric for comparing the weight of a right against a policy benefit"
+            },
+            {
+              "id": "C",
+              "text": "It occurs before the legitimate-aim stage"
+            },
+            {
+              "id": "D",
+              "text": "It is identical in method to the rational-connection stage"
+            },
+            {
+              "id": "E",
+              "text": "It has never been challenged by any critic"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the critics' specific objection.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p06-12-q3",
+          "type": "logical_structure",
+          "prompt": "The defenders' response in the final sentence relates to the critics' objection by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Denying that the final balancing stage involves any judgement at all"
+            },
+            {
+              "id": "B",
+              "text": "Conceding the final stage is imperfectly constrained while arguing the overall framework still produces more transparent, challengeable decisions than the alternative"
+            },
+            {
+              "id": "C",
+              "text": "Proving proportionality analysis has no value whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Rejecting the earlier stages of the proportionality sequence entirely"
+            },
+            {
+              "id": "E",
+              "text": "Introducing an unrelated argument about court funding"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Defenders concede the imperfection while defending the framework's comparative value.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p07",
+  "title": "Praxis LNAT Practice Paper 7",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p07-01",
+      "topic": "Insider trading and market efficiency",
+      "word_count": 248,
+      "text": "Insider trading laws prohibit trading securities based on material non-public information, on the standard justification that permitting such trading would erode public confidence in market fairness, discouraging ordinary investors from participating in markets that appear rigged in favour of those with privileged access to information. A minority of economists have long argued this justification gets the efficiency question backwards, since insiders trading on genuine private information causes prices to move toward their true value faster than they otherwise would, meaning insider trading, whatever its distributional unfairness, actually improves the informational accuracy of market prices relative to a market in which such trading is prohibited entirely.\\n\\nThe standard reply is that this efficiency gain, even if real, is purchased at a cost the efficiency argument alone does not capture: permitting insider trading changes the incentives facing corporate insiders themselves, potentially rewarding the deliberate creation or delay of disclosure of material information for personal trading advantage rather than for the company's genuine interest, a distortion of managerial incentive that has nothing to do with price accuracy and everything to do with whether insiders serve the company or their own trading position, a cost that a pure focus on price-discovery efficiency overlooks entirely.",
+      "questions": [
+        {
+          "question_id": "p07-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Insider trading has never been found to improve price accuracy in any respect."
+            },
+            {
+              "id": "B",
+              "text": "Even if insider trading improves price accuracy, permitting it distorts managerial incentives in a way the efficiency argument alone does not capture."
+            },
+            {
+              "id": "C",
+              "text": "Insider trading laws exist solely to protect corporate insiders."
+            },
+            {
+              "id": "D",
+              "text": "All economists agree insider trading should be fully legalised."
+            },
+            {
+              "id": "E",
+              "text": "Market prices are never affected by non-public information."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure, conceding the efficiency point while identifying a distinct incentive cost.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies that permitting insider trading could incentivise insiders to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Disclose material information immediately and accurately in every case"
+            },
+            {
+              "id": "B",
+              "text": "Deliberately delay or manipulate disclosure timing for personal trading advantage"
+            },
+            {
+              "id": "C",
+              "text": "Never trade any securities under any circumstances"
+            },
+            {
+              "id": "D",
+              "text": "Improve corporate governance automatically"
+            },
+            {
+              "id": "E",
+              "text": "Have no effect on disclosure practices whatsoever"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the distorted incentive the efficiency argument overlooks.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-01-q3",
+          "type": "logical_structure",
+          "prompt": "The second paragraph relates to the first by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Fully rejecting the claim that insider trading improves price accuracy"
+            },
+            {
+              "id": "B",
+              "text": "Accepting the efficiency claim while introducing a distinct cost the efficiency framing does not capture"
+            },
+            {
+              "id": "C",
+              "text": "Introducing an unrelated argument about tax evasion"
+            },
+            {
+              "id": "D",
+              "text": "Proving that public confidence in markets is irrelevant"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that insider trading laws should be abolished"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "The reply concedes the efficiency point but adds a separate, uncaptured cost.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, \"price discovery\" most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The process by which market prices come to reflect available information"
+            },
+            {
+              "id": "B",
+              "text": "A legal proceeding to determine damages"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for insider trading prohibition"
+            },
+            {
+              "id": "D",
+              "text": "The setting of a company's initial public offering price only"
+            },
+            {
+              "id": "E",
+              "text": "A regulatory filing requirement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to prices moving toward true value as information is incorporated, as described regarding insider trades.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-02",
+      "topic": "The doctrine of vicarious liability",
+      "word_count": 250,
+      "text": "Vicarious liability holds an employer legally responsible for torts committed by an employee acting within the course of their employment, even where the employer took no part in and had no knowledge of the specific wrongdoing. This departs from the ordinary principle that liability tracks personal fault, and is usually justified on grounds distinct from fault: employers are typically better positioned to bear and spread the cost of harm through insurance and pricing, and imposing liability on employers creates an incentive to supervise and train employees more carefully than a fault-based system reaching only the individual employee would produce.\\n\\nThe doctrine's boundary, whether conduct occurred 'within the course of employment', has proven difficult to specify consistently, since an employee's wrongdoing is rarely something an employer authorised or would have condoned, yet courts have extended liability to conduct connected to employment duties even where explicitly prohibited by the employer, on the reasoning that liability should track the risk an employer's enterprise creates rather than narrowly track what the employer formally sanctioned, since a rule limited to explicitly authorised conduct would allow employers to escape liability simply by prohibiting, on paper, exactly the conduct their enterprise's structure makes likely to occur.",
+      "questions": [
+        {
+          "question_id": "p07-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vicarious liability requires proof the employer personally committed the tort."
+            },
+            {
+              "id": "B",
+              "text": "Vicarious liability is justified on grounds of cost-spreading and incentive rather than personal fault, and courts extend it beyond formally authorised conduct to track the risk an employer's enterprise actually creates."
+            },
+            {
+              "id": "C",
+              "text": "Employers are never liable for any conduct of their employees."
+            },
+            {
+              "id": "D",
+              "text": "Courts apply an identical, mechanical test in every vicarious liability case."
+            },
+            {
+              "id": "E",
+              "text": "Vicarious liability has been abolished in most legal systems."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's justification and its account of how courts apply the doctrine's boundary.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies courts extend liability to explicitly prohibited conduct because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A rule limited to authorised conduct would let employers escape liability simply by formally prohibiting risk-creating conduct on paper"
+            },
+            {
+              "id": "B",
+              "text": "Employers always secretly authorise employee wrongdoing"
+            },
+            {
+              "id": "C",
+              "text": "Prohibited conduct never actually occurs in any workplace"
+            },
+            {
+              "id": "D",
+              "text": "Fault-based liability applies automatically regardless of employment status"
+            },
+            {
+              "id": "E",
+              "text": "Vicarious liability applies only to explicitly authorised acts"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reasoning behind extending liability beyond formal authorisation.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p07-02-q3",
+          "type": "logical_structure",
+          "prompt": "The reference to cost-spreading and supervision incentives in the first paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain the justification for a doctrine that departs from ordinary fault-based liability"
+            },
+            {
+              "id": "B",
+              "text": "Prove employers are always personally at fault"
+            },
+            {
+              "id": "C",
+              "text": "Argue that insurance should be abolished"
+            },
+            {
+              "id": "D",
+              "text": "Undermine the case for vicarious liability entirely"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about criminal law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "These are presented as the justification for departing from fault-based liability.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-03",
+      "topic": "Animal cognition and moral status",
+      "word_count": 255,
+      "text": "Debates over animal moral status frequently invoke cognitive capacities, self-awareness, the ability to anticipate future suffering, complex social bonds, as grounds for extending stronger moral consideration to some species over others, on the reasoning that a being's capacity to be harmed in a morally relevant sense tracks the sophistication of its inner life rather than mere biological aliveness. This capacity-based approach faces a specific difficulty when applied consistently: it appears to grant weaker moral status to human infants and to individuals with severe cognitive impairment than to cognitively sophisticated non-human animals, a conclusion, sometimes called the argument from marginal cases, that most people find deeply counterintuitive despite its logical consistency with the underlying capacity-based premise.\\n\\nOne response bites this bullet directly, accepting that moral status should indeed track cognitive capacity regardless of species membership, however uncomfortable the resulting rankings. A second response instead grounds moral status in species-typical capacity rather than an individual's actual capacity, holding that an infant or cognitively impaired human still belongs to a species whose typical members possess the relevant sophisticated capacities, whereas a non-human animal, however individually capable, belongs to a species whose typical members do not, a move that preserves the intuitive priority for humans but has been criticised as arbitrarily privileging species membership over the very capacities the theory was originally built to track.",
+      "questions": [
+        {
+          "question_id": "p07-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All animals and all humans have identical moral status under every theory."
+            },
+            {
+              "id": "B",
+              "text": "Capacity-based theories of moral status face the argument from marginal cases, and the species-typical-capacity response that avoids its counterintuitive implication has itself been criticised as arbitrary."
+            },
+            {
+              "id": "C",
+              "text": "No philosopher has ever proposed a capacity-based theory of moral status."
+            },
+            {
+              "id": "D",
+              "text": "Human infants possess no moral status of any kind."
+            },
+            {
+              "id": "E",
+              "text": "Species membership is entirely irrelevant to every theory of moral status."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the difficulty and the two responses, including the criticism of the second.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-03-q2",
+          "type": "inference",
+          "prompt": "The 'argument from marginal cases' is best understood as showing that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A strictly applied capacity-based theory grants weaker status to some humans than to some cognitively sophisticated animals"
+            },
+            {
+              "id": "B",
+              "text": "All animals lack any cognitive capacity whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Human infants always outperform animals on every cognitive measure"
+            },
+            {
+              "id": "D",
+              "text": "Species membership is the only relevant factor in any theory"
+            },
+            {
+              "id": "E",
+              "text": "Cognitive impairment has no relevance to moral status theories"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the counterintuitive implication of consistent capacity-based reasoning.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-03-q3",
+          "type": "logical_structure",
+          "prompt": "The species-typical-capacity response functions in the passage to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Attempt to preserve intuitive priority for humans while facing its own criticism of arbitrariness"
+            },
+            {
+              "id": "B",
+              "text": "Fully resolve the argument from marginal cases without any remaining objection"
+            },
+            {
+              "id": "C",
+              "text": "Prove that capacity-based theories have no merit whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Argue that species membership should never be considered relevant"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about biological taxonomy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Presented as a response that preserves intuition but 'has been criticised as arbitrarily privileging species membership.'",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p07-03-q4",
+          "type": "strengthen_weaken",
+          "prompt": "Which finding would most strengthen the bullet-biting response described in the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A rigorous argument showing that species membership itself has no independent moral relevance once individual capacity is fully accounted for"
+            },
+            {
+              "id": "B",
+              "text": "Evidence that most people find the bullet-biting response counterintuitive"
+            },
+            {
+              "id": "C",
+              "text": "Evidence that human infants develop language faster than most animals"
+            },
+            {
+              "id": "D",
+              "text": "A survey showing public support for animal welfare laws"
+            },
+            {
+              "id": "E",
+              "text": "Evidence that some animals live in complex social groups"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This would directly support treating capacity, not species membership, as the sole relevant factor, which is the bullet-biting position.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-04",
+      "topic": "The problem of adaptive preferences",
+      "word_count": 245,
+      "text": "Welfare economics and political philosophy alike often measure a person's wellbeing partly by reference to their own stated preferences and satisfaction, on the reasoning that individuals are typically the best judges of their own interests. This approach faces a specific difficulty identified by theorists of adaptive preference: preferences are shaped by circumstance, and individuals facing severe, longstanding deprivation frequently adjust their preferences downward to match what is actually available to them, reporting relatively high satisfaction despite objectively deprived circumstances, not because deprivation has ceased to be a genuine harm but because the person has adaptively scaled down their expectations to avoid the psychological cost of persistently wanting what they cannot have.\\n\\nThis creates a genuine measurement problem for any welfare framework relying substantially on subjective satisfaction: taking reported satisfaction at face value risks concluding that severely deprived individuals are, in fact, faring reasonably well, precisely because their preferences have adapted to deprivation, while a framework that discounts subjective reports as unreliable in such cases needs some independent, non-preference-based standard for identifying which reported satisfaction to trust and which to treat as adaptively distorted, a standard that itself requires substantive judgements about what counts as genuine flourishing independent of what any given individual actually reports wanting.",
+      "questions": [
+        {
+          "question_id": "p07-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Subjective satisfaction is always a perfectly reliable measure of wellbeing."
+            },
+            {
+              "id": "B",
+              "text": "Adaptive preferences create a genuine measurement problem for welfare frameworks relying on subjective satisfaction, since correcting for adaptation itself requires substantive, non-preference-based judgements."
+            },
+            {
+              "id": "C",
+              "text": "No individual has ever adapted their preferences to deprived circumstances."
+            },
+            {
+              "id": "D",
+              "text": "Welfare economics has fully solved the problem of adaptive preferences."
+            },
+            {
+              "id": "E",
+              "text": "Deprivation is never a genuine harm regardless of a person's reported satisfaction."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the measurement problem and its unresolved implication.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p07-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies that a severely deprived individual reporting high satisfaction has:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Necessarily experienced no harm of any kind from their deprivation"
+            },
+            {
+              "id": "B",
+              "text": "Possibly scaled down expectations to avoid the psychological cost of persistently wanting what is unattainable, without deprivation ceasing to be a genuine harm"
+            },
+            {
+              "id": "C",
+              "text": "Provided evidence that welfare measurement is unnecessary"
+            },
+            {
+              "id": "D",
+              "text": "Proven that subjective preference measures are always accurate"
+            },
+            {
+              "id": "E",
+              "text": "Demonstrated that deprivation improves wellbeing"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the mechanism of adaptive preference.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-04-q3",
+          "type": "logical_structure",
+          "prompt": "The final sentence's point about needing a 'non-preference-based standard' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that any correction for adaptive preference introduces its own substantive judgement problem, not a costless fix"
+            },
+            {
+              "id": "B",
+              "text": "Prove that adaptive preference theory has no practical implications"
+            },
+            {
+              "id": "C",
+              "text": "Argue that subjective satisfaction should always be trusted without question"
+            },
+            {
+              "id": "D",
+              "text": "Conclude that welfare cannot be measured under any circumstances"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated argument about economic growth"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Identifies that the proposed fix carries its own difficulty, rather than being a clean resolution.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-05",
+      "topic": "Universal jurisdiction in international law",
+      "word_count": 250,
+      "text": "Universal jurisdiction permits national courts to prosecute certain grave offences, genocide, crimes against humanity, torture, regardless of where the offence occurred or the nationality of perpetrator or victim, on the theory that some crimes are so severe they offend the interests of humanity as a whole, giving every state a legitimate interest in prosecution rather than only the state where the crime occurred or whose nationals were involved. Advocates argue this closes an accountability gap that would otherwise exist whenever a perpetrator's home state is unwilling or unable to prosecute, since ordinary jurisdictional rules tied to territory or nationality would leave such perpetrators entirely beyond reach.\\n\\nCritics raise a concern distinct from disputing the underlying moral seriousness of the crimes involved: universal jurisdiction, exercised inconsistently by different states with different political relationships to the accused, risks functioning less as neutral accountability and more as a tool available disproportionately against officials from weaker states lacking the diplomatic leverage to resist prosecution, while officials from powerful states face prosecution far less often despite comparable allegations, an asymmetry in practical application that undermines the doctrine's claimed universality even where its underlying legal principle remains sound in the abstract.",
+      "questions": [
+        {
+          "question_id": "p07-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Universal jurisdiction has never been exercised by any national court."
+            },
+            {
+              "id": "B",
+              "text": "Universal jurisdiction closes a genuine accountability gap, but critics argue its inconsistent application in practice undermines its claimed universality regardless of the soundness of the underlying principle."
+            },
+            {
+              "id": "C",
+              "text": "Only powerful states should be subject to universal jurisdiction."
+            },
+            {
+              "id": "D",
+              "text": "Genocide and torture are not sufficiently serious to warrant universal jurisdiction."
+            },
+            {
+              "id": "E",
+              "text": "Universal jurisdiction is applied with perfect consistency across all states."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the doctrine's rationale and the critics' asymmetry concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies the critics' concern about universal jurisdiction is distinct from disputing the crimes' seriousness because it concerns:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether genocide and torture are genuinely serious offences"
+            },
+            {
+              "id": "B",
+              "text": "The asymmetric practical application of the doctrine against weaker states' officials rather than the doctrine's underlying moral premise"
+            },
+            {
+              "id": "C",
+              "text": "Whether any court has jurisdiction over any crime"
+            },
+            {
+              "id": "D",
+              "text": "The specific wording of international treaties"
+            },
+            {
+              "id": "E",
+              "text": "Whether crimes against humanity should be criminalised at all"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as concerning application asymmetry, not the underlying moral premise.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-05-q3",
+          "type": "logical_structure",
+          "prompt": "The phrase 'even where its underlying legal principle remains sound in the abstract' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Distinguish the critique of practical application from a rejection of the doctrine's theoretical justification"
+            },
+            {
+              "id": "B",
+              "text": "Concede that universal jurisdiction has no legal basis whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Prove that weaker states never face prosecution"
+            },
+            {
+              "id": "D",
+              "text": "Argue that powerful states should be exempt from all international law"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about treaty ratification"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This clarifies the critique targets application, not the doctrine's theoretical soundness.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-05-q4",
+          "type": "inference",
+          "prompt": "The passage implies universal jurisdiction is invoked specifically when:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A perpetrator's home state is unwilling or unable to prosecute, leaving ordinary jurisdictional rules unable to reach them"
+            },
+            {
+              "id": "B",
+              "text": "The crime occurred entirely within the prosecuting state's own territory"
+            },
+            {
+              "id": "C",
+              "text": "The perpetrator is a national of the prosecuting state"
+            },
+            {
+              "id": "D",
+              "text": "No grave crime has actually been committed"
+            },
+            {
+              "id": "E",
+              "text": "All states agree unanimously to prosecute"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the accountability gap universal jurisdiction is designed to close.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-06",
+      "topic": "The ethics of predictive genetic screening in employment",
+      "word_count": 258,
+      "text": "Advances in genetic testing make it technically possible to screen job applicants for genetic markers associated with elevated future risk of conditions that could affect long-term job performance or increase employer healthcare costs, a practice currently prohibited in several jurisdictions under employment non-discrimination law covering genetic information specifically. The prohibition is typically justified by analogy to other protected characteristics: genetic predisposition, like race or sex, is a condition an individual did not choose and generally cannot alter, making it an inappropriate basis for employment decisions regardless of any statistical correlation with future performance or cost.\\n\\nA narrower objection to blanket prohibition notes that this analogy is imperfect in one respect employers sometimes raise: genetic risk information, unlike race or sex, can in principle be directly relevant to a specific, safety-critical job function, a predisposition to sudden cardiac events in a role requiring solo control of dangerous machinery, for instance, where the relevant concern is not general cost-shifting but a specific, identifiable safety risk to the employee or others. Proponents of narrow, safety-specific exceptions to genetic screening prohibitions argue this distinguishes safety-relevant screening from the broader, cost-motivated screening the prohibition was designed to prevent, though critics note that safety-relevant genetic risk is itself probabilistic rather than certain, meaning even a safety-justified exception risks excluding individuals who, despite an elevated statistical risk marker, would never actually have experienced the relevant safety event during their employment.",
+      "questions": [
+        {
+          "question_id": "p07-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Genetic screening in employment has no legitimate justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While the standard prohibition rests on an analogy to other protected characteristics, a narrower safety-specific exception has been proposed, though critics note even this exception involves excluding people based on probabilistic rather than certain risk."
+            },
+            {
+              "id": "C",
+              "text": "All employers currently use genetic screening without restriction."
+            },
+            {
+              "id": "D",
+              "text": "Genetic predisposition is always identical in relevance to race or sex."
+            },
+            {
+              "id": "E",
+              "text": "Safety-critical jobs should never require any screening of any kind."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure presenting the standard prohibition, the narrower exception, and its critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies the safety-specific exception is imperfect because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Safety-relevant genetic risk is itself probabilistic, meaning some excluded individuals would never have experienced the relevant event"
+            },
+            {
+              "id": "B",
+              "text": "No job has ever involved any safety risk"
+            },
+            {
+              "id": "C",
+              "text": "Genetic information is always completely unrelated to health outcomes"
+            },
+            {
+              "id": "D",
+              "text": "All employers reject the safety-specific exception"
+            },
+            {
+              "id": "E",
+              "text": "The exception applies to every job regardless of safety relevance"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the critics' objection to the safety-specific exception.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-06-q3",
+          "type": "logical_structure",
+          "prompt": "The comparison to race and sex discrimination in the first paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain the standard justification for prohibiting genetic screening in employment"
+            },
+            {
+              "id": "B",
+              "text": "Prove genetic information is identical to race and sex in every legal respect"
+            },
+            {
+              "id": "C",
+              "text": "Argue that race and sex discrimination should be permitted in employment"
+            },
+            {
+              "id": "D",
+              "text": "Undermine the case for any employment non-discrimination law"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about healthcare costs specifically"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The analogy is used to explain the standard justification for the prohibition.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-07",
+      "topic": "Populism and technocracy in economic policy",
+      "word_count": 250,
+      "text": "Delegating economic policy decisions, interest rates, competition enforcement, trade negotiation, to insulated technical experts is often defended as producing better outcomes than direct democratic control, since experts can apply specialised knowledge without the short-term electoral pressures that might otherwise distort policy toward popular but economically unsound choices. Populist critiques of this arrangement do not typically dispute that experts possess relevant technical knowledge, but argue that technocratic insulation masks a further, non-technical dimension of most economic policy questions: decisions about interest rates or trade policy inevitably involve trade-offs between different groups' interests, borrowers versus savers, import-competing industries versus consumers, that are properly political questions about whose interests should prevail, not merely technical questions with a single expert-determinable correct answer.\\n\\nThis critique gains force in cases where technocratic bodies present genuinely contested distributional trade-offs using the neutral, technical language of economic efficiency, obscuring rather than eliminating the underlying political choice being made and denying affected groups a meaningful opportunity to contest that choice through ordinary democratic channels, a concern distinct from, and considerably harder to dismiss than, simple populist hostility to expertise as such.",
+      "questions": [
+        {
+          "question_id": "p07-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Populist critiques of technocracy always amount to simple hostility toward expertise."
+            },
+            {
+              "id": "B",
+              "text": "The populist critique of technocratic insulation identifies a genuine concern distinct from disputing expertise: that distributional trade-offs are political questions technocratic framing can obscure rather than eliminate."
+            },
+            {
+              "id": "C",
+              "text": "Economic experts never make any decisions involving trade-offs between groups."
+            },
+            {
+              "id": "D",
+              "text": "Technocratic insulation has no justification of any kind."
+            },
+            {
+              "id": "E",
+              "text": "All economic policy questions have a single expert-determinable correct answer."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's core distinction between technical knowledge and the political dimension of distributional trade-offs.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies the populist critique is stronger than 'simple hostility to expertise' because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Denies that experts possess any relevant technical knowledge"
+            },
+            {
+              "id": "B",
+              "text": "Identifies a specific, non-technical political dimension that technocratic framing can obscure"
+            },
+            {
+              "id": "C",
+              "text": "Applies only to trade policy and no other economic domain"
+            },
+            {
+              "id": "D",
+              "text": "Has never actually been articulated by any critic"
+            },
+            {
+              "id": "E",
+              "text": "Requires abolishing all technical expertise in policymaking"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the distinct, harder-to-dismiss dimension of the critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-07-q3",
+          "type": "logical_structure",
+          "prompt": "The examples of borrowers versus savers and import-competing industries versus consumers function to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate the kind of distributional trade-off the passage argues is a political rather than purely technical question"
+            },
+            {
+              "id": "B",
+              "text": "Prove that economic policy has no distributional consequences"
+            },
+            {
+              "id": "C",
+              "text": "Show that experts always favour borrowers over savers"
+            },
+            {
+              "id": "D",
+              "text": "Argue that trade policy should be abolished entirely"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about consumer protection law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "These concrete examples illustrate the trade-offs the passage argues are political, not merely technical.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-07-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, \"insulated\" most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shielded from direct electoral or political pressure"
+            },
+            {
+              "id": "B",
+              "text": "Physically located in a separate building"
+            },
+            {
+              "id": "C",
+              "text": "Legally prohibited from making any decision"
+            },
+            {
+              "id": "D",
+              "text": "Fully accountable to voters at every stage"
+            },
+            {
+              "id": "E",
+              "text": "Composed entirely of elected officials"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes technical bodies shielded from short-term electoral pressures, as contrasted with direct democratic control.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-08",
+      "topic": "The right to be forgotten online",
+      "word_count": 250,
+      "text": "The right to be forgotten, recognised in some jurisdictions, allows individuals to request that search engines de-index links to accurate but outdated or no longer relevant information about them, on the reasoning that information technically true when published can, with the passage of time, cease to serve any legitimate public interest while continuing to cause disproportionate ongoing harm to the individual concerned, a minor offence committed decades earlier, for instance, that continues to surface prominently in searches of the person's name despite having no bearing on who they are today.\\n\\nCritics argue the right creates a structural tension with freedom of information that is difficult to resolve through the case-by-case balancing test most jurisdictions currently employ, since the search engine itself, a private commercial entity, is typically tasked with making the initial determination of whether a given removal request serves a legitimate privacy interest or constitutes improper suppression of information the public retains a genuine interest in accessing, a determination search engines are neither specially qualified to make nor strongly incentivised to make well, given that erring toward removal avoids legal liability at comparatively low cost to the company, while erring toward retention risks litigation, creating a systemic bias toward over-removal that a purely case-by-case framework does not obviously correct.",
+      "questions": [
+        {
+          "question_id": "p07-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The right to be forgotten has no legitimate justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "The right to be forgotten addresses a genuine harm from outdated information, but tasking search engines with case-by-case balancing creates a systemic incentive toward over-removal that current frameworks do not obviously correct."
+            },
+            {
+              "id": "C",
+              "text": "Search engines are specially qualified to determine what serves the public interest."
+            },
+            {
+              "id": "D",
+              "text": "No jurisdiction has ever recognised a right to be forgotten."
+            },
+            {
+              "id": "E",
+              "text": "Freedom of information and privacy never come into tension."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the right's rationale and the structural critique of its implementation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies search engines face a systemic incentive toward over-removal because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Erring toward removal avoids legal liability at low cost, while erring toward retention risks litigation"
+            },
+            {
+              "id": "B",
+              "text": "Search engines are legally required to remove all requested links"
+            },
+            {
+              "id": "C",
+              "text": "Removal is always more expensive than retention for a search engine"
+            },
+            {
+              "id": "D",
+              "text": "No search engine has ever received a removal request"
+            },
+            {
+              "id": "E",
+              "text": "Courts always rule in favour of retention"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the asymmetric liability incentive facing search engines.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-08-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of who determines legitimate privacy interest functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a structural problem in how the right to be forgotten is currently implemented, distinct from the underlying justification for the right"
+            },
+            {
+              "id": "B",
+              "text": "Prove the right to be forgotten should never have been recognised"
+            },
+            {
+              "id": "C",
+              "text": "Argue that courts, not search engines, have always made these determinations"
+            },
+            {
+              "id": "D",
+              "text": "Show that search engines never make any errors"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about search engine market share"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies an implementation problem distinct from the right's underlying justification, described earlier as legitimate.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-09",
+      "topic": "Just compensation and regulatory takings",
+      "word_count": 252,
+      "text": "Government regulation that restricts how private property may be used, zoning laws preventing commercial development, environmental rules limiting extraction on land a person owns, can reduce a property's value substantially without the government ever taking formal ownership of it, raising the question of whether such regulation constitutes a 'taking' requiring compensation under constitutional provisions that address only outright physical seizure explicitly. Courts in several jurisdictions have recognised regulatory takings as a distinct category requiring compensation in some circumstances, but have struggled to articulate a consistent test for when a regulation crosses from ordinary, uncompensated exercise of government's general regulatory power into a compensable taking.\\n\\nThe difficulty is structural rather than merely a matter of insufficiently precise drafting: virtually all regulation reduces some property's value to some degree, since almost any restriction on use forecloses some potential use an owner might otherwise have pursued, meaning a standard requiring compensation whenever value is reduced at all would make ordinary regulatory governance prohibitively expensive, while a standard requiring compensation only for total loss of value would permit regulation imposing severe but not quite total value destruction to proceed uncompensated, leaving courts to draw a line, based on factors including the regulation's economic impact and its interference with reasonable investment-backed expectations, that inevitably retains a degree of case-specific judgement no bright-line rule has yet eliminated.",
+      "questions": [
+        {
+          "question_id": "p07-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All government regulation of property requires full compensation."
+            },
+            {
+              "id": "B",
+              "text": "Distinguishing ordinary uncompensated regulation from a compensable regulatory taking is structurally difficult, since virtually all regulation reduces value to some degree, leaving courts with an irreducible degree of case-specific judgement."
+            },
+            {
+              "id": "C",
+              "text": "No regulation has ever reduced any property's value."
+            },
+            {
+              "id": "D",
+              "text": "Courts have found a fully consistent, bright-line test for regulatory takings."
+            },
+            {
+              "id": "E",
+              "text": "Regulatory takings have never been recognised in any jurisdiction."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the structural difficulty and courts' resulting case-specific approach.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies that a standard requiring compensation whenever any value is reduced would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make ordinary regulatory governance prohibitively expensive, since almost any regulation reduces some value"
+            },
+            {
+              "id": "B",
+              "text": "Never actually apply to any regulation"
+            },
+            {
+              "id": "C",
+              "text": "Require no judicial judgement whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Apply only to total losses of value"
+            },
+            {
+              "id": "E",
+              "text": "Eliminate the need for any zoning laws"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the practical problem with a compensate-any-reduction standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the two extreme standards, compensate any reduction versus compensate only total loss, functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show why courts have settled on a case-specific, factor-based approach rather than either extreme"
+            },
+            {
+              "id": "B",
+              "text": "Prove one of the two extreme standards is clearly correct"
+            },
+            {
+              "id": "C",
+              "text": "Argue that regulation should never restrict property use"
+            },
+            {
+              "id": "D",
+              "text": "Show that regulatory takings have no practical consequences"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about zoning history"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The two extremes are presented as each problematic, motivating the case-specific standard courts actually use.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, \"investment-backed expectations\" most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A property owner's reasonable reliance on a prior regulatory environment when making investment decisions"
+            },
+            {
+              "id": "B",
+              "text": "A guarantee that all investments will always be profitable"
+            },
+            {
+              "id": "C",
+              "text": "A legal requirement that owners invest in their property annually"
+            },
+            {
+              "id": "D",
+              "text": "A synonym for total loss of property value"
+            },
+            {
+              "id": "E",
+              "text": "A form of government subsidy for property development"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the reasonable reliance interest courts weigh as one factor in the takings analysis.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-10",
+      "topic": "The paradox of voting and rational irrationality",
+      "word_count": 248,
+      "text": "The probability that a single vote in a large election will be decisive, changing the outcome, is vanishingly small, essentially zero in any election beyond a very small electorate, meaning the direct instrumental benefit an individual voter receives from voting, weighted by the near-zero probability their vote actually determines the result, is typically far smaller than even a trivial cost of voting, travel time, minor inconvenience. This creates a puzzle for rational choice models of behaviour, since millions of people vote despite this calculation, a phenomenon sometimes called the paradox of voting.\\n\\nOne influential resolution argues that voters are not, in fact, irrational but are pursuing a different kind of benefit than the instrumental one the paradox assumes: expressive or civic satisfaction from participating in a valued collective practice, a benefit received simply from voting itself regardless of whether that specific vote changes the outcome, similar to the satisfaction some people derive from cheering at a sporting event despite no individual cheer determining who wins. This resolution has a further implication some theorists find troubling: if voting is chiefly expressive rather than instrumental, voters have comparatively little incentive to invest effort in accurately informing themselves about policy consequences before voting, since the expressive benefit is available regardless of how well-informed the underlying vote actually is, potentially explaining persistently low levels of voter policy knowledge documented across many democracies.",
+      "questions": [
+        {
+          "question_id": "p07-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Voting has no benefit of any kind to any voter."
+            },
+            {
+              "id": "B",
+              "text": "The expressive-benefit resolution to the paradox of voting explains why people vote despite near-zero instrumental impact, but implies voters have little incentive to be well-informed, potentially explaining low voter policy knowledge."
+            },
+            {
+              "id": "C",
+              "text": "Every individual vote is highly likely to determine an election's outcome."
+            },
+            {
+              "id": "D",
+              "text": "Rational choice models fully explain voter behaviour without any puzzle remaining."
+            },
+            {
+              "id": "E",
+              "text": "Voters are always well-informed about policy consequences."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the expressive-benefit resolution and its further implication.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies the expressive-benefit resolution is analogous to cheering at a sporting event because both involve:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A benefit received from the act of participation itself, regardless of whether that individual contribution determines the outcome"
+            },
+            {
+              "id": "B",
+              "text": "A guaranteed probability of determining the outcome"
+            },
+            {
+              "id": "C",
+              "text": "No cost of any kind to the participant"
+            },
+            {
+              "id": "D",
+              "text": "A requirement that participants be fully informed before participating"
+            },
+            {
+              "id": "E",
+              "text": "An outcome that is always determined by a single individual's action"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the shared feature: a benefit from the act itself, independent of individual causal impact.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of voter policy knowledge in the final sentence functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Extend the expressive-benefit resolution to a further, potentially troubling implication about voter information levels"
+            },
+            {
+              "id": "B",
+              "text": "Prove that all voters are perfectly informed"
+            },
+            {
+              "id": "C",
+              "text": "Reject the expressive-benefit resolution entirely"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated argument about campaign advertising"
+            },
+            {
+              "id": "E",
+              "text": "Show that instrumental voting benefits are, in fact, very large"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This draws out a further implication of the resolution rather than rejecting it or introducing something unrelated.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-11",
+      "topic": "Blockchain governance and decentralisation",
+      "word_count": 255,
+      "text": "Blockchain-based systems are frequently described as decentralised, removing the need for a trusted central authority to validate transactions or enforce rules, since consensus is instead achieved through a distributed protocol that participants collectively maintain. This decentralisation is presented as a core advantage: no single party can unilaterally alter records or exclude participants, removing a point of failure and a locus of potential abuse that centralised systems inherently possess.\\n\\nIn practice, however, many blockchain systems exhibit significant informal centralisation despite their formally decentralised protocol design, since the computational or financial resources required to meaningfully participate in consensus, mining hardware, staked capital, tend to concentrate among a relatively small number of well-resourced participants over time, and software development itself, the protocol's actual rules, is frequently steered by a small core group of developers whose technical proposals the broader, more numerous but less technically engaged participant base tends to defer to rather than independently evaluate. This gap between formal and informal centralisation matters because governance disputes, disagreements over how the protocol itself should change, reveal where genuine authority actually resides, and several prominent disputes have been resolved not through the neutral, purely algorithmic process decentralisation promises but through informal negotiation among a small set of influential participants whose practical power the formal protocol design does not explicitly acknowledge or constrain.",
+      "questions": [
+        {
+          "question_id": "p07-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Blockchain systems are always perfectly decentralised in practice as well as in design."
+            },
+            {
+              "id": "B",
+              "text": "Despite formally decentralised protocol design, many blockchain systems exhibit significant informal centralisation among resource-concentrated participants and influential developers, revealed especially during governance disputes."
+            },
+            {
+              "id": "C",
+              "text": "No blockchain system has ever experienced a governance dispute."
+            },
+            {
+              "id": "D",
+              "text": "Centralised systems are always superior to decentralised ones."
+            },
+            {
+              "id": "E",
+              "text": "Mining hardware and staked capital are always evenly distributed among all participants."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about the gap between formal and informal centralisation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies governance disputes are informative because they:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reveal where genuine authority actually resides, beyond what the formal protocol design suggests"
+            },
+            {
+              "id": "B",
+              "text": "Never actually occur in any blockchain system"
+            },
+            {
+              "id": "C",
+              "text": "Are always resolved through purely algorithmic, neutral processes"
+            },
+            {
+              "id": "D",
+              "text": "Have no bearing on questions of centralisation"
+            },
+            {
+              "id": "E",
+              "text": "Are resolved identically to ordinary transaction validation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as revealing the location of genuine authority, unlike ordinary operation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-11-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of resource concentration and developer influence functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support the claim that informal centralisation can emerge despite formally decentralised design"
+            },
+            {
+              "id": "B",
+              "text": "Prove blockchain systems have no advantages over centralised alternatives"
+            },
+            {
+              "id": "C",
+              "text": "Argue that mining should be banned entirely"
+            },
+            {
+              "id": "D",
+              "text": "Show that all participants have identical influence over protocol rules"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about energy consumption"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "These specific mechanisms are cited as evidence for the passage's central claim about informal centralisation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-11-q4",
+          "type": "inference",
+          "prompt": "The passage implies mining hardware and staked capital tend to concentrate because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Meaningful participation in consensus requires resources that accumulate among well-resourced participants over time"
+            },
+            {
+              "id": "B",
+              "text": "All participants are legally required to hold identical resources"
+            },
+            {
+              "id": "C",
+              "text": "Blockchain protocols explicitly prohibit resource concentration"
+            },
+            {
+              "id": "D",
+              "text": "No blockchain system has ever experienced resource concentration"
+            },
+            {
+              "id": "E",
+              "text": "Developers are barred from participating in consensus"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind informal centralisation.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p07-12",
+      "topic": "The ethics of nuclear deterrence",
+      "word_count": 258,
+      "text": "Nuclear deterrence rests on a strategy that appears, on its face, morally troubling when examined directly: preventing nuclear war by credibly threatening a catastrophic, indiscriminate retaliatory strike that would kill enormous numbers of civilians, a threat whose deterrent value depends specifically on its credibility, meaning the strategy requires genuinely intending to carry out an action, mass civilian destruction, that would be gravely wrong to actually execute, a tension sometimes called the paradox of deterrence: the strategy's success depends on a willingness to do something that, if the deterrence fails and the threat must be carried out, would itself constitute a serious moral wrong.\\n\\nOne response argues the paradox dissolves once intention and action are properly distinguished: forming a conditional intention to retaliate, an intention that, crucially, one hopes never to have to act upon, is not equivalent to the wrongness of the retaliatory act itself, since the entire point of the intention is to prevent the triggering condition from ever arising, making the intention instrumentally justified by an outcome, the prevention of nuclear war, that never actually requires the wrongful act to occur. Critics respond that this distinction, while formally coherent, does not fully dissolve the moral difficulty, since a credible deterrent threat requires more than a merely nominal intention; it requires building and maintaining the actual capacity and institutional readiness to execute a catastrophic retaliatory strike on short notice, an ongoing structural commitment to mass civilian harm that persists as a standing feature of the strategy regardless of whether the triggering condition ever arises.",
+      "questions": [
+        {
+          "question_id": "p07-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nuclear deterrence has no moral complexity of any kind."
+            },
+            {
+              "id": "B",
+              "text": "The intention-versus-action distinction offers a formally coherent response to the paradox of deterrence, but critics argue it does not fully dissolve the difficulty given the ongoing structural commitment credible deterrence actually requires."
+            },
+            {
+              "id": "C",
+              "text": "All nuclear weapons should be used immediately to demonstrate credibility."
+            },
+            {
+              "id": "D",
+              "text": "Deterrence has never actually prevented any conflict."
+            },
+            {
+              "id": "E",
+              "text": "Conditional intentions are always morally equivalent to the acts they threaten."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the response and the critics' rebuttal.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p07-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies critics find the intention-action distinction insufficient because credible deterrence requires:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only a nominal, unenforced intention with no actual capacity behind it"
+            },
+            {
+              "id": "B",
+              "text": "Building and maintaining actual capacity and institutional readiness for catastrophic retaliation, an ongoing structural commitment"
+            },
+            {
+              "id": "C",
+              "text": "No conditional intention of any kind"
+            },
+            {
+              "id": "D",
+              "text": "Immediate, unconditional use of nuclear weapons"
+            },
+            {
+              "id": "E",
+              "text": "Abandoning any distinction between intention and action"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the critics' specific point about ongoing structural commitment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p07-12-q3",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'instrumentally justified' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Justified by the outcome it is intended to produce, rather than by its inherent moral character"
+            },
+            {
+              "id": "B",
+              "text": "Legally required under international treaty"
+            },
+            {
+              "id": "C",
+              "text": "Justified purely because it involves military instruments"
+            },
+            {
+              "id": "D",
+              "text": "Morally wrong regardless of any outcome"
+            },
+            {
+              "id": "E",
+              "text": "Justified by a formal vote among affected states"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The intention is described as justified by the outcome, preventing war, that it aims to produce.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p08",
+  "title": "Praxis LNAT Practice Paper 8",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p08-01",
+      "topic": "Land value taxation",
+      "word_count": 245,
+      "text": "Land value tax, levied on the unimproved value of land itself rather than on buildings or other improvements made to it, is defended by economists across a wide range of views as uniquely efficient among taxes, since land's supply is fixed regardless of the tax rate, meaning a land value tax, unlike a tax on income or buildings, cannot discourage the production of more land, the usual efficiency cost associated with taxing an activity is that taxation reduces the quantity of that activity, a cost land value tax structurally cannot incur.\\n\\nThe efficiency argument, however, has not translated into widespread adoption, and the reasons are largely political rather than economic: land value increases are frequently driven by public investment, new transit links, local amenities, rather than by any effort of the landowner, making a land value tax appear, correctly, as recapturing socially created value rather than confiscating an owner's own productive effort, yet landowners who purchased property expecting to capture these gains privately resist a tax that would transfer a portion of anticipated appreciation to public revenue instead, a resistance concentrated among a politically influential group of current owners even where the tax's efficiency case remains, in principle, exceptionally strong compared to most alternatives.",
+      "questions": [
+        {
+          "question_id": "p08-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Land value tax has no economic justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Land value tax has a strong efficiency case precisely because land's fixed supply avoids the usual cost of taxation, but political resistance from landowners has limited its adoption despite this."
+            },
+            {
+              "id": "C",
+              "text": "All economists reject land value taxation."
+            },
+            {
+              "id": "D",
+              "text": "Public investment never increases land value."
+            },
+            {
+              "id": "E",
+              "text": "Landowners always support land value taxation."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's efficiency argument and its political-resistance explanation for limited adoption.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies land value tax avoids the usual efficiency cost of taxation because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Land's fixed supply means taxation cannot reduce the quantity of land produced"
+            },
+            {
+              "id": "B",
+              "text": "Land is never subject to any taxation anywhere"
+            },
+            {
+              "id": "C",
+              "text": "Buildings are taxed at a higher rate than land"
+            },
+            {
+              "id": "D",
+              "text": "Landowners always pass the tax on to tenants"
+            },
+            {
+              "id": "E",
+              "text": "Public investment eliminates the need for any taxation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the tax's structural efficiency.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-01-q3",
+          "type": "logical_structure",
+          "prompt": "The second paragraph relates to the first by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explaining a political obstacle distinct from the economic efficiency case established in the first paragraph"
+            },
+            {
+              "id": "B",
+              "text": "Rejecting the efficiency argument as economically unsound"
+            },
+            {
+              "id": "C",
+              "text": "Proving that land value never increases"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about income tax"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that land value tax should never be adopted anywhere"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The paragraph explicitly distinguishes political resistance from the economic case, which it leaves intact.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-02",
+      "topic": "The ethics of surrogacy contracts",
+      "word_count": 250,
+      "text": "Commercial surrogacy, in which a woman is paid to carry and deliver a child for intended parents under contract, raises a specific enforceability question distinct from broader debates about commodifying reproduction: whether a surrogate who changes her mind during pregnancy should be legally bound to relinquish the child as originally contracted, or should retain a right to reconsider that ordinary contract law would not extend to most commercial agreements. Contract law generally permits specific performance, compelling a party to fulfil their obligation rather than merely pay damages for breach, only in limited categories of case, and courts in most jurisdictions have been reluctant to treat surrogacy agreements as fully specifically enforceable in this sense.\\n\\nDefenders of strict enforceability argue that treating surrogacy contracts as freely revocable undermines the certainty intended parents relied upon in commissioning the arrangement, often at very substantial financial and emotional cost, while a revocable arrangement leaves intended parents bearing the full risk of a surrogate's change of mind with no corresponding remedy proportionate to their reliance. Critics respond that a pregnant woman's ongoing bodily autonomy and the psychological reality of gestational bonding present a case for reconsideration rights that has no analogue in ordinary commercial contracts, since no other commercial arrangement requires one party's body to be the literal site of contractual performance for an extended period, a disanalogy defenders of strict enforceability have not fully addressed.",
+      "questions": [
+        {
+          "question_id": "p08-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Surrogacy contracts are always fully enforceable in every jurisdiction."
+            },
+            {
+              "id": "B",
+              "text": "Whether surrogacy contracts should permit specific performance is contested, with critics arguing bodily autonomy during pregnancy presents a disanalogy to ordinary commercial contracts that defenders of strict enforceability have not fully addressed."
+            },
+            {
+              "id": "C",
+              "text": "Commercial surrogacy has no legitimate ethical concerns attached to it."
+            },
+            {
+              "id": "D",
+              "text": "Contract law always permits specific performance for any breach."
+            },
+            {
+              "id": "E",
+              "text": "Intended parents never bear any risk in a surrogacy arrangement."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of both sides and its concluding point about the unaddressed disanalogy.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies critics of strict enforceability distinguish surrogacy from ordinary contracts because surrogacy uniquely requires:",
+          "options": [
+            {
+              "id": "A",
+              "text": "One party's body to be the literal site of contractual performance over an extended period"
+            },
+            {
+              "id": "B",
+              "text": "No payment of any kind to be made"
+            },
+            {
+              "id": "C",
+              "text": "Court approval before signing"
+            },
+            {
+              "id": "D",
+              "text": "Identical treatment to a standard sale of goods"
+            },
+            {
+              "id": "E",
+              "text": "No emotional investment from either party"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the disanalogy critics raise.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-02-q3",
+          "type": "logical_structure",
+          "prompt": "The final sentence's reference to a disanalogy 'defenders... have not fully addressed' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Leave the debate open by identifying an unresolved gap in the enforceability defence"
+            },
+            {
+              "id": "B",
+              "text": "Prove that all surrogacy contracts are unenforceable"
+            },
+            {
+              "id": "C",
+              "text": "Concede that intended parents deserve no consideration"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about adoption law"
+            },
+            {
+              "id": "E",
+              "text": "Fully resolve the tension described earlier"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This closing point leaves the specific objection unresolved rather than settling the debate.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-02-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'specific performance' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A court order compelling a party to actually fulfil their contractual obligation, rather than merely pay damages"
+            },
+            {
+              "id": "B",
+              "text": "A payment made in instalments over time"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for breach of contract"
+            },
+            {
+              "id": "D",
+              "text": "A requirement that both parties sign in person"
+            },
+            {
+              "id": "E",
+              "text": "A form of insurance against contractual risk"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly in the passage as compelling fulfilment rather than merely awarding damages.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-03",
+      "topic": "Judicial activism versus restraint",
+      "word_count": 248,
+      "text": "The label 'judicial activism', typically levelled at courts perceived to have overstepped their proper role by substituting their own policy preferences for the judgement of elected legislatures, is used with unusual asymmetry: decisions striking down laws a critic dislikes are frequently called activist, while decisions striking down laws a critic favours seeing removed are described instead as principled application of law, suggesting the term often functions less as a neutral description of judicial method than as a label applied selectively based on agreement with the outcome reached.\\n\\nA more analytically useful distinction separates the question of how much deference courts owe to legislative judgement, a genuine methodological question on which reasonable jurists disagree, from the question of whether a specific decision reaches the correct result, since a highly deferential court and a highly interventionist court can each reach either correct or incorrect results depending on the specific case, meaning correctness and deference level are logically independent variables that public debate, relying heavily on the activism label, frequently conflates into a single judgement, criticising 'activism' when the real objection is to the substantive outcome reached rather than to the degree of deference actually exercised in reaching it.",
+      "questions": [
+        {
+          "question_id": "p08-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judicial activism is a precise, neutral technical term with no ambiguity."
+            },
+            {
+              "id": "B",
+              "text": "The term 'judicial activism' is often applied asymmetrically based on agreement with outcomes, conflating the genuinely separate questions of deference level and substantive correctness."
+            },
+            {
+              "id": "C",
+              "text": "Courts should never strike down any legislation under any circumstances."
+            },
+            {
+              "id": "D",
+              "text": "All judicial decisions are equally deferential to legislatures."
+            },
+            {
+              "id": "E",
+              "text": "Legislatures should have no power to enact any law reviewable by courts."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about conflating deference and correctness.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies that a highly deferential court could still:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Never reach an incorrect result under any circumstances"
+            },
+            {
+              "id": "B",
+              "text": "Reach either a correct or incorrect result, since correctness and deference level are logically independent"
+            },
+            {
+              "id": "C",
+              "text": "Always be labelled activist regardless of its rulings"
+            },
+            {
+              "id": "D",
+              "text": "Never be criticised by any commentator"
+            },
+            {
+              "id": "E",
+              "text": "Automatically produce identical rulings to an interventionist court"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the passage's key distinction.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-03-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's opening observation about asymmetric use of the activism label functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Motivate the more analytically useful distinction proposed in the second paragraph"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no court has ever been correctly labelled activist"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all judicial review should be abolished"
+            },
+            {
+              "id": "D",
+              "text": "Show that deference level has no bearing on legal analysis"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legislative drafting"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The asymmetry observation sets up the passage's proposed clearer distinction.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-04",
+      "topic": "The tyranny of the majority",
+      "word_count": 250,
+      "text": "Alexis de Tocqueville and John Stuart Mill each warned that democratic majority rule, while an improvement over arbitrary minority rule, carries its own distinct risk: a majority, having captured legitimate democratic authority, can use that authority to systematically disadvantage a minority just as thoroughly as any unelected tyrant, with the crucial difference that majority oppression carries the added legitimacy of having been democratically willed, making it harder to resist or even recognise as oppression by those inclined to treat majority preference as inherently just.\\n\\nConstitutional protections for minority rights, judicially enforceable bills of rights, supermajority requirements for certain legislation, are the standard institutional response, removing specific categories of decision from ordinary majority control regardless of how large or persistent the majority favouring a given restriction becomes. This response faces its own internal tension: the protections themselves were typically established by some prior majority or supermajority, meaning the constraint on majority rule is itself a product of majority or supermajority will at an earlier moment, raising the question of why an earlier majority's judgement about which rights deserve protection should bind a later majority that might reasonably disagree, a tension between entrenchment and ongoing democratic self-governance that has no fully settled resolution in democratic theory.",
+      "questions": [
+        {
+          "question_id": "p08-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Majority rule can never produce any injustice of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Constitutional minority-rights protections respond to the tyranny of the majority, but face their own tension since such protections are themselves products of an earlier majority's will binding later majorities."
+            },
+            {
+              "id": "C",
+              "text": "Constitutional protections have never been challenged by any later majority."
+            },
+            {
+              "id": "D",
+              "text": "Minority rights require no institutional protection of any kind."
+            },
+            {
+              "id": "E",
+              "text": "Tocqueville and Mill agreed that democracy should be abolished."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the standard response and its internal tension.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies majority oppression is harder to resist than other forms of oppression because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Carries the added legitimacy of having been democratically willed"
+            },
+            {
+              "id": "B",
+              "text": "Never actually occurs under any democratic system"
+            },
+            {
+              "id": "C",
+              "text": "Is always immediately recognised and reversed"
+            },
+            {
+              "id": "D",
+              "text": "Applies only to unelected tyrants"
+            },
+            {
+              "id": "E",
+              "text": "Has no connection to democratic authority whatsoever"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the distinguishing feature making majority oppression harder to resist.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-04-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph's discussion of entrenchment functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify an unresolved tension within the standard institutional response described earlier"
+            },
+            {
+              "id": "B",
+              "text": "Prove constitutional protections have no value whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all constitutions should be abolished"
+            },
+            {
+              "id": "D",
+              "text": "Show that later majorities never disagree with earlier ones"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about voting systems"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The paragraph identifies a genuine tension in the response rather than dismissing it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-04-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'entrenchment' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Making a rule or right resistant to change by ordinary later majority decision"
+            },
+            {
+              "id": "B",
+              "text": "A military defensive structure"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for majority rule itself"
+            },
+            {
+              "id": "D",
+              "text": "A process by which rights are removed entirely"
+            },
+            {
+              "id": "E",
+              "text": "A requirement that all laws be unanimous"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to constitutional protections being resistant to later majority change, as discussed in the passage.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-05",
+      "topic": "Corporate lobbying and regulatory capture",
+      "word_count": 250,
+      "text": "Regulatory agencies established to oversee an industry in the public interest frequently develop close, ongoing relationships with the very firms they regulate, since effective regulation requires detailed technical knowledge that regulators often gain primarily through interaction with industry itself, and regulators are frequently recruited from, or expect to later work within, the industry they oversee. Regulatory capture describes the resulting risk: that an agency's decisions come to reflect the regulated industry's interests more than the diffuse public interest the agency was created to serve, not necessarily through corruption in any narrow sense but through the gradual, often unconscious alignment of perspective that close, repeated interaction with one side of a regulatory relationship tends to produce.\\n\\nThe difficulty in addressing capture is that the very expertise required for competent regulation is concentrated within the regulated industry, meaning excluding industry-experienced personnel from regulatory roles to avoid capture risk would leave agencies staffed by individuals lacking the technical knowledge needed to regulate effectively, a trade-off between expertise and independence that has no clean resolution, since the sources of genuine technical competence and the sources of potential capture-inducing bias are, in this domain, substantially the same people and institutions.",
+      "questions": [
+        {
+          "question_id": "p08-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Regulatory capture never actually occurs in any agency."
+            },
+            {
+              "id": "B",
+              "text": "Addressing regulatory capture is difficult because the expertise needed for effective regulation and the source of potential capture bias substantially overlap, creating a trade-off with no clean resolution."
+            },
+            {
+              "id": "C",
+              "text": "Regulators should always be recruited exclusively from outside the regulated industry."
+            },
+            {
+              "id": "D",
+              "text": "Industry expertise is entirely irrelevant to effective regulation."
+            },
+            {
+              "id": "E",
+              "text": "Corruption is the only mechanism by which regulatory capture occurs."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central trade-off argument.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies capture can occur even without corruption because it results from:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The gradual, often unconscious alignment of perspective produced by close, repeated interaction with regulated industry"
+            },
+            {
+              "id": "B",
+              "text": "Deliberate bribery in every single case"
+            },
+            {
+              "id": "C",
+              "text": "Regulators never interacting with industry at all"
+            },
+            {
+              "id": "D",
+              "text": "A legal requirement that regulators favour industry"
+            },
+            {
+              "id": "E",
+              "text": "Complete absence of any technical expertise among regulators"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism of capture distinct from narrow corruption.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-05-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph's discussion of excluding industry-experienced personnel functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show why a simple solution to capture would itself undermine regulatory competence"
+            },
+            {
+              "id": "B",
+              "text": "Prove that capture has never been a genuine problem"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all regulation should be abolished entirely"
+            },
+            {
+              "id": "D",
+              "text": "Support excluding all industry-experienced personnel without reservation"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about agency budgets"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This paragraph explains why the obvious fix creates its own cost, establishing the trade-off.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-06",
+      "topic": "The ethics of humanitarian intervention",
+      "word_count": 258,
+      "text": "Humanitarian intervention, the use of military force by outside states to halt mass atrocities occurring within another state's borders, sits in tension with the principle of state sovereignty and non-interference that has structured international relations since at least the Peace of Westphalia, since intervention necessarily involves violating the sovereignty of the state where the atrocities occur, regardless of that state's own consent, a violation the intervening states justify by appeal to a competing value, the prevention of mass civilian death, that they argue should override sovereignty in sufficiently severe cases.\\n\\nThe practical difficulty is not primarily philosophical but institutional: international law provides no reliably neutral, non-politicised body capable of determining when the threshold for justified intervention has actually been met, leaving the decision in practice to the very states proposing to intervene, states whose self-interested reasons for intervening or declining to intervene, strategic alliances, resource interests, domestic political considerations, are frequently entangled with, and difficult to disentangle from, their stated humanitarian justification. This produces a pattern critics note is difficult to reconcile with a principled humanitarian standard: comparably severe humanitarian crises receive dramatically different levels of international response depending on the strategic interests of powerful states in the region concerned, suggesting the operative decision criterion in practice tracks great-power interest at least as much as it tracks the severity of humanitarian need.",
+      "questions": [
+        {
+          "question_id": "p08-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Humanitarian intervention has never been proposed by any state."
+            },
+            {
+              "id": "B",
+              "text": "Beyond the philosophical tension with sovereignty, humanitarian intervention faces an institutional difficulty: no neutral body determines when intervention is justified, and in practice responses appear to track great-power interest as much as humanitarian severity."
+            },
+            {
+              "id": "C",
+              "text": "State sovereignty should never be violated under any circumstances."
+            },
+            {
+              "id": "D",
+              "text": "All humanitarian crises receive identical levels of international response."
+            },
+            {
+              "id": "E",
+              "text": "Strategic interests never influence any state's decision to intervene."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structure moving from philosophical tension to institutional/practical critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies the pattern of inconsistent international response is problematic because it suggests:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The operative decision criterion tracks great-power interest at least as much as humanitarian severity"
+            },
+            {
+              "id": "B",
+              "text": "All humanitarian crises are treated with perfect consistency"
+            },
+            {
+              "id": "C",
+              "text": "No state has ever intervened for humanitarian reasons"
+            },
+            {
+              "id": "D",
+              "text": "International law fully specifies a neutral threshold for intervention"
+            },
+            {
+              "id": "E",
+              "text": "Sovereignty is never actually violated by any intervention"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the passage's closing inference from the observed pattern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between a 'philosophical' and an 'institutional' difficulty functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Redirect the passage's focus from the abstract tension with sovereignty to a distinct, practical problem of implementation"
+            },
+            {
+              "id": "B",
+              "text": "Prove the philosophical tension has already been fully resolved"
+            },
+            {
+              "id": "C",
+              "text": "Show that sovereignty has no relevance to humanitarian intervention"
+            },
+            {
+              "id": "D",
+              "text": "Argue that international law requires no further development"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about historical treaties"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction narrows the passage's focus onto the practical, institutional problem.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'non-interference' most nearly refers to the principle that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Outside states should not intervene in another state's internal affairs regardless of internal conduct"
+            },
+            {
+              "id": "B",
+              "text": "All states must intervene whenever atrocities occur"
+            },
+            {
+              "id": "C",
+              "text": "International law has no application to any state"
+            },
+            {
+              "id": "D",
+              "text": "Military force is always the correct response to any crisis"
+            },
+            {
+              "id": "E",
+              "text": "Sovereignty applies only to powerful states"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the traditional sovereignty norm against outside interference that intervention is described as violating.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-07",
+      "topic": "Automation of judicial decision-making",
+      "word_count": 248,
+      "text": "Proposals to automate routine judicial decisions, small-claims disputes, standardised administrative appeals, using algorithmic systems trained on prior case outcomes, are typically defended on grounds of consistency and cost: automated systems apply the same decision criteria uniformly across cases, potentially reducing the variability in outcomes that arises when different human judges, even applying nominally identical legal standards, exercise discretion differently, while also processing a far higher volume of routine cases at lower cost than human adjudication requires.\\n\\nThe consistency argument, however, assumes uniformity is unambiguously desirable, an assumption worth examining rather than accepting automatically, since judicial discretion also serves a distinct function beyond mere inconsistency: allowing a decision-maker to weigh case-specific factors, an unusual hardship, a mitigating circumstance not anticipated by the general rule, that a system trained to replicate historical patterns is specifically designed to disregard in favour of matching prior outcomes. An automated system achieving perfect consistency with historical decisions would, by that very design, also perfectly replicate whatever inconsistent or biased exercise of discretion characterised those historical decisions, converting variability that sometimes reflected genuine case-specific justice into uniform application of whatever pattern, just or unjust, the historical training data happened to contain.",
+      "questions": [
+        {
+          "question_id": "p08-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Automated judicial decision-making has no drawbacks of any kind."
+            },
+            {
+              "id": "B",
+              "text": "The consistency argument for automating judicial decisions assumes uniformity is unambiguously desirable, but automation risks perfectly replicating whatever bias or injustice characterised historical decisions rather than exercising genuine case-specific judgement."
+            },
+            {
+              "id": "C",
+              "text": "Human judges never exercise any discretion whatsoever."
+            },
+            {
+              "id": "D",
+              "text": "All judicial decisions should be automated immediately."
+            },
+            {
+              "id": "E",
+              "text": "Small-claims disputes should never be adjudicated by any method."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's critique of the consistency argument.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies an automated system trained on historical outcomes would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Perfectly replicate whatever bias or inconsistency characterised the historical training data"
+            },
+            {
+              "id": "B",
+              "text": "Always correct any historical bias automatically"
+            },
+            {
+              "id": "C",
+              "text": "Never process any case involving mitigating circumstances"
+            },
+            {
+              "id": "D",
+              "text": "Be completely unrelated to the historical data used to train it"
+            },
+            {
+              "id": "E",
+              "text": "Apply no decision criteria of any kind"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the risk of consistency achieved through historical replication.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-07-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of case-specific discretion in the second paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a distinct function of judicial discretion the automation proposal's consistency framing overlooks"
+            },
+            {
+              "id": "B",
+              "text": "Prove that discretion should never be exercised by any judge"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all judicial decisions are already fully automated"
+            },
+            {
+              "id": "D",
+              "text": "Support the consistency argument without qualification"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about court funding"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies a function of discretion the automation proposal's framing does not account for.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-08",
+      "topic": "The doctrine of clean hands in equity law",
+      "word_count": 245,
+      "text": "The equitable doctrine of clean hands holds that a claimant seeking an equitable remedy, an injunction, specific performance, must not themselves have engaged in improper conduct connected to the matter in dispute, on the reasoning that equity, unlike common law damages, is a discretionary remedy granted at a court's discretion to achieve fairness, and it would be inequitable for a court to exercise that discretion in favour of a party whose own conduct in the same matter falls short of the good faith equity demands.\\n\\nThe doctrine's application requires courts to draw a line between misconduct sufficiently connected to the dispute to bar relief and misconduct that, while real, is too tangential to the specific matter at hand to be relevant, since a rule barring relief for any misconduct whatsoever, regardless of its connection to the dispute, would effectively require claimants to have led blameless lives generally before any court would grant equitable relief, a standard no legal system actually applies and one that would make equitable remedies practically unavailable to almost anyone, meaning the doctrine's coherence depends entirely on maintaining a meaningful connectedness requirement that some critics argue courts apply inconsistently across cases.",
+      "questions": [
+        {
+          "question_id": "p08-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The clean hands doctrine bars relief for any misconduct in a claimant's entire life."
+            },
+            {
+              "id": "B",
+              "text": "The clean hands doctrine's coherence depends on a meaningful connectedness requirement between the claimant's misconduct and the specific dispute, which critics argue courts apply inconsistently."
+            },
+            {
+              "id": "C",
+              "text": "Equitable remedies are identical to common law damages in every respect."
+            },
+            {
+              "id": "D",
+              "text": "No legal system has ever recognised the clean hands doctrine."
+            },
+            {
+              "id": "E",
+              "text": "Courts never exercise any discretion when granting equitable relief."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the connectedness requirement and its critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies a rule barring relief for any misconduct whatsoever, regardless of connection to the dispute, would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make equitable remedies practically unavailable to almost anyone"
+            },
+            {
+              "id": "B",
+              "text": "Have no effect on the availability of equitable relief"
+            },
+            {
+              "id": "C",
+              "text": "Apply only to common law damages, not equity"
+            },
+            {
+              "id": "D",
+              "text": "Be identical to the doctrine as currently applied"
+            },
+            {
+              "id": "E",
+              "text": "Require no judicial discretion of any kind"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the practical consequence of an unconnected misconduct bar.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-08-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of a hypothetical rule barring relief for 'any misconduct whatsoever' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate why the connectedness requirement is necessary for the doctrine's coherence"
+            },
+            {
+              "id": "B",
+              "text": "Prove that the clean hands doctrine has already been abolished"
+            },
+            {
+              "id": "C",
+              "text": "Argue that equitable relief should always be granted regardless of conduct"
+            },
+            {
+              "id": "D",
+              "text": "Show that courts never actually apply any version of the doctrine"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about common law damages"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This hypothetical demonstrates why the connectedness limit is needed for a workable doctrine.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-08-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'tangential' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Only marginally or indirectly related to the specific matter at hand"
+            },
+            {
+              "id": "B",
+              "text": "Directly and centrally connected to the dispute"
+            },
+            {
+              "id": "C",
+              "text": "Occurring after the court's final judgment"
+            },
+            {
+              "id": "D",
+              "text": "A synonym for equitable relief itself"
+            },
+            {
+              "id": "E",
+              "text": "Legally impossible to prove in court"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Contrasted with misconduct 'sufficiently connected to the dispute', meaning only marginally related.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-09",
+      "topic": "Species reintroduction and rewilding ethics",
+      "word_count": 250,
+      "text": "Rewilding projects, reintroducing large predators or other keystone species to landscapes from which they were historically eliminated, are defended on ecological grounds: keystone species often exert outsized effects on ecosystem structure, controlling herbivore populations that would otherwise overgraze vegetation, in ways that restore ecological processes absent since the species' original elimination, effects well documented in cases such as wolf reintroduction altering river ecosystems through changed grazing patterns.\\n\\nThe ethical complication concerns which historical baseline a rewilding project should aim to restore, since landscapes have been shaped by human activity, agriculture, settlement, prior species removal, for periods long enough that no genuinely pre-human baseline exists to which a project could straightforwardly return an ecosystem, meaning any specific baseline chosen, a particular historical century, a particular pre-industrial state, is itself a somewhat arbitrary selection among many possible reference points rather than a neutral, objectively correct target that ecology alone can specify. This does not make rewilding incoherent, but it does mean rewilding decisions inevitably involve a value judgement about which past state is worth restoring, a judgement ecological science can inform but cannot settle on its own, since the science cannot tell decision-makers which of several ecologically plausible target states ought to be preferred.",
+      "questions": [
+        {
+          "question_id": "p08-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rewilding projects have no ecological benefit of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Because no genuinely pre-human baseline exists, choosing a rewilding target inevitably involves a value judgement that ecological science can inform but cannot settle alone."
+            },
+            {
+              "id": "C",
+              "text": "Ecological science alone can always determine the single correct rewilding target."
+            },
+            {
+              "id": "D",
+              "text": "Wolf reintroduction has never affected any ecosystem."
+            },
+            {
+              "id": "E",
+              "text": "All landscapes remain entirely untouched by human activity."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about baseline selection requiring value judgement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies that selecting a specific historical baseline for rewilding is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A neutral, objectively correct determination made by ecology alone"
+            },
+            {
+              "id": "B",
+              "text": "A somewhat arbitrary selection among many possible reference points, since no genuinely pre-human baseline exists"
+            },
+            {
+              "id": "C",
+              "text": "Entirely unnecessary for any rewilding project"
+            },
+            {
+              "id": "D",
+              "text": "Identical for every rewilding project regardless of location"
+            },
+            {
+              "id": "E",
+              "text": "Determined solely by the species being reintroduced"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the passage's central point about baseline arbitrariness.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-09-q3",
+          "type": "logical_structure",
+          "prompt": "The wolf reintroduction example functions in the passage to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate the documented ecological effects that motivate rewilding proposals"
+            },
+            {
+              "id": "B",
+              "text": "Prove that all rewilding projects are ethically uncontroversial"
+            },
+            {
+              "id": "C",
+              "text": "Show that keystone species have no measurable ecological effect"
+            },
+            {
+              "id": "D",
+              "text": "Argue that rewilding should never be attempted"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about agricultural policy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The example supports the ecological justification described in the first paragraph.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'keystone species' most nearly refers to a species that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Exerts an outsized effect on ecosystem structure relative to its own population size"
+            },
+            {
+              "id": "B",
+              "text": "Is the most numerous species in any given ecosystem"
+            },
+            {
+              "id": "C",
+              "text": "Has no measurable ecological role of any kind"
+            },
+            {
+              "id": "D",
+              "text": "Was introduced to an ecosystem only within the past decade"
+            },
+            {
+              "id": "E",
+              "text": "Exists exclusively in pre-human, untouched landscapes"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Described in the passage as exerting outsized ecosystem-structuring effects, such as controlling herbivore populations.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-10",
+      "topic": "The gig economy and worker classification",
+      "word_count": 255,
+      "text": "Platform companies engaging workers as independent contractors rather than employees avoid obligations, minimum wage guarantees, paid leave, employer contributions to social insurance, that employment status would otherwise require, a classification workers and regulators in several jurisdictions have challenged on the grounds that the practical relationship, platforms setting prices, dictating service standards, and controlling access to work through algorithmic allocation, resembles employment far more closely than the independent, self-directed contracting relationship the classification implies.\\n\\nThe traditional legal tests for distinguishing employees from contractors, degree of control over how work is performed, integration into the hiring party's core business, economic dependence on a single engaging party, were developed for an economic context of relatively stable, long-term working relationships and map imperfectly onto platform work's specific structure: a worker may exercise nominal control over which shifts to accept, weighing against employee status under traditional tests, while simultaneously depending on a single platform for the great majority of their income and being subject to algorithmic performance management resembling direct supervision, features weighing toward employee status, producing genuinely mixed results under tests not designed with this particular combination of features in mind, a structural mismatch that has led several jurisdictions to propose entirely new intermediate categories rather than forcing platform work into either existing classification.",
+      "questions": [
+        {
+          "question_id": "p08-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Platform workers are always straightforwardly classified as employees under existing law."
+            },
+            {
+              "id": "B",
+              "text": "Traditional employee-versus-contractor tests map imperfectly onto platform work's mixed features, producing genuinely mixed results that have led some jurisdictions to propose new intermediate categories."
+            },
+            {
+              "id": "C",
+              "text": "Platform companies never exercise any control over how work is performed."
+            },
+            {
+              "id": "D",
+              "text": "No jurisdiction has ever challenged platform worker classification."
+            },
+            {
+              "id": "E",
+              "text": "Economic dependence has no relevance to worker classification tests."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the structural mismatch and resulting proposals.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies platform work produces 'genuinely mixed results' under traditional tests because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "It combines features weighing toward contractor status, such as shift choice, with features weighing toward employee status, such as algorithmic supervision and income dependence"
+            },
+            {
+              "id": "B",
+              "text": "Traditional tests were specifically designed for platform work"
+            },
+            {
+              "id": "C",
+              "text": "Platform workers never depend on any single platform"
+            },
+            {
+              "id": "D",
+              "text": "All platform companies classify workers identically"
+            },
+            {
+              "id": "E",
+              "text": "Algorithmic management has no resemblance to supervision"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the combination of features producing mixed test results.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of traditional legal tests functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why applying an older framework to a new economic structure produces ambiguous results"
+            },
+            {
+              "id": "B",
+              "text": "Prove traditional tests always correctly classify every worker"
+            },
+            {
+              "id": "C",
+              "text": "Argue that no legal test should ever be used to classify workers"
+            },
+            {
+              "id": "D",
+              "text": "Show platform companies have no control over pricing"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about consumer protection"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This explains the structural mismatch between old tests and new work arrangements.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-10-q4",
+          "type": "strengthen_weaken",
+          "prompt": "Which finding would most strengthen the case for a new intermediate worker classification?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Evidence that a significant share of platform workers depend on a single platform for most of their income while also being subject to detailed algorithmic performance management resembling direct supervision"
+            },
+            {
+              "id": "B",
+              "text": "Evidence that most platform workers use multiple platforms simultaneously with no economic dependence on any single one"
+            },
+            {
+              "id": "C",
+              "text": "Evidence that platform companies never use any algorithmic systems"
+            },
+            {
+              "id": "D",
+              "text": "Evidence that traditional employment tests were designed after platform work emerged"
+            },
+            {
+              "id": "E",
+              "text": "Evidence that platform work is declining in popularity"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This combination of features is precisely what the passage identifies as producing the mixed-classification problem motivating new categories.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-11",
+      "topic": "Constitutional supremacy versus parliamentary sovereignty",
+      "word_count": 250,
+      "text": "Under parliamentary sovereignty, as traditionally understood in the United Kingdom's constitutional tradition, no Act of Parliament can be struck down by a court, and Parliament itself cannot bind its own future exercise of that same sovereign law-making power, since any earlier Parliament's attempt to entrench a rule against later repeal is, on the traditional doctrine, itself simply repealable by a later Parliament exercising the same unconstrained authority the earlier Parliament possessed. Constitutional supremacy, the dominant model elsewhere, instead places a written constitution above ordinary legislation, with courts empowered to strike down statutes conflicting with it, and typically requires a specially entrenched, supermajoritarian process to amend the constitutional text itself.\\n\\nEach model trades a distinct risk for a distinct benefit. Parliamentary sovereignty preserves maximal democratic responsiveness, since no current majority's policy preference can be permanently blocked by an earlier generation's constitutional choice, but offers correspondingly weaker protection for individual rights or minority interests against a determined current majority, since no textual entrenchment exists to resist it. Constitutional supremacy offers stronger rights protection against transient majority preference but does so by empowering unelected judges to override the choices of a currently sitting, democratically elected legislature, and by binding the present generation to constraints chosen, often significantly, by people now long dead, a trade-off between responsiveness and protection that neither model resolves without cost.",
+      "questions": [
+        {
+          "question_id": "p08-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Parliamentary sovereignty and constitutional supremacy are identical in every respect."
+            },
+            {
+              "id": "B",
+              "text": "Each model trades a distinct risk for a distinct benefit, with parliamentary sovereignty prioritising democratic responsiveness and constitutional supremacy prioritising rights protection, neither without cost."
+            },
+            {
+              "id": "C",
+              "text": "Constitutional supremacy has no drawbacks of any kind."
+            },
+            {
+              "id": "D",
+              "text": "No court has ever struck down legislation under any constitutional model."
+            },
+            {
+              "id": "E",
+              "text": "Parliamentary sovereignty always provides stronger rights protection than constitutional supremacy."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's explicit trade-off framing in the final paragraph.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies that under traditional parliamentary sovereignty, an earlier Parliament's attempt to entrench a rule against repeal would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Be permanently binding on all future Parliaments"
+            },
+            {
+              "id": "B",
+              "text": "Itself be repealable by a later Parliament exercising the same unconstrained sovereign authority"
+            },
+            {
+              "id": "C",
+              "text": "Require a supermajority vote to ever be revisited"
+            },
+            {
+              "id": "D",
+              "text": "Automatically become part of a written constitution"
+            },
+            {
+              "id": "E",
+              "text": "Be subject to judicial strike-down"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Stated directly as the traditional doctrine's implication for attempted entrenchment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-11-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph's structure can best be described as:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A one-sided argument entirely in favour of constitutional supremacy"
+            },
+            {
+              "id": "B",
+              "text": "A parallel comparison of each model's characteristic benefit and corresponding cost"
+            },
+            {
+              "id": "C",
+              "text": "A historical account with no evaluative content"
+            },
+            {
+              "id": "D",
+              "text": "A rejection of both models as entirely without merit"
+            },
+            {
+              "id": "E",
+              "text": "An argument that democratic responsiveness never matters"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "The paragraph explicitly treats each model in parallel, giving each a benefit and a cost.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p08-12",
+      "topic": "The ethics of designer babies",
+      "word_count": 258,
+      "text": "Emerging genetic editing technologies raise the prospect of selecting or modifying embryos not only to eliminate serious genetic disease, a use most ethical frameworks treat as relatively unproblematic given its therapeutic aim, but also to select for or enhance non-disease traits, height, cognitive capacity, athletic potential, a use frequently described using the pejorative label 'designer babies' to signal a qualitatively different and more troubling category of intervention than disease prevention represents.\\n\\nThe disease-versus-enhancement distinction, while intuitively appealing, faces a specific difficulty when examined closely: many traits exist on a continuum without a sharp, objectively determinable line separating pathology from mere variation, a moderate cognitive impairment shading gradually into low-average cognitive function shading gradually into average function, meaning a policy permitting intervention for disease but prohibiting it for enhancement requires drawing a line within this continuum that biology itself does not supply, a line that will inevitably reflect a contestable social judgement about which points on the spectrum count as disease deserving correction and which count as mere variation an intervention would improperly enhance. This does not mean the distinction is meaningless, since clear cases at each end of the spectrum, a severe, unambiguous genetic disorder at one end and pure cosmetic preference at the other, remain readily distinguishable, but it does mean the distinction cannot do the clean regulatory work of a bright-line rule in the considerable range of cases falling between these two clear poles.",
+      "questions": [
+        {
+          "question_id": "p08-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The disease-versus-enhancement distinction is entirely meaningless in every case."
+            },
+            {
+              "id": "B",
+              "text": "While clear cases at each extreme remain distinguishable, the disease-versus-enhancement distinction cannot supply a clean bright-line rule for the considerable range of cases falling on a continuum between them."
+            },
+            {
+              "id": "C",
+              "text": "All genetic editing should be permitted without any restriction."
+            },
+            {
+              "id": "D",
+              "text": "Cognitive capacity has no relationship to any genetic factor."
+            },
+            {
+              "id": "E",
+              "text": "Disease prevention through genetic editing is universally considered as troubling as enhancement."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's nuanced conclusion about the distinction's limited but real usefulness.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p08-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies the line between disease and mere variation is difficult to draw because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Many traits exist on a continuum without a sharp, biologically determinable boundary"
+            },
+            {
+              "id": "B",
+              "text": "No trait has ever been classified as a disease by any medical framework"
+            },
+            {
+              "id": "C",
+              "text": "All traits are entirely binary, either clearly disease or clearly not"
+            },
+            {
+              "id": "D",
+              "text": "Genetic editing technology does not currently exist"
+            },
+            {
+              "id": "E",
+              "text": "Enhancement and disease prevention are legally identical procedures"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the continuum problem underlying the difficulty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p08-12-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's acknowledgement that 'clear cases at each end... remain readily distinguishable' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Qualify the critique of the distinction, preventing it from being read as a claim that the distinction is wholly meaningless"
+            },
+            {
+              "id": "B",
+              "text": "Fully reverse the passage's central argument"
+            },
+            {
+              "id": "C",
+              "text": "Prove that no continuum problem exists anywhere in the relevant trait space"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about cosmetic surgery regulation"
+            },
+            {
+              "id": "E",
+              "text": "Argue that enhancement should always be permitted"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This qualification prevents overstating the critique while maintaining the core point about intermediate cases.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p09",
+  "title": "Praxis LNAT Practice Paper 9",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p09-01",
+      "topic": "Effective altruism and cause prioritisation",
+      "word_count": 230,
+      "text": "Effective altruism holds that, having decided to help others, one should direct resources toward causes offering the greatest measurable benefit per unit of resource spent, favouring interventions with rigorous evidence of impact, distributing anti-malarial bed nets, over interventions whose benefit is harder to measure or verify, funding local arts programmes, on the reasoning that impartial concern for outcomes requires comparing causes on their actual effectiveness rather than on emotional proximity or personal connection to the cause.\\n\\nCritics argue this framework's reliance on measurable impact systematically favours causes whose benefits happen to be quantifiable, health interventions with clear mortality statistics, over causes whose benefits are real but resist easy measurement, institutional reform, cultural preservation, artistic flourishing, not because the latter causes are less valuable but because effective altruism's methodology cannot easily register their value in the comparative terms the framework requires, a measurement bias that risks systematically underfunding an entire category of genuine goods regardless of their true importance relative to more easily quantified alternatives.",
+      "questions": [
+        {
+          "question_id": "p09-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Effective altruism has no methodology of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Effective altruism's reliance on measurable impact may systematically underfund genuinely valuable but hard-to-measure causes, not because they are less important but because the framework cannot easily register their value."
+            },
+            {
+              "id": "C",
+              "text": "All charitable giving should be directed toward artistic and cultural causes."
+            },
+            {
+              "id": "D",
+              "text": "Anti-malarial interventions have no measurable benefit."
+            },
+            {
+              "id": "E",
+              "text": "Effective altruism has never been criticised by anyone."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's measurement-bias critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies the measurement bias arises because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some genuine goods resist easy quantification even though they are real"
+            },
+            {
+              "id": "B",
+              "text": "No cause has ever been measured accurately"
+            },
+            {
+              "id": "C",
+              "text": "Health interventions are always less valuable than cultural ones"
+            },
+            {
+              "id": "D",
+              "text": "Effective altruism rejects all forms of evidence"
+            },
+            {
+              "id": "E",
+              "text": "Measurable causes never receive any funding"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the source of the bias.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's overall structure is best described as:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Presenting effective altruism's rationale, then a specific methodological critique of it"
+            },
+            {
+              "id": "B",
+              "text": "A one-sided endorsement of effective altruism"
+            },
+            {
+              "id": "C",
+              "text": "A historical account with no evaluative content"
+            },
+            {
+              "id": "D",
+              "text": "A rejection of the value of charitable giving generally"
+            },
+            {
+              "id": "E",
+              "text": "An argument that all causes are equally measurable"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Matches the two-paragraph structure of rationale then critique.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-02",
+      "topic": "The right to strike and essential services",
+      "word_count": 238,
+      "text": "The right to strike, withholding labour collectively to pressure an employer, is widely recognised as a core protection for workers' bargaining power, since without a credible threat of collective withdrawal, individual workers negotiating alone typically hold far less leverage than an employer able to replace any single worker relatively easily. This protection becomes more contested when applied to essential services, healthcare, emergency response, water and power supply, where a strike's coercive pressure on the employer is inseparable from serious harm imposed on the wider public who depend on the service and have no part in the underlying labour dispute.\\n\\nMinimum service requirements, obligating striking essential workers to maintain some reduced level of service during a strike, attempt to preserve the right to strike's bargaining function while limiting harm to uninvolved third parties, but critics note that any minimum threshold set too generously undermines the strike's actual coercive leverage, since an employer facing only modest service disruption faces correspondingly modest pressure to concede, while a threshold set too narrowly reintroduces the public harm the requirement was meant to prevent, leaving no threshold that fully preserves both values simultaneously.",
+      "questions": [
+        {
+          "question_id": "p09-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The right to strike has never been recognised in any legal system."
+            },
+            {
+              "id": "B",
+              "text": "Minimum service requirements attempt to balance bargaining leverage against public harm in essential-service strikes, but no threshold fully preserves both values simultaneously."
+            },
+            {
+              "id": "C",
+              "text": "Essential service workers should never be permitted to strike under any circumstances."
+            },
+            {
+              "id": "D",
+              "text": "Strikes have no coercive effect on employers of any kind."
+            },
+            {
+              "id": "E",
+              "text": "Minimum service requirements always fully resolve the tension between leverage and harm."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's trade-off conclusion.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies a minimum service threshold set too generously would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Undermine the strike's coercive leverage, since the employer faces only modest disruption"
+            },
+            {
+              "id": "B",
+              "text": "Eliminate all public harm from the strike entirely"
+            },
+            {
+              "id": "C",
+              "text": "Have no effect on employer behaviour"
+            },
+            {
+              "id": "D",
+              "text": "Increase the strike's leverage over the employer"
+            },
+            {
+              "id": "E",
+              "text": "Apply only to non-essential services"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the cost of a generous threshold.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-02-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of minimum service requirements functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate a proposed compromise and explain why it cannot fully satisfy both competing values"
+            },
+            {
+              "id": "B",
+              "text": "Prove that essential service strikes are always fully justified"
+            },
+            {
+              "id": "C",
+              "text": "Show that the right to strike has no bargaining function"
+            },
+            {
+              "id": "D",
+              "text": "Argue that public harm from strikes never actually occurs"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about wage negotiation generally"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The paragraph explains the compromise's inherent limitation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-02-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'leverage' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The bargaining power one party holds over another in a negotiation"
+            },
+            {
+              "id": "B",
+              "text": "A legal document authorising a strike"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for public harm"
+            },
+            {
+              "id": "D",
+              "text": "The wage rate agreed after negotiation"
+            },
+            {
+              "id": "E",
+              "text": "A physical tool used in emergency response"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to workers' bargaining power in the negotiation, as used throughout the passage.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-03",
+      "topic": "Territorial sovereignty and secession",
+      "word_count": 245,
+      "text": "International law provides no general right to unilateral secession, instead treating territorial integrity of existing states as a foundational norm, subject to a narrow, contested exception sometimes called remedial secession, under which a group suffering severe, sustained oppression from the state it is part of may acquire a right to secede as a last-resort remedy where no other avenue for protection remains available. The exception's narrowness reflects a structural concern distinct from sympathy for any particular secessionist movement's grievances: a broader right to secede whenever a group is dissatisfied would create an incentive for perpetual territorial fragmentation, since virtually any sufficiently determined group can articulate some grievance, and a legal norm too permissive toward secession would undermine the stability territorial integrity is meant to provide for the international system generally.\\n\\nCritics of the current narrow standard note it can leave groups facing genuine, serious oppression without effective remedy where the oppressing state retains sufficient international support to resist recognition of any secessionist claim, meaning the practical availability of the remedial exception in any given case often tracks the secessionist movement's diplomatic and strategic position at least as much as it tracks the actual severity of the oppression the group has experienced.",
+      "questions": [
+        {
+          "question_id": "p09-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "International law grants an unlimited right to secession for any dissatisfied group."
+            },
+            {
+              "id": "B",
+              "text": "The narrow remedial secession exception reflects a structural concern about fragmentation, but critics note its practical availability often tracks diplomatic position as much as the severity of oppression."
+            },
+            {
+              "id": "C",
+              "text": "Territorial integrity has never been recognised as a norm in international law."
+            },
+            {
+              "id": "D",
+              "text": "No secessionist movement has ever faced oppression."
+            },
+            {
+              "id": "E",
+              "text": "All secessionist claims receive identical international recognition."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structural rationale and its practical critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies a broader secession right would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Create an incentive for perpetual territorial fragmentation, since virtually any group can articulate some grievance"
+            },
+            {
+              "id": "B",
+              "text": "Eliminate all forms of oppression worldwide"
+            },
+            {
+              "id": "C",
+              "text": "Have no effect on international stability"
+            },
+            {
+              "id": "D",
+              "text": "Apply only to groups with no legitimate grievance"
+            },
+            {
+              "id": "E",
+              "text": "Automatically resolve every secessionist dispute"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the structural concern behind the narrow standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-03-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph relates to the first by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting the structural rationale while identifying a distinct practical shortfall in its application"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the structural rationale for a narrow standard"
+            },
+            {
+              "id": "C",
+              "text": "Proving that remedial secession has never been invoked"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about trade law"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that territorial integrity should be abandoned as a norm"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Critics accept the rationale but note a gap in practical availability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-03-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, \"remedial\" most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Serving as a last-resort corrective measure for a serious wrong"
+            },
+            {
+              "id": "B",
+              "text": "Occurring automatically without any oppression"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for territorial integrity"
+            },
+            {
+              "id": "D",
+              "text": "Applicable to any dissatisfied group regardless of grievance"
+            },
+            {
+              "id": "E",
+              "text": "A permanent, unconditional entitlement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes the secession exception as a last-resort remedy for severe oppression.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-04",
+      "topic": "The ethics of price gouging in emergencies",
+      "word_count": 242,
+      "text": "Laws prohibiting 'price gouging', sharply raising prices for essential goods, bottled water, generators, immediately following a natural disaster, are near-universally popular yet widely criticised by economists as counterproductive, since prices are the mechanism by which scarce goods are allocated toward those valuing them most and away from those who could do without, and a legally capped price, held below the level that would otherwise clear a suddenly disaster-inflated demand, produces shortages, empty shelves, rather than the higher-price-but-available outcome an uncapped market would produce, potentially leaving genuinely desperate buyers unable to obtain the good at any price rather than merely paying more for it.\\n\\nDefenders of anti-gouging laws respond that the economic efficiency argument, while not wrong on its own narrow terms, ignores a distinct value the laws protect: preventing sellers from extracting windfall profits specifically from buyers' desperation during a crisis they did not create and cannot avoid, a form of exploitation the efficiency framing treats as incidental but which anti-gouging laws treat as the central wrong requiring correction, meaning the disagreement is less about whether price caps produce shortages, which most defenders do not seriously dispute, than about whether preventing crisis-exploitation is a value worth accepting that cost to secure.",
+      "questions": [
+        {
+          "question_id": "p09-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Anti-gouging laws have no economic effect of any kind."
+            },
+            {
+              "id": "B",
+              "text": "The disagreement over anti-gouging laws is less about whether they produce shortages than about whether preventing crisis-exploitation is a value worth accepting that cost to secure."
+            },
+            {
+              "id": "C",
+              "text": "All economists support price gouging without reservation."
+            },
+            {
+              "id": "D",
+              "text": "Prices never affect how scarce goods are allocated."
+            },
+            {
+              "id": "E",
+              "text": "Defenders of anti-gouging laws deny that price caps produce shortages."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's reframing of the actual disagreement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies that most defenders of anti-gouging laws:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Do not seriously dispute that price caps produce shortages"
+            },
+            {
+              "id": "B",
+              "text": "Believe price caps always increase overall supply"
+            },
+            {
+              "id": "C",
+              "text": "Reject the concept of scarcity entirely"
+            },
+            {
+              "id": "D",
+              "text": "Believe sellers never charge higher prices during emergencies"
+            },
+            {
+              "id": "E",
+              "text": "Have no view on the exploitation concern"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly in the final sentence.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-04-q3",
+          "type": "logical_structure",
+          "prompt": "The second paragraph relates to the first by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Conceding the efficiency point while introducing a distinct value the efficiency framing does not capture"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the claim that price caps cause shortages"
+            },
+            {
+              "id": "C",
+              "text": "Proving that windfall profits never occur during emergencies"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about insurance markets"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that anti-gouging laws have no justification of any kind"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The response concedes efficiency while adding a distinct exploitation-prevention value.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-05",
+      "topic": "Algorithmic pricing and collusion",
+      "word_count": 250,
+      "text": "Competition law prohibits explicit agreements between competing firms to fix prices, since such agreements eliminate the competitive pressure that would otherwise drive prices toward a competitive level, but traditional prohibitions were designed around a paradigm of human negotiators communicating directly, an assumption that maps awkwardly onto a newer phenomenon: firms independently deploying pricing algorithms that, without any explicit communication or agreement between the firms operating them, learn through repeated market interaction to converge on tacitly coordinated, supracompetitive pricing, each algorithm independently discovering that matching rather than undercutting a rival's price increase produces better outcomes for its own firm over repeated rounds of interaction.\\n\\nThis creates a genuine gap in existing competition law, which typically requires proof of an agreement or, at minimum, some form of communication between competitors, neither of which algorithmic tacit collusion straightforwardly involves, since each firm's algorithm may have been independently designed and trained with no knowledge of or coordination with any rival's system, meaning conduct that produces precisely the harm, elevated, non-competitive prices, that collusion law exists to prevent may nonetheless escape liability under a legal framework built around proving a form of coordination that algorithmic tacit collusion, by its nature, does not require.",
+      "questions": [
+        {
+          "question_id": "p09-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Algorithmic pricing always involves explicit agreements between firms."
+            },
+            {
+              "id": "B",
+              "text": "Algorithmic tacit collusion can produce the same harm traditional collusion law targets, while escaping liability because existing law requires proof of agreement or communication that this conduct does not straightforwardly involve."
+            },
+            {
+              "id": "C",
+              "text": "Competition law has never applied to any pricing practice."
+            },
+            {
+              "id": "D",
+              "text": "No pricing algorithm has ever converged on a coordinated outcome."
+            },
+            {
+              "id": "E",
+              "text": "Traditional collusion law fully anticipates algorithmic pricing."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about the legal gap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies algorithms can converge on supracompetitive pricing because each algorithm:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Independently learns through repeated interaction that matching rather than undercutting produces better outcomes for its own firm"
+            },
+            {
+              "id": "B",
+              "text": "Directly communicates with rival algorithms before every price change"
+            },
+            {
+              "id": "C",
+              "text": "Is legally required to match competitor prices"
+            },
+            {
+              "id": "D",
+              "text": "Has no access to any market data whatsoever"
+            },
+            {
+              "id": "E",
+              "text": "Was explicitly programmed by a shared industry body"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism of tacit convergence.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p09-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of what traditional competition law requires functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain precisely why algorithmic tacit collusion falls outside the existing legal framework's reach"
+            },
+            {
+              "id": "B",
+              "text": "Prove that competition law has never been enforced against any firm"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all algorithmic pricing should be banned outright"
+            },
+            {
+              "id": "D",
+              "text": "Show that explicit agreements are irrelevant to collusion law"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about consumer protection"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This explains the specific legal gap the passage identifies.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-06",
+      "topic": "The doctrine of legitimate expectation in administrative law",
+      "word_count": 248,
+      "text": "Legitimate expectation, a doctrine in administrative law, holds that where a public body has, through a clear representation or an established practice, led an individual to expect a particular procedural or substantive outcome, the body may be constrained from departing from that expectation without adequate justification, even where the body retains formal legal discretion to act otherwise, on the reasoning that individuals who reasonably rely on a public body's consistent representations deserve some protection against arbitrary reversal, and that predictable, consistent administration is itself a value the doctrine protects independent of the specific outcome in any given case.\\n\\nThe doctrine's central difficulty is reconciling this protection with a public body's ongoing need to change policy in response to new circumstances, since a rule that treated every past representation as permanently binding would freeze administration in whatever state it happened to be when a representation was first made, preventing legitimate policy evolution entirely, meaning courts applying the doctrine must distinguish protected expectations from ordinary policy that remains properly revisable, typically by requiring the original representation to have been sufficiently clear, specific, and relied upon before finding the expectation protected, a threshold that inevitably requires case-specific judgement rather than mechanical application.",
+      "questions": [
+        {
+          "question_id": "p09-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Public bodies can never change any policy under any circumstances."
+            },
+            {
+              "id": "B",
+              "text": "The legitimate expectation doctrine must balance protecting reasonable reliance against preserving a public body's ability to evolve policy, requiring case-specific judgement about which expectations are sufficiently clear and relied upon to warrant protection."
+            },
+            {
+              "id": "C",
+              "text": "No individual has ever relied on any government representation."
+            },
+            {
+              "id": "D",
+              "text": "Legitimate expectation has no relationship to procedural fairness."
+            },
+            {
+              "id": "E",
+              "text": "All past representations by a public body are permanently binding."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central balancing account.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies that treating every past representation as permanently binding would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Freeze administration in whatever state it happened to be when the representation was first made"
+            },
+            {
+              "id": "B",
+              "text": "Have no effect on how public bodies operate"
+            },
+            {
+              "id": "C",
+              "text": "Increase the flexibility of policy evolution"
+            },
+            {
+              "id": "D",
+              "text": "Apply only to representations made in writing"
+            },
+            {
+              "id": "E",
+              "text": "Eliminate the need for any judicial review"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the problem with an absolute binding rule.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the clarity-specificity-reliance threshold functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain how courts distinguish protected expectations from ordinary revisable policy"
+            },
+            {
+              "id": "B",
+              "text": "Prove no representation has ever met the threshold"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all representations should be treated identically"
+            },
+            {
+              "id": "D",
+              "text": "Show that reliance is irrelevant to the doctrine"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about statutory interpretation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This threshold is the mechanism courts use to draw the relevant distinction.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'representation' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A statement or assurance by a public body that leads an individual to expect a particular outcome"
+            },
+            {
+              "id": "B",
+              "text": "An elected member of a legislature"
+            },
+            {
+              "id": "C",
+              "text": "A formal court appearance"
+            },
+            {
+              "id": "D",
+              "text": "A synonym for judicial review generally"
+            },
+            {
+              "id": "E",
+              "text": "A binding statute passed by Parliament"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the clear statement or practice from which a legitimate expectation arises.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-07",
+      "topic": "Intergenerational voting and demographic weighting",
+      "word_count": 245,
+      "text": "Standard electoral rules grant each adult citizen one vote regardless of age, a rule that treats the votes of an eighteen-year-old and an eighty-year-old identically despite the two voters facing very different time horizons over which the consequences of a given policy, long-term infrastructure investment, climate policy, national debt accumulation, will actually be experienced, prompting proposals to weight votes by remaining life expectancy or to grant additional votes to parents on behalf of dependent children who cannot yet vote themselves but will bear policy consequences for longer.\\n\\nOpponents of demographic weighting argue it violates a foundational democratic commitment to equal citizenship, treating some citizens' political voice as more or less valuable than others' based on a demographic characteristic, age, a move with troubling historical parallels to other now-rejected forms of unequal enfranchisement, regardless of how different the specific justification offered for age-weighting is from those historical cases. Proponents respond that equal citizenship is compatible with weighting votes by the duration over which a citizen will actually experience a decision's consequences, since the underlying principle, that those affected by a decision should have a voice proportionate to that effect, is arguably better served by weighting for time horizon than by the current uniform rule, which proponents argue systematically underweights the interests of the young and of future citizens relative to their actual stake in long-horizon policy outcomes.",
+      "questions": [
+        {
+          "question_id": "p09-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All electoral systems currently weight votes by life expectancy."
+            },
+            {
+              "id": "B",
+              "text": "Demographic vote-weighting proposals raise a genuine tension between equal citizenship and proportionality to time horizon, with proponents and opponents each invoking a different reading of what equal citizenship actually requires."
+            },
+            {
+              "id": "C",
+              "text": "Young citizens should never be permitted to vote under any system."
+            },
+            {
+              "id": "D",
+              "text": "Long-term policy consequences have no relevance to voting rights."
+            },
+            {
+              "id": "E",
+              "text": "Age-weighting proposals have never been made by anyone."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of both sides' competing readings of equal citizenship.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies proponents of demographic weighting argue the current uniform rule:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Systematically underweights the interests of the young and future citizens relative to their actual stake in long-horizon outcomes"
+            },
+            {
+              "id": "B",
+              "text": "Perfectly reflects each citizen's actual stake in every policy"
+            },
+            {
+              "id": "C",
+              "text": "Has never been challenged by anyone"
+            },
+            {
+              "id": "D",
+              "text": "Applies only to short-term policy decisions"
+            },
+            {
+              "id": "E",
+              "text": "Grants additional votes to older citizens automatically"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as proponents' critique of the current rule.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-07-q3",
+          "type": "logical_structure",
+          "prompt": "The opponents' historical-parallel argument functions in the passage to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Raise a concern about equal citizenship distinct from disputing the specific justification offered for age-weighting"
+            },
+            {
+              "id": "B",
+              "text": "Prove that age-weighting is identical in every respect to historical disenfranchisement"
+            },
+            {
+              "id": "C",
+              "text": "Support the proponents' case for weighting votes by time horizon"
+            },
+            {
+              "id": "D",
+              "text": "Show that current electoral rules have never been criticised"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about voter registration"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The parallel is raised as a concern independent of the specific justification's merits.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-08",
+      "topic": "The ethics of assisted dying",
+      "word_count": 250,
+      "text": "Legalised assisted dying, permitting a terminally ill individual to receive medical assistance in ending their own life under specified safeguards, is typically defended on grounds of individual autonomy: a competent adult facing unavoidable suffering has a strong claim to control the manner and timing of their own death, a claim proponents argue is not meaningfully different in kind from the autonomy already recognised in a patient's right to refuse life-sustaining treatment, since both involve a competent individual's decision to allow death to occur rather than continuing treatment against their wishes.\\n\\nOpponents raise a concern distinct from disputing individual autonomy's general importance: that legalising assisted dying creates subtle but real pressure on vulnerable individuals, those who feel they have become a burden on family or the healthcare system, to request death not from genuine, autonomous preference but from an internalised sense of obligation that safeguards, however carefully designed, may fail to fully detect or prevent, particularly for individuals whose decision-making capacity, while formally intact, is nonetheless shaped by financial anxiety, inadequate palliative care access, or social isolation that a purely procedural competency assessment is not well suited to identify or correct.",
+      "questions": [
+        {
+          "question_id": "p09-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assisted dying has no ethical justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While autonomy grounds the case for assisted dying, opponents raise a distinct concern that safeguards may fail to detect pressure on vulnerable individuals whose formally intact decision-making is shaped by circumstances a competency test cannot easily identify."
+            },
+            {
+              "id": "C",
+              "text": "Refusing life-sustaining treatment is legally distinct from assisted dying in every jurisdiction."
+            },
+            {
+              "id": "D",
+              "text": "No individual has ever felt pressure related to being a burden on others."
+            },
+            {
+              "id": "E",
+              "text": "Palliative care access has no relevance to assisted dying debates."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the autonomy case and the distinct vulnerability concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies the vulnerability concern is distinct from disputing autonomy because it targets:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether a request for death reflects genuine autonomous preference or internalised pressure that safeguards may fail to detect"
+            },
+            {
+              "id": "B",
+              "text": "Whether autonomy is a valid moral principle at all"
+            },
+            {
+              "id": "C",
+              "text": "Whether terminal illness actually causes suffering"
+            },
+            {
+              "id": "D",
+              "text": "Whether medical assistance in dying is technically possible"
+            },
+            {
+              "id": "E",
+              "text": "Whether any jurisdiction has legalised assisted dying"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the specific target of the vulnerability concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-08-q3",
+          "type": "logical_structure",
+          "prompt": "The comparison to refusing life-sustaining treatment in the first paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support the autonomy-based case for assisted dying by analogy to an already-recognised right"
+            },
+            {
+              "id": "B",
+              "text": "Prove that assisted dying and refusing treatment are legally identical everywhere"
+            },
+            {
+              "id": "C",
+              "text": "Undermine the case for assisted dying entirely"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about medical malpractice"
+            },
+            {
+              "id": "E",
+              "text": "Show that no patient has ever refused treatment"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This analogy supports the proponents' autonomy argument.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-08-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, \"competency assessment\" most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A procedural evaluation of whether an individual has the formal decision-making capacity to make a choice"
+            },
+            {
+              "id": "B",
+              "text": "A test of medical knowledge required of doctors"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for palliative care"
+            },
+            {
+              "id": "D",
+              "text": "A legal requirement imposed only on family members"
+            },
+            {
+              "id": "E",
+              "text": "An assessment of financial solvency"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the formal evaluation of decision-making capacity the passage says may miss subtler pressures.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-09",
+      "topic": "Filibustering and legislative obstruction",
+      "word_count": 242,
+      "text": "Procedural rules permitting a legislative minority to delay or block a vote through extended debate or other obstructive tactics, commonly termed filibustering, are defended as a check on majoritarian overreach, forcing a majority to build broader consensus, or at least to invest significant political capital, before enacting legislation a determined minority strongly opposes, on the theory that requiring more than a bare majority for consequential legislative action produces more durable, carefully considered outcomes than simple majority rule alone would generate.\\n\\nCritics argue the practical effect increasingly diverges from this deliberative ideal: as filibustering or equivalent obstruction becomes routine rather than exceptional, the effective threshold for passing ordinary legislation rises from a simple majority to a supermajority as a matter of practice, without any corresponding formal change to constitutional or statutory voting requirements, entrenching a de facto supermajority requirement that was never explicitly adopted through the ordinary channels, such as constitutional amendment, that would normally be required to raise the threshold for legislative action, meaning routine obstruction can produce a significant shift in a system's effective decision rule without the legitimating process ordinarily required for such a change.",
+      "questions": [
+        {
+          "question_id": "p09-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Filibustering has no defensible justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While filibustering is defended as a check on majoritarian overreach, routine obstruction can entrench a de facto supermajority requirement without the legitimating process normally required to raise a legislative threshold."
+            },
+            {
+              "id": "C",
+              "text": "Simple majority rule always produces better outcomes than any alternative."
+            },
+            {
+              "id": "D",
+              "text": "No legislature has ever used any form of procedural obstruction."
+            },
+            {
+              "id": "E",
+              "text": "Constitutional amendment is the only way any legislative rule can ever change."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's critique of routine obstruction's effect on the effective decision rule.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies that routine obstruction is problematic specifically because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Raises the effective threshold for legislative action without the formal legitimating process normally required for such a change"
+            },
+            {
+              "id": "B",
+              "text": "Always produces more carefully considered legislative outcomes"
+            },
+            {
+              "id": "C",
+              "text": "Has no effect on how legislation is passed"
+            },
+            {
+              "id": "D",
+              "text": "Applies only to constitutional amendments"
+            },
+            {
+              "id": "E",
+              "text": "Requires a formal supermajority vote to be used at all"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the passage's key critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between the 'deliberative ideal' and the practical effect of routine obstruction functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show a gap between the justification for the procedural rule and its actual operation once obstruction becomes routine"
+            },
+            {
+              "id": "B",
+              "text": "Prove that the deliberative ideal has never existed in any legislature"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all legislative rules should require unanimous consent"
+            },
+            {
+              "id": "D",
+              "text": "Support obstruction without any qualification"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about judicial appointments"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is the passage's central analytical move.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-10",
+      "topic": "Central planning versus market coordination",
+      "word_count": 250,
+      "text": "Friedrich Hayek's knowledge problem argument holds that a central planning authority, however well-resourced or well-intentioned, cannot efficiently allocate resources across an economy because the relevant knowledge, of local conditions, individual preferences, specific circumstances of time and place, is dispersed across millions of individual economic actors and exists in a form, tacit, contextual, constantly changing, that cannot be fully aggregated and transmitted to any central authority regardless of the computational resources available to process it, meaning market prices, which aggregate this dispersed information through the decentralised actions of individual buyers and sellers, perform an information-processing function no central planner can replicate by directly collecting the underlying data.\\n\\nCritics of applying this argument to rule out any role for coordinated economic planning note that the knowledge problem, while a genuine constraint on centrally directing an entire economy's detailed resource allocation, does not obviously apply with equal force to narrower forms of coordination, industrial policy targeting a specific strategic sector, infrastructure planning requiring coordination across many independent actors, where the relevant information may be considerably less dispersed and more feasibly aggregated than the economy-wide case Hayek's argument was originally developed to address, suggesting the knowledge problem's force varies considerably with the scope and specificity of the coordination being attempted rather than applying uniformly to any government economic intervention whatsoever.",
+      "questions": [
+        {
+          "question_id": "p09-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Hayek's knowledge problem proves all government economic intervention is always impossible."
+            },
+            {
+              "id": "B",
+              "text": "Hayek's knowledge problem is a genuine constraint on economy-wide central planning, but critics argue its force varies with the scope and specificity of coordination, applying less obviously to narrower interventions."
+            },
+            {
+              "id": "C",
+              "text": "Market prices never aggregate any information."
+            },
+            {
+              "id": "D",
+              "text": "Central planning has never been attempted in any economy."
+            },
+            {
+              "id": "E",
+              "text": "Industrial policy is identical in scope to economy-wide central planning."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's qualification of the knowledge problem's scope.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p09-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies market prices perform a function central planners cannot easily replicate because prices:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Aggregate dispersed, tacit information through decentralised individual actions"
+            },
+            {
+              "id": "B",
+              "text": "Are set entirely by government authorities in every economy"
+            },
+            {
+              "id": "C",
+              "text": "Contain no information relevant to resource allocation"
+            },
+            {
+              "id": "D",
+              "text": "Are identical to the information a central planner already possesses"
+            },
+            {
+              "id": "E",
+              "text": "Have no relationship to buyer and seller behaviour"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the information-aggregating function of prices.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between economy-wide planning and narrower coordination functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Qualify the scope of Hayek's argument rather than rejecting it outright"
+            },
+            {
+              "id": "B",
+              "text": "Prove Hayek's argument applies with equal force to every form of coordination"
+            },
+            {
+              "id": "C",
+              "text": "Show that industrial policy has never been attempted"
+            },
+            {
+              "id": "D",
+              "text": "Argue that markets should be abolished entirely"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about international trade"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction narrows rather than rejects the knowledge problem's applicability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-10-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, \"tacit\" most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Implicit or unstated, not formally codified or articulated"
+            },
+            {
+              "id": "B",
+              "text": "Explicitly written down in a central database"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for economy-wide"
+            },
+            {
+              "id": "D",
+              "text": "Legally binding on all economic actors"
+            },
+            {
+              "id": "E",
+              "text": "Publicly announced by a government authority"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes knowledge that is contextual and not easily codified or transmitted, i.e. implicit.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-11",
+      "topic": "The ethics of surveillance capitalism",
+      "word_count": 250,
+      "text": "A business model, increasingly dominant among large technology platforms, generates revenue primarily by collecting detailed behavioural data from users, often gathered incidentally while providing an ostensibly free service, and using that data to construct predictive models of user behaviour sold to advertisers seeking to influence future purchasing or engagement decisions, a model critics term surveillance capitalism to emphasise that the underlying product being monetised is not the nominal service offered to users but a continuously updated behavioural profile the user did not directly consent to have constructed in this specific, granular form, however formally they may have accepted a lengthy terms-of-service agreement.\\n\\nDefenders note that users receive genuinely valuable services, search, social connection, navigation, at no direct monetary cost, an exchange many users report finding acceptable when asked directly, complicating a critique premised entirely on non-consent. Critics respond that the relevant question is not whether users formally agreed to some terms, since near-universal non-negotiable terms-of-service agreements make meaningful individual consent to specific data practices largely fictional in practice, but whether users possess anything resembling genuine understanding of the granular predictive profiling actually occurring, a distinct and considerably more demanding standard than formal contractual assent, and one the current disclosure model, dense legal documents few users read in full, does not plausibly satisfy.",
+      "questions": [
+        {
+          "question_id": "p09-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Users always fully understand the data practices they consent to."
+            },
+            {
+              "id": "B",
+              "text": "Critics of surveillance capitalism argue the relevant standard is genuine understanding of granular profiling, not formal contractual assent, and current disclosure practices do not plausibly satisfy that more demanding standard."
+            },
+            {
+              "id": "C",
+              "text": "No user has ever found free digital services valuable."
+            },
+            {
+              "id": "D",
+              "text": "Terms-of-service agreements always provide meaningful, informed consent."
+            },
+            {
+              "id": "E",
+              "text": "Surveillance capitalism has no defenders of any kind."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's distinction between formal consent and genuine understanding.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies critics consider formal terms-of-service consent largely fictional because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Such agreements are near-universal and non-negotiable, making meaningful individual consent to specific practices unrealistic"
+            },
+            {
+              "id": "B",
+              "text": "No user has ever read any terms-of-service agreement"
+            },
+            {
+              "id": "C",
+              "text": "Terms-of-service agreements are legally unenforceable everywhere"
+            },
+            {
+              "id": "D",
+              "text": "Users always negotiate individual terms with platforms"
+            },
+            {
+              "id": "E",
+              "text": "Free services are never actually provided by any platform"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the basis for treating formal consent as fictional.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p09-11-q3",
+          "type": "logical_structure",
+          "prompt": "The defenders' point about users finding the exchange 'acceptable when asked directly' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Complicate a critique premised entirely on non-consent, prompting critics to shift to a different standard"
+            },
+            {
+              "id": "B",
+              "text": "Prove that surveillance capitalism has no genuine critics"
+            },
+            {
+              "id": "C",
+              "text": "Show that users never value any free service"
+            },
+            {
+              "id": "D",
+              "text": "Fully resolve the debate in defenders' favour"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about advertising revenue"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This point complicates the simple consent critique, prompting the more refined response.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p09-12",
+      "topic": "Reparations for historical injustice",
+      "word_count": 250,
+      "text": "Proposals for reparations addressing historical injustices, such as slavery or colonial exploitation, face a distinctive philosophical objection sometimes called the non-identity problem in a reparative context: since the specific individuals alive today are not, in most cases, the same individuals who directly suffered the original injustice, and since many aspects of a beneficiary's present existence, including their very identity, are causally downstream of the historical events in question, it becomes difficult to specify in what sense a currently living descendant has been personally wronged by an injustice they did not experience, as opposed to simply being a different person than they would have been absent the injustice.\\n\\nDefenders of reparations respond that this objection, while raising a genuine philosophical puzzle about individual continuity of harm, mischaracterises the actual basis most reparations arguments rest on, which is typically not that a specific living individual was personally wronged by a specific historical act, but that an unjust act produced ongoing, identifiable structural disadvantage, wealth gaps, unequal access to opportunity, that persists into the present as a traceable causal consequence regardless of whether any specific present-day individual can be shown to have personally experienced the original wrong, meaning the reparative claim rests on correcting an ongoing structural injustice rather than compensating a specific individual for a specific historical harm.",
+      "questions": [
+        {
+          "question_id": "p09-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reparations proposals have no philosophical objections raised against them."
+            },
+            {
+              "id": "B",
+              "text": "Defenders respond to the non-identity objection by arguing reparations claims typically rest on correcting ongoing structural disadvantage rather than compensating specific individuals for specific historical harms."
+            },
+            {
+              "id": "C",
+              "text": "No structural disadvantage can ever be traced to any historical injustice."
+            },
+            {
+              "id": "D",
+              "text": "Every living descendant of a historical injustice was personally wronged by that specific act."
+            },
+            {
+              "id": "E",
+              "text": "Reparations arguments have all been fully refuted by the non-identity objection."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the defenders' structural reframing.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p09-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies the non-identity objection arises because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Present-day individuals are often not the same people who directly suffered the original injustice, and their very identity may be causally downstream of it"
+            },
+            {
+              "id": "B",
+              "text": "No historical injustice has ever occurred"
+            },
+            {
+              "id": "C",
+              "text": "All reparations claims are based on structural disadvantage"
+            },
+            {
+              "id": "D",
+              "text": "Present-day individuals are always identical to historical victims"
+            },
+            {
+              "id": "E",
+              "text": "Structural disadvantage cannot be measured in any way"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the basis of the non-identity objection.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p09-12-q3",
+          "type": "logical_structure",
+          "prompt": "The defenders' response in the second paragraph relates to the objection by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reframing the basis of the reparative claim away from individual personal harm and toward ongoing structural consequence"
+            },
+            {
+              "id": "B",
+              "text": "Fully conceding that no living individual has any claim to reparations"
+            },
+            {
+              "id": "C",
+              "text": "Denying that the non-identity problem raises any genuine puzzle"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about criminal restitution"
+            },
+            {
+              "id": "E",
+              "text": "Proving that structural disadvantage never persists across generations"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This reframing shifts the basis of the claim rather than disputing the philosophical puzzle directly.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p09-12-q4",
+          "type": "strengthen_weaken",
+          "prompt": "Which finding would most strengthen the defenders' structural reframing of reparations claims?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Evidence of a robust, traceable causal link between a historical injustice and present-day measurable wealth or opportunity gaps affecting descendant populations"
+            },
+            {
+              "id": "B",
+              "text": "Evidence that no wealth gap exists between any populations"
+            },
+            {
+              "id": "C",
+              "text": "Evidence that all present-day individuals are identical to historical victims"
+            },
+            {
+              "id": "D",
+              "text": "Evidence that historical injustices caused no lasting effects of any kind"
+            },
+            {
+              "id": "E",
+              "text": "Evidence that the non-identity problem has been fully resolved by philosophers"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This would directly support the claim that an ongoing, traceable structural consequence, not personal identity continuity, grounds the reparative claim.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p10",
+  "title": "Praxis LNAT Practice Paper 10",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p10-01",
+      "topic": "The doctrine of frustration in contract law",
+      "word_count": 242,
+      "text": "The doctrine of frustration discharges parties from a contract when, after formation, an unforeseen event occurs that makes performance either impossible or radically different from what was originally undertaken, through no fault of either party, on the reasoning that holding parties to a bargain fundamentally transformed by circumstances neither anticipated nor could reasonably have provided for departs from what the parties actually agreed to when the contract was formed.\\n\\nCourts apply the doctrine narrowly, since a generous frustration standard would undermine the basic function contracts serve, allocating risk of future uncertainty between parties in advance, since if unforeseen difficulty routinely excused performance, parties could not reliably rely on agreed terms surviving ordinary commercial disruption, mere increased cost or difficulty of performance is therefore explicitly insufficient to trigger frustration, which requires the underlying purpose or basis of the contract to have been destroyed entirely, not merely made more burdensome, a distinction that requires courts to assess how central the frustrating event was to the contract's fundamental purpose rather than simply how much harder or costlier performance has become for the affected party.",
+      "questions": [
+        {
+          "question_id": "p10-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Frustration excuses performance whenever a contract becomes even slightly more difficult."
+            },
+            {
+              "id": "B",
+              "text": "Frustration is applied narrowly, requiring destruction of the contract's fundamental purpose rather than mere increased burden, to preserve contracts' basic risk-allocation function."
+            },
+            {
+              "id": "C",
+              "text": "No contract has ever been discharged by frustration."
+            },
+            {
+              "id": "D",
+              "text": "Increased cost alone is always sufficient to trigger frustration."
+            },
+            {
+              "id": "E",
+              "text": "Frustration applies only to contracts formed in writing."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the narrow standard and its rationale.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies a generous frustration standard would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Undermine contracts' basic function of allocating risk of future uncertainty in advance"
+            },
+            {
+              "id": "B",
+              "text": "Have no effect on how parties negotiate contracts"
+            },
+            {
+              "id": "C",
+              "text": "Make contracts easier to enforce reliably"
+            },
+            {
+              "id": "D",
+              "text": "Apply only to contracts involving physical goods"
+            },
+            {
+              "id": "E",
+              "text": "Eliminate the need for any contract law at all"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the rationale for a narrow standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between increased burden and destruction of purpose functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain the specific threshold courts use to distinguish frustration from ordinary commercial difficulty"
+            },
+            {
+              "id": "B",
+              "text": "Prove frustration has never been successfully argued in any case"
+            },
+            {
+              "id": "C",
+              "text": "Show that all difficult contracts are automatically frustrated"
+            },
+            {
+              "id": "D",
+              "text": "Argue that courts should never assess contractual purpose"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about contract formation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is the operative threshold the passage describes courts as applying.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-02",
+      "topic": "Epistemic paternalism and misinformation regulation",
+      "word_count": 248,
+      "text": "Government or platform interventions designed to limit the spread of misinformation, labelling disputed claims, removing false content, algorithmically de-prioritising low-quality sources, are defended as protecting the public from being misled in ways that cause real harm, particularly regarding public health or election integrity, where false belief can translate directly into dangerous individual or collective action. Critics label such interventions epistemic paternalism, restricting what information adults may access on the reasoning that they cannot be trusted to evaluate it themselves, a restriction critics argue is difficult to distinguish in principle from other forms of paternalism generally rejected as disrespectful of individual autonomy and rational agency.\\n\\nDefenders respond that the paternalism framing mischaracterises the intervention's actual target: the concern is not that individuals cannot rationally evaluate accurate information once received, but that misinformation is frequently designed, through emotional manipulation, source impersonation, or algorithmic amplification exploiting attentional biases, to bypass rational evaluation entirely rather than to persuade through it, meaning the intervention targets a manipulation vector rather than substituting official judgement for an individual's own reasoned conclusion, a distinction defenders argue justifies treating misinformation intervention differently from ordinary paternalistic restriction on access to contestable but honestly presented views.",
+      "questions": [
+        {
+          "question_id": "p10-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All misinformation interventions are identical to ordinary paternalism with no distinguishing features."
+            },
+            {
+              "id": "B",
+              "text": "Defenders argue misinformation interventions target a manipulation vector designed to bypass rational evaluation, distinguishing them from ordinary paternalistic restriction on honestly presented but contestable views."
+            },
+            {
+              "id": "C",
+              "text": "No government has ever attempted to regulate misinformation."
+            },
+            {
+              "id": "D",
+              "text": "Misinformation has never caused any real-world harm."
+            },
+            {
+              "id": "E",
+              "text": "Critics and defenders fully agree on how to classify these interventions."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the defenders' distinguishing argument.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies defenders distinguish misinformation intervention from ordinary paternalism based on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether the content is designed to bypass rational evaluation rather than persuade through it"
+            },
+            {
+              "id": "B",
+              "text": "Whether the content originates from a government source"
+            },
+            {
+              "id": "C",
+              "text": "Whether the content is emotionally neutral in tone"
+            },
+            {
+              "id": "D",
+              "text": "Whether the content concerns public health specifically"
+            },
+            {
+              "id": "E",
+              "text": "Whether any individual has ever read the content"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the basis for the distinction defenders draw.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-02-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' paternalism label relates to the defenders' response by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Being challenged through a reframing of what the intervention actually targets"
+            },
+            {
+              "id": "B",
+              "text": "Being fully accepted by defenders without qualification"
+            },
+            {
+              "id": "C",
+              "text": "Having no bearing on the defenders' argument"
+            },
+            {
+              "id": "D",
+              "text": "Being proven correct by the defenders' own reasoning"
+            },
+            {
+              "id": "E",
+              "text": "Introducing an unrelated point about platform liability"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defenders respond by reframing what the intervention targets, challenging the paternalism characterisation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-02-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'manipulation vector' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A mechanism or pathway through which content is designed to bypass rational evaluation"
+            },
+            {
+              "id": "B",
+              "text": "A government agency responsible for content regulation"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for accurate information"
+            },
+            {
+              "id": "D",
+              "text": "A statistical measure of public opinion"
+            },
+            {
+              "id": "E",
+              "text": "A legal category of protected speech"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the mechanism, such as emotional manipulation, through which misinformation bypasses rational evaluation.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-03",
+      "topic": "The ethics of solitary confinement",
+      "word_count": 250,
+      "text": "Solitary confinement, isolating a prisoner from meaningful human contact for extended periods, is used in many prison systems both as a disciplinary measure for infractions and as a purportedly protective measure for prisoners at risk of violence from the general population, uses defenders argue address genuine institutional needs, maintaining order, protecting vulnerable individuals, that alternative measures cannot always adequately address within existing facility constraints and resources.\\n\\nA substantial body of psychological and medical research documents severe psychiatric harm associated with prolonged isolation, including anxiety, psychosis, and self-harm, harm that appears to occur at meaningfully higher rates and greater severity than among prisoners in general population, complicating the institutional-necessity justification by raising a specific proportionality question distinct from disputing that some legitimate institutional interest is being served: whether the documented severity of psychiatric harm is proportionate to the specific institutional benefit achieved in any given case, particularly given that protective isolation, ostensibly for a prisoner's own safety, subjects that same prisoner to the same isolation-related harms as punitive isolation, meaning the protective justification does not obviously reduce the harm experienced even where it changes the stated purpose for imposing it.",
+      "questions": [
+        {
+          "question_id": "p10-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solitary confinement causes no psychiatric harm of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Documented psychiatric harm from solitary confinement raises a proportionality question distinct from disputing institutional necessity, since even protective isolation subjects prisoners to the same isolation-related harms as punitive isolation."
+            },
+            {
+              "id": "C",
+              "text": "All prisons have abolished solitary confinement entirely."
+            },
+            {
+              "id": "D",
+              "text": "Protective isolation eliminates the harms associated with punitive isolation."
+            },
+            {
+              "id": "E",
+              "text": "No institution has ever used solitary confinement for any purpose."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's proportionality critique and its point about protective isolation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies that protective isolation:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Subjects a prisoner to the same isolation-related harms as punitive isolation, despite its different stated purpose"
+            },
+            {
+              "id": "B",
+              "text": "Causes no psychiatric harm because it is intended protectively"
+            },
+            {
+              "id": "C",
+              "text": "Is used exclusively for disciplinary infractions"
+            },
+            {
+              "id": "D",
+              "text": "Has no relationship to punitive isolation whatsoever"
+            },
+            {
+              "id": "E",
+              "text": "Is always more harmful than punitive isolation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the passage's key point about protective isolation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-03-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's proportionality framing functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Distinguish the passage's critique from a claim that no legitimate institutional interest exists at all"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no institutional interest could ever justify isolation"
+            },
+            {
+              "id": "C",
+              "text": "Argue that isolation causes no harm whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Show that punitive and protective isolation are legally distinct in every respect"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about prison overcrowding"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This framing narrows the critique to proportionality rather than denying institutional interest exists.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-03-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'proportionate' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Appropriately balanced relative to the severity of the harm and the institutional benefit achieved"
+            },
+            {
+              "id": "B",
+              "text": "Identical in duration for every prisoner regardless of circumstance"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for punitive isolation specifically"
+            },
+            {
+              "id": "D",
+              "text": "Legally mandated in every prison system"
+            },
+            {
+              "id": "E",
+              "text": "Unrelated to any institutional benefit"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to whether the harm is appropriately balanced against the institutional benefit, as used in the proportionality question.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-04",
+      "topic": "Judicial review of executive emergency powers",
+      "word_count": 250,
+      "text": "Emergency powers legislation typically grants the executive branch expanded authority, to detain, requisition property, restrict movement, during declared states of emergency, on the rationale that crises requiring rapid, decisive response cannot always wait for the slower deliberative processes ordinary legislation and full judicial review would otherwise require. Courts reviewing the exercise of such powers face a distinctive institutional dilemma: applying the same intensity of scrutiny used for ordinary executive action risks undermining the speed and flexibility emergency powers exist to provide, while applying minimal scrutiny risks allowing declared emergencies to become a vehicle for indefinite expansion of executive authority well beyond what the actual emergency justifies.\\n\\nMost systems address this through a hybrid approach: courts apply reduced scrutiny to the executive's initial factual judgement that an emergency exists and requires urgent response, an area where courts generally defer to executive expertise and information access, while applying closer scrutiny to whether the specific measures adopted are proportionate to the emergency actually declared and whether emergency measures have been maintained beyond the period the underlying emergency can plausibly be said to persist, a distinction between deferring to the initial emergency determination and independently scrutinising the ongoing proportionality and duration of the response that most systems have converged on despite considerable variation in how rigorously it is actually applied in practice.",
+      "questions": [
+        {
+          "question_id": "p10-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Courts always apply identical scrutiny to emergency and ordinary executive action."
+            },
+            {
+              "id": "B",
+              "text": "Most systems address the review dilemma through a hybrid approach: deferring to the executive's initial emergency determination while applying closer scrutiny to the proportionality and duration of specific measures adopted."
+            },
+            {
+              "id": "C",
+              "text": "Executive emergency powers have never been subject to any judicial review."
+            },
+            {
+              "id": "D",
+              "text": "Courts should never defer to executive judgement under any circumstances."
+            },
+            {
+              "id": "E",
+              "text": "Emergency powers legislation has never been enacted in any jurisdiction."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the hybrid approach.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies applying minimal scrutiny to emergency powers risks:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Allowing declared emergencies to become a vehicle for indefinite expansion of executive authority"
+            },
+            {
+              "id": "B",
+              "text": "Making emergency response too slow to be useful"
+            },
+            {
+              "id": "C",
+              "text": "Eliminating the need for any emergency legislation"
+            },
+            {
+              "id": "D",
+              "text": "Increasing judicial workload significantly"
+            },
+            {
+              "id": "E",
+              "text": "Having no effect on executive behaviour"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the risk of minimal scrutiny.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-04-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between deferring to the initial emergency determination and scrutinising ongoing proportionality functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Describe the specific compromise most systems have adopted to address the underlying dilemma"
+            },
+            {
+              "id": "B",
+              "text": "Prove that courts never defer to executive judgement"
+            },
+            {
+              "id": "C",
+              "text": "Show that emergency powers are always proportionate"
+            },
+            {
+              "id": "D",
+              "text": "Argue that judicial review should be abolished during emergencies"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legislative drafting"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction describes the actual compromise approach the passage identifies.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-05",
+      "topic": "The doctrine of unjust enrichment",
+      "word_count": 245,
+      "text": "Unjust enrichment allows a claimant to recover a benefit conferred on a defendant where retaining that benefit without payment would be unjust, even absent any contract between the parties, a distinct basis for recovery from either contract, requiring an agreement, or tort, requiring a wrong, since unjust enrichment can arise from entirely lawful conduct, a payment made by mistake, a benefit conferred in the mistaken belief a contract existed, where no party acted wrongfully but one has nonetheless been enriched at the other's expense in a manner the law treats as requiring correction.\\n\\nThe doctrine's central analytical challenge lies in specifying what makes retention of a benefit 'unjust' with enough precision to avoid the doctrine collapsing into open-ended judicial discretion to reallocate any benefit a court considers, on some general notion of fairness, wrongly distributed, since virtually any transfer of value could be redescribed as an enrichment a court might consider unjust absent some more precise limiting principle, courts have generally required the claimant to identify a specific recognised ground, mistake, failure of an anticipated basis, compulsion, rather than relying on an undifferentiated appeal to fairness, in order to keep the doctrine's reach tethered to established categories rather than functioning as an unconstrained judicial power to redistribute benefits whenever a court disapproves of their current allocation.",
+      "questions": [
+        {
+          "question_id": "p10-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unjust enrichment requires proof of a contract between the parties."
+            },
+            {
+              "id": "B",
+              "text": "To avoid collapsing into unconstrained judicial discretion, unjust enrichment requires the claimant to identify a specific recognised ground rather than relying on an undifferentiated appeal to fairness."
+            },
+            {
+              "id": "C",
+              "text": "Unjust enrichment applies only to cases involving wrongful conduct."
+            },
+            {
+              "id": "D",
+              "text": "No court has ever recognised unjust enrichment as a basis for recovery."
+            },
+            {
+              "id": "E",
+              "text": "Any transfer of value automatically qualifies as unjust enrichment."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the doctrine's limiting principle.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies unjust enrichment differs from tort because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Can arise from entirely lawful conduct with no wrongdoing by either party"
+            },
+            {
+              "id": "B",
+              "text": "Always requires proof of a contract"
+            },
+            {
+              "id": "C",
+              "text": "Never involves any transfer of value"
+            },
+            {
+              "id": "D",
+              "text": "Requires the defendant to have acted maliciously"
+            },
+            {
+              "id": "E",
+              "text": "Applies only to cases involving physical injury"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the distinguishing feature from tort, which requires a wrong.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's requirement of a 'specific recognised ground' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prevent the doctrine from collapsing into unconstrained judicial discretion over any perceived unfairness"
+            },
+            {
+              "id": "B",
+              "text": "Prove that unjust enrichment has never been successfully claimed"
+            },
+            {
+              "id": "C",
+              "text": "Show that all transfers of value are automatically unjust"
+            },
+            {
+              "id": "D",
+              "text": "Argue that courts should have unlimited discretion to redistribute benefits"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about contract formation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This requirement is the specific mechanism keeping the doctrine's reach bounded.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-06",
+      "topic": "Global wealth inequality and cosmopolitan justice",
+      "word_count": 250,
+      "text": "Theories of distributive justice developed within a single national framework, most influentially Rawls's difference principle, are typically applied to inequality within a state's borders, raising the question of whether the same principles should extend to inequality between citizens of different states, a question cosmopolitan theorists answer affirmatively, arguing that national borders are morally arbitrary in the same way race or sex are, an accident of birth that should not determine the scope of principles concerning fair distribution, if such principles are genuinely grounded in universal moral concern for persons rather than in some special obligation owed only to fellow citizens.\\n\\nCritics of extending distributive principles globally do not typically deny that global inequality raises genuine moral concern, but argue that Rawlsian distributive principles specifically, as opposed to more general humanitarian duties to prevent severe suffering, depend on a background condition that exists domestically but not globally: a shared basic structure, a common legal and economic system in which citizens cooperate and through which the terms of that cooperation can be fairly assessed and adjusted, a structure global inequality, occurring between largely separate national economic and political systems, does not straightforwardly possess, meaning the case for extending humanitarian obligation globally may be considerably stronger than the case for extending the specific distributive apparatus Rawls developed for a bounded cooperative scheme.",
+      "questions": [
+        {
+          "question_id": "p10-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Global inequality raises no moral concern of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Critics argue Rawlsian distributive principles depend on a shared basic cooperative structure that exists domestically but not globally, making the case for extending humanitarian duty globally stronger than the case for extending Rawls's specific distributive apparatus."
+            },
+            {
+              "id": "C",
+              "text": "National borders have never been considered morally significant by any theorist."
+            },
+            {
+              "id": "D",
+              "text": "Rawls's difference principle applies identically to domestic and global contexts."
+            },
+            {
+              "id": "E",
+              "text": "Cosmopolitan theorists reject all forms of humanitarian obligation."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's critique distinguishing distributive principles from humanitarian duty.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p10-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies critics distinguish humanitarian duty from Rawlsian distributive justice because the latter depends on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A shared basic structure of cooperation that global inequality does not straightforwardly possess"
+            },
+            {
+              "id": "B",
+              "text": "No background condition of any kind"
+            },
+            {
+              "id": "C",
+              "text": "An identical legal and economic system applying to all countries"
+            },
+            {
+              "id": "D",
+              "text": "The complete absence of any national borders"
+            },
+            {
+              "id": "E",
+              "text": "A universal moral concern shared by all cosmopolitan theorists"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the specific background condition Rawlsian principles depend on.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between humanitarian duty and distributive justice functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that critics' objection targets a specific theoretical apparatus rather than denying global moral concern generally"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no moral obligation extends beyond national borders"
+            },
+            {
+              "id": "C",
+              "text": "Support the cosmopolitan position without qualification"
+            },
+            {
+              "id": "D",
+              "text": "Argue that Rawls never intended his theory to apply domestically either"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about international trade law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction narrows what the critics actually dispute.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p10-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'morally arbitrary' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Not itself a morally relevant basis for differential treatment, being merely an accident of birth"
+            },
+            {
+              "id": "B",
+              "text": "Legally mandated by international treaty"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for cosmopolitan justice"
+            },
+            {
+              "id": "D",
+              "text": "Determined entirely by an individual's own choices"
+            },
+            {
+              "id": "E",
+              "text": "Universally accepted as a legitimate basis for distribution"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes borders as an accident of birth, akin to race or sex, not a morally relevant basis for differential treatment.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-07",
+      "topic": "The ethics of animal experimentation in medical research",
+      "word_count": 248,
+      "text": "Animal experimentation remains, despite growing use of alternative methods, a standard component of pre-clinical medical research, justified on the grounds that certain physiological questions cannot yet be reliably answered through computational modelling or cell-culture methods alone, and that the resulting medical knowledge produces substantial human benefit that would otherwise be delayed or foregone entirely, a justification defenders argue is strengthened rather than undermined by strict regulatory requirements limiting animal use to cases where no adequate alternative method exists.\\n\\nCritics argue the justification's reliance on necessity claims deserves closer scrutiny than it typically receives, since the same regulatory framework that requires researchers to demonstrate no adequate alternative exists is administered largely by researchers and institutions with an ongoing interest in animal research continuing, a structural conflict that may bias necessity determinations toward continued animal use even where alternative methods have become more viable than institutional practice has yet incorporated, particularly given that validating a new alternative method against the established animal-based standard is itself a slow, resource-intensive process that creates institutional inertia favouring the status quo independent of the alternative method's actual scientific merit.",
+      "questions": [
+        {
+          "question_id": "p10-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Animal experimentation has been completely replaced by alternative methods."
+            },
+            {
+              "id": "B",
+              "text": "Critics argue the necessity justification for animal experimentation deserves scrutiny, since a structural conflict of interest and institutional inertia may bias determinations toward continued animal use regardless of alternative methods' actual scientific merit."
+            },
+            {
+              "id": "C",
+              "text": "No alternative research method has ever been developed."
+            },
+            {
+              "id": "D",
+              "text": "Animal experimentation produces no medical benefit of any kind."
+            },
+            {
+              "id": "E",
+              "text": "Regulatory frameworks always operate free of any institutional bias."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's critique of the necessity justification's administration.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies validating a new alternative research method is difficult because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "It is a slow, resource-intensive process that creates institutional inertia favouring the status quo"
+            },
+            {
+              "id": "B",
+              "text": "No alternative method has ever been proposed by any researcher"
+            },
+            {
+              "id": "C",
+              "text": "Regulatory frameworks explicitly prohibit any alternative method"
+            },
+            {
+              "id": "D",
+              "text": "Animal experimentation is always faster than any alternative"
+            },
+            {
+              "id": "E",
+              "text": "Validation requires no institutional involvement whatsoever"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the source of institutional inertia against alternatives.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-07-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of who administers the regulatory framework functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a structural conflict of interest that may bias necessity determinations"
+            },
+            {
+              "id": "B",
+              "text": "Prove that all regulatory frameworks are entirely corrupt"
+            },
+            {
+              "id": "C",
+              "text": "Show that animal experimentation is always scientifically necessary"
+            },
+            {
+              "id": "D",
+              "text": "Argue that no regulation of research should exist at all"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about laboratory funding sources"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies the specific structural conflict the critique relies on.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-07-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'institutional inertia' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A tendency for existing institutional practices to persist independent of the actual merits of an alternative"
+            },
+            {
+              "id": "B",
+              "text": "A legal requirement to maintain current research methods"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for scientific rigor"
+            },
+            {
+              "id": "D",
+              "text": "A physical property of laboratory equipment"
+            },
+            {
+              "id": "E",
+              "text": "A measure of an institution's research funding"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the tendency of institutions to continue existing practices regardless of an alternative's actual merit.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-08",
+      "topic": "Regulatory sandboxes and innovation policy",
+      "word_count": 245,
+      "text": "Regulatory sandboxes, controlled environments in which firms may test innovative products or business models under relaxed regulatory requirements and close supervisory oversight, are used by several financial and technology regulators to address a specific tension in innovation policy: applying existing regulation designed for established business models to genuinely novel ones can either stifle beneficial innovation the existing rules were never designed to anticipate, or, if regulation is simply waived for anything labelled innovative, expose consumers to risks the regulation existed to prevent in the first place, a tension a sandbox attempts to manage by permitting limited-scale testing under close supervision rather than requiring a stark choice between full regulatory compliance and no oversight at all.\\n\\nCritics note that sandbox participation is necessarily selective, since regulators cannot supervise unlimited numbers of experimental ventures simultaneously, meaning sandbox access itself becomes a scarce resource regulators must allocate through some selection process, creating a risk that well-resourced firms with existing regulatory relationships and expertise in navigating application processes gain disproportionate access relative to smaller, less-connected innovators whose novel approaches may be equally or more deserving of the testing opportunity a sandbox is meant to provide, converting a policy designed to lower barriers to innovation into one that may, in practice, primarily benefit firms already well-positioned to identify and pursue the opportunity.",
+      "questions": [
+        {
+          "question_id": "p10-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Regulatory sandboxes have no selection process of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While sandboxes attempt to manage the tension between stifling innovation and exposing consumers to risk, critics note selective access may disproportionately benefit well-resourced firms over smaller, equally deserving innovators."
+            },
+            {
+              "id": "C",
+              "text": "All firms receive identical access to every regulatory sandbox."
+            },
+            {
+              "id": "D",
+              "text": "Existing regulation always perfectly anticipates novel business models."
+            },
+            {
+              "id": "E",
+              "text": "Sandboxes eliminate all consumer risk from innovative products."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the sandbox's purpose and the critics' access concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies well-resourced firms may gain disproportionate sandbox access because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "They have existing regulatory relationships and expertise in navigating application processes"
+            },
+            {
+              "id": "B",
+              "text": "Regulators are legally required to favour large firms"
+            },
+            {
+              "id": "C",
+              "text": "Smaller firms are never permitted to apply"
+            },
+            {
+              "id": "D",
+              "text": "Sandboxes have unlimited capacity for participants"
+            },
+            {
+              "id": "E",
+              "text": "Well-resourced firms never pursue innovative business models"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind disproportionate access.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-08-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final sentence functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Highlight a potential unintended consequence that runs counter to the sandbox's original stated purpose"
+            },
+            {
+              "id": "B",
+              "text": "Prove that sandboxes have never benefited any firm"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all regulation should be waived for every innovative firm"
+            },
+            {
+              "id": "D",
+              "text": "Show that small firms always outperform large firms in sandboxes"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about consumer protection law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This sentence draws out an ironic, unintended consequence of the selective access mechanism.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-09",
+      "topic": "The paradox of self-amendment in constitutions",
+      "word_count": 248,
+      "text": "Most constitutions specify their own amendment procedure, a rule governing how the constitutional text itself may be lawfully changed, typically requiring a supermajority or multi-stage process more demanding than ordinary legislation, on the reasoning that constitutional provisions deserve greater stability than ordinary law, protected against transient majority preference by a higher threshold for change. This self-referential structure, a rule specifying how rules, including itself, may be changed, raises a puzzle rarely resolved with full logical tidiness: since the amendment procedure is itself a constitutional provision, it is, on the face of the constitution's own terms, subject to the very amendment procedure it specifies, meaning the amendment rule could, in principle, be used to amend itself into something less demanding, at which point the newly lowered threshold would presumably apply retroactively to legitimise the very amendment that lowered it.\\n\\nMost legal systems avoid this puzzle becoming practically significant by treating certain foundational provisions, sometimes called eternity clauses, as entirely unamendable regardless of what procedure is followed, removing the self-referential amendment procedure itself, or other sufficiently foundational provisions, from the scope of ordinary constitutional change altogether, a solution that avoids the logical puzzle at the cost of introducing a different one: an eternity clause is, by its own terms, meant to bind even a constitution-making body possessing what would otherwise be the ultimate sovereign authority to reshape the constitutional order entirely, a limit whose ultimate legal or political enforceability against a sufficiently determined constitutional convention remains genuinely contested.",
+      "questions": [
+        {
+          "question_id": "p10-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Constitutional amendment procedures have never been used by any constitution."
+            },
+            {
+              "id": "B",
+              "text": "The self-referential amendment procedure raises a genuine logical puzzle, and eternity clauses avoid it while introducing their own unresolved question about enforceability against a sufficiently determined constitutional actor."
+            },
+            {
+              "id": "C",
+              "text": "Eternity clauses fully and permanently resolve the amendment paradox with no remaining difficulty."
+            },
+            {
+              "id": "D",
+              "text": "All constitutions should be infinitely amendable with no restriction."
+            },
+            {
+              "id": "E",
+              "text": "Amendment thresholds are identical to those for ordinary legislation in every system."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the puzzle and the eternity-clause response's own limitation.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p10-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies the amendment procedure being subject to itself creates a puzzle because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The procedure could in principle be used to amend itself into something less demanding, with the new threshold then legitimising that very change"
+            },
+            {
+              "id": "B",
+              "text": "No constitution has ever specified an amendment procedure"
+            },
+            {
+              "id": "C",
+              "text": "Amendment procedures never apply to constitutional provisions themselves"
+            },
+            {
+              "id": "D",
+              "text": "Supermajority requirements are always impossible to achieve"
+            },
+            {
+              "id": "E",
+              "text": "Constitutions never contain any self-referential provisions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the self-referential puzzle described in the first paragraph.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p10-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of eternity clauses in the second paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Present a practical solution to the puzzle while identifying a new, distinct difficulty it introduces"
+            },
+            {
+              "id": "B",
+              "text": "Prove the self-referential puzzle has no practical significance whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all constitutional provisions should be equally amendable"
+            },
+            {
+              "id": "D",
+              "text": "Show that eternity clauses have never been adopted by any system"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legislative supermajorities"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This paragraph offers a solution while noting the new question it raises about enforceability.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p10-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'eternity clause' most nearly refers to a provision that is:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explicitly protected from amendment regardless of the procedure otherwise available"
+            },
+            {
+              "id": "B",
+              "text": "Subject to annual renewal by the legislature"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for an ordinary statute"
+            },
+            {
+              "id": "D",
+              "text": "Automatically repealed after a fixed period"
+            },
+            {
+              "id": "E",
+              "text": "Applicable only to economic policy provisions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Described as a provision treated as entirely unamendable regardless of the procedure followed.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-10",
+      "topic": "Ban the box and criminal record disclosure",
+      "word_count": 245,
+      "text": "'Ban the box' policies prohibit employers from asking about criminal history on initial job applications, delaying the inquiry until later in the hiring process, on the reasoning that early disclosure allows unconscious or explicit bias against applicants with a criminal record to eliminate otherwise qualified candidates before their other qualifications are ever meaningfully considered, disadvantaging a population, disproportionately drawn from groups already facing other employment barriers, whose successful reintegration into stable employment is itself associated with reduced reoffending.\\n\\nStudies evaluating the policy's actual effect have produced a complicating finding: in the absence of specific information about individual criminal history, some employers appear to use race as a statistical proxy for perceived criminal history risk, particularly for young Black male applicants, meaning delaying disclosure can, in certain hiring contexts, increase racial disparities in callback rates even while successfully increasing opportunities for applicants with an actual criminal record, an unintended consequence that complicates a straightforward assessment of the policy's overall effect, since the policy appears to help its explicitly intended beneficiary group, formerly incarcerated applicants generally, while potentially harming a different, overlapping but distinct group along a dimension, race, the policy was not specifically designed to address.",
+      "questions": [
+        {
+          "question_id": "p10-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ban the box policies have no effect on hiring outcomes of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Studies show ban the box policies can help their intended beneficiaries while inadvertently increasing racial disparities, since employers may use race as a statistical proxy for perceived criminal history absent specific disclosure."
+            },
+            {
+              "id": "C",
+              "text": "All employers explicitly discriminate against applicants with criminal records."
+            },
+            {
+              "id": "D",
+              "text": "Ban the box policies have eliminated all racial disparities in hiring."
+            },
+            {
+              "id": "E",
+              "text": "Criminal history has no relationship to employment barriers."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the policy's intended effect and unintended complication.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies the unintended racial disparity arises because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some employers use race as a statistical proxy for perceived criminal history risk in the absence of specific information"
+            },
+            {
+              "id": "B",
+              "text": "All employers explicitly ask about race during interviews"
+            },
+            {
+              "id": "C",
+              "text": "Ban the box policies apply only to certain racial groups"
+            },
+            {
+              "id": "D",
+              "text": "Criminal history disclosure always eliminates racial bias"
+            },
+            {
+              "id": "E",
+              "text": "No employer has ever considered race in hiring decisions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the unintended disparity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the complicating study finding functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Complicate a straightforward assessment of the policy by showing it helps one intended group while potentially harming a related but distinct group"
+            },
+            {
+              "id": "B",
+              "text": "Prove that ban the box policies should never have been adopted"
+            },
+            {
+              "id": "C",
+              "text": "Show that racial disparities in hiring never existed before the policy"
+            },
+            {
+              "id": "D",
+              "text": "Argue that criminal history disclosure should always occur early"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about wage discrimination"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This finding complicates rather than simply refutes or confirms the policy's overall value.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-11",
+      "topic": "The ethics of geoengineering",
+      "word_count": 250,
+      "text": "Solar radiation management, a proposed geoengineering technique that would reflect a small fraction of incoming sunlight back into space, using stratospheric aerosol injection or similar methods, to offset a portion of global warming, is technically distinct from emissions reduction in a way that matters considerably to its ethical assessment: it treats a symptom, elevated global temperature, without addressing the underlying cause, atmospheric greenhouse gas concentration, meaning ocean acidification and other carbon-concentration-driven harms unrelated to temperature would continue unabated even under an otherwise successful solar radiation management programme.\\n\\nA further ethical complication concerns termination risk: solar radiation management would need to be maintained continuously once begun, since abruptly stopping after a sustained period of masked warming would expose the climate system to a sudden, extremely rapid temperature increase reflecting the full accumulated warming the intervention had been suppressing, a 'termination shock' potentially more dangerous and harder to adapt to than the original gradual warming the intervention was deployed to offset, meaning any decision to begin large-scale deployment effectively commits future generations to maintaining the intervention indefinitely, or else accepting a specific, concentrated risk that gradual, unmitigated warming would not itself have created, a binding commitment problem distinct from, and in some respects more severe than, the commitment problems already associated with conventional emissions policy.",
+      "questions": [
+        {
+          "question_id": "p10-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solar radiation management fully addresses every harm caused by climate change."
+            },
+            {
+              "id": "B",
+              "text": "Solar radiation management treats temperature symptoms without addressing underlying causes like ocean acidification, and creates a termination-shock commitment problem that binds future generations to indefinite maintenance or a concentrated new risk."
+            },
+            {
+              "id": "C",
+              "text": "Emissions reduction and solar radiation management are identical in their underlying mechanism."
+            },
+            {
+              "id": "D",
+              "text": "No geoengineering technique has ever been proposed."
+            },
+            {
+              "id": "E",
+              "text": "Termination shock is less dangerous than gradual warming in every case."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's two-part critique concerning underlying causes and termination risk.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies 'termination shock' would be dangerous because it would expose the climate system to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A sudden, extremely rapid temperature increase reflecting the full accumulated warming the intervention had been suppressing"
+            },
+            {
+              "id": "B",
+              "text": "No temperature change of any kind"
+            },
+            {
+              "id": "C",
+              "text": "A gradual, easily manageable warming trend"
+            },
+            {
+              "id": "D",
+              "text": "Reduced ocean acidification"
+            },
+            {
+              "id": "E",
+              "text": "An immediate reduction in atmospheric greenhouse gas concentration"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism of termination shock.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-11-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of ocean acidification in the first paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate a harm that solar radiation management would not address even if successful at reducing temperature"
+            },
+            {
+              "id": "B",
+              "text": "Prove that solar radiation management has no effect on temperature"
+            },
+            {
+              "id": "C",
+              "text": "Argue that emissions reduction is unnecessary if temperature is controlled"
+            },
+            {
+              "id": "D",
+              "text": "Show that ocean acidification is caused by solar radiation management itself"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about marine biology research funding"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This illustrates the passage's point about treating a symptom rather than the underlying cause.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p10-12",
+      "topic": "Sovereign wealth funds and intergenerational savings",
+      "word_count": 250,
+      "text": "Sovereign wealth funds, state-owned investment vehicles typically funded by revenue from a depletable natural resource, oil, minerals, are designed to convert a temporary revenue windfall into a permanent, professionally managed asset whose returns can benefit both the current generation, through some portion of ongoing fund income, and future generations who will inherit the underlying resource only after it has been exhausted, on the reasoning that consuming an entire resource windfall within the generation that happens to extract it treats a one-time endowment as recurring income, leaving nothing for citizens born after extraction ends despite their equal claim to a resource that, in most legal frameworks, is treated as belonging to the nation as a whole rather than only to whichever generation happens to be alive during the extraction period.\\n\\nThe fund's effectiveness in fulfilling this intergenerational function depends heavily on governance arrangements that are considerably harder to establish than the fund's basic financial structure: rules limiting the current government's ability to draw down the fund for near-term political priorities, transparent reporting of fund performance and withdrawals, and insulation from the same political pressures that, absent such rules, would predictably favour current consumption over future preservation, since a government facing an upcoming election has an obvious incentive to spend fund assets on current priorities regardless of the fund's stated long-term purpose, meaning a fund's stated intergenerational mandate is only as durable as the governance constraints actually preventing its erosion by whichever government currently controls it.",
+      "questions": [
+        {
+          "question_id": "p10-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sovereign wealth funds have no purpose of any kind."
+            },
+            {
+              "id": "B",
+              "text": "A sovereign wealth fund's intergenerational purpose depends heavily on governance arrangements insulating it from political pressure favouring current consumption, since its stated mandate is only as durable as the constraints actually preventing erosion."
+            },
+            {
+              "id": "C",
+              "text": "All governments respect sovereign wealth fund mandates without exception."
+            },
+            {
+              "id": "D",
+              "text": "Depletable resources belong exclusively to the generation that extracts them."
+            },
+            {
+              "id": "E",
+              "text": "Sovereign wealth funds require no governance arrangements of any kind to function."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about governance durability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies a government facing an upcoming election has an incentive to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Spend fund assets on current priorities regardless of the fund's stated long-term purpose"
+            },
+            {
+              "id": "B",
+              "text": "Always strengthen governance constraints on fund withdrawals"
+            },
+            {
+              "id": "C",
+              "text": "Preserve the fund indefinitely with no withdrawals"
+            },
+            {
+              "id": "D",
+              "text": "Transfer full control of the fund to future generations immediately"
+            },
+            {
+              "id": "E",
+              "text": "Have no interest in the fund's assets whatsoever"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the predictable political incentive absent governance constraints.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-12-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between a fund's 'basic financial structure' and its 'governance arrangements' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that establishing durable governance is a harder and more consequential challenge than the fund's basic financial design"
+            },
+            {
+              "id": "B",
+              "text": "Prove that financial structure has no relationship to governance"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all sovereign wealth funds are identical in structure"
+            },
+            {
+              "id": "D",
+              "text": "Show that governance arrangements are irrelevant to a fund's success"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about resource extraction technology"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction highlights governance as the harder, more decisive challenge.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p10-12-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'windfall' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A one-time or unearned revenue gain, such as from a depletable natural resource"
+            },
+            {
+              "id": "B",
+              "text": "A regular, predictable annual income stream"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for governance constraint"
+            },
+            {
+              "id": "D",
+              "text": "A tax levied on sovereign wealth funds"
+            },
+            {
+              "id": "E",
+              "text": "A penalty imposed on a government for fund mismanagement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the one-time revenue gain from resource extraction the fund is designed to convert into a lasting asset.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p11",
+  "title": "Praxis LNAT Practice Paper 11",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p11-01",
+      "topic": "The doctrine of res judicata",
+      "word_count": 242,
+      "text": "Res judicata prevents parties from relitigating a claim that has already been finally decided by a competent court, on the reasoning that without such a bar, litigation could continue indefinitely, with a losing party simply filing the same claim again hoping for a different result, undermining both the finality litigants are entitled to expect once a case concludes and the efficient use of judicial resources that repeated relitigation of settled matters would otherwise squander.\\n\\nThe doctrine's application requires courts to determine whether a later claim is genuinely the 'same' claim as one already decided, a question that becomes difficult where the later claim shares a common factual background with the earlier one but rests on a distinct legal theory not raised in the original proceeding, since a rule barring only claims identical in legal theory would allow parties to evade res judicata simply by repackaging the same underlying dispute under a new legal label, while a rule barring any claim sharing any factual overlap with a prior proceeding risks barring genuinely distinct claims that happen to arise from a common set of events, requiring courts to assess whether the later claim could and should reasonably have been raised in the original proceeding rather than applying either extreme mechanically.",
+      "questions": [
+        {
+          "question_id": "p11-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Res judicata bars only claims sharing an identical legal theory with a prior proceeding."
+            },
+            {
+              "id": "B",
+              "text": "Res judicata requires courts to assess whether a later claim could and should reasonably have been raised in the original proceeding, avoiding both an overly narrow and overly broad application."
+            },
+            {
+              "id": "C",
+              "text": "Litigation can continue indefinitely without any limitation."
+            },
+            {
+              "id": "D",
+              "text": "No court has ever applied the doctrine of res judicata."
+            },
+            {
+              "id": "E",
+              "text": "Factual overlap alone is always sufficient to bar a later claim."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the doctrine's calibrated standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies a rule barring only claims identical in legal theory would be problematic because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "It would allow parties to evade res judicata by repackaging the same dispute under a new legal label"
+            },
+            {
+              "id": "B",
+              "text": "It would bar too many genuinely distinct claims"
+            },
+            {
+              "id": "C",
+              "text": "It has never been considered by any court"
+            },
+            {
+              "id": "D",
+              "text": "It would eliminate the need for any litigation"
+            },
+            {
+              "id": "E",
+              "text": "It would apply only to criminal cases"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the risk of an overly narrow standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the two extreme standards functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why courts adopt an intermediate standard rather than either extreme"
+            },
+            {
+              "id": "B",
+              "text": "Prove one of the two extremes is clearly correct"
+            },
+            {
+              "id": "C",
+              "text": "Show that res judicata has no coherent standard at all"
+            },
+            {
+              "id": "D",
+              "text": "Argue that litigation should never be barred under any circumstances"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about appellate procedure"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Both extremes are shown to be problematic, motivating the intermediate standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'finality' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The assurance that a decided matter will not be relitigated once a court has finally ruled"
+            },
+            {
+              "id": "B",
+              "text": "A synonym for judicial resources"
+            },
+            {
+              "id": "C",
+              "text": "The final stage of a trial before verdict"
+            },
+            {
+              "id": "D",
+              "text": "A requirement that appeals be filed within a set period"
+            },
+            {
+              "id": "E",
+              "text": "A form of monetary compensation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the assurance litigants are entitled to expect once a case concludes.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-02",
+      "topic": "Moral responsibility of corporations versus individuals within them",
+      "word_count": 248,
+      "text": "Corporate wrongdoing, financial fraud, environmental violations, is frequently addressed through penalties, fines, imposed on the corporate entity itself rather than on the specific individuals who made the relevant decisions, a practice critics argue misidentifies the proper locus of moral responsibility: corporations, as legal fictions, cannot themselves deliberate, intend, or choose in the way moral responsibility ordinarily requires, meaning corporate-level penalties, however substantial, ultimately fall on shareholders, employees, and customers who bear the cost through reduced returns, lower wages, or higher prices, individuals typically uninvolved in and often unaware of the specific wrongdoing being penalised.\\n\\nDefenders of corporate-level liability respond that individual-level prosecution, while important and not incompatible with corporate penalties, faces a specific practical limitation that corporate liability addresses: complex organisational wrongdoing often results from diffuse, distributed decision-making across many individuals, none of whom possessed complete knowledge or made a single decisive choice sufficient to establish the individual culpability criminal or civil liability against a specific person typically requires, meaning corporate liability captures a form of organisational fault, systemic failures of oversight, culture, or incentive structure, that does not reduce neatly to any specific individual's identifiable wrongdoing, even where the organisation's overall conduct was clearly harmful and blameworthy in the aggregate.",
+      "questions": [
+        {
+          "question_id": "p11-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Corporations should never face any penalty for wrongdoing."
+            },
+            {
+              "id": "B",
+              "text": "Defenders argue corporate liability captures a form of organisational fault that does not reduce neatly to any specific individual's identifiable wrongdoing, addressing a practical limitation of individual-level prosecution."
+            },
+            {
+              "id": "C",
+              "text": "Individual employees are always solely responsible for corporate wrongdoing."
+            },
+            {
+              "id": "D",
+              "text": "Corporate penalties never affect shareholders or employees."
+            },
+            {
+              "id": "E",
+              "text": "No corporation has ever engaged in wrongdoing."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's defence of corporate liability's distinct function.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies individual-level prosecution can be difficult in cases of diffuse organisational wrongdoing because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "No individual may have possessed complete knowledge or made a single decisive choice sufficient to establish individual culpability"
+            },
+            {
+              "id": "B",
+              "text": "Corporations never make any decisions collectively"
+            },
+            {
+              "id": "C",
+              "text": "Individual prosecution is always legally impossible"
+            },
+            {
+              "id": "D",
+              "text": "Corporate penalties automatically identify the responsible individual"
+            },
+            {
+              "id": "E",
+              "text": "Organisational wrongdoing never actually occurs"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the practical limitation corporate liability addresses.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-02-q3",
+          "type": "logical_structure",
+          "prompt": "The second paragraph relates to the critics' argument by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting the concern about who ultimately bears the cost while identifying a distinct justification corporate liability serves"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the claim that corporations cannot deliberate"
+            },
+            {
+              "id": "C",
+              "text": "Proving that shareholders are always the wrongdoers"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about tax policy"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that corporate liability should be abolished"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defenders do not deny the critics' cost-bearing point but add a distinct justification.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-03",
+      "topic": "The ethics of paid blood donation",
+      "word_count": 245,
+      "text": "Blood donation systems vary between purely altruistic, unpaid models and systems permitting payment to donors, a variation that has produced a body of comparative research yielding a specific, counterintuitive finding relevant to policy design: introducing payment for blood donation in some contexts has been found to reduce rather than increase donation rates, an effect economists attribute to payment displacing, rather than supplementing, the intrinsic motivation, altruistic satisfaction, civic duty, that drives many voluntary donors, since attaching a price to an act previously understood as a gift can reframe the transaction in donors' minds from a moral act into a commercial one, diminishing the specifically moral satisfaction some donors derive from the unpaid version of the same act.\\n\\nThis 'crowding out' effect, however, is not universal across all contexts and donor populations, with some studies finding payment increases donation rates, particularly among populations with lower existing rates of altruistic motivation or facing genuine financial barriers to donating, such as the opportunity cost of time away from paid work, suggesting the effect of payment on donation rates depends considerably on the specific donor population and existing motivational baseline rather than operating as a uniform economic principle applicable identically across all blood donation contexts, complicating any simple policy recommendation to either universally adopt or universally reject paid donation models.",
+      "questions": [
+        {
+          "question_id": "p11-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Payment always increases blood donation rates in every context."
+            },
+            {
+              "id": "B",
+              "text": "The effect of payment on donation rates depends considerably on donor population and motivational baseline, complicating any simple universal policy recommendation for or against paid donation."
+            },
+            {
+              "id": "C",
+              "text": "Payment always reduces blood donation rates in every context."
+            },
+            {
+              "id": "D",
+              "text": "No research has ever studied the effect of payment on blood donation."
+            },
+            {
+              "id": "E",
+              "text": "Altruistic motivation has no relationship to blood donation rates."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's nuanced conclusion about context-dependence.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies the 'crowding out' effect occurs because payment:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reframes the transaction from a moral act into a commercial one, diminishing the specifically moral satisfaction some donors derive from donating"
+            },
+            {
+              "id": "B",
+              "text": "Always increases the total number of donors regardless of context"
+            },
+            {
+              "id": "C",
+              "text": "Eliminates all financial barriers to donation"
+            },
+            {
+              "id": "D",
+              "text": "Has no psychological effect on donor motivation"
+            },
+            {
+              "id": "E",
+              "text": "Applies identically to every donor population studied"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind crowding out.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-03-q3",
+          "type": "logical_structure",
+          "prompt": "The second paragraph relates to the first by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Qualifying the crowding-out finding by showing it is not universal across all contexts and populations"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the crowding-out finding as entirely mistaken"
+            },
+            {
+              "id": "C",
+              "text": "Proving that payment always increases donation regardless of context"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated point about organ donation"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that no research on this topic exists"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This paragraph qualifies rather than reverses the crowding-out finding.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-03-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'crowding out' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Payment displacing intrinsic motivation, thereby reducing rather than increasing donation"
+            },
+            {
+              "id": "B",
+              "text": "A physical shortage of donation clinics"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for altruistic satisfaction"
+            },
+            {
+              "id": "D",
+              "text": "An increase in donation caused by payment in every context"
+            },
+            {
+              "id": "E",
+              "text": "A legal restriction on blood donation eligibility"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Named directly as the effect where payment displaces intrinsic motivation.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-04",
+      "topic": "Populist constitutional amendments and entrenchment",
+      "word_count": 250,
+      "text": "Constitutional amendment processes are typically designed to require broader consensus than ordinary legislation, supermajority votes, ratification by constituent states or regions, extended time delays between proposal and adoption, on the theory that provisions embedded in a constitution deserve protection against transient shifts in majority sentiment that might otherwise produce hasty or poorly considered changes to a polity's most fundamental rules. This design creates a specific vulnerability when a sufficiently popular, well-organised political movement, rather than being blocked by the higher threshold, instead succeeds in clearing it, using a genuine, sustained popular mandate to entrench provisions, weakening judicial independence, restricting future electoral competition, that concentrate power in ways difficult to reverse through ordinary future democratic processes precisely because they have now been elevated to constitutional status and subjected to the same high amendment threshold originally designed to protect against hasty reversal.\\n\\nThis presents a genuine dilemma for constitutional design distinct from the ordinary case the high threshold was built to address: the same entrenchment mechanism that protects valuable rights against erosion by a future hostile majority can, when successfully captured by a movement seeking to concentrate power, protect that concentration against correction by a future majority seeking to restore more competitive, pluralistic arrangements, meaning entrenchment's protective function and its potential for abuse are not separable safeguards against different risks but two faces of the same underlying mechanism, raising the same difficulty for any comparably high threshold regardless of which direction, protective or concentrating, the entrenched provision happens to run.",
+      "questions": [
+        {
+          "question_id": "p11-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Constitutional entrenchment always protects rights and never concentrates power."
+            },
+            {
+              "id": "B",
+              "text": "Entrenchment's protective function and its potential for abuse are two faces of the same underlying mechanism, meaning a movement that clears the high amendment threshold can entrench power-concentrating provisions just as durably as protective ones."
+            },
+            {
+              "id": "C",
+              "text": "No political movement has ever successfully amended a constitution."
+            },
+            {
+              "id": "D",
+              "text": "Amendment thresholds should be lowered to ordinary legislative majorities in all cases."
+            },
+            {
+              "id": "E",
+              "text": "Judicial independence has no relationship to constitutional entrenchment."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about entrenchment's dual-use character.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p11-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies that once power-concentrating provisions achieve constitutional status, they become difficult to reverse because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "They are subjected to the same high amendment threshold originally designed to protect against hasty reversal of valuable provisions"
+            },
+            {
+              "id": "B",
+              "text": "No future majority could ever want to reverse them"
+            },
+            {
+              "id": "C",
+              "text": "They are automatically repealed after a fixed period"
+            },
+            {
+              "id": "D",
+              "text": "Ordinary legislation can easily override them"
+            },
+            {
+              "id": "E",
+              "text": "They apply only to non-constitutional matters"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism making reversal difficult.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-04-q3",
+          "type": "logical_structure",
+          "prompt": "The final sentence's claim that protection and abuse are 'not separable safeguards' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Emphasise that the same mechanism produces both effects, rather than treating them as addressable by distinct fixes"
+            },
+            {
+              "id": "B",
+              "text": "Prove that entrenchment has no protective function whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all constitutional amendment should be banned"
+            },
+            {
+              "id": "D",
+              "text": "Show that power concentration never actually occurs through amendment"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about electoral competition generally"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This closing point emphasises the mechanism's unified nature.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-05",
+      "topic": "The economics of minimum wage laws",
+      "word_count": 250,
+      "text": "Standard introductory economic models predict that a minimum wage set above the market-clearing wage will reduce employment, since employers facing a higher mandated labour cost will hire fewer workers than they would at the lower, unregulated wage, a prediction that has shaped considerable policy debate and legislative caution around minimum wage increases. Empirical research testing this prediction directly against real-world minimum wage changes, however, has produced findings less uniformly supportive of the simple model than the model's clean theoretical logic might suggest, with some influential studies finding minimal or no measurable employment effect from moderate minimum wage increases in specific labour markets studied.\\n\\nOne explanation reconciling these findings with underlying economic theory holds that many labour markets are not, in fact, the perfectly competitive markets the standard model assumes, but instead exhibit some degree of employer market power, monopsony, in which a small number of employers face limited competition for workers in a local labour market, allowing them to pay wages below the level a genuinely competitive market would produce; in a monopsonistic market, a moderate minimum wage increase can, up to a point, increase employment rather than reduce it, by compelling employers closer to the wage a competitive market would have generated rather than pushing wages above it, meaning the standard model's prediction depends on a competitive-market assumption that may not hold uniformly across the specific labour markets minimum wage policy actually affects.",
+      "questions": [
+        {
+          "question_id": "p11-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Minimum wage laws always reduce employment in every labour market."
+            },
+            {
+              "id": "B",
+              "text": "Empirical findings less supportive of the standard competitive-market prediction may be explained by monopsony power, where a moderate minimum wage increase can raise employment by moving wages closer to a competitive level."
+            },
+            {
+              "id": "C",
+              "text": "No labour market has ever exhibited any employer market power."
+            },
+            {
+              "id": "D",
+              "text": "Minimum wage laws have never been empirically studied."
+            },
+            {
+              "id": "E",
+              "text": "Perfectly competitive markets exist in every labour market studied."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's monopsony explanation for the empirical findings.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p11-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies that in a monopsonistic labour market, wages before a minimum wage increase are:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Below the level a genuinely competitive market would have produced"
+            },
+            {
+              "id": "B",
+              "text": "Always identical to the competitive market wage"
+            },
+            {
+              "id": "C",
+              "text": "Set entirely by government regulation"
+            },
+            {
+              "id": "D",
+              "text": "Above the level a competitive market would produce"
+            },
+            {
+              "id": "E",
+              "text": "Unaffected by employer market power"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the effect of monopsony power on wages.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of monopsony functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reconcile empirical findings with economic theory by identifying a condition under which the standard model's prediction does not hold"
+            },
+            {
+              "id": "B",
+              "text": "Prove the standard competitive model is always correct regardless of market structure"
+            },
+            {
+              "id": "C",
+              "text": "Show that minimum wage laws have no economic effect under any market structure"
+            },
+            {
+              "id": "D",
+              "text": "Argue that empirical research on minimum wage should be disregarded"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about international trade"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Monopsony is presented as the specific reconciling explanation.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-06",
+      "topic": "The doctrine of promissory estoppel",
+      "word_count": 245,
+      "text": "Promissory estoppel allows a court to enforce a promise even absent the consideration ordinarily required for a valid contract, a bargained-for exchange, where a promisor made a clear promise reasonably relied upon by the promisee to their detriment, and where enforcing the promise is necessary to avoid an injustice that the reliance-induced harm would otherwise produce, a doctrine that developed specifically to address cases falling outside conventional contract formation requirements yet involving reliance harm ordinary contract law, focused narrowly on bargained exchange, would leave entirely without remedy.\\n\\nCourts applying the doctrine have generally been cautious about its scope, since a promissory estoppel doctrine applied too expansively risks displacing the consideration requirement's own underlying function, ensuring that only genuinely bargained, mutually intended commitments receive contractual enforcement rather than casual or preliminary statements never intended to be legally binding, meaning courts typically require the reliance to have been not merely foreseeable in the abstract but specifically and reasonably induced by the promise's particular clarity and context, a standard that keeps the doctrine available as a targeted remedy for genuine injustice without converting it into a general substitute for consideration capable of transforming any casual assurance into an enforceable legal commitment.",
+      "questions": [
+        {
+          "question_id": "p11-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Promissory estoppel requires the same consideration as an ordinary contract."
+            },
+            {
+              "id": "B",
+              "text": "Courts apply promissory estoppel cautiously, requiring specifically and reasonably induced reliance, to keep the doctrine a targeted remedy rather than a general substitute for the consideration requirement."
+            },
+            {
+              "id": "C",
+              "text": "No court has ever applied promissory estoppel to any case."
+            },
+            {
+              "id": "D",
+              "text": "Any casual statement can be enforced under promissory estoppel."
+            },
+            {
+              "id": "E",
+              "text": "Promissory estoppel has replaced the consideration requirement entirely."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the doctrine's cautious, targeted scope.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies an overly expansive promissory estoppel doctrine would risk:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Displacing the consideration requirement's function of ensuring only genuinely bargained commitments receive enforcement"
+            },
+            {
+              "id": "B",
+              "text": "Eliminating all reliance-based remedies entirely"
+            },
+            {
+              "id": "C",
+              "text": "Having no relationship to the consideration requirement"
+            },
+            {
+              "id": "D",
+              "text": "Making all contracts automatically enforceable"
+            },
+            {
+              "id": "E",
+              "text": "Requiring proof of a formal bargained exchange in every case"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the risk of overly broad application.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's requirement of 'specifically and reasonably induced' reliance functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Keep the doctrine bounded as a targeted remedy rather than a general substitute for consideration"
+            },
+            {
+              "id": "B",
+              "text": "Prove that reliance is never relevant to promissory estoppel"
+            },
+            {
+              "id": "C",
+              "text": "Show that all promises are automatically enforceable"
+            },
+            {
+              "id": "D",
+              "text": "Argue that consideration should be abolished as a contract requirement"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about tort law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This requirement is the specific limiting standard the passage describes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'consideration' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A bargained-for exchange between parties that is ordinarily required for a valid contract"
+            },
+            {
+              "id": "B",
+              "text": "A court's careful deliberation before ruling"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for promissory estoppel itself"
+            },
+            {
+              "id": "D",
+              "text": "A form of monetary damages awarded after breach"
+            },
+            {
+              "id": "E",
+              "text": "A legal requirement applying only to written contracts"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as the bargained-for exchange ordinarily required for contract formation.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-07",
+      "topic": "The ethics of covert government surveillance",
+      "word_count": 250,
+      "text": "Covert surveillance programmes, monitoring communications or movements without the knowledge of those surveilled, are typically justified by reference to a specific security or law enforcement objective, preventing terrorism, disrupting organised crime, that proponents argue outweighs the privacy intrusion involved, particularly where surveillance is subject to independent authorisation and oversight limiting its scope to genuinely justified targets rather than the general population.\\n\\nA distinct concern from the privacy intrusion itself, one critics argue receives insufficient attention in public debate framed primarily around individual privacy, concerns the systemic effect of surveillance on democratic self-governance more broadly: individuals aware, even in general terms, that communications may be monitored tend to exhibit measurable self-censorship in political speech and association, a chilling effect that operates independently of whether any specific individual is ever actually targeted or their communications ever actually reviewed by any analyst, since the deterrent effect of surveillance depends on perceived possibility rather than on demonstrated actual monitoring, meaning even narrowly targeted, well-overseen surveillance programmes can produce a diffuse chilling effect across a much broader population than the specific individuals the programme actually monitors, a cost the individual-privacy framing of the debate is not well positioned to capture or weigh.",
+      "questions": [
+        {
+          "question_id": "p11-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Covert surveillance has no security benefit of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Beyond individual privacy intrusion, surveillance can produce a diffuse chilling effect on political speech across a broader population than the specific individuals actually monitored, a cost the individual-privacy framing does not well capture."
+            },
+            {
+              "id": "C",
+              "text": "No surveillance programme has ever been subject to any oversight."
+            },
+            {
+              "id": "D",
+              "text": "Chilling effects require an individual to actually be targeted and monitored."
+            },
+            {
+              "id": "E",
+              "text": "Surveillance programmes never affect political speech or association."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's identification of the systemic, chilling-effect concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies the chilling effect operates independently of actual targeting because it depends on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The perceived possibility of surveillance rather than demonstrated actual monitoring"
+            },
+            {
+              "id": "B",
+              "text": "Every individual being personally monitored at all times"
+            },
+            {
+              "id": "C",
+              "text": "Formal legal authorisation for every surveillance action"
+            },
+            {
+              "id": "D",
+              "text": "The complete absence of any oversight mechanism"
+            },
+            {
+              "id": "E",
+              "text": "Public announcement of every surveillance programme's existence"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the chilling effect.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-07-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between individual privacy intrusion and the chilling effect functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a distinct, systemic cost of surveillance that the standard privacy-focused framing does not capture"
+            },
+            {
+              "id": "B",
+              "text": "Prove that privacy intrusion is not a genuine concern at all"
+            },
+            {
+              "id": "C",
+              "text": "Show that surveillance programmes never have any oversight"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all surveillance should be conducted openly"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about encryption technology"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction introduces a systemic cost distinct from the individual-privacy framing.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-08",
+      "topic": "Sunset clauses and legislative renewal",
+      "word_count": 248,
+      "text": "Sunset clauses automatically terminate a piece of legislation after a specified period unless a legislature affirmatively acts to renew it, a mechanism used particularly for emergency or exceptional powers, on the reasoning that requiring active renewal, rather than active repeal, corrects for a specific asymmetry in ordinary legislative inertia: repealing an existing law typically requires overcoming greater political and procedural friction than simply allowing it to continue unchanged, meaning legislation once enacted tends to persist well beyond its original justification even where circumstances have changed and a contemporary majority might not enact the same provision if voting on it fresh today, a default-persistence bias sunset clauses are designed specifically to reverse for the provisions they cover.\\n\\nCritics note the mechanism's practical effectiveness depends heavily on legislative capacity and attention, since a genuinely deliberate renewal decision requires the legislature to actually revisit and meaningfully reconsider the provision rather than renewing it as a matter of routine, low-scrutiny practice, and in systems with crowded legislative agendas, renewal votes for sunset-clause provisions can become exactly the kind of low-friction, low-scrutiny action the clause was designed to prevent, particularly where non-renewal would require affirmatively organising opposition against a provision that has, by the time of the renewal vote, already become embedded in institutional practice and difficult to dislodge regardless of the formal renewal requirement.",
+      "questions": [
+        {
+          "question_id": "p11-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sunset clauses always guarantee genuine legislative reconsideration."
+            },
+            {
+              "id": "B",
+              "text": "Sunset clauses aim to reverse the default-persistence bias of ordinary legislation, but critics note their effectiveness depends on legislative capacity, since renewal votes can become low-scrutiny routine actions in crowded legislative agendas."
+            },
+            {
+              "id": "C",
+              "text": "No legislation has ever included a sunset clause."
+            },
+            {
+              "id": "D",
+              "text": "Repealing legislation is always easier than allowing it to persist."
+            },
+            {
+              "id": "E",
+              "text": "Legislative inertia has no effect on how long laws persist."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the mechanism's purpose and its practical limitation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies ordinary legislation tends to persist beyond its original justification because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Repealing an existing law typically requires overcoming greater political and procedural friction than allowing it to continue unchanged"
+            },
+            {
+              "id": "B",
+              "text": "All legislation includes an automatic sunset clause"
+            },
+            {
+              "id": "C",
+              "text": "Legislatures always actively renew every law"
+            },
+            {
+              "id": "D",
+              "text": "Circumstances never change after a law is enacted"
+            },
+            {
+              "id": "E",
+              "text": "Repeal requires no legislative action at all"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the asymmetry sunset clauses are designed to correct.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-08-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of crowded legislative agendas functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a practical limitation on the sunset clause mechanism's effectiveness in practice"
+            },
+            {
+              "id": "B",
+              "text": "Prove that sunset clauses have never been used by any legislature"
+            },
+            {
+              "id": "C",
+              "text": "Show that legislative inertia has no effect on renewal votes"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all legislation should be permanent with no review"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legislative salaries"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies a specific practical constraint on the mechanism's intended function.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-08-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'default-persistence bias' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The tendency for enacted legislation to continue unless actively repealed, regardless of whether circumstances still justify it"
+            },
+            {
+              "id": "B",
+              "text": "A legal requirement that all laws expire after one year"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for sunset clause itself"
+            },
+            {
+              "id": "D",
+              "text": "A bias favouring repeal over renewal"
+            },
+            {
+              "id": "E",
+              "text": "A tendency for legislatures to actively reconsider every law annually"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined as the tendency of legislation to persist absent active repeal, which sunset clauses aim to reverse.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-09",
+      "topic": "The problem of moral encroachment on belief",
+      "word_count": 248,
+      "text": "Standard epistemology treats the question of whether a belief is justified, adequately supported by evidence, as independent of the moral stakes involved in acting on that belief, a person's evidence for believing a particular individual committed a minor infraction is assessed by the same evidential standard regardless of whether the consequence of acting on that belief is trivial or severe. Moral encroachment theorists challenge this independence, arguing that the evidential threshold required for a belief to count as justified should itself rise as the moral stakes of acting on the belief increase, since believing, on relatively thin evidence, that a specific individual is guilty of serious wrongdoing risks a graver moral cost if mistaken than believing the same individual guilty of a trivial infraction on the same thin evidence, and this asymmetry in moral cost, encroachment theorists argue, should be reflected in a correspondingly higher evidential bar before the more consequential belief counts as justified.\\n\\nCritics of moral encroachment respond that this conflates two genuinely distinct questions, whether a belief is epistemically justified given the evidence, and whether acting on that belief is morally permissible given the stakes, since a belief can be well-supported by the evidence available while acting on it remains imprudent or wrong given what is at stake if the belief, however well-supported, turns out to be mistaken, meaning the moral caution encroachment theorists rightly demand can be fully accommodated at the level of action without requiring the further, more radical claim that the belief's justification status itself changes with the stakes involved.",
+      "questions": [
+        {
+          "question_id": "p11-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Moral stakes have no bearing on epistemology whatsoever."
+            },
+            {
+              "id": "B",
+              "text": "Critics of moral encroachment argue the moral caution the theory demands can be accommodated at the level of action, without requiring the further claim that a belief's justification status itself changes with the stakes."
+            },
+            {
+              "id": "C",
+              "text": "All beliefs require identical evidence regardless of any theory."
+            },
+            {
+              "id": "D",
+              "text": "Moral encroachment theory has been universally accepted by epistemologists."
+            },
+            {
+              "id": "E",
+              "text": "Acting on a belief is always permissible if the belief is well-supported by evidence."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the critics' distinct-questions response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p11-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies moral encroachment theorists argue evidential thresholds should:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rise as the moral stakes of acting on a belief increase"
+            },
+            {
+              "id": "B",
+              "text": "Remain identical regardless of moral stakes"
+            },
+            {
+              "id": "C",
+              "text": "Apply only to trivial infractions"
+            },
+            {
+              "id": "D",
+              "text": "Have no relationship to belief justification at all"
+            },
+            {
+              "id": "E",
+              "text": "Fall as moral stakes increase"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the encroachment theorists' core claim.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-09-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' distinction between epistemic justification and moral permissibility of action functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Offer an alternative way to accommodate the moral caution encroachment theorists demand, without accepting their more radical claim about justification itself"
+            },
+            {
+              "id": "B",
+              "text": "Prove that moral stakes are entirely irrelevant to any decision"
+            },
+            {
+              "id": "C",
+              "text": "Fully endorse the moral encroachment view without qualification"
+            },
+            {
+              "id": "D",
+              "text": "Show that no belief can ever be justified"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legal evidentiary standards"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is the critics' specific alternative to the encroachment theorists' proposal.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-10",
+      "topic": "Housing policy and rent control",
+      "word_count": 250,
+      "text": "Rent control policies, capping the amount landlords may charge or the rate at which rent may increase, are typically motivated by a concern for housing affordability and tenant stability, particularly protecting existing tenants from being priced out of their current homes by rapid rent increases in markets experiencing strong demand growth. Standard economic analysis predicts that binding rent caps, by holding rental income below the market-clearing level, will reduce landlords' incentive to maintain or improve rental properties and reduce the incentive to build new rental housing, since the expected return on new construction falls once rents are capped, potentially worsening the very housing shortage driving demand-side price pressure in the first place.\\n\\nEmpirical studies of specific rent control programmes have generally found effects consistent with this prediction over the longer term, reduced rental housing supply, some conversion of rental units to owner-occupied housing exempt from rent caps, and reduced maintenance investment in covered units, though the same studies typically find rent control does succeed at its narrower, more immediate goal of protecting existing covered tenants from displacement in the short term, producing a pattern in which the policy appears to benefit incumbent tenants specifically while imposing longer-term costs, reduced overall housing supply and quality, that fall disproportionately on prospective tenants seeking housing in the same market, a distributional trade-off between current and future renters that a policy framed simply as protecting 'tenants' generally tends to obscure.",
+      "questions": [
+        {
+          "question_id": "p11-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rent control has no effect on housing supply of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Rent control tends to protect incumbent tenants in the short term while imposing longer-term costs on housing supply and quality that fall disproportionately on prospective tenants, a distributional trade-off the 'protecting tenants' framing obscures."
+            },
+            {
+              "id": "C",
+              "text": "Rent control always increases the overall supply of rental housing."
+            },
+            {
+              "id": "D",
+              "text": "No empirical study has ever examined rent control's effects."
+            },
+            {
+              "id": "E",
+              "text": "Landlords always maintain properties identically regardless of rent caps."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's distributional trade-off conclusion.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies rent control's costs fall disproportionately on prospective tenants because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduced housing supply and quality primarily affect those seeking to enter the market rather than those already housed under the cap"
+            },
+            {
+              "id": "B",
+              "text": "Prospective tenants are legally excluded from renting in any capped market"
+            },
+            {
+              "id": "C",
+              "text": "Incumbent tenants always pay higher rent than prospective tenants"
+            },
+            {
+              "id": "D",
+              "text": "Rent control has no effect on housing supply whatsoever"
+            },
+            {
+              "id": "E",
+              "text": "Prospective tenants benefit equally from rent caps as incumbent tenants"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the distributional trade-off.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final sentence about the 'tenants' framing functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Highlight how a simple policy label can obscure a distributional trade-off between two distinct groups"
+            },
+            {
+              "id": "B",
+              "text": "Prove that rent control benefits no tenant of any kind"
+            },
+            {
+              "id": "C",
+              "text": "Argue that rent control should be immediately expanded"
+            },
+            {
+              "id": "D",
+              "text": "Show that incumbent and prospective tenants are legally identical categories"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about property tax policy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This closing point highlights the obscured distributional trade-off.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-10-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'market-clearing level' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The price at which supply and demand for rental housing would balance absent a regulatory cap"
+            },
+            {
+              "id": "B",
+              "text": "A price set entirely by government regulation"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for rent control itself"
+            },
+            {
+              "id": "D",
+              "text": "The lowest possible rent a landlord could charge"
+            },
+            {
+              "id": "E",
+              "text": "A price applicable only to owner-occupied housing"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the equilibrium rent absent a binding cap, as used in the standard economic analysis.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-11",
+      "topic": "The ethics of lethal autonomous weapons",
+      "word_count": 250,
+      "text": "Autonomous weapons systems capable of selecting and engaging targets without real-time human authorisation for the specific lethal decision raise a distinct ethical question from the debate over autonomous vehicles or other automated systems: whether meaningful human moral responsibility can attach to a killing decision made by a system rather than a person, given that the traditional framework for assessing the ethics of lethal force in armed conflict, proportionality, distinction between combatants and civilians, assumes a human decision-maker capable of the contextual judgement these standards require, judgement an algorithmic system applies according to its programmed parameters rather than through the kind of situated, context-sensitive moral reasoning the framework was designed around.\\n\\nProponents argue autonomous systems could, in principle, apply targeting criteria more consistently and with greater precision than a human combatant operating under battlefield stress, fatigue, or fear, potentially reducing certain categories of unlawful killing that result specifically from human error or panic under pressure. Critics respond that even a system achieving superior average performance against explicit targeting criteria cannot resolve the deeper responsibility gap the technology introduces: when an autonomous system's targeting decision violates the laws of armed conflict, it becomes genuinely unclear who bears moral and legal responsibility, the commander who deployed the system without controlling its specific decisions, the programmer who could not have anticipated every scenario the system would encounter, or no one at all, a diffusion of responsibility across the development and deployment chain that traditional accountability frameworks built around individual human decision-makers are not well equipped to resolve.",
+      "questions": [
+        {
+          "question_id": "p11-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Autonomous weapons systems have no potential benefit of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Even if autonomous systems could apply targeting criteria more consistently than humans under stress, critics argue this does not resolve the deeper responsibility gap that arises when such a system's decision violates the laws of armed conflict."
+            },
+            {
+              "id": "C",
+              "text": "Human combatants never make any errors under battlefield stress."
+            },
+            {
+              "id": "D",
+              "text": "Autonomous systems always apply identical moral reasoning to human combatants."
+            },
+            {
+              "id": "E",
+              "text": "Traditional accountability frameworks fully resolve responsibility for autonomous weapons."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of proponents' argument and the deeper unresolved critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies proponents believe autonomous systems could reduce certain unlawful killings because such systems:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Could apply targeting criteria more consistently, without the stress, fatigue, or fear affecting human combatants"
+            },
+            {
+              "id": "B",
+              "text": "Always achieve perfect compliance with the laws of armed conflict"
+            },
+            {
+              "id": "C",
+              "text": "Are legally exempt from proportionality requirements"
+            },
+            {
+              "id": "D",
+              "text": "Never encounter any scenario a programmer failed to anticipate"
+            },
+            {
+              "id": "E",
+              "text": "Require no accountability framework of any kind"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the proponents' argument for potential benefit.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-11-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' discussion of who bears responsibility functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a distinct difficulty that persists even if the proponents' consistency claim is granted"
+            },
+            {
+              "id": "B",
+              "text": "Prove that autonomous systems never violate the laws of armed conflict"
+            },
+            {
+              "id": "C",
+              "text": "Fully concede the proponents' argument about superior performance"
+            },
+            {
+              "id": "D",
+              "text": "Argue that human combatants should never be held accountable either"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about weapons manufacturing"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This is presented as a separate difficulty even granting the proponents' performance claim.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p11-12",
+      "topic": "Global governance and the democratic deficit",
+      "word_count": 250,
+      "text": "International institutions, trade bodies, financial regulators, treaty organisations, increasingly make decisions with substantial effects on domestic policy in member states, yet these institutions typically lack the direct electoral accountability domestic governments possess, officials are usually appointed by member state governments rather than elected by the populations affected, and formal channels for citizens to challenge or influence institutional decisions are considerably weaker than the channels available for challenging domestic government action, a gap commonly termed the democratic deficit in global governance.\\n\\nDefenders of current arrangements argue direct electoral accountability at the global level, while conceptually appealing, faces a specific structural obstacle beyond mere practical difficulty: meaningful electoral accountability generally presupposes a demos, a population with sufficient shared political identity and mutual concern to treat electoral outcomes as legitimately binding even on those who voted against the winning outcome, a condition many theorists argue does not currently exist at a genuinely global level in the way it exists, imperfectly but functionally, within most nation-states, meaning importing domestic electoral mechanisms wholesale to global institutions may address the accountability gap's symptoms without addressing why the underlying legitimacy condition domestic democracy relies upon is harder to establish at global scale, a difficulty distinct from simply designing better global voting procedures.",
+      "questions": [
+        {
+          "question_id": "p11-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "International institutions already possess full electoral accountability."
+            },
+            {
+              "id": "B",
+              "text": "Defenders argue importing domestic electoral mechanisms to global institutions may not address the underlying legitimacy condition, a shared political demos, that domestic democracy relies upon and that is harder to establish at global scale."
+            },
+            {
+              "id": "C",
+              "text": "No international institution has ever made a decision affecting domestic policy."
+            },
+            {
+              "id": "D",
+              "text": "A global demos already exists in the same form it exists within nation-states."
+            },
+            {
+              "id": "E",
+              "text": "The democratic deficit has no relationship to institutional accountability."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's structural-obstacle argument about the demos condition.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p11-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies electoral accountability generally presupposes:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A demos, a population with sufficient shared political identity to treat electoral outcomes as legitimately binding"
+            },
+            {
+              "id": "B",
+              "text": "No shared identity of any kind among voters"
+            },
+            {
+              "id": "C",
+              "text": "Direct appointment of officials by member state governments"
+            },
+            {
+              "id": "D",
+              "text": "The complete absence of any formal voting procedure"
+            },
+            {
+              "id": "E",
+              "text": "Unanimous agreement among all voters on every outcome"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the presupposed condition for meaningful electoral accountability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p11-12-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between addressing accountability 'symptoms' and the underlying legitimacy condition functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why better voting procedures alone would not fully resolve the democratic deficit"
+            },
+            {
+              "id": "B",
+              "text": "Prove that global governance has no legitimacy problem whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Argue that domestic democracy also lacks any legitimate demos"
+            },
+            {
+              "id": "D",
+              "text": "Show that international institutions should be abolished entirely"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about trade tariffs"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction explains the deeper limitation of a purely procedural fix.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p11-12-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'demos' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A population with sufficient shared political identity to treat collective decisions as legitimately binding"
+            },
+            {
+              "id": "B",
+              "text": "A formal international treaty organisation"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for electoral accountability itself"
+            },
+            {
+              "id": "D",
+              "text": "A specific voting procedure used in referenda"
+            },
+            {
+              "id": "E",
+              "text": "A body of appointed, unelected officials"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as the population with shared political identity that legitimises electoral outcomes.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p12",
+  "title": "Praxis LNAT Practice Paper 12",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p12-01",
+      "topic": "The doctrine of ultra vires",
+      "word_count": 242,
+      "text": "The ultra vires doctrine holds that a public body or corporation acting beyond the powers granted to it by its constituting statute or charter acts unlawfully, regardless of how sensible or beneficial the specific action taken might otherwise be, on the reasoning that public and corporate bodies, unlike natural persons, possess only the powers specifically conferred on them, meaning any action outside that conferred scope lacks legal authority no matter its practical merit.\\n\\nThe doctrine's strict application has been softened in many jurisdictions by allowing powers reasonably incidental to an express power to be treated as impliedly authorised, since a rule requiring every specific action to trace to an explicit statutory grant would make even routine, clearly necessary administrative action technically unlawful whenever the constituting document failed to anticipate every specific implementing step, a standard no drafter could realistically satisfy, meaning courts distinguish between action genuinely outside the body's conferred purpose and action reasonably necessary to accomplish a purpose the body was expressly authorised to pursue, a line that requires judgement about how directly a specific action serves an express power rather than mechanical textual comparison alone.",
+      "questions": [
+        {
+          "question_id": "p12-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Public bodies possess unlimited powers regardless of their constituting statute."
+            },
+            {
+              "id": "B",
+              "text": "Courts distinguish between action genuinely outside a body's conferred purpose and action reasonably incidental to an express power, softening strict ultra vires application through implied authorisation."
+            },
+            {
+              "id": "C",
+              "text": "The ultra vires doctrine has never been applied by any court."
+            },
+            {
+              "id": "D",
+              "text": "Any beneficial action is automatically lawful regardless of conferred powers."
+            },
+            {
+              "id": "E",
+              "text": "Constituting statutes always anticipate every implementing step in advance."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the softened, incidental-powers standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies a strict, unmitigated ultra vires standard would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make even routine, clearly necessary administrative action technically unlawful whenever the constituting document failed to anticipate every specific step"
+            },
+            {
+              "id": "B",
+              "text": "Grant public bodies unlimited discretion"
+            },
+            {
+              "id": "C",
+              "text": "Eliminate the need for any constituting statute"
+            },
+            {
+              "id": "D",
+              "text": "Apply only to private corporations, not public bodies"
+            },
+            {
+              "id": "E",
+              "text": "Have no effect on how courts assess public body action"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the practical problem with an unmitigated standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of 'reasonably incidental' powers functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain the specific standard courts use to soften strict textual application of the doctrine"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no public body has ever acted within its powers"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all statutory limits on public bodies should be abolished"
+            },
+            {
+              "id": "D",
+              "text": "Show that implied authorisation is never recognised by any court"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about corporate governance"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This is the specific softening standard the passage describes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'incidental' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reasonably necessary or connected to accomplishing an expressly authorised purpose"
+            },
+            {
+              "id": "B",
+              "text": "Entirely unrelated to any express power"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for ultra vires itself"
+            },
+            {
+              "id": "D",
+              "text": "Requiring separate express statutory authorisation in every instance"
+            },
+            {
+              "id": "E",
+              "text": "Applicable only to private corporations"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to powers reasonably necessary to accomplish an express purpose, as described in the passage.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-02",
+      "topic": "Cognitive enhancement drugs and fairness in competition",
+      "word_count": 248,
+      "text": "Pharmaceutical cognitive enhancers, stimulant medications used off-label by individuals without a diagnosed condition to improve focus or working memory for competitive academic or professional purposes, raise a fairness question distinct from questions about the drugs' safety: whether use by some competitors in an environment, examinations, competitive hiring processes, where relative performance determines outcomes, unfairly disadvantages those unable or unwilling to use the same enhancement, an objection structurally similar to concerns about performance-enhancing drugs in sport, though defenders of permitting cognitive enhancement note a specific disanalogy: unlike athletic competition, most academic and professional contexts are not zero-sum contests whose entire point is measuring a specific unenhanced capacity, but instrumental processes ultimately valued for the enhanced real-world capability they are meant to predict or select for.\\n\\nThis disanalogy, however, only shifts rather than eliminates the fairness question, since even in an instrumental, non-zero-sum context, unequal access to enhancement, whether due to cost, differential legal availability, or differential willingness to accept side-effect risk, can still produce systematically unequal opportunity to demonstrate one's actual underlying capability, meaning fairness concerns persist in a modified form even once the sport-analogy framing is set aside: not that enhancement corrupts the meaning of the competition itself, but that unequal access to it distorts the competition's ability to accurately measure the capability it is actually designed to assess.",
+      "questions": [
+        {
+          "question_id": "p12-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cognitive enhancement raises no fairness concern of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Although academic contexts differ from zero-sum sporting contests, fairness concerns persist in modified form, since unequal access to enhancement can distort a competition's ability to accurately measure the underlying capability it aims to assess."
+            },
+            {
+              "id": "C",
+              "text": "Cognitive enhancement is identical to performance-enhancing drugs in sport in every respect."
+            },
+            {
+              "id": "D",
+              "text": "All academic contexts are zero-sum contests measuring unenhanced capacity."
+            },
+            {
+              "id": "E",
+              "text": "Unequal access to enhancement has no effect on competition outcomes."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's two-stage argument about the disanalogy and the persisting concern.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies most academic and professional contexts differ from sport because they are:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Instrumental processes valued for the enhanced real-world capability they predict or select for, rather than measuring a specific unenhanced capacity"
+            },
+            {
+              "id": "B",
+              "text": "Always zero-sum contests identical to sporting competition"
+            },
+            {
+              "id": "C",
+              "text": "Entirely unaffected by any form of performance variation"
+            },
+            {
+              "id": "D",
+              "text": "Never used to select or predict future capability"
+            },
+            {
+              "id": "E",
+              "text": "Legally required to prohibit all enhancement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the disanalogy defenders raise.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-02-q3",
+          "type": "logical_structure",
+          "prompt": "The final paragraph relates to the disanalogy raised earlier by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Showing the disanalogy shifts rather than eliminates the underlying fairness concern"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the disanalogy as entirely mistaken"
+            },
+            {
+              "id": "C",
+              "text": "Proving that enhancement has no effect on fairness in any context"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated point about drug safety regulation"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that enhancement should be banned in every context"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The paragraph reframes rather than eliminates the fairness concern.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-03",
+      "topic": "Whistleblower financial reward programmes",
+      "word_count": 245,
+      "text": "Some regulatory regimes, particularly in securities and tax enforcement, offer whistleblowers a financial reward, often a percentage of penalties recovered as a result of information they provide, on the reasoning that financial incentive addresses a specific practical obstacle facing purely conscience-based whistleblowing regimes: the substantial personal and professional risk whistleblowers bear, potential retaliation, career damage, litigation costs, is often disproportionate to any benefit the whistleblower personally receives from disclosure alone, meaning a purely altruistic model may systematically under-produce disclosure relative to the amount that would actually serve the public interest, since many individuals with valuable information may rationally decline to bear personal risk for a purely public benefit they do not personally capture.\\n\\nCritics raise a concern distinct from disputing that the incentive increases the volume of disclosures: financial reward may also incentivise the reporting of weaker or more speculative claims filed primarily to attempt to trigger an investigation and potential reward rather than because the whistleblower possesses genuinely credible information, increasing the volume of claims regulators must screen without a proportionate increase in actionable ones, meaning the reward's effect on total useful information generated depends on whether the increase in genuine disclosures outweighs the added screening burden from speculative claims, a question the reward's simple existence does not settle.",
+      "questions": [
+        {
+          "question_id": "p12-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whistleblower reward programmes have no rationale of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While financial rewards address the disproportionate personal risk whistleblowers bear, critics note they may also incentivise speculative claims, meaning the net effect on useful information depends on a trade-off the reward's existence alone does not settle."
+            },
+            {
+              "id": "C",
+              "text": "All whistleblower claims filed under reward programmes are speculative."
+            },
+            {
+              "id": "D",
+              "text": "No regulatory regime has ever offered a financial reward to whistleblowers."
+            },
+            {
+              "id": "E",
+              "text": "Purely conscience-based whistleblowing always produces more disclosure than reward-based systems."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the rationale and the critics' trade-off concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies purely altruistic whistleblowing regimes may under-produce disclosure because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The personal risk borne by whistleblowers is often disproportionate to any benefit they personally receive from disclosure alone"
+            },
+            {
+              "id": "B",
+              "text": "No individual has ever possessed valuable regulatory information"
+            },
+            {
+              "id": "C",
+              "text": "Financial rewards always eliminate personal risk entirely"
+            },
+            {
+              "id": "D",
+              "text": "Whistleblowers never face any retaliation under any regime"
+            },
+            {
+              "id": "E",
+              "text": "Regulators never investigate any disclosure"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the rationale for financial incentive.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-03-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' concern about speculative claims relates to the rationale in the first paragraph by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting that rewards increase disclosure volume while raising a distinct concern about claim quality and screening burden"
+            },
+            {
+              "id": "B",
+              "text": "Denying that financial reward has any effect on disclosure volume"
+            },
+            {
+              "id": "C",
+              "text": "Proving that all disclosures under reward programmes are genuine"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about tax rates"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that reward programmes should be immediately abolished"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Critics accept the volume effect but raise a distinct quality concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-03-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'actionable' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Containing sufficiently credible information to justify or support an investigation"
+            },
+            {
+              "id": "B",
+              "text": "Legally binding on the whistleblower"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for speculative"
+            },
+            {
+              "id": "D",
+              "text": "Automatically eligible for a financial reward regardless of merit"
+            },
+            {
+              "id": "E",
+              "text": "Filed only by anonymous whistleblowers"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Contrasted with speculative claims, referring to claims credible enough to warrant investigation.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-04",
+      "topic": "Term limits and legislative turnover",
+      "word_count": 248,
+      "text": "Term limits, restricting the number of terms an elected official may serve, are defended as a check on incumbency advantage, the accumulated resources, name recognition, and institutional relationships long-serving officials develop that make them difficult for challengers to defeat regardless of their ongoing performance in office, an advantage critics argue insulates incumbents from meaningful electoral accountability in a way that undermines the responsiveness competitive elections are supposed to provide.\\n\\nOpponents of term limits argue the remedy addresses incumbency advantage at a cost that may exceed the problem it solves: legislative effectiveness depends considerably on accumulated experience, familiarity with complex policy areas, institutional procedure, and relationships with other officials necessary to build coalitions and negotiate legislation, expertise that term limits forcibly discard just as an official develops it, systematically shifting relative influence within a legislature toward unelected staff and lobbyists who, unlike term-limited legislators, can accumulate institutional knowledge and continuity across multiple legislative sessions without any comparable restriction, meaning term limits may inadvertently transfer effective policy influence away from elected officials and toward less accountable actors rather than genuinely increasing electoral accountability as originally intended.",
+      "questions": [
+        {
+          "question_id": "p12-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Term limits have no drawbacks of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While term limits address incumbency advantage, opponents argue they may inadvertently transfer effective policy influence toward less accountable staff and lobbyists rather than increasing genuine electoral accountability."
+            },
+            {
+              "id": "C",
+              "text": "Incumbency advantage does not actually exist in any legislature."
+            },
+            {
+              "id": "D",
+              "text": "Legislative staff and lobbyists are always more accountable than elected officials."
+            },
+            {
+              "id": "E",
+              "text": "No jurisdiction has ever adopted term limits."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the unintended-consequence critique.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies unelected staff and lobbyists may gain relative influence under term limits because they:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Can accumulate institutional knowledge and continuity across multiple legislative sessions without any comparable restriction"
+            },
+            {
+              "id": "B",
+              "text": "Are subject to term limits identical to elected officials"
+            },
+            {
+              "id": "C",
+              "text": "Have no relationship to policy influence whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Are automatically elected once an incumbent is term-limited out"
+            },
+            {
+              "id": "E",
+              "text": "Lose all institutional knowledge when a legislature changes"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the influence shift.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-04-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of accumulated legislative expertise functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a cost of term limits distinct from the incumbency-advantage problem they are designed to solve"
+            },
+            {
+              "id": "B",
+              "text": "Prove that incumbency advantage never actually exists"
+            },
+            {
+              "id": "C",
+              "text": "Argue that term limits have no effect on legislative composition"
+            },
+            {
+              "id": "D",
+              "text": "Show that all legislators are equally experienced regardless of tenure"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about campaign finance"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies a distinct cost the incumbency-advantage rationale does not address.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-04-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'incumbency advantage' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The accumulated resources and recognition that make a sitting official difficult for challengers to defeat regardless of performance"
+            },
+            {
+              "id": "B",
+              "text": "A legal requirement limiting an official to one term"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for legislative expertise"
+            },
+            {
+              "id": "D",
+              "text": "A financial penalty imposed on incumbent officials"
+            },
+            {
+              "id": "E",
+              "text": "A benefit available only to newly elected officials"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as the accumulated resources and recognition benefiting long-serving officials.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-05",
+      "topic": "The economics of network effects and monopoly",
+      "word_count": 250,
+      "text": "Network effects occur where a product or service becomes more valuable to each user as more people use it, communication platforms, social networks, certain marketplaces, since the primary value on offer is the ability to interact with a larger population of other users rather than any feature intrinsic to the product itself considered in isolation, a dynamic that tends to produce winner-take-most market outcomes, since a platform with a larger existing user base offers genuinely more value than a smaller rival offering an otherwise identical service, making it difficult for a new entrant to compete on quality alone regardless of how well-designed the entrant's product might be.\\n\\nThis dynamic complicates standard antitrust analysis, which traditionally treats market dominance achieved through genuinely superior product quality as unproblematic and dominance achieved through anticompetitive conduct as the target of intervention, since network-effect-driven dominance can arise from a largely accidental first-mover advantage, being first to reach the critical mass of users that makes a platform's network effects self-reinforcing, rather than from either superior quality or anticompetitive conduct in the conventional sense, meaning a network-effects-driven monopoly can persist and even strengthen over time despite a later entrant offering a demonstrably superior product, since the accumulated user base itself, rather than product quality, has become the dominant determinant of platform value, a case existing antitrust frameworks built around the quality-versus-conduct distinction do not map onto cleanly.",
+      "questions": [
+        {
+          "question_id": "p12-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Network effects have no relationship to market dominance."
+            },
+            {
+              "id": "B",
+              "text": "Network-effect-driven dominance can arise from accidental first-mover advantage rather than superior quality or anticompetitive conduct, a case existing antitrust frameworks do not map onto cleanly."
+            },
+            {
+              "id": "C",
+              "text": "All platforms with network effects are automatically anticompetitive."
+            },
+            {
+              "id": "D",
+              "text": "Product quality is always the sole determinant of platform success."
+            },
+            {
+              "id": "E",
+              "text": "New entrants always successfully compete against established network-effect platforms."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central claim about the antitrust framework mismatch.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies a later entrant offering a superior product may still fail to displace an established network-effect platform because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The accumulated user base itself, rather than product quality, has become the dominant determinant of platform value"
+            },
+            {
+              "id": "B",
+              "text": "Superior products are always illegal under antitrust law"
+            },
+            {
+              "id": "C",
+              "text": "Network effects never actually influence user choice"
+            },
+            {
+              "id": "D",
+              "text": "Established platforms always have identical quality to new entrants"
+            },
+            {
+              "id": "E",
+              "text": "First-mover advantage has no effect on user base size"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reason quality alone may not overcome an entrenched network effect.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the quality-versus-conduct antitrust distinction functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why network-effect dominance is a difficult case for a framework built around that distinction"
+            },
+            {
+              "id": "B",
+              "text": "Prove antitrust law has never addressed any monopoly"
+            },
+            {
+              "id": "C",
+              "text": "Show that all monopolies arise from anticompetitive conduct"
+            },
+            {
+              "id": "D",
+              "text": "Argue that quality-based dominance should always be prohibited"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about consumer data privacy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is used to show why the standard framework does not cleanly categorise network-effect dominance.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-06",
+      "topic": "The right to asylum and burden-sharing among states",
+      "word_count": 250,
+      "text": "International refugee law obligates states to provide protection to individuals fleeing persecution who reach their territory, an obligation triggered by an asylum seeker's physical presence rather than allocated according to any formal quota or plan, a structure that produces a predictable and widely noted distributional pattern: states geographically proximate to conflict or persecution, or possessing accessible transit routes, bear a disproportionate share of asylum claims relative to states farther away, regardless of the latter states' overall capacity to absorb and support refugee populations, since the triggering event, an individual successfully reaching a state's territory or border, correlates strongly with geographic proximity and accessibility rather than with any principled measure of a state's fair share of the global protection burden.\\n\\nProposed burden-sharing mechanisms, formal resettlement quotas, financial transfers from distant states to proximate ones bearing disproportionate direct responsibility, attempt to decouple the incidence of the underlying legal obligation, protecting whoever physically arrives, from the distribution of its practical cost, but implementation has proven difficult in practice, since burden-sharing agreements generally require voluntary participation from states with no independent obligation to accept the proposed reallocation, and states farther from the initial point of arrival, bearing correspondingly less direct legal exposure under the presence-triggered obligation, have limited incentive to participate in voluntary schemes that would increase their own practical burden without any corresponding increase in their formal legal obligation under the underlying refugee protection framework.",
+      "questions": [
+        {
+          "question_id": "p12-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All states bear an identical share of the global asylum burden under current law."
+            },
+            {
+              "id": "B",
+              "text": "Because asylum obligations are triggered by physical presence rather than allocated by plan, geographically proximate states bear a disproportionate burden, and voluntary burden-sharing schemes face limited participation incentives from more distant states."
+            },
+            {
+              "id": "C",
+              "text": "No state has ever received any asylum claim."
+            },
+            {
+              "id": "D",
+              "text": "Burden-sharing mechanisms have already fully resolved the distributional problem."
+            },
+            {
+              "id": "E",
+              "text": "Geographic proximity has no relationship to which states receive asylum claims."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the distributional pattern and the implementation difficulty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies distant states have limited incentive to join voluntary burden-sharing schemes because doing so would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Increase their own practical burden without any corresponding increase in their formal legal obligation"
+            },
+            {
+              "id": "B",
+              "text": "Eliminate all asylum claims received by proximate states"
+            },
+            {
+              "id": "C",
+              "text": "Automatically become legally mandatory once one state joins"
+            },
+            {
+              "id": "D",
+              "text": "Reduce the number of refugees requiring protection globally"
+            },
+            {
+              "id": "E",
+              "text": "Have no effect on any state's practical burden"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the disincentive facing distant states.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between the 'incidence' of the legal obligation and the 'distribution' of its practical cost functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain what burden-sharing mechanisms attempt to decouple, and why that decoupling has proven difficult"
+            },
+            {
+              "id": "B",
+              "text": "Prove refugee law imposes no obligation on any state"
+            },
+            {
+              "id": "C",
+              "text": "Show that proximate and distant states bear identical burdens"
+            },
+            {
+              "id": "D",
+              "text": "Argue that burden-sharing mechanisms have never been proposed"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about immigration enforcement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is central to explaining the proposed remedy and its implementation difficulty.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'triggering event' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The act of physically reaching a state's territory that gives rise to its asylum obligation"
+            },
+            {
+              "id": "B",
+              "text": "A formal declaration of war"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for burden-sharing agreement"
+            },
+            {
+              "id": "D",
+              "text": "A vote by an international body allocating refugee quotas"
+            },
+            {
+              "id": "E",
+              "text": "An event occurring only in the asylum seeker's country of origin"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the presence-based event triggering a state's asylum obligation under current law.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-07",
+      "topic": "The ethics of facial recognition in public spaces",
+      "word_count": 248,
+      "text": "Facial recognition systems deployed in public spaces, matching captured images against a database to identify individuals in real time, are defended by law enforcement as a valuable investigative tool, enabling the identification of suspects or missing persons far faster than manual methods, a capability proponents argue simply extends, rather than qualitatively changes, techniques of identification, eyewitness identification, fingerprint matching, that have long been accepted components of law enforcement practice.\\n\\nCritics argue this framing understates a genuine qualitative difference: unlike fingerprint matching, which requires physical evidence collected at a specific location connected to a specific investigation, facial recognition deployed across a network of public cameras enables continuous, passive identification and tracking of any individual moving through covered public space, without any individualised suspicion or investigative predicate triggering the identification, converting what was previously an investigative tool applied after a specific triggering event into a capability for ongoing, generalised population monitoring, a shift in kind rather than merely in degree or speed, since the earlier techniques were never capable of the kind of continuous, suspicionless tracking across public movement that networked facial recognition specifically enables, regardless of how carefully any individual deployment is subsequently regulated or restricted after the fact.",
+      "questions": [
+        {
+          "question_id": "p12-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Facial recognition is identical in kind to fingerprint matching and other traditional identification techniques."
+            },
+            {
+              "id": "B",
+              "text": "Critics argue networked facial recognition enables continuous, suspicionless population tracking that earlier identification techniques were never capable of, representing a qualitative shift rather than a mere increase in speed or degree."
+            },
+            {
+              "id": "C",
+              "text": "No law enforcement agency has ever used facial recognition technology."
+            },
+            {
+              "id": "D",
+              "text": "Fingerprint matching requires no physical evidence collection."
+            },
+            {
+              "id": "E",
+              "text": "Facial recognition has no capability beyond traditional identification methods."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central qualitative-difference argument.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies traditional techniques like fingerprint matching differ from facial recognition because they:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Require physical evidence collected at a specific location connected to a specific investigation, unlike continuous public tracking"
+            },
+            {
+              "id": "B",
+              "text": "Are always faster than facial recognition"
+            },
+            {
+              "id": "C",
+              "text": "Have never been used by any law enforcement agency"
+            },
+            {
+              "id": "D",
+              "text": "Enable the same continuous population monitoring as facial recognition"
+            },
+            {
+              "id": "E",
+              "text": "Require no individualised suspicion of any kind"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the key distinguishing feature critics identify.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-07-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final clause about regulation 'after the fact' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Emphasise that the qualitative shift exists regardless of subsequent regulatory restriction on any specific deployment"
+            },
+            {
+              "id": "B",
+              "text": "Prove that all facial recognition deployments are already well regulated"
+            },
+            {
+              "id": "C",
+              "text": "Argue that regulation eliminates the qualitative difference entirely"
+            },
+            {
+              "id": "D",
+              "text": "Show that fingerprint matching also enables continuous tracking"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about data storage costs"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This clause emphasises the shift is inherent to the capability, not merely a regulatory gap.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-07-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'investigative predicate' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A prior basis of individualised suspicion that triggers an investigative technique"
+            },
+            {
+              "id": "B",
+              "text": "A synonym for facial recognition technology itself"
+            },
+            {
+              "id": "C",
+              "text": "A formal court order authorising surveillance"
+            },
+            {
+              "id": "D",
+              "text": "A type of physical evidence collected at a crime scene"
+            },
+            {
+              "id": "E",
+              "text": "A database used to store captured images"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the individualised suspicion or trigger traditionally required before an identification technique is used.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-08",
+      "topic": "The golden rule in statutory interpretation",
+      "word_count": 245,
+      "text": "The literal rule of statutory interpretation directs courts to apply a statute's ordinary, plain meaning even where doing so produces an outcome that seems to conflict with the statute's apparent underlying purpose, on the reasoning that legislative text, having gone through a deliberate democratic drafting and enactment process, should not be second-guessed by judges substituting their own view of what the legislature probably meant to say. The golden rule modifies this approach for a narrow category of case: where literal application would produce a result so absurd or manifestly contrary to the statute's evident purpose that the legislature could not plausibly have intended it, courts may depart from the strict literal meaning to avoid the absurd outcome, though only to the minimum extent necessary to avoid the absurdity, rather than reopening the text to a broader reinterpretation based on judicial views about optimal policy.\\n\\nThe rule's central difficulty lies in specifying what counts as sufficiently 'absurd' to justify departure, since a standard requiring genuine, extreme absurdity keeps judicial discretion appropriately narrow but may leave some genuinely poor drafting outcomes uncorrected, while a standard triggered by mere unreasonableness or apparent unfairness risks reintroducing exactly the broad judicial policy-substitution the literal rule was designed to prevent, meaning courts applying the golden rule must calibrate a threshold that is neither so narrow as to be practically inapplicable nor so broad as to collapse back into the purposive interpretation the literal rule rejects.",
+      "questions": [
+        {
+          "question_id": "p12-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The golden rule permits courts unlimited discretion to reinterpret any statute."
+            },
+            {
+              "id": "B",
+              "text": "The golden rule's central difficulty is calibrating an absurdity threshold narrow enough to preserve the literal rule's discipline but broad enough to correct genuinely absurd outcomes."
+            },
+            {
+              "id": "C",
+              "text": "The literal rule has never been applied by any court."
+            },
+            {
+              "id": "D",
+              "text": "Statutory text should never be interpreted literally under any circumstances."
+            },
+            {
+              "id": "E",
+              "text": "Legislative purpose is always identical to a statute's literal text."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the calibration difficulty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies a standard triggered by 'mere unreasonableness' would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Risk reintroducing the broad judicial policy-substitution the literal rule was designed to prevent"
+            },
+            {
+              "id": "B",
+              "text": "Make the golden rule entirely inapplicable in any case"
+            },
+            {
+              "id": "C",
+              "text": "Have no effect on how courts apply statutes"
+            },
+            {
+              "id": "D",
+              "text": "Require legislative approval before any application"
+            },
+            {
+              "id": "E",
+              "text": "Apply only to criminal statutes"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the risk of too broad a threshold.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-08-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the two threshold extremes functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why courts must calibrate a middle standard rather than adopting either extreme"
+            },
+            {
+              "id": "B",
+              "text": "Prove one of the two extremes is clearly correct"
+            },
+            {
+              "id": "C",
+              "text": "Show that the golden rule has no practical application"
+            },
+            {
+              "id": "D",
+              "text": "Argue that legislative drafting is always flawless"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legislative procedure"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Both extremes are problematic, motivating a calibrated middle standard.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-09",
+      "topic": "Paternalism in mental health law",
+      "word_count": 250,
+      "text": "Mental health legislation in many jurisdictions permits involuntary detention and treatment of individuals assessed as posing a risk to themselves or others due to a mental disorder, an exception to the ordinary requirement of informed consent for medical treatment justified on the reasoning that a disorder can, in some cases, impair the very decision-making capacity autonomy-based consent requirements presuppose, making paternalistic intervention in such cases arguably compatible with, rather than a violation of, a deeper respect for the person's genuine autonomous interests, since a decision made under conditions of impaired capacity does not reliably reflect what the person would autonomously choose absent that impairment.\\n\\nCritics argue the capacity-based justification, while sound in principle, has proven difficult to apply with the precision its own logic requires, since capacity assessment is not a binary determination but a matter of degree, and mental health legislation in practice has sometimes authorised intervention based on a disorder's mere presence or a general risk assessment rather than a specific, individualised finding that decision-making capacity regarding the treatment decision at hand has actually been impaired, a gap between the theoretical justification, incapacity specifically, and practical application, disorder or risk more generally, that critics argue allows involuntary intervention to extend beyond what the autonomy-preserving rationale actually supports, effectively reintroducing a broader paternalism the capacity-based framework was specifically designed to avoid.",
+      "questions": [
+        {
+          "question_id": "p12-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Involuntary mental health treatment has no justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While capacity-based justification for involuntary intervention is sound in principle, critics argue a gap between this theoretical rationale and practical application, which sometimes relies on disorder or risk rather than individualised incapacity findings, allows intervention to extend beyond what the rationale actually supports."
+            },
+            {
+              "id": "C",
+              "text": "All mental health legislation requires informed consent with no exceptions."
+            },
+            {
+              "id": "D",
+              "text": "Capacity is always a simple binary determination."
+            },
+            {
+              "id": "E",
+              "text": "No jurisdiction has ever permitted involuntary detention for mental health reasons."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the theory-practice gap critics identify.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies the capacity-based justification treats paternalistic intervention as compatible with autonomy because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A decision made under impaired capacity does not reliably reflect what the person would autonomously choose absent that impairment"
+            },
+            {
+              "id": "B",
+              "text": "All individuals with a mental disorder lack any decision-making capacity"
+            },
+            {
+              "id": "C",
+              "text": "Autonomy has no relevance to medical treatment decisions"
+            },
+            {
+              "id": "D",
+              "text": "Paternalism and autonomy are always identical concepts"
+            },
+            {
+              "id": "E",
+              "text": "Capacity assessment is always a simple binary determination"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reasoning behind the capacity-based justification.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between 'incapacity specifically' and 'disorder or risk more generally' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify the specific gap between theoretical justification and practical application that critics highlight"
+            },
+            {
+              "id": "B",
+              "text": "Prove that capacity-based justification has no theoretical basis"
+            },
+            {
+              "id": "C",
+              "text": "Show that risk assessment is identical to capacity assessment"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all involuntary treatment should be banned"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about psychiatric diagnosis criteria"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is precisely the gap the critics' argument relies on.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'individualised finding' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A specific determination made about a particular person's decision-making capacity regarding the treatment decision at hand"
+            },
+            {
+              "id": "B",
+              "text": "A general risk assessment applicable to any person with a given disorder"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for involuntary detention"
+            },
+            {
+              "id": "D",
+              "text": "A finding made without reference to any specific individual"
+            },
+            {
+              "id": "E",
+              "text": "A diagnosis alone, without any capacity assessment"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Contrasted with a general disorder or risk finding, referring to a specific, person-particular capacity determination.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-10",
+      "topic": "Trade secrets versus employee mobility",
+      "word_count": 248,
+      "text": "Trade secret law protects confidential business information, formulas, processes, customer data, from misappropriation, while post-employment non-compete agreements attempt to prevent a departing employee from working for a competitor for a specified period, both mechanisms defended as necessary to protect an employer's legitimate investment in developing valuable confidential information that a departing employee might otherwise carry directly to a rival, undermining the original employer's competitive position and the incentive to invest in developing such information in the first place.\\n\\nCritics of expansive non-compete enforcement argue the mechanism, unlike trade secret protection itself, restricts something considerably broader than the specific confidential information at risk: an employee's general skills, knowledge, and professional relationships developed over a career, much of which is not confidential in any meaningful sense and which the employee has an independent interest in being able to apply in future employment, meaning a non-compete justified by reference to protecting specific trade secrets often restricts employee mobility far more broadly than protecting those specific secrets actually requires, since trade secret law itself, prohibiting the specific act of misappropriating confidential information regardless of where the employee subsequently works, already provides a more precisely targeted remedy that does not require restricting the employee's ability to work in their field at all, raising the question of what additional protection a broad non-compete actually adds beyond what trade secret law already provides.",
+      "questions": [
+        {
+          "question_id": "p12-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Trade secret law and non-compete agreements are identical in scope and function."
+            },
+            {
+              "id": "B",
+              "text": "Critics argue non-compete agreements often restrict employee mobility far more broadly than protecting specific confidential information requires, since trade secret law itself already provides a more precisely targeted remedy."
+            },
+            {
+              "id": "C",
+              "text": "No employer has any legitimate interest in protecting confidential information."
+            },
+            {
+              "id": "D",
+              "text": "Non-compete agreements never restrict any aspect of an employee's general skills."
+            },
+            {
+              "id": "E",
+              "text": "Trade secret law provides no protection to employers of any kind."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's critique of the scope mismatch between the two mechanisms.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies trade secret law is more precisely targeted than a non-compete because it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Prohibits the specific act of misappropriating confidential information without restricting where the employee subsequently works"
+            },
+            {
+              "id": "B",
+              "text": "Applies only to employees who have signed a non-compete agreement"
+            },
+            {
+              "id": "C",
+              "text": "Restricts an employee's general skills and professional relationships"
+            },
+            {
+              "id": "D",
+              "text": "Has no relationship to confidential business information"
+            },
+            {
+              "id": "E",
+              "text": "Requires a broader restriction on employee mobility than a non-compete"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the more targeted nature of trade secret protection.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final question about 'what additional protection a broad non-compete actually adds' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Challenge the justification for non-competes by highlighting the redundancy with trade secret law's more targeted protection"
+            },
+            {
+              "id": "B",
+              "text": "Prove that trade secret law provides no protection whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Concede that non-competes are always necessary regardless of trade secret law"
+            },
+            {
+              "id": "D",
+              "text": "Introduce an unrelated point about employment contract formation"
+            },
+            {
+              "id": "E",
+              "text": "Argue that all confidential information should be freely shared"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This closing question challenges the marginal justification for broad non-competes.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-11",
+      "topic": "The ethics of wealth taxation",
+      "word_count": 250,
+      "text": "Proposals to tax accumulated wealth directly, rather than income or transactions, are defended on the grounds that wealth concentration itself, independent of any specific income flow, confers disproportionate political and economic influence that a purely income-based tax system does not address, since a wealthy individual's accumulated capital continues generating influence, and often further wealth through investment returns, regardless of whether that individual currently reports significant taxable income in any given year, meaning income taxation alone can leave substantial and growing wealth stocks effectively untaxed for extended periods.\\n\\nCritics raise a specific administrative objection distinct from disputing the underlying distributional concern: wealth, unlike income, frequently consists of assets, private business equity, real estate, art, whose market value is not continuously and objectively observable in the way a cash salary is, requiring periodic valuation exercises that are inherently more contestable, expensive, and susceptible to manipulation than assessing straightforward cash income, particularly for illiquid assets lacking any regular, arm's-length market transaction against which to benchmark a valuation, a practical implementation difficulty that has led several countries that previously implemented wealth taxes to subsequently repeal them, citing valuation disputes and enforcement costs disproportionate to revenue actually collected, even where the underlying distributional rationale for taxing wealth concentration remained, in the view of many of the same governments, sound.",
+      "questions": [
+        {
+          "question_id": "p12-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Wealth taxation has no distributional rationale of any kind."
+            },
+            {
+              "id": "B",
+              "text": "While wealth taxation addresses influence that income taxation alone does not capture, critics raise a distinct administrative objection concerning the difficulty of valuing illiquid assets, which has led several countries to repeal wealth taxes despite retaining the underlying distributional rationale."
+            },
+            {
+              "id": "C",
+              "text": "All wealth consists of easily and objectively valued cash assets."
+            },
+            {
+              "id": "D",
+              "text": "Income taxation always fully captures wealth concentration's effects."
+            },
+            {
+              "id": "E",
+              "text": "No country has ever implemented or repealed a wealth tax."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the rationale and the distinct administrative objection.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies valuing illiquid assets for wealth tax purposes is difficult because such assets:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lack any regular, arm's-length market transaction against which to benchmark a valuation"
+            },
+            {
+              "id": "B",
+              "text": "Are always more valuable than cash income"
+            },
+            {
+              "id": "C",
+              "text": "Have no relationship to wealth concentration"
+            },
+            {
+              "id": "D",
+              "text": "Are automatically taxed at the same rate as income"
+            },
+            {
+              "id": "E",
+              "text": "Are never held by wealthy individuals"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the source of the valuation difficulty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-11-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's reference to countries repealing wealth taxes despite retaining the underlying rationale functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that the administrative objection is distinct from, and can prevail independently of, disputes about the tax's underlying distributional merit"
+            },
+            {
+              "id": "B",
+              "text": "Prove the distributional rationale for wealth taxation was always mistaken"
+            },
+            {
+              "id": "C",
+              "text": "Argue that no country should ever attempt to tax wealth"
+            },
+            {
+              "id": "D",
+              "text": "Show that valuation of illiquid assets is always straightforward"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about corporate tax avoidance"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This example shows the administrative objection can drive policy outcomes independent of the distributional debate.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p12-12",
+      "topic": "Constitutional courts and the counter-majoritarian difficulty",
+      "word_count": 250,
+      "text": "Constitutional courts empowered to strike down legislation enacted by a democratically elected legislature face what legal theorists term the counter-majoritarian difficulty: the exercise of judicial review by unelected judges to override a decision reached through the ordinary democratic process appears to substitute judicial judgement for the considered will of an elected majority, a substitution difficult to reconcile with a commitment to democratic self-governance regardless of how legally sound the constitutional reasoning underlying the specific decision might be.\\n\\nDefenders of judicial review respond that the difficulty, while real, is frequently overstated by treating 'democratic will' as though it were a single, unproblematic concept fully captured by whatever a current legislative majority has enacted, when constitutional review is itself frequently exercised specifically to protect an earlier, often more considered democratic decision, the constitution itself, ratified through an extraordinary democratic process typically requiring broader consensus than ordinary legislation, against erosion by a subsequent, ordinary legislative majority acting through the lower-threshold ordinary lawmaking process, meaning judicial review in such cases arguably enforces one expression of democratic will, the constitution as ratified, against a competing, lower-threshold expression, ordinary legislation, rather than simply substituting judicial preference for democratic will as such, a reframing that recasts the difficulty as a conflict between two different tiers of democratic decision rather than a simple substitution of judicial for democratic judgement.",
+      "questions": [
+        {
+          "question_id": "p12-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judicial review is always fully democratic with no counter-majoritarian difficulty whatsoever."
+            },
+            {
+              "id": "B",
+              "text": "Defenders reframe the counter-majoritarian difficulty as a conflict between two tiers of democratic decision, the constitution as ratified versus ordinary legislation, rather than a simple substitution of judicial for democratic judgement."
+            },
+            {
+              "id": "C",
+              "text": "No constitutional court has ever struck down any legislation."
+            },
+            {
+              "id": "D",
+              "text": "Ordinary legislative majorities always represent a more considered democratic decision than constitutional ratification."
+            },
+            {
+              "id": "E",
+              "text": "The counter-majoritarian difficulty has no defenders' response of any kind."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the defenders' reframing argument.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p12-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies defenders of judicial review distinguish the constitution's ratification from ordinary legislation based on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The constitution typically requiring a broader, extraordinary democratic consensus than the lower-threshold ordinary lawmaking process"
+            },
+            {
+              "id": "B",
+              "text": "The constitution never having been ratified through any democratic process"
+            },
+            {
+              "id": "C",
+              "text": "Ordinary legislation always requiring a higher threshold than constitutional ratification"
+            },
+            {
+              "id": "D",
+              "text": "Judicial review having no relationship to either process"
+            },
+            {
+              "id": "E",
+              "text": "Constitutions being enacted identically to ordinary statutes"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the basis for distinguishing the two tiers of democratic decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p12-12-q3",
+          "type": "logical_structure",
+          "prompt": "The defenders' reframing in the second paragraph relates to the counter-majoritarian difficulty by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting the difficulty is real while recharacterising it as a conflict between tiers of democratic decision rather than a simple judicial-versus-democratic substitution"
+            },
+            {
+              "id": "B",
+              "text": "Fully denying that any counter-majoritarian difficulty exists"
+            },
+            {
+              "id": "C",
+              "text": "Proving that judicial review is never exercised to protect constitutional provisions"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about legislative procedure"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that all constitutional courts should be abolished"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defenders concede the difficulty's reality while offering a different characterisation of what it actually involves.",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p13",
+  "title": "Praxis LNAT Practice Paper 13",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p13-01",
+      "topic": "The doctrine of consideration in contract formation",
+      "word_count": 242,
+      "text": "Consideration, something of value exchanged by each party to a contract, is a requirement peculiar to common-law systems, distinguishing an enforceable bargain from a merely gratuitous promise, on the reasoning that the law should reserve its enforcement machinery for genuinely reciprocal exchanges rather than one-sided promises made without any expectation of return, since a purely gratuitous promise, however sincerely intended, lacks the mutual inducement that indicates both parties genuinely intended their arrangement to carry legal, rather than merely social or moral, weight.\\n\\nThe doctrine's requirement that consideration be 'sufficient' but need not be 'adequate' produces a specific and often counterintuitive result: courts will enforce a contract in which one party's consideration is nominal, a single token payment, provided it has some value recognised by law, without inquiring into whether the exchange was fair or proportionate in economic terms, since courts have generally declined to police the substantive fairness of a bargain parties freely entered into, reserving that inquiry instead for separate doctrines, such as unconscionability or undue influence, that target defects in the bargaining process itself rather than the substantive adequacy of the exchange, meaning a wildly one-sided but freely negotiated bargain remains enforceable under consideration doctrine alone even where its economic terms would strike an outside observer as grossly unfair.",
+      "questions": [
+        {
+          "question_id": "p13-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Consideration must always be economically proportionate for a contract to be enforceable."
+            },
+            {
+              "id": "B",
+              "text": "Consideration need only be sufficient, not adequate, meaning courts enforce even a wildly one-sided freely negotiated bargain, reserving substantive fairness concerns for separate doctrines like unconscionability."
+            },
+            {
+              "id": "C",
+              "text": "Gratuitous promises are always enforceable under consideration doctrine."
+            },
+            {
+              "id": "D",
+              "text": "No legal system has ever required consideration for contract formation."
+            },
+            {
+              "id": "E",
+              "text": "Courts always inquire into whether a bargain was fair before enforcing it."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the sufficiency-not-adequacy distinction.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies unconscionability and undue influence differ from consideration doctrine because they target:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Defects in the bargaining process itself rather than the substantive adequacy of the exchange"
+            },
+            {
+              "id": "B",
+              "text": "Whether any consideration was exchanged at all"
+            },
+            {
+              "id": "C",
+              "text": "The same substantive fairness question consideration doctrine already addresses"
+            },
+            {
+              "id": "D",
+              "text": "Only contracts involving nominal payment"
+            },
+            {
+              "id": "E",
+              "text": "Gratuitous promises exclusively"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the distinct focus of these separate doctrines.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of nominal consideration functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate the counterintuitive result of the sufficiency-not-adequacy standard"
+            },
+            {
+              "id": "B",
+              "text": "Prove that nominal consideration is never legally recognised"
+            },
+            {
+              "id": "C",
+              "text": "Show that all contracts require economically proportionate exchange"
+            },
+            {
+              "id": "D",
+              "text": "Argue that consideration doctrine has been abolished"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about gift law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This illustrates the specific counterintuitive consequence of the doctrine.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'gratuitous promise' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A one-sided promise made without any expectation of return from the other party"
+            },
+            {
+              "id": "B",
+              "text": "A promise supported by nominal consideration"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for a bargained-for exchange"
+            },
+            {
+              "id": "D",
+              "text": "A promise enforceable regardless of consideration"
+            },
+            {
+              "id": "E",
+              "text": "A promise made only between commercial parties"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as a one-sided promise lacking mutual inducement.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-02",
+      "topic": "The ethics of gene drives in conservation",
+      "word_count": 250,
+      "text": "Gene drive technology can spread a genetic modification through a wild population far faster than ordinary inheritance would allow, by biasing inheritance so that a modification is passed to nearly all offspring rather than the standard fifty percent, a capability proposed for conservation purposes such as suppressing invasive species populations threatening native ecosystems or reducing disease-vector insect populations, applications defenders argue could achieve conservation outcomes, eradicating an invasive predator from an island ecosystem, that conventional methods, trapping, poisoning, have repeatedly failed to achieve at comparable cost or with comparable ecological precision.\\n\\nThe technology's defining feature, self-sustaining spread through a wild population once released, is also its central ethical complication: unlike a conventional intervention whose effects are naturally bounded by the scope and duration of the intervention itself, a released gene drive is, by design, difficult to contain or reverse once it begins spreading, meaning an error in application, targeting the wrong population, unanticipated ecological consequences from removing a species that turns out to play an unrecognised ecological role, cannot be corrected simply by halting the intervention, since the genetic modification continues propagating through the wild population independent of any subsequent decision by those who released it, a degree of practical irreversibility that has led some conservation scientists to argue for extraordinarily cautious, staged deployment protocols disproportionate to the caution applied to conventional interventions, precisely because the cost of a mistake is so much harder to contain or undo.",
+      "questions": [
+        {
+          "question_id": "p13-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Gene drives have no potential conservation benefit of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Gene drives' self-sustaining spread, the feature that makes them powerful, is also their central ethical complication, since errors cannot be easily contained or reversed once released, justifying extraordinary caution beyond that applied to conventional interventions."
+            },
+            {
+              "id": "C",
+              "text": "Conventional conservation methods have never failed to achieve any goal."
+            },
+            {
+              "id": "D",
+              "text": "Gene drives are always easily reversible once released."
+            },
+            {
+              "id": "E",
+              "text": "No conservation scientist has ever raised any concern about gene drives."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's dual point about power and irreversibility.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies a gene drive error cannot be corrected simply by halting the intervention because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The genetic modification continues propagating through the wild population independent of any subsequent decision by those who released it"
+            },
+            {
+              "id": "B",
+              "text": "Conventional interventions are always more effective"
+            },
+            {
+              "id": "C",
+              "text": "Gene drives have never actually been released into any wild population"
+            },
+            {
+              "id": "D",
+              "text": "Halting an intervention always reverses its effects immediately"
+            },
+            {
+              "id": "E",
+              "text": "Gene drives only affect a single generation of offspring"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism of practical irreversibility.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-02-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's comparison between gene drives and conventional interventions functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Highlight a specific difference in reversibility that justifies differential caution"
+            },
+            {
+              "id": "B",
+              "text": "Prove conventional interventions are always superior to gene drives"
+            },
+            {
+              "id": "C",
+              "text": "Show that gene drives and conventional methods are identical in risk profile"
+            },
+            {
+              "id": "D",
+              "text": "Argue that no caution is needed for either type of intervention"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about invasive species biology"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison is used to justify the argument for extraordinary caution.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-02-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'self-sustaining' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Continuing to spread and propagate without requiring further intervention once released"
+            },
+            {
+              "id": "B",
+              "text": "Requiring continuous human management to maintain"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for reversible"
+            },
+            {
+              "id": "D",
+              "text": "Limited to a single generation of a species"
+            },
+            {
+              "id": "E",
+              "text": "Applicable only to invasive predator species"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the gene drive's ability to keep spreading through a population without further action.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-03",
+      "topic": "Central bank digital currencies and financial privacy",
+      "word_count": 250,
+      "text": "Central bank digital currency, a digital form of a nation's official currency issued and backed directly by the central bank rather than by commercial banks, is proposed by many central banks partly to preserve public access to a state-backed means of payment as cash usage declines, since privately issued digital payment methods, while functionally convenient, lack the same direct sovereign backing and could, if cash disappears entirely, leave the payment system wholly dependent on private intermediaries with different incentives and risk profiles than a central bank.\\n\\nThe specific design of a central bank digital currency raises a privacy concern distinct from ordinary digital payment systems: unlike cash transactions, which are inherently anonymous and leave no centrally accessible record, a central bank digital currency, depending on its technical architecture, could in principle enable the issuing central bank, or the government controlling it, to observe every transaction any holder makes in real time, a capability existing commercial bank payment systems also possess to some degree but which centralisation within a single state-controlled entity concentrates and potentially expands considerably, prompting proposals for privacy-preserving technical designs, tiered anonymity for small transactions, cryptographic techniques limiting transaction visibility, that attempt to replicate some of cash's anonymity within a digital system, though critics note that any design sophisticated enough to prevent the issuing authority itself from accessing transaction data would also complicate the currency's usefulness for the anti-money-laundering and tax enforcement purposes governments typically cite as additional justifications for the digital currency's introduction in the first place.",
+      "questions": [
+        {
+          "question_id": "p13-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Central bank digital currencies have no privacy implications of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Central bank digital currency raises a distinct privacy concern since it could enable comprehensive transaction visibility, and privacy-preserving designs face a tension with the anti-money-laundering and tax enforcement purposes often cited to justify the currency's introduction."
+            },
+            {
+              "id": "C",
+              "text": "Cash transactions are always fully recorded by central banks."
+            },
+            {
+              "id": "D",
+              "text": "No central bank has ever proposed a digital currency."
+            },
+            {
+              "id": "E",
+              "text": "Privacy-preserving technical designs eliminate any tension with enforcement goals."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's identification of the privacy concern and the design tension.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies cash differs from central bank digital currency because cash:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Is inherently anonymous and leaves no centrally accessible transaction record"
+            },
+            {
+              "id": "B",
+              "text": "Always requires central bank approval for every transaction"
+            },
+            {
+              "id": "C",
+              "text": "Is issued exclusively by commercial banks"
+            },
+            {
+              "id": "D",
+              "text": "Has identical privacy properties to digital currency"
+            },
+            {
+              "id": "E",
+              "text": "Cannot be used for anonymous transactions of any kind"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the key distinguishing feature of cash.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-03-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of privacy-preserving technical designs functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Present a proposed response to the privacy concern while identifying a tension it creates with other stated policy goals"
+            },
+            {
+              "id": "B",
+              "text": "Prove that privacy concerns about digital currency have already been fully resolved"
+            },
+            {
+              "id": "C",
+              "text": "Argue that anti-money-laundering enforcement should be abandoned entirely"
+            },
+            {
+              "id": "D",
+              "text": "Show that cash has no privacy advantages over digital currency"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about interest rate policy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This presents a proposed fix while noting the trade-off it introduces.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-03-q4",
+          "type": "strengthen_weaken",
+          "prompt": "Which finding would most weaken the passage's claim that privacy-preserving design complicates enforcement goals?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A cryptographic technique is developed that fully preserves transaction anonymity from the issuing authority while still allowing automated, algorithmic detection of money-laundering patterns without revealing individual identities"
+            },
+            {
+              "id": "B",
+              "text": "A central bank announces it will not issue any digital currency"
+            },
+            {
+              "id": "C",
+              "text": "A study finds cash usage is declining in most countries"
+            },
+            {
+              "id": "D",
+              "text": "A government increases funding for financial crime investigation"
+            },
+            {
+              "id": "E",
+              "text": "A survey finds public support for digital currency privacy protections"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This would directly show privacy and enforcement goals need not trade off against each other, weakening the passage's claimed tension.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-04",
+      "topic": "Dual criminality in extradition law",
+      "word_count": 245,
+      "text": "Extradition treaties typically require dual criminality: the conduct for which extradition is sought must constitute a criminal offence under the laws of both the requesting and the requested state, a requirement defended on the reasoning that a state should not be obligated to surrender an individual to face prosecution for conduct its own legal system does not consider wrongful, since doing so would effectively require the requested state to enforce foreign moral or political judgements its own citizens have not democratically endorsed through their own legislative process.\\n\\nApplying dual criminality in practice requires courts to determine how precisely the underlying conduct, rather than the specific legal label attached to it, must correspond between the two systems, since a requirement of exact statutory correspondence would make extradition impossible whenever two states define comparable offences using different legal terminology or elements, even where the underlying conduct is substantively equivalent, while a requirement focused purely on the general category of harm involved, financial crime, violence, risks reducing the safeguard to a formality easily satisfied even where the specific conduct at issue would not actually be criminal in the requested state, meaning courts have generally settled on an intermediate standard examining whether the underlying conduct, described in general terms independent of specific statutory labels, would constitute an offence in the requested state, a standard that, like several others encountered in this practice paper, requires case-specific judgement rather than mechanical rule application.",
+      "questions": [
+        {
+          "question_id": "p13-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Extradition never requires any correspondence between the two states' legal systems."
+            },
+            {
+              "id": "B",
+              "text": "Courts have settled on an intermediate dual criminality standard examining underlying conduct in general terms, avoiding both the impossibility of exact statutory correspondence and the weakness of a purely categorical standard."
+            },
+            {
+              "id": "C",
+              "text": "Dual criminality requires exact statutory correspondence between the two legal systems."
+            },
+            {
+              "id": "D",
+              "text": "No extradition treaty has ever included a dual criminality requirement."
+            },
+            {
+              "id": "E",
+              "text": "A purely categorical harm-based standard is always sufficient to satisfy dual criminality."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the intermediate conduct-based standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies a requirement of exact statutory correspondence would be problematic because it would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Make extradition impossible whenever two states use different legal terminology, even for substantively equivalent conduct"
+            },
+            {
+              "id": "B",
+              "text": "Make extradition always possible regardless of the underlying conduct"
+            },
+            {
+              "id": "C",
+              "text": "Have no effect on how courts assess extradition requests"
+            },
+            {
+              "id": "D",
+              "text": "Apply only to financial crimes"
+            },
+            {
+              "id": "E",
+              "text": "Eliminate the need for any dual criminality requirement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the problem with an exact-correspondence standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-04-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the two extreme standards functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why courts have adopted an intermediate standard rather than either extreme"
+            },
+            {
+              "id": "B",
+              "text": "Prove that dual criminality has no coherent standard at all"
+            },
+            {
+              "id": "C",
+              "text": "Show that one of the two extremes is clearly correct"
+            },
+            {
+              "id": "D",
+              "text": "Argue that extradition treaties should be abolished"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about diplomatic immunity"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Both extremes are problematic, motivating the intermediate approach.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-05",
+      "topic": "Algorithmic hiring and disparate impact",
+      "word_count": 250,
+      "text": "Employment discrimination law in many jurisdictions recognises two distinct theories of liability: disparate treatment, requiring proof of intentional discrimination against a protected group, and disparate impact, which can establish liability where a facially neutral practice produces a statistically significant adverse effect on a protected group, regardless of the employer's intent, provided the practice is not justified by genuine business necessity. Algorithmic hiring tools complicate the application of both theories in a specific way: disparate treatment is difficult to establish against a system with no human intent to discriminate at the point of any individual decision, while disparate impact, though theoretically well-suited to algorithmic systems since it does not require proving intent, faces its own practical obstacle, since establishing the statistical disparity itself requires access to the algorithm's decision patterns and the demographic composition of both applicants and selected candidates, data frequently treated as proprietary by the vendors who develop and license these hiring tools to employers.\\n\\nThis creates a specific accountability gap: the theory of liability best suited to the technology, disparate impact, is also the theory whose evidentiary requirements the technology's own proprietary, often opaque design makes hardest to satisfy in practice, meaning algorithmic hiring tools can potentially produce exactly the kind of adverse impact disparate impact doctrine was designed to catch while remaining comparatively insulated from the doctrine's practical application, not through any legal exemption but through the practical difficulty of assembling the evidence the doctrine requires against a system designed without transparency as a primary consideration.",
+      "questions": [
+        {
+          "question_id": "p13-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Algorithmic hiring tools are always fully transparent to affected applicants."
+            },
+            {
+              "id": "B",
+              "text": "Disparate impact theory is best suited to algorithmic hiring systems but faces a practical evidentiary obstacle, since the proprietary, opaque design of these systems makes assembling the necessary evidence especially difficult."
+            },
+            {
+              "id": "C",
+              "text": "Disparate treatment is the only viable theory for challenging algorithmic hiring decisions."
+            },
+            {
+              "id": "D",
+              "text": "No employer has ever used an algorithmic hiring tool."
+            },
+            {
+              "id": "E",
+              "text": "Employment discrimination law has never recognised disparate impact as a theory of liability."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's identification of the accountability gap.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p13-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies disparate treatment is difficult to establish against algorithmic hiring systems because such systems:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Involve no human intent to discriminate at the point of any individual decision"
+            },
+            {
+              "id": "B",
+              "text": "Always produce statistically significant adverse effects on protected groups"
+            },
+            {
+              "id": "C",
+              "text": "Are never used by any employer for hiring decisions"
+            },
+            {
+              "id": "D",
+              "text": "Require proof of business necessity in every case"
+            },
+            {
+              "id": "E",
+              "text": "Are legally exempt from all discrimination law"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reason disparate treatment is hard to establish against algorithmic systems.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final paragraph relates to the first by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Drawing out a specific accountability gap from the two obstacles described in the first paragraph"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the claim that either theory applies to algorithmic hiring"
+            },
+            {
+              "id": "C",
+              "text": "Proving that disparate impact theory has no practical application anywhere"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about wage discrimination"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that algorithmic hiring should be immediately banned"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "The final paragraph synthesises the two obstacles into the specific accountability gap.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-06",
+      "topic": "The ethics of mandatory health screening",
+      "word_count": 248,
+      "text": "Mandatory health screening programmes, requiring individuals to undergo testing for a specific condition, prenatal genetic screening, workplace drug testing, communicable disease testing as a condition of certain activities, are defended as producing benefits, earlier treatment, prevention of transmission, that voluntary screening systematically under-delivers, since individuals facing a small perceived personal cost or inconvenience from screening frequently decline voluntary testing even where the aggregate public health benefit of widespread screening would clearly justify near-universal participation, a collective action problem mandatory screening directly addresses by removing the individual decision that voluntary systems leave in place.\\n\\nCritics distinguish two categories of mandatory screening that raise quite different ethical concerns: screening whose primary benefit accrues to the individual screened, enabling earlier treatment for their own condition, raises a comparatively modest paternalism concern, since the individual retains the benefit of the information even if compelled to receive it, whereas screening whose primary benefit accrues to third parties, preventing transmission to others, raises the additional concern of using an individual's body as a means of protecting the public without that individual's consent, a distinction critics argue mandatory screening policy debates frequently collapse by treating all screening as raising an identical justification, when the third-party-benefit category requires a materially different, and considerably more demanding, ethical justification than the self-benefit category alone would require.",
+      "questions": [
+        {
+          "question_id": "p13-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Mandatory screening always raises identical ethical concerns regardless of who benefits."
+            },
+            {
+              "id": "B",
+              "text": "Critics distinguish self-benefiting from third-party-benefiting mandatory screening, arguing the latter requires a materially more demanding ethical justification, a distinction policy debates frequently collapse."
+            },
+            {
+              "id": "C",
+              "text": "Voluntary screening always achieves higher participation than mandatory screening."
+            },
+            {
+              "id": "D",
+              "text": "No mandatory screening programme has ever been implemented."
+            },
+            {
+              "id": "E",
+              "text": "Paternalism concerns apply only to third-party-benefiting screening."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's distinction between the two categories of screening.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies third-party-benefit screening raises a distinct concern because it involves:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Using an individual's body as a means of protecting the public without that individual's consent"
+            },
+            {
+              "id": "B",
+              "text": "No benefit to anyone at all"
+            },
+            {
+              "id": "C",
+              "text": "Identical justification to self-benefit screening"
+            },
+            {
+              "id": "D",
+              "text": "A benefit that accrues exclusively to the individual screened"
+            },
+            {
+              "id": "E",
+              "text": "No connection to communicable disease prevention"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the additional concern this category raises.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between self-benefit and third-party-benefit screening functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that mandatory screening policy debates often obscure a meaningful ethical difference by treating all screening identically"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no form of mandatory screening is ever justified"
+            },
+            {
+              "id": "C",
+              "text": "Argue that voluntary screening should always be preferred"
+            },
+            {
+              "id": "D",
+              "text": "Show that self-benefit screening raises no ethical concern whatsoever"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about workplace drug testing procedures"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is the passage's central analytical contribution.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'collective action problem' most nearly refers to a situation where:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Individually rational decisions to decline a small personal cost produce a collectively suboptimal outcome relative to widespread participation"
+            },
+            {
+              "id": "B",
+              "text": "All individuals automatically cooperate without any coordination"
+            },
+            {
+              "id": "C",
+              "text": "A single individual's decision has no effect on any outcome"
+            },
+            {
+              "id": "D",
+              "text": "Government intervention is legally prohibited in every case"
+            },
+            {
+              "id": "E",
+              "text": "Voluntary systems always outperform mandatory ones"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes the pattern where individually rational declines undermine a collectively beneficial outcome.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-07",
+      "topic": "Judicial diversity and legitimacy",
+      "word_count": 248,
+      "text": "Proposals to increase demographic diversity on courts, by gender, ethnicity, professional background, are defended on grounds distinct from a general commitment to equal opportunity in judicial appointment: that a judiciary reflecting the demographic composition of the society it serves possesses a form of sociological legitimacy, public confidence that the court's decisions are not the product of a narrow, unrepresentative perspective, that a demographically homogeneous court, however individually qualified its members, may struggle to command to the same degree, particularly among groups historically underrepresented on the bench and correspondingly more likely to view an unrepresentative court's rulings with heightened suspicion regardless of the rulings' actual legal merit.\\n\\nCritics raise a concern distinct from disputing that diversity has value: that justifying judicial appointments partly by reference to demographic representation risks being read as suggesting judges from different backgrounds are expected to decide cases differently based on that background, a suggestion in tension with the judicial ideal of deciding cases according to law rather than according to a judge's personal identity or characteristics, though defenders respond that the sociological legitimacy argument does not require or imply that judges decide differently based on background at all, only that public confidence in the court's impartiality is itself affected by the court's perceived representativeness, a distinct claim about how legitimacy is perceived rather than a claim about how any individual judge actually reasons or decides.",
+      "questions": [
+        {
+          "question_id": "p13-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judicial diversity has no relationship to public confidence in courts."
+            },
+            {
+              "id": "B",
+              "text": "Defenders of judicial diversity argue the sociological legitimacy claim concerns perceived representativeness affecting public confidence, not a claim that judges decide differently based on background, addressing critics' concern about tension with judicial impartiality."
+            },
+            {
+              "id": "C",
+              "text": "All judges decide cases differently based on their demographic background."
+            },
+            {
+              "id": "D",
+              "text": "No court has ever considered diversity in judicial appointments."
+            },
+            {
+              "id": "E",
+              "text": "Sociological legitimacy has never been raised as an argument for judicial diversity."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the defenders' clarifying distinction.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p13-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies critics' concern about judicial diversity centres on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The suggestion that judges from different backgrounds are expected to decide cases differently based on that background"
+            },
+            {
+              "id": "B",
+              "text": "A belief that diversity has no value whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "A claim that public confidence in courts never varies"
+            },
+            {
+              "id": "D",
+              "text": "A rejection of the idea that courts should be legitimate at all"
+            },
+            {
+              "id": "E",
+              "text": "A claim that judicial appointments should never consider qualifications"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as critics' specific concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-07-q3",
+          "type": "logical_structure",
+          "prompt": "The defenders' response in the final sentence relates to the critics' concern by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Distinguishing a claim about perceived legitimacy from a claim about how individual judges actually reason"
+            },
+            {
+              "id": "B",
+              "text": "Fully conceding that judges do decide differently based on background"
+            },
+            {
+              "id": "C",
+              "text": "Rejecting the value of judicial impartiality entirely"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about judicial salaries"
+            },
+            {
+              "id": "E",
+              "text": "Proving that diversity has no effect on any court's legitimacy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is the defenders' specific response to the critics' concern.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p13-07-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'sociological legitimacy' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Public confidence in an institution's decisions, distinct from the institution's formal legal authority"
+            },
+            {
+              "id": "B",
+              "text": "A synonym for judicial impartiality itself"
+            },
+            {
+              "id": "C",
+              "text": "A formal legal requirement for judicial appointment"
+            },
+            {
+              "id": "D",
+              "text": "A measure of a judge's years of professional experience"
+            },
+            {
+              "id": "E",
+              "text": "A court's formal power to hear a case"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to public confidence in the court's decisions, distinguished from formal legal authority.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-08",
+      "topic": "The economics of patent trolls",
+      "word_count": 250,
+      "text": "Patent assertion entities, sometimes termed patent trolls, acquire patents not to develop or manufacture any product themselves but specifically to license or litigate against companies whose existing products may infringe, a business model critics argue exploits a structural feature of patent litigation rather than contributing to innovation in the way the patent system's underlying justification, incentivising inventive investment through temporary exclusivity, is meant to reward, since an entity that never intended to build anything is difficult to characterise as the kind of inventive risk-taker patent protection was designed to incentivise.\\n\\nDefenders of allowing such entities to hold and enforce patents note a structural feature of the innovation ecosystem the critique overlooks: many original inventors, particularly individual inventors or small firms lacking the capital or expertise to litigate a patent infringement claim against a well-resourced defendant, would be unable to enforce their patent rights at all without an intermediary market that allows them to sell or license patents to entities with the specialised litigation capacity to pursue infringement claims effectively, meaning patent assertion entities, whatever their own lack of manufacturing activity, may serve a genuine market function facilitating the original inventor's ability to capture value from an invention that a large, well-resourced infringer could otherwise appropriate with practical impunity given the original inventor's own limited capacity to litigate, complicating a simple narrative in which such entities contribute nothing to the patent system's underlying purpose.",
+      "questions": [
+        {
+          "question_id": "p13-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Patent assertion entities contribute nothing of value under any circumstances."
+            },
+            {
+              "id": "B",
+              "text": "While critics argue patent assertion entities do not fit the patent system's inventive-investment rationale, defenders note they may facilitate enforcement for original inventors who otherwise lack the capacity to litigate, complicating a simple negative narrative."
+            },
+            {
+              "id": "C",
+              "text": "All original inventors have equal capacity to litigate patent infringement claims."
+            },
+            {
+              "id": "D",
+              "text": "No patent has ever been acquired for litigation purposes."
+            },
+            {
+              "id": "E",
+              "text": "Patent assertion entities always manufacture the products covered by their patents."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the critique and the complicating defence.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies small original inventors may struggle to enforce their patents because they:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lack the capital or expertise to litigate a patent infringement claim against a well-resourced defendant"
+            },
+            {
+              "id": "B",
+              "text": "Are legally prohibited from holding any patent"
+            },
+            {
+              "id": "C",
+              "text": "Never actually develop any patentable invention"
+            },
+            {
+              "id": "D",
+              "text": "Always sell their patents to well-resourced defendants directly"
+            },
+            {
+              "id": "E",
+              "text": "Have no interest in capturing value from their inventions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the structural barrier facing small inventors.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-08-q3",
+          "type": "logical_structure",
+          "prompt": "The defenders' argument in the second paragraph relates to the critics' argument by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identifying a market function patent assertion entities may serve that the critique overlooks"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the claim that these entities never manufacture products"
+            },
+            {
+              "id": "C",
+              "text": "Proving that all patent litigation is beneficial to innovation"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about international patent harmonisation"
+            },
+            {
+              "id": "E",
+              "text": "Conceding that these entities contribute nothing to the patent system"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies a genuine market function the critique's framing does not capture.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-09",
+      "topic": "The doctrine of duress in contract law",
+      "word_count": 245,
+      "text": "Duress renders a contract voidable where one party's agreement was procured through an illegitimate threat, physical violence, unlawful economic pressure, that overbore the coerced party's free will, on the reasoning that consent obtained through sufficiently coercive pressure is not the kind of genuine, voluntary agreement contract law is meant to enforce, since a contract's binding force rests on the premise that both parties freely chose to be bound, a premise duress specifically negates.\\n\\nThe doctrine's more difficult modern application concerns economic duress, where the alleged coercion consists not of physical threat but of one party exploiting the other's urgent economic circumstances, threatening to withhold a contractually required delivery unless the price is renegotiated upward, to extract more favourable terms, a category courts have applied cautiously since ordinary hard commercial bargaining, including threatening to withhold performance or walk away from a deal absent better terms, is a legitimate and common negotiating tactic that cannot itself constitute duress without collapsing the distinction between illegitimate coercion and the ordinary competitive pressure inherent in commercial negotiation, meaning courts require not merely that one party exploited a difficult economic position the other party faced, but that the specific pressure applied was illegitimate in a further sense, typically requiring some breach of an existing legal or contractual obligation rather than the mere exercise of an already-existing bargaining advantage.",
+      "questions": [
+        {
+          "question_id": "p13-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Any hard commercial bargaining tactic automatically constitutes economic duress."
+            },
+            {
+              "id": "B",
+              "text": "Courts apply economic duress cautiously, requiring the pressure applied to be illegitimate in a further sense, typically involving breach of an existing obligation, to avoid collapsing the distinction between coercion and ordinary competitive negotiation."
+            },
+            {
+              "id": "C",
+              "text": "Duress has never been recognised as a basis for voiding a contract."
+            },
+            {
+              "id": "D",
+              "text": "Physical threats are the only form of duress courts recognise."
+            },
+            {
+              "id": "E",
+              "text": "Exploiting another party's difficult economic position is always sufficient to establish duress."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the cautious economic duress standard.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p13-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies courts are cautious about economic duress because a broader standard would:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Collapse the distinction between illegitimate coercion and ordinary competitive commercial negotiation"
+            },
+            {
+              "id": "B",
+              "text": "Have no effect on how contracts are negotiated"
+            },
+            {
+              "id": "C",
+              "text": "Apply only to contracts involving physical goods"
+            },
+            {
+              "id": "D",
+              "text": "Eliminate the need for any duress doctrine"
+            },
+            {
+              "id": "E",
+              "text": "Make hard bargaining tactics legally required in every negotiation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the risk of an overly broad economic duress standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's requirement of a 'breach of an existing legal or contractual obligation' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Provide a specific limiting criterion distinguishing illegitimate coercion from ordinary bargaining advantage"
+            },
+            {
+              "id": "B",
+              "text": "Prove that economic duress has never been successfully established in any case"
+            },
+            {
+              "id": "C",
+              "text": "Show that all bargaining advantages are automatically illegitimate"
+            },
+            {
+              "id": "D",
+              "text": "Argue that duress doctrine should be abolished entirely"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about physical duress specifically"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This requirement is the specific limiting criterion the passage describes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'overbore' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Overwhelmed or negated a party's genuine, voluntary choice"
+            },
+            {
+              "id": "B",
+              "text": "Formally documented in writing"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for economic duress specifically"
+            },
+            {
+              "id": "D",
+              "text": "Legally required under commercial custom"
+            },
+            {
+              "id": "E",
+              "text": "Freely and voluntarily exercised"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes pressure that overwhelmed the coerced party's free will, negating genuine choice.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-10",
+      "topic": "Climate migration and refugee status",
+      "word_count": 248,
+      "text": "The international legal definition of a refugee, requiring a well-founded fear of persecution based on race, religion, nationality, political opinion, or membership of a particular social group, does not extend to individuals displaced primarily by climate-related environmental change, sea-level rise rendering a coastal region uninhabitable, prolonged drought destroying an agricultural livelihood, since such displacement, however severe its practical consequences for those affected, does not involve persecution by a specific identifiable actor targeting the individual for one of the enumerated protected reasons the refugee definition requires.\\n\\nThis gap leaves individuals displaced by climate change without the specific legal protections, non-refoulement, the right not to be returned to a place of danger, refugee status confers, relying instead on whatever more limited, discretionary protections individual states choose to extend, protections that vary considerably between states and carry none of the binding international legal obligation the refugee framework provides, a gap climate migration scholars argue will grow more consequential as climate-related displacement increases in scale, since the underlying refugee framework was developed specifically in response to a different historical problem, state persecution of specific targeted individuals or groups, and extending it to climate displacement would require either a genuinely new international legal instrument specifically addressing climate displacement or a reinterpretation of the existing definition that most legal scholars consider difficult to sustain given the refugee definition's specific textual focus on persecution by an identifiable actor rather than displacement from environmental causation more broadly.",
+      "questions": [
+        {
+          "question_id": "p13-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Climate-displaced individuals automatically qualify for refugee status under current international law."
+            },
+            {
+              "id": "B",
+              "text": "The refugee definition's focus on persecution by an identifiable actor leaves climate-displaced individuals without binding international legal protection, a gap that addressing would require either a new legal instrument or a reinterpretation most scholars consider difficult to sustain."
+            },
+            {
+              "id": "C",
+              "text": "No individual has ever been displaced by climate-related environmental change."
+            },
+            {
+              "id": "D",
+              "text": "All states provide identical protections to climate-displaced individuals."
+            },
+            {
+              "id": "E",
+              "text": "The refugee framework was designed specifically to address climate displacement."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the legal gap and the difficulty of closing it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies climate-displaced individuals do not qualify as refugees under current law because their situation lacks:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Persecution by a specific identifiable actor targeting the individual for one of the enumerated protected reasons"
+            },
+            {
+              "id": "B",
+              "text": "Any severe practical consequence for those displaced"
+            },
+            {
+              "id": "C",
+              "text": "Any connection to environmental change"
+            },
+            {
+              "id": "D",
+              "text": "A well-founded fear of any kind"
+            },
+            {
+              "id": "E",
+              "text": "Any legal definition of displacement"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the missing element under the current refugee definition.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's reference to the refugee framework's historical origin in 'state persecution' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why the existing framework does not map cleanly onto climate displacement"
+            },
+            {
+              "id": "B",
+              "text": "Prove that state persecution no longer occurs anywhere"
+            },
+            {
+              "id": "C",
+              "text": "Argue that climate displacement should never be legally addressed"
+            },
+            {
+              "id": "D",
+              "text": "Show that the refugee framework has never been applied to any individual"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about historical treaty negotiations"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This historical point explains the structural mismatch between the framework and climate displacement.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-11",
+      "topic": "The ethics of algorithmic bail decisions",
+      "word_count": 250,
+      "text": "Pretrial risk assessment tools, generating a statistical estimate of a defendant's likelihood of failing to appear at trial or committing further offences if released, are used in some jurisdictions to inform bail and pretrial detention decisions, defended on grounds distinct from those raised regarding sentencing algorithms: since pretrial detention decisions must be made rapidly, often within hours of arrest and with limited case-specific information available, a statistical tool proponents argue can incorporate a wider range of relevant risk factors more consistently than a judge working under similar time pressure with comparably limited information, potentially reducing both unnecessary detention of low-risk defendants and inadequate detention of genuinely high-risk ones relative to unaided judicial intuition operating under the same practical constraints.\\n\\nCritics raise a concern specific to the pretrial context distinct from concerns about sentencing algorithms: a pretrial risk assessment necessarily operates before any adjudication of guilt has occurred, meaning a defendant detained based on an algorithmic risk score is deprived of liberty based on a statistical prediction rather than any finding regarding the offence actually charged, a tension with the presumption of innocence arguably sharper than in the sentencing context, where the algorithm at least operates after guilt has already been established through trial or plea, meaning the same predictive technology raises a categorically different objection depending on whether it is deployed before or after the specific finding of guilt that traditionally justifies restricting an individual's liberty in the first place.",
+      "questions": [
+        {
+          "question_id": "p13-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Algorithmic risk assessment raises identical concerns in the pretrial and sentencing contexts."
+            },
+            {
+              "id": "B",
+              "text": "Pretrial risk assessment raises a sharper presumption-of-innocence tension than sentencing algorithms, since it deprives a defendant of liberty based on prediction before any finding of guilt, unlike sentencing which occurs after guilt is established."
+            },
+            {
+              "id": "C",
+              "text": "No jurisdiction has ever used a pretrial risk assessment tool."
+            },
+            {
+              "id": "D",
+              "text": "Judicial intuition is always more accurate than any algorithmic tool."
+            },
+            {
+              "id": "E",
+              "text": "Pretrial detention decisions require no time constraints of any kind."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central distinction between pretrial and sentencing contexts.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p13-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies proponents defend pretrial risk assessment tools partly because judges operate under:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Significant time pressure and limited case-specific information, similar constraints the tool is designed to help manage"
+            },
+            {
+              "id": "B",
+              "text": "Unlimited time and complete case information at the pretrial stage"
+            },
+            {
+              "id": "C",
+              "text": "No constraints of any kind when making bail decisions"
+            },
+            {
+              "id": "D",
+              "text": "Legal requirements to ignore all risk factors"
+            },
+            {
+              "id": "E",
+              "text": "Conditions identical to sentencing decisions in every respect"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the practical constraint the tool is meant to help address.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-11-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's comparison between pretrial and sentencing contexts functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why the same predictive technology raises a categorically different objection depending on its timing relative to a guilt finding"
+            },
+            {
+              "id": "B",
+              "text": "Prove that sentencing algorithms raise no concern whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Show that pretrial and sentencing decisions are identical in every legal respect"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all algorithmic tools should be banned from criminal justice"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about appellate review of bail decisions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison explains the passage's central distinguishing point about timing.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p13-12",
+      "topic": "Sovereign immunity and state liability",
+      "word_count": 250,
+      "text": "Sovereign immunity, the traditional common-law principle that a state cannot be sued in its own courts without its consent, rests historically on the notion that a sovereign, as the source of the law itself, cannot logically be bound by an obligation to submit to its own courts' jurisdiction in the way an ordinary legal subject can, a rationale that has weakened considerably as modern states have taken on functions, commercial activity, welfare provision, regulatory administration, far broader than the narrow governmental functions the doctrine originally developed to address, since a state acting as a commercial actor, entering contracts, employing staff, operating enterprises, resembles an ordinary market participant in ways the traditional sovereign-immunity rationale does not obviously extend to.\\n\\nMost modern legal systems have accordingly narrowed sovereign immunity considerably, typically distinguishing between a state's sovereign or governmental acts, which generally retain some form of immunity, and its commercial or private-law acts, which generally do not, a restrictive theory of immunity that requires courts to classify a given state action into one category or another, a classification that has proven relatively straightforward at the extremes, a purely commercial contract for goods clearly falls into the non-immune category, a decision to declare war clearly falls into the immune category, but considerably harder for the substantial middle range of state activity, operating a state-owned enterprise that also serves broader public policy goals, that combines features of both categories in ways the binary classification scheme does not map onto cleanly.",
+      "questions": [
+        {
+          "question_id": "p13-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sovereign immunity applies identically to all state activity without any distinction."
+            },
+            {
+              "id": "B",
+              "text": "Modern legal systems have narrowed sovereign immunity by distinguishing sovereign from commercial acts, a classification straightforward at the extremes but difficult for the substantial middle range of mixed state activity."
+            },
+            {
+              "id": "C",
+              "text": "No state has ever been sued in any court."
+            },
+            {
+              "id": "D",
+              "text": "Sovereign immunity has been entirely abolished in all modern legal systems."
+            },
+            {
+              "id": "E",
+              "text": "Commercial state activity always retains full sovereign immunity."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the restrictive theory and its classification difficulty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies the traditional sovereign immunity rationale weakened because modern states:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Have taken on commercial and administrative functions resembling those of ordinary market participants"
+            },
+            {
+              "id": "B",
+              "text": "No longer perform any governmental function whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Are legally prohibited from engaging in any commercial activity"
+            },
+            {
+              "id": "D",
+              "text": "Have become immune from all forms of legal obligation"
+            },
+            {
+              "id": "E",
+              "text": "Have ceased to be the source of law in any legal system"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reason the traditional rationale weakened.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p13-12-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's examples of a commercial contract and a declaration of war function to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate the relatively straightforward extremes of the classification, setting up the harder middle-range difficulty"
+            },
+            {
+              "id": "B",
+              "text": "Prove that all state activity falls into one of these two categories with no exceptions"
+            },
+            {
+              "id": "C",
+              "text": "Show that sovereign immunity no longer applies to any state action"
+            },
+            {
+              "id": "D",
+              "text": "Argue that declarations of war should be subject to ordinary court jurisdiction"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about international arbitration"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "These clear-cut examples set up the passage's point about the harder middle range.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p14",
+  "title": "Praxis LNAT Practice Paper 14",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p14-01",
+      "topic": "The doctrine of impossibility in contract performance",
+      "word_count": 242,
+      "text": "Impossibility discharges a party from contractual performance where an unforeseen event makes the specific performance promised literally impossible to render, the destruction of a specific, unique item central to the contract before delivery, for instance, a narrower doctrine than frustration in most jurisdictions that recognise both, since impossibility requires performance to be genuinely unachievable by any means rather than merely radically more difficult or the contract's underlying purpose substantially defeated.\\n\\nThe doctrine distinguishes objective impossibility, where the promised performance could not be rendered by anyone regardless of effort or resources, from subjective impossibility, where the specific promisor happens to be unable to perform though another party could render identical performance, a distinction that matters considerably to the outcome, since only objective impossibility discharges the obligation under the traditional doctrine, a promisor's own financial inability to perform, for instance, does not excuse performance even though it is genuinely impossible for that specific promisor, because the promised performance, paying money or delivering fungible goods available from other sources, remains achievable in principle by someone, meaning the risk of a promisor's own incapacity to perform is treated as a risk the promisor bore by entering the contract rather than a risk the doctrine of impossibility shifts back onto the other party.",
+      "questions": [
+        {
+          "question_id": "p14-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Impossibility and frustration are identical doctrines with no meaningful distinction."
+            },
+            {
+              "id": "B",
+              "text": "Impossibility discharges performance only where objectively unachievable by anyone, not merely where the specific promisor personally cannot perform, meaning a promisor's own incapacity is treated as a risk they bore by contracting."
+            },
+            {
+              "id": "C",
+              "text": "Any financial difficulty automatically discharges a contractual obligation."
+            },
+            {
+              "id": "D",
+              "text": "Subjective impossibility always discharges a contractual obligation."
+            },
+            {
+              "id": "E",
+              "text": "No court has ever recognised the doctrine of impossibility."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's distinction between objective and subjective impossibility.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies a promisor's own financial inability to perform does not discharge the obligation because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The promised performance remains achievable in principle by someone else, even if not by this specific promisor"
+            },
+            {
+              "id": "B",
+              "text": "Financial inability is always considered objective impossibility"
+            },
+            {
+              "id": "C",
+              "text": "No promisor has ever faced financial difficulty"
+            },
+            {
+              "id": "D",
+              "text": "Impossibility doctrine does not apply to any financial obligation"
+            },
+            {
+              "id": "E",
+              "text": "Subjective impossibility always excuses performance"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reasoning behind treating subjective impossibility differently.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between objective and subjective impossibility functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain precisely which category of impossibility the doctrine actually discharges"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no promisor has ever been discharged under the doctrine"
+            },
+            {
+              "id": "C",
+              "text": "Show that impossibility and frustration require identical proof"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all financial inability should excuse performance"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about contract formation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinction is the operative line the doctrine actually draws.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'fungible' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Interchangeable with other identical units, such that any unit can substitute for another"
+            },
+            {
+              "id": "B",
+              "text": "Unique and irreplaceable"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for objective impossibility"
+            },
+            {
+              "id": "D",
+              "text": "Legally prohibited from being sold"
+            },
+            {
+              "id": "E",
+              "text": "Available only from a single specific source"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to goods available from other sources that can substitute for one another, as used regarding money or standard goods.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-02",
+      "topic": "The ethics of human challenge trials",
+      "word_count": 250,
+      "text": "Human challenge trials, deliberately exposing healthy, informed, consenting volunteers to a pathogen in a controlled setting to test vaccine efficacy, offer a potential speed advantage over conventional field trials, which must wait for natural infection rates in a study population to generate sufficient data, an advantage that becomes particularly significant during a fast-moving public health emergency where months saved in vaccine development could translate into substantial reductions in mortality and illness across the broader population awaiting an effective vaccine.\\n\\nThe ethical objection distinct from ordinary informed-consent concerns centres on a specific asymmetry: challenge trial volunteers bear a concentrated, individually serious risk, deliberate infection with a potentially severe or fatal disease, in order to generate a benefit that accrues overwhelmingly to a diffuse future population of vaccine recipients rather than to the volunteers themselves, who receive comparatively modest direct benefit relative to the risk assumed, a risk-benefit asymmetry that raises a question distinct from whether consent was genuinely informed and voluntary, since even fully informed, freely given consent to bear a serious personal risk for a largely externalised social benefit raises a further question about whether research ethics boards should approve a study design in which risk and benefit are this substantially decoupled between the party bearing the risk and the party or population receiving the primary benefit, regardless of how carefully the consent process itself was conducted.",
+      "questions": [
+        {
+          "question_id": "p14-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Human challenge trials have no potential benefit of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Beyond ordinary informed-consent concerns, challenge trials raise a distinct question about whether research ethics boards should approve studies where risk and benefit are substantially decoupled between the volunteer bearing risk and the population receiving primary benefit, even where consent is genuinely informed and voluntary."
+            },
+            {
+              "id": "C",
+              "text": "Challenge trial volunteers always receive greater benefit than the risk they assume."
+            },
+            {
+              "id": "D",
+              "text": "Conventional field trials are always faster than challenge trials."
+            },
+            {
+              "id": "E",
+              "text": "Informed consent alone fully resolves every ethical concern about challenge trials."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's identification of the risk-benefit asymmetry concern distinct from consent.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p14-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies the risk-benefit asymmetry concern is distinct from consent concerns because it persists:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Even where consent is genuinely informed and freely given"
+            },
+            {
+              "id": "B",
+              "text": "Only where consent was not properly obtained"
+            },
+            {
+              "id": "C",
+              "text": "Only in conventional field trials, not challenge trials"
+            },
+            {
+              "id": "D",
+              "text": "Only where volunteers receive no information about risks"
+            },
+            {
+              "id": "E",
+              "text": "Only after a vaccine has already been approved"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the passage's key point about the asymmetry concern's independence from consent.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-02-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of the speed advantage in the first paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Establish the potential benefit of challenge trials before introducing a distinct ethical complication"
+            },
+            {
+              "id": "B",
+              "text": "Prove that challenge trials have no ethical complications whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Argue that conventional field trials should be abandoned entirely"
+            },
+            {
+              "id": "D",
+              "text": "Show that vaccine development timelines have no relationship to public health outcomes"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about pathogen classification"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This establishes the benefit before the passage turns to the distinct ethical concern.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-03",
+      "topic": "Proportional representation versus first-past-the-post",
+      "word_count": 248,
+      "text": "First-past-the-post electoral systems, in which the candidate receiving the most votes in a geographically defined constituency wins the seat regardless of whether they secured an outright majority, tend to produce disproportionality between a party's national vote share and its share of legislative seats, systematically favouring larger parties with geographically concentrated support and disadvantaging smaller parties whose support, even if substantial nationally, is thinly spread across many constituencies without concentrating enough anywhere to actually win seats, a pattern proponents of proportional representation, which allocates seats to parties in proportion to national or regional vote share, argue produces a more accurately representative legislature.\\n\\nDefenders of first-past-the-post respond that the disproportionality proportional systems avoid is not a design flaw but a deliberate feature serving a distinct value: first-past-the-post tends to produce single-party legislative majorities more readily than proportional systems, which frequently require multi-party coalition governments to achieve a working majority, and a single-party majority government, defenders argue, can be more readily and clearly held accountable for its record at the next election than a coalition government whose responsibility for specific policy outcomes is more diffusely distributed among coalition partners who can each, with some plausibility, attribute blame for unpopular policies to their coalition partners rather than accepting clear individual accountability, meaning the trade-off between the two systems concerns not simply which is more 'fair' in an abstract representational sense but which set of values, precise proportionality or clear electoral accountability, a given polity prioritises.",
+      "questions": [
+        {
+          "question_id": "p14-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "First-past-the-post always produces perfectly proportional legislative outcomes."
+            },
+            {
+              "id": "B",
+              "text": "The choice between first-past-the-post and proportional representation is a trade-off between representational proportionality and clear electoral accountability, not simply a question of abstract fairness."
+            },
+            {
+              "id": "C",
+              "text": "Proportional representation always produces single-party majority governments."
+            },
+            {
+              "id": "D",
+              "text": "No electoral system produces any disproportionality between votes and seats."
+            },
+            {
+              "id": "E",
+              "text": "Coalition governments are always more accountable than single-party governments."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's reframing of the debate as a values trade-off.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies coalition governments may be harder to hold accountable because coalition partners:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Can each attribute blame for unpopular policies to their coalition partners rather than accepting clear individual accountability"
+            },
+            {
+              "id": "B",
+              "text": "Always agree completely on every policy decision"
+            },
+            {
+              "id": "C",
+              "text": "Never form under proportional representation systems"
+            },
+            {
+              "id": "D",
+              "text": "Are legally required to share identical policy positions"
+            },
+            {
+              "id": "E",
+              "text": "Have no distinct political identity from one another"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind diffuse coalition accountability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-03-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final sentence reframing the trade-off functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Move the debate away from a simple fairness judgement toward a comparison of which underlying value a polity prioritises"
+            },
+            {
+              "id": "B",
+              "text": "Prove that proportional representation is always superior"
+            },
+            {
+              "id": "C",
+              "text": "Show that first-past-the-post has no defenders of any kind"
+            },
+            {
+              "id": "D",
+              "text": "Argue that electoral systems have no relationship to government accountability"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about voter turnout"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This closing reframing is the passage's key analytical move.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-03-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'disproportionality' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A mismatch between a party's share of the national vote and its share of legislative seats"
+            },
+            {
+              "id": "B",
+              "text": "A synonym for coalition government"
+            },
+            {
+              "id": "C",
+              "text": "A requirement that all constituencies be identical in population"
+            },
+            {
+              "id": "D",
+              "text": "A measure of voter turnout in a given election"
+            },
+            {
+              "id": "E",
+              "text": "The number of parties competing in an election"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the mismatch between vote share and seat share that first-past-the-post tends to produce.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-04",
+      "topic": "The economics of congestion pricing",
+      "word_count": 245,
+      "text": "Congestion pricing, charging drivers a fee to enter a defined zone, typically an urban centre, during periods of high traffic demand, is defended by transport economists as a straightforward application of the same externality-correction logic underlying carbon pricing: a driver entering a congested area imposes a cost, additional delay, on every other driver already present, a cost the individual driver does not bear and therefore does not factor into their decision to drive at that time, and a congestion charge, by attaching a price to this externality, aligns individual incentives with the true social cost of adding another vehicle to an already congested road network.\\n\\nThe policy's political difficulty mirrors that of other Pigouvian corrective charges: the cost is immediate, visible, and borne disproportionately by drivers who have fewer practical alternatives, those without convenient access to public transit, those whose work requires vehicle use, while the benefit, reduced aggregate congestion and its associated economic costs, is diffuse and distributed across the entire population of road users and, indirectly, the broader economy, a benefit whose connection to the specific charge paid is considerably less salient to any individual driver than the fee itself, producing a familiar pattern in which a policy with a genuinely strong efficiency case nonetheless faces disproportionate political resistance from the concentrated group bearing its most visible cost.",
+      "questions": [
+        {
+          "question_id": "p14-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Congestion pricing has no economic justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Congestion pricing corrects a genuine externality, but faces political resistance because its cost is immediate and visible to a concentrated group while its benefit is diffuse and less salient to any individual driver."
+            },
+            {
+              "id": "C",
+              "text": "Congestion pricing always eliminates all traffic in a covered zone."
+            },
+            {
+              "id": "D",
+              "text": "All drivers benefit equally and identically from congestion pricing."
+            },
+            {
+              "id": "E",
+              "text": "Congestion pricing has no relationship to any other Pigouvian charge."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's efficiency-versus-political-resistance argument.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies drivers without convenient access to public transit bear a disproportionate cost from congestion pricing because they:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Have fewer practical alternatives to driving during the charged period"
+            },
+            {
+              "id": "B",
+              "text": "Never actually drive during congested periods"
+            },
+            {
+              "id": "C",
+              "text": "Receive no benefit whatsoever from reduced congestion"
+            },
+            {
+              "id": "D",
+              "text": "Are legally exempt from the congestion charge"
+            },
+            {
+              "id": "E",
+              "text": "Always work in the charged zone itself"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the reason this group bears a disproportionate cost.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-04-q3",
+          "type": "logical_structure",
+          "prompt": "The comparison to carbon pricing in the first paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Situate congestion pricing within a broader, familiar category of externality-correction policy"
+            },
+            {
+              "id": "B",
+              "text": "Prove that congestion pricing and carbon pricing are legally identical policies"
+            },
+            {
+              "id": "C",
+              "text": "Argue that carbon pricing has no economic justification"
+            },
+            {
+              "id": "D",
+              "text": "Show that congestion never imposes any real cost on drivers"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about vehicle emissions standards"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison places congestion pricing within a familiar analytical framework.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-05",
+      "topic": "The doctrine of good faith in contract law",
+      "word_count": 248,
+      "text": "An implied duty of good faith in contract performance, requiring parties to act honestly and not undermine the other party's reasonably expected benefit from the agreement, is recognised to varying degrees across legal systems, with some jurisdictions imposing a broad general good faith obligation applicable to all contracts and others, most notably historically in English law, resisting recognition of any general doctrine, instead addressing good-faith-type concerns through narrower, more specific doctrines targeting particular categories of unfair conduct rather than a freestanding overarching principle.\\n\\nThe resistance to a general doctrine in some jurisdictions reflects a specific concern about legal certainty rather than indifference to fair dealing as a value: a general good faith obligation, precisely because it is not tied to specific, previously defined categories of prohibited conduct, gives courts considerable latitude to intervene in a contract's performance based on an open-ended, ex post assessment of fairness that commercial parties, who typically prefer to know in advance what conduct is and is not permitted under their agreement, may find difficult to predict or plan around, whereas a system of narrower, specific doctrines, while potentially leaving some genuinely unfair conduct outside any existing category unaddressed, offers commercial parties considerably greater ex ante predictability about what their contract will and will not be interpreted to require, a trade-off between comprehensive fairness coverage and predictable, bounded judicial intervention that different legal systems have resolved differently based on how they weigh these two competing commercial values.",
+      "questions": [
+        {
+          "question_id": "p14-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All legal systems recognise an identical general good faith doctrine."
+            },
+            {
+              "id": "B",
+              "text": "Resistance to a general good faith doctrine reflects a genuine trade-off between comprehensive fairness coverage and predictable, bounded judicial intervention, which different legal systems resolve differently."
+            },
+            {
+              "id": "C",
+              "text": "Good faith has never been recognised as relevant to contract law in any jurisdiction."
+            },
+            {
+              "id": "D",
+              "text": "Narrower specific doctrines always address every instance of unfair conduct."
+            },
+            {
+              "id": "E",
+              "text": "Legal certainty has no relationship to how contract doctrines are structured."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the trade-off between fairness coverage and predictability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies commercial parties may prefer narrower, specific doctrines because such doctrines offer:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Considerably greater ex ante predictability about what their contract will and will not be interpreted to require"
+            },
+            {
+              "id": "B",
+              "text": "No coverage of any unfair conduct whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Complete elimination of any judicial discretion"
+            },
+            {
+              "id": "D",
+              "text": "Identical protection to a general good faith doctrine in every case"
+            },
+            {
+              "id": "E",
+              "text": "No relationship to legal certainty at all"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the predictability benefit narrower doctrines provide.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's characterisation of the resistance to a general doctrine as reflecting 'a specific concern about legal certainty rather than indifference to fair dealing' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clarify the actual basis for the resistance, distinguishing it from a dismissive misreading"
+            },
+            {
+              "id": "B",
+              "text": "Prove that fair dealing has never been a value in any legal system"
+            },
+            {
+              "id": "C",
+              "text": "Argue that all jurisdictions should adopt a general good faith doctrine"
+            },
+            {
+              "id": "D",
+              "text": "Show that legal certainty and fair dealing are identical concepts"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about contract drafting practice"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This clarifies the actual, more sympathetic basis for the resistance.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-05-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'ex post' most nearly means:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Assessed or determined after the fact, once conduct has already occurred"
+            },
+            {
+              "id": "B",
+              "text": "Determined in advance, before any conduct occurs"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for good faith itself"
+            },
+            {
+              "id": "D",
+              "text": "Applicable only to written contracts"
+            },
+            {
+              "id": "E",
+              "text": "A legal requirement imposed only in common-law systems"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Contrasted with 'ex ante' predictability, referring to after-the-fact assessment.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-06",
+      "topic": "Data localisation and digital sovereignty",
+      "word_count": 250,
+      "text": "Data localisation requirements, mandating that certain categories of data generated within a country be stored on servers physically located within that same country's borders, are defended by proponents on grounds including national security, ensuring sensitive data is not accessible to foreign governments through their own domestic legal processes applicable to companies operating on their soil, and regulatory enforceability, since data stored domestically is more straightforwardly subject to domestic law enforcement and regulatory access than data stored abroad, where accessing it may require navigating a foreign jurisdiction's own legal process and potential resistance.\\n\\nCritics argue localisation requirements impose costs that frequently exceed the security and enforceability benefits actually achieved, since storing data locally does not, by itself, protect against foreign government access through other means, network-based interception, cooperation agreements between governments, compelled disclosure by locally operating subsidiaries of foreign companies, while imposing substantial infrastructure costs on companies required to build or lease redundant local data storage capacity in every jurisdiction with a localisation requirement, costs that fall disproportionately on smaller firms lacking the resources to establish local infrastructure in every market, potentially entrenching the market position of the largest global technology firms best able to absorb these compliance costs, an effect critics argue runs counter to localisation's frequently stated additional goal of fostering domestic technology sector development by disadvantaging exactly the smaller domestic firms such policies are sometimes also intended to support.",
+      "questions": [
+        {
+          "question_id": "p14-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Data localisation requirements have no stated justification of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Critics argue data localisation's security and enforceability benefits may be limited, while its infrastructure costs fall disproportionately on smaller firms, potentially entrenching large technology firms and undermining a stated goal of supporting domestic technology development."
+            },
+            {
+              "id": "C",
+              "text": "All countries have adopted identical data localisation requirements."
+            },
+            {
+              "id": "D",
+              "text": "Data localisation always fully protects against foreign government access."
+            },
+            {
+              "id": "E",
+              "text": "Large technology firms are always disadvantaged by data localisation requirements."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's critique of localisation's costs and unintended effects.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p14-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies data localisation may not fully protect against foreign government access because such access can occur through:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Network-based interception, cooperation agreements between governments, or compelled disclosure by locally operating subsidiaries"
+            },
+            {
+              "id": "B",
+              "text": "No means other than physical server location"
+            },
+            {
+              "id": "C",
+              "text": "Data localisation requirements themselves"
+            },
+            {
+              "id": "D",
+              "text": "Only domestic government action, never foreign action"
+            },
+            {
+              "id": "E",
+              "text": "A complete absence of any legal process in any jurisdiction"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as alternative means of access localisation does not address.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of costs falling disproportionately on smaller firms functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a specific unintended consequence that runs counter to one of localisation's own stated goals"
+            },
+            {
+              "id": "B",
+              "text": "Prove that localisation requirements have never been adopted by any country"
+            },
+            {
+              "id": "C",
+              "text": "Show that large firms never benefit from any regulatory requirement"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all data should be stored exclusively abroad"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about international trade tariffs"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies an ironic tension with localisation's domestic-development goal.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-06-q4",
+          "type": "strengthen_weaken",
+          "prompt": "Which finding would most strengthen the critics' argument about data localisation entrenching large technology firms?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A study finds that after a localisation requirement was introduced, several smaller firms exited the market while the largest firms maintained or grew their market share by absorbing the compliance costs"
+            },
+            {
+              "id": "B",
+              "text": "A study finds that localisation requirements have no effect on infrastructure costs"
+            },
+            {
+              "id": "C",
+              "text": "A study finds that smaller firms have lower compliance costs than large firms"
+            },
+            {
+              "id": "D",
+              "text": "A study finds that foreign governments never attempt to access data stored abroad"
+            },
+            {
+              "id": "E",
+              "text": "A study finds that data localisation improves network speed for all users"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This would directly show the entrenchment effect critics describe: smaller firms disadvantaged while large firms absorb costs and gain relative market position.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-07",
+      "topic": "The ethics of preventive self-defence in domestic law",
+      "word_count": 248,
+      "text": "Domestic self-defence law generally permits force in response to an imminent threat but treats force used against a threat assessed as merely future or anticipated, rather than immediately present, with considerably greater suspicion, a distinction that becomes practically fraught in cases involving sustained patterns of abuse, where a victim, having endured a prolonged history of violence from an abuser, uses force during a period when the abuser is not actively attacking, sometimes while the abuser is asleep or otherwise incapacitated, a scenario the traditional imminence requirement, developed primarily around sudden confrontations between strangers, maps onto only awkwardly.\\n\\nCourts and legislatures in several jurisdictions have responded by permitting expert testimony on the psychological and situational dynamics of sustained abusive relationships to inform how imminence is assessed in this specific context, on the reasoning that a victim's accurate, experience-based assessment of danger, based on a demonstrated pattern the abuser has established over time, may reasonably differ from what an outside observer unfamiliar with that specific pattern would judge imminent using a generic, stranger-confrontation-based standard, without abandoning the imminence requirement altogether, since doing so entirely would risk licensing calculated retaliatory violence, but rather adapting how imminence itself is assessed and evidenced in a context the doctrine's traditional paradigm case did not anticipate, a targeted modification rather than a wholesale departure from the underlying self-defence framework.",
+      "questions": [
+        {
+          "question_id": "p14-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Self-defence law has abandoned the imminence requirement entirely in all cases."
+            },
+            {
+              "id": "B",
+              "text": "Courts have adapted how imminence is assessed and evidenced in sustained-abuse cases, using expert testimony on relationship dynamics, without abandoning the underlying imminence requirement altogether."
+            },
+            {
+              "id": "C",
+              "text": "No jurisdiction has ever permitted expert testimony in a self-defence case."
+            },
+            {
+              "id": "D",
+              "text": "Force used against an incapacitated abuser is always automatically justified."
+            },
+            {
+              "id": "E",
+              "text": "The traditional imminence requirement maps perfectly onto sustained abuse cases."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the targeted adaptation of the imminence standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies courts permit expert testimony on relationship dynamics because a victim's danger assessment may:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Reasonably differ from what an outside observer unfamiliar with the specific abuse pattern would judge imminent"
+            },
+            {
+              "id": "B",
+              "text": "Always be identical to a stranger-confrontation assessment"
+            },
+            {
+              "id": "C",
+              "text": "Have no basis in any demonstrated pattern"
+            },
+            {
+              "id": "D",
+              "text": "Require abandoning the imminence requirement entirely"
+            },
+            {
+              "id": "E",
+              "text": "Apply only to confrontations between strangers"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the rationale for admitting expert testimony.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-07-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final clause distinguishing 'targeted modification' from 'wholesale departure' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Clarify the limited scope of the adaptation described, avoiding overstatement of the doctrinal change"
+            },
+            {
+              "id": "B",
+              "text": "Prove that self-defence law has been completely rewritten"
+            },
+            {
+              "id": "C",
+              "text": "Argue that the imminence requirement should be abolished entirely"
+            },
+            {
+              "id": "D",
+              "text": "Show that sustained abuse cases are legally identical to sudden confrontations"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about criminal sentencing"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This clarifies the modification is targeted, not a wholesale abandonment of the framework.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-08",
+      "topic": "Universal healthcare and rationing by waiting time",
+      "word_count": 250,
+      "text": "Universal healthcare systems funded primarily through general taxation rather than direct payment at the point of use must allocate a finite supply of medical resources, specialist appointments, elective procedures, diagnostic imaging, across a population whose demand for care, once care is free at the point of use, is not naturally constrained by price in the way demand for most other goods is, leading many such systems to rely on waiting time as an implicit rationing mechanism, allocating care based partly on how long a patient is willing or able to wait rather than solely on clinical priority or ability to pay.\\n\\nDefenders argue rationing by waiting time, while imperfect, avoids a specific injustice associated with rationing by price, since willingness to wait, unlike ability to pay, does not correlate as strongly or as directly with a patient's existing wealth, meaning waiting-time rationing distributes access to care somewhat more evenly across income levels than a price-based system would, even though it introduces a different and still genuine cost, deferred or foregone treatment during the waiting period, that falls on all patients within a given priority category regardless of income. Critics respond that waiting time is not, in fact, entirely independent of wealth either, since higher-income patients often have greater flexibility to take time away from work for appointments, better access to private supplementary insurance covering at least some procedures outside the public system, or simply better information and social capital enabling them to navigate waiting lists and referral processes more effectively than lower-income patients facing the identical nominal wait, meaning waiting-time rationing reduces but does not eliminate the income-correlated access disparities that price-based rationing would produce more directly.",
+      "questions": [
+        {
+          "question_id": "p14-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Waiting-time rationing eliminates all income-correlated disparities in healthcare access."
+            },
+            {
+              "id": "B",
+              "text": "While waiting-time rationing avoids some of the injustice of price-based rationing, critics argue income still correlates with access through work flexibility, supplementary insurance, and navigational advantage, meaning disparities are reduced but not eliminated."
+            },
+            {
+              "id": "C",
+              "text": "Universal healthcare systems never ration care in any way."
+            },
+            {
+              "id": "D",
+              "text": "Price-based rationing distributes access more evenly than waiting-time rationing."
+            },
+            {
+              "id": "E",
+              "text": "Wealth has no relationship to healthcare access under any rationing system."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's nuanced conclusion about reduced but persisting disparity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies higher-income patients may navigate waiting lists more effectively because they have:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Greater work flexibility, supplementary insurance access, and better information or social capital"
+            },
+            {
+              "id": "B",
+              "text": "No access to any healthcare system whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Identical waiting times to lower-income patients in every respect"
+            },
+            {
+              "id": "D",
+              "text": "No ability to pay for any private care"
+            },
+            {
+              "id": "E",
+              "text": "Legal priority over all other patients regardless of clinical need"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanisms behind the persisting disparity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-08-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' response in the second paragraph relates to the defenders' argument by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting that waiting-time rationing reduces price-based disparity while showing it does not fully eliminate income-correlated disparity"
+            },
+            {
+              "id": "B",
+              "text": "Fully rejecting the claim that waiting-time rationing has any advantage over price-based rationing"
+            },
+            {
+              "id": "C",
+              "text": "Proving that income has no relationship to healthcare access under any system"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about private insurance markets generally"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that universal healthcare should be abolished"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Critics qualify rather than fully reject the defenders' claim.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-08-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'implicit rationing mechanism' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A method of allocating scarce resources that is not an explicit price but nonetheless limits access, such as waiting time"
+            },
+            {
+              "id": "B",
+              "text": "A formal price charged directly to patients at the point of care"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for clinical priority assessment"
+            },
+            {
+              "id": "D",
+              "text": "A legal requirement that all patients receive identical treatment"
+            },
+            {
+              "id": "E",
+              "text": "A mechanism applicable only to private healthcare systems"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to waiting time functioning as a non-price mechanism that nonetheless allocates scarce care.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-09",
+      "topic": "The problem of regulatory arbitrage",
+      "word_count": 245,
+      "text": "Regulatory arbitrage occurs when a regulated entity restructures its activity, not to change its underlying economic substance, but specifically to relocate that activity into a legal or jurisdictional category subject to less stringent regulation, exploiting a mismatch between how regulation is categorised and the substance of the activity actually being regulated, a practice distinct from ordinary regulatory compliance since the restructuring's primary purpose is avoiding a specific regulatory burden rather than pursuing any independent business objective the restructuring happens to also serve.\\n\\nRegulators face a structural disadvantage in responding to arbitrage that differs from responding to straightforward non-compliance: identifying a rule violation requires comparing observed conduct against an existing rule, a comparatively tractable task, whereas identifying arbitrage requires the harder judgement of distinguishing genuine business restructuring, undertaken for legitimate commercial reasons, from restructuring undertaken primarily to exploit a regulatory category mismatch, a distinction regulators must draw without the benefit of directly observing the restructuring entity's actual internal motivation, relying instead on indirect evidence, the timing of the restructuring relative to regulatory changes, the absence of any other plausible business rationale, that is inherently more contestable than the comparatively straightforward factual question of whether specific conduct violated a specific existing rule, meaning arbitrage is considerably harder to police effectively than ordinary non-compliance even where regulators possess full information about the restructured entity's outward legal form.",
+      "questions": [
+        {
+          "question_id": "p14-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Regulatory arbitrage is identical to ordinary regulatory non-compliance in every respect."
+            },
+            {
+              "id": "B",
+              "text": "Regulators face a structural disadvantage responding to arbitrage because distinguishing genuine business restructuring from restructuring undertaken primarily to exploit a regulatory mismatch requires a harder judgement than identifying straightforward rule violations."
+            },
+            {
+              "id": "C",
+              "text": "No regulated entity has ever engaged in regulatory arbitrage."
+            },
+            {
+              "id": "D",
+              "text": "Identifying arbitrage is always easier than identifying ordinary non-compliance."
+            },
+            {
+              "id": "E",
+              "text": "Regulators always have direct access to a restructured entity's actual internal motivation."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the structural difficulty in policing arbitrage.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies regulators must rely on indirect evidence to identify arbitrage because they lack:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Direct observation of the restructuring entity's actual internal motivation"
+            },
+            {
+              "id": "B",
+              "text": "Any knowledge of the entity's outward legal form"
+            },
+            {
+              "id": "C",
+              "text": "Any existing regulatory rules to compare conduct against"
+            },
+            {
+              "id": "D",
+              "text": "Legal authority to investigate any restructuring"
+            },
+            {
+              "id": "E",
+              "text": "Any information about the timing of the restructuring"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the source of the identification difficulty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's comparison between identifying rule violations and identifying arbitrage functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why arbitrage is considerably harder to police effectively than ordinary non-compliance"
+            },
+            {
+              "id": "B",
+              "text": "Prove that rule violations are never identified by regulators"
+            },
+            {
+              "id": "C",
+              "text": "Show that arbitrage and non-compliance require identical regulatory responses"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all regulation should be abolished"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about international regulatory harmonisation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison establishes the passage's central difficulty claim.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'category mismatch' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A gap between how an activity is legally classified for regulatory purposes and its actual underlying economic substance"
+            },
+            {
+              "id": "B",
+              "text": "A clerical error in a regulatory filing"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for straightforward non-compliance"
+            },
+            {
+              "id": "D",
+              "text": "A dispute between two regulators over jurisdiction"
+            },
+            {
+              "id": "E",
+              "text": "A requirement that all entities be regulated identically"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the gap between regulatory categorisation and actual economic substance that arbitrage exploits.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-10",
+      "topic": "The ethics of embryo selection",
+      "word_count": 250,
+      "text": "Preimplantation genetic testing allows prospective parents undergoing in vitro fertilisation to screen embryos for specific genetic markers before implantation, a practice widely accepted where used to avoid implanting an embryo carrying a serious, well-characterised genetic disease, but considerably more contested where extended to selection based on non-disease traits, sex selection for non-medical reasons, or selection based on polygenic scores predicting complex traits, such as future height or educational attainment, that result from the combined, probabilistic effect of many genes rather than a single clearly causative one.\\n\\nThe polygenic score case raises a distinct concern from single-gene disease screening: since polygenic predictions are inherently probabilistic estimates based on population-level statistical associations rather than deterministic single-gene causation, selecting an embryo based on a polygenic score for a complex trait involves accepting a considerably higher degree of predictive uncertainty than selecting against a known disease-causing mutation, meaning parents making such selections are, in effect, choosing among embryos based on a probabilistic tilt in expected outcome rather than a reliable determination of actual outcome, a distinction critics argue matters morally, since it introduces a specifically probabilistic, population-statistics-based logic into an intensely individual, family-forming decision in a way that single-gene disease screening, dealing with much higher-certainty individual predictions, does not raise in comparable form, even though both practices fall under the broader category of preimplantation genetic testing.",
+      "questions": [
+        {
+          "question_id": "p14-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "All preimplantation genetic testing raises identical ethical concerns regardless of what is being screened for."
+            },
+            {
+              "id": "B",
+              "text": "Polygenic score selection raises a distinct concern from single-gene disease screening, since it involves accepting considerably higher predictive uncertainty and introduces a population-statistics-based logic into an individual family-forming decision."
+            },
+            {
+              "id": "C",
+              "text": "Single-gene disease screening is more ethically contested than polygenic selection."
+            },
+            {
+              "id": "D",
+              "text": "Polygenic scores provide deterministic, certain predictions of complex traits."
+            },
+            {
+              "id": "E",
+              "text": "No prospective parent has ever used preimplantation genetic testing."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's distinction between disease screening and polygenic selection.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p14-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies polygenic score predictions differ from single-gene disease predictions because polygenic scores are:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Probabilistic estimates based on population-level statistical associations rather than deterministic single-gene causation"
+            },
+            {
+              "id": "B",
+              "text": "Always more certain than single-gene disease predictions"
+            },
+            {
+              "id": "C",
+              "text": "Unrelated to any genetic factor whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Applicable only to disease-related traits"
+            },
+            {
+              "id": "E",
+              "text": "Identical in predictive reliability to single-gene mutation testing"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the key distinguishing feature of polygenic predictions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-10-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's comparison between polygenic selection and single-gene disease screening functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a morally relevant distinction critics draw between two practices that fall under the same broader category"
+            },
+            {
+              "id": "B",
+              "text": "Prove that single-gene disease screening is never ethically acceptable"
+            },
+            {
+              "id": "C",
+              "text": "Show that polygenic scores are always accurate"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all forms of embryo selection should be banned"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about IVF success rates"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison establishes the passage's central distinguishing argument.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-11",
+      "topic": "Bicameralism and legislative checks",
+      "word_count": 248,
+      "text": "Bicameral legislatures, dividing lawmaking authority between two separate chambers that must each approve legislation before it takes effect, are defended as a structural check against hasty or poorly considered lawmaking, since requiring a bill to pass two independent bodies, particularly where the chambers are elected or selected through different methods or represent different constituencies, subjects proposed legislation to a second, independently constituted review that a unicameral system, in which a single chamber's approval is sufficient, does not provide.\\n\\nCritics argue the value of this second check depends considerably on how independent the second chamber's composition and incentives actually are from the first, since a bicameral system in which both chambers are elected through similar methods, represent substantially overlapping constituencies, and are typically controlled by the same political coalition provides less genuine independent scrutiny than the formal two-chamber structure suggests, meaning the deliberative benefit bicameralism is supposed to provide depends less on the mere existence of two chambers than on the degree to which their composition, incentives, and electoral base genuinely diverge, a second chamber that merely replicates the first chamber's political composition through a different but functionally similar selection process offers considerably less independent check than the formal bicameral structure implies, regardless of how faithfully the constitutional requirement of dual approval is technically observed.",
+      "questions": [
+        {
+          "question_id": "p14-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Any bicameral legislature automatically provides a genuine independent check on hasty lawmaking."
+            },
+            {
+              "id": "B",
+              "text": "Bicameralism's deliberative benefit depends on how genuinely the two chambers' composition, incentives, and electoral base diverge, not merely on the formal existence of a second approval requirement."
+            },
+            {
+              "id": "C",
+              "text": "Unicameral legislatures always produce better-considered legislation than bicameral ones."
+            },
+            {
+              "id": "D",
+              "text": "No legislature has ever adopted a bicameral structure."
+            },
+            {
+              "id": "E",
+              "text": "The two chambers of a bicameral legislature are always elected through identical methods."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of what genuinely determines bicameralism's value.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies a second chamber provides less genuine independent scrutiny where it:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Is elected through similar methods, represents overlapping constituencies, and is typically controlled by the same political coalition as the first chamber"
+            },
+            {
+              "id": "B",
+              "text": "Is elected through an entirely different method from the first chamber"
+            },
+            {
+              "id": "C",
+              "text": "Represents a completely distinct constituency from the first chamber"
+            },
+            {
+              "id": "D",
+              "text": "Is controlled by a different political coalition than the first chamber"
+            },
+            {
+              "id": "E",
+              "text": "Has no formal approval requirement at all"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the condition under which the second chamber's check is weaker.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-11-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final sentence about a chamber 'technically observed' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Emphasise that formal compliance with the bicameral requirement does not guarantee the substantive independent check it is meant to provide"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no legislature has ever technically complied with bicameral requirements"
+            },
+            {
+              "id": "C",
+              "text": "Argue that constitutional requirements should never be technically observed"
+            },
+            {
+              "id": "D",
+              "text": "Show that bicameralism always provides genuine independent scrutiny regardless of composition"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about constitutional amendment procedure"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinguishes formal compliance from substantive independent scrutiny.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p14-12",
+      "topic": "The economics of occupational licensing",
+      "word_count": 250,
+      "text": "Occupational licensing, requiring individuals to obtain government-issued permission, typically involving education, examination, or apprenticeship requirements, before legally practising a given profession, is defended as protecting consumers from incompetent or unqualified practitioners in fields where the consequences of poor-quality service, medical malpractice, structurally unsound construction, are severe and where consumers themselves often lack the specialised knowledge needed to assess a practitioner's competence directly before purchasing the service, an information asymmetry licensing addresses by having a credentialing body verify competence on consumers' behalf in advance.\\n\\nCritics note that licensing requirements have expanded considerably beyond the high-stakes professions, medicine, law, engineering, where the consumer-protection rationale is strongest, to cover a much broader range of occupations, hairdressing, interior design, in several jurisdictions, where the consequences of practitioner incompetence are considerably less severe and consumers are typically far better able to directly assess service quality themselves through observation, reputation, or simple trial and error, without needing a credentialing body's advance verification, meaning the licensing requirement in these lower-stakes cases functions less to protect consumers from an information asymmetry they cannot otherwise overcome and more, critics argue, as a barrier to entry that benefits existing licensed practitioners by restricting the supply of competing labour, a restriction that raises prices for consumers without a correspondingly clear quality benefit in exchange, converting a policy justified by consumer protection into one that, in its expanded application, primarily protects incumbent practitioners from competition instead.",
+      "questions": [
+        {
+          "question_id": "p14-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Occupational licensing has no consumer-protection rationale in any profession."
+            },
+            {
+              "id": "B",
+              "text": "While licensing addresses genuine information asymmetry in high-stakes professions, critics argue its expansion to lower-stakes occupations functions less as consumer protection and more as a barrier to entry benefiting incumbent practitioners."
+            },
+            {
+              "id": "C",
+              "text": "All occupations require identical licensing requirements regardless of stakes involved."
+            },
+            {
+              "id": "D",
+              "text": "Consumers can always directly assess practitioner competence in every profession."
+            },
+            {
+              "id": "E",
+              "text": "Licensing never raises prices for consumers in any occupation."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's distinction between high-stakes and lower-stakes licensing.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies licensing's consumer-protection rationale is strongest where:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The consequences of incompetence are severe and consumers cannot easily assess competence themselves before purchasing the service"
+            },
+            {
+              "id": "B",
+              "text": "Consumers can easily assess quality through observation or trial and error"
+            },
+            {
+              "id": "C",
+              "text": "The profession involves no risk of any kind to consumers"
+            },
+            {
+              "id": "D",
+              "text": "Existing practitioners face no competition from unlicensed workers"
+            },
+            {
+              "id": "E",
+              "text": "The occupation has never previously required any licence"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the conditions under which the consumer-protection rationale is strongest.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p14-12-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's comparison between medicine and hairdressing functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate the difference in stakes and information asymmetry that the critics' argument relies on"
+            },
+            {
+              "id": "B",
+              "text": "Prove that hairdressing requires no regulation of any kind"
+            },
+            {
+              "id": "C",
+              "text": "Show that medicine and hairdressing pose identical risks to consumers"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all licensing requirements should be abolished immediately"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about professional association membership"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison illustrates the stakes distinction central to the critics' argument.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+},
+{
+  "paper_id": "praxis-p15",
+  "title": "Praxis LNAT Practice Paper 15",
+  "section": "A",
+  "time_limit_minutes": 95,
+  "total_questions": 42,
+  "difficulty_band": "harder than Paper 1",
+  "passages": [
+    {
+      "passage_id": "p15-01",
+      "topic": "The doctrine of causation in tort law",
+      "word_count": 248,
+      "text": "Establishing tort liability generally requires proof that a defendant's breach of duty actually caused the claimant's harm, a requirement courts assess partly through the 'but for' test, asking whether the harm would have occurred absent the defendant's conduct, and partly through the doctrine of novus actus interveniens, which holds that liability may be broken by a sufficiently independent intervening act, occurring between the defendant's original breach and the claimant's ultimate harm, that is not itself a reasonably foreseeable consequence of the original breach.\\n\\nThe doctrine's difficulty lies in distinguishing an intervening act sufficiently independent to break the chain of causation from one that, however distinct in form, remains a foreseeable consequence the original defendant should be held responsible for, since a defendant who negligently causes a minor road accident, prompting a bystander to attempt a reckless rescue that results in further injury, may or may not remain liable for that further injury depending on whether the rescue attempt, however independently chosen by the bystander, is characterised as a foreseeable response to the situation the defendant's negligence created, or as a sufficiently unusual, voluntary, and unreasonable act to constitute a new, independent cause breaking the causal chain, a characterisation that requires courts to assess the foreseeability and reasonableness of the intervening conduct rather than applying a mechanical test based solely on the number of causal steps between breach and ultimate harm.",
+      "questions": [
+        {
+          "question_id": "p15-01-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Any intervening act automatically breaks the causal chain regardless of foreseeability."
+            },
+            {
+              "id": "B",
+              "text": "Distinguishing a chain-breaking intervening act from a foreseeable consequence requires courts to assess foreseeability and reasonableness rather than applying a mechanical test based on the number of causal steps."
+            },
+            {
+              "id": "C",
+              "text": "The 'but for' test alone always resolves every causation question in tort law."
+            },
+            {
+              "id": "D",
+              "text": "No rescue attempt has ever been characterised as foreseeable."
+            },
+            {
+              "id": "E",
+              "text": "Negligence claims never require proof of causation."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the foreseeability-based standard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-01-q2",
+          "type": "inference",
+          "prompt": "The passage implies whether a defendant remains liable for harm from a rescue attempt depends on:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Whether the rescue attempt is characterised as a foreseeable response or a sufficiently unusual, unreasonable independent act"
+            },
+            {
+              "id": "B",
+              "text": "The number of days between the original breach and the ultimate harm"
+            },
+            {
+              "id": "C",
+              "text": "Whether the bystander was a professional rescuer"
+            },
+            {
+              "id": "D",
+              "text": "Whether the original defendant intended any harm at all"
+            },
+            {
+              "id": "E",
+              "text": "Whether the rescue attempt succeeded in preventing further injury"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the key characterisation courts must make.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-01-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's rescue-attempt example functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Illustrate the genuine difficulty of applying the novus actus interveniens doctrine in a concrete case"
+            },
+            {
+              "id": "B",
+              "text": "Prove that no defendant is ever liable for a bystander's actions"
+            },
+            {
+              "id": "C",
+              "text": "Show that the 'but for' test alone is always sufficient"
+            },
+            {
+              "id": "D",
+              "text": "Argue that rescue attempts should always be discouraged"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about criminal liability"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This example illustrates the doctrinal difficulty described in the passage.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-01-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'novus actus interveniens' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A new, independent intervening act that may break the chain of causation between an original breach and ultimate harm"
+            },
+            {
+              "id": "B",
+              "text": "A synonym for the 'but for' test"
+            },
+            {
+              "id": "C",
+              "text": "A rule requiring proof of a defendant's intent"
+            },
+            {
+              "id": "D",
+              "text": "A requirement that harm occur immediately after breach"
+            },
+            {
+              "id": "E",
+              "text": "A doctrine applicable only to criminal, not civil, cases"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as the intervening-act doctrine described in the passage.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-02",
+      "topic": "The ethics of default organ donation opt-out systems",
+      "word_count": 250,
+      "text": "Organ donation systems vary between opt-in, in which an individual must take affirmative action to register as a donor, and opt-out, in which every individual is presumed to consent to donation unless they take affirmative action to register a refusal, a design choice several countries have adopted partly on the strength of behavioural evidence that default settings substantially affect outcomes even where the formal right to choose otherwise remains identical, since most individuals, under either system, simply retain whatever default applies to them rather than actively exercising the choice the system formally offers.\\n\\nDefenders of opt-out systems argue this default effect can be harnessed for a policy outcome, increased organ availability, most people would endorse on reflection, since survey evidence generally shows large majorities expressing support for organ donation in the abstract even in countries where opt-in systems produce actual registration rates far below that expressed level of support, suggesting the gap reflects inertia rather than genuine preference against donation. Critics raise a concern distinct from disputing this behavioural evidence: presuming consent by default risks including individuals whose failure to opt out reflects unfamiliarity with the system, language barriers, or simple unawareness that a default applies to them at all, rather than genuine, if passive, agreement, meaning an opt-out system's legitimacy depends considerably on how effectively information about the default and the opt-out mechanism itself actually reaches the entire population, a condition that is not automatically satisfied merely by legislating the default and one opt-out systems in practice sometimes fail to meet for specific vulnerable or marginalised populations.",
+      "questions": [
+        {
+          "question_id": "p15-02-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Opt-out systems always guarantee informed, genuine consent from every individual."
+            },
+            {
+              "id": "B",
+              "text": "While opt-out systems can harness default effects to increase organ availability in line with expressed preferences, critics argue legitimacy depends on effective information reach, a condition sometimes unmet for vulnerable populations."
+            },
+            {
+              "id": "C",
+              "text": "Opt-in systems always produce higher donation rates than opt-out systems."
+            },
+            {
+              "id": "D",
+              "text": "No survey has ever measured public support for organ donation."
+            },
+            {
+              "id": "E",
+              "text": "Default effects have no influence on individual behaviour under either system."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's presentation of the defence and the critics' information-reach concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-02-q2",
+          "type": "inference",
+          "prompt": "The passage implies critics are concerned that failure to opt out may sometimes reflect:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unfamiliarity with the system or unawareness that a default applies, rather than genuine agreement"
+            },
+            {
+              "id": "B",
+              "text": "A deliberate, fully informed choice in every case"
+            },
+            {
+              "id": "C",
+              "text": "Universal awareness of the opt-out mechanism among all populations"
+            },
+            {
+              "id": "D",
+              "text": "A legal requirement that consent always be explicit"
+            },
+            {
+              "id": "E",
+              "text": "Widespread opposition to organ donation in the general population"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the critics' specific concern.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-02-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's reference to survey evidence on expressed support for donation functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Support defenders' argument that low opt-in registration reflects inertia rather than genuine preference against donation"
+            },
+            {
+              "id": "B",
+              "text": "Prove that opt-out systems never face any legitimacy concern"
+            },
+            {
+              "id": "C",
+              "text": "Show that no individual actually supports organ donation"
+            },
+            {
+              "id": "D",
+              "text": "Argue that opt-in systems should be immediately abolished everywhere"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about medical transplant success rates"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This evidence supports the defenders' inertia-based explanation for the registration gap.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-03",
+      "topic": "Constitutional monarchy and reserve powers",
+      "word_count": 245,
+      "text": "Constitutional monarchies typically vest a hereditary head of state with formal legal powers, appointing a government, granting royal assent to legislation, that convention dictates be exercised strictly on the advice of elected ministers rather than according to the monarch's own personal judgement, a system in which the monarch's formal legal authority and actual political discretion have become almost entirely decoupled through accumulated constitutional convention rather than through any change to the formal legal powers themselves, which often remain, on paper, largely as extensive as they were centuries earlier.\\n\\nThe monarch's residual 'reserve powers', discretion retained for genuinely exceptional circumstances, appointing a government where an election produces no clear majority and party leaders cannot agree on a coalition, refusing assent to legislation that would be manifestly unconstitutional, exist precisely because convention cannot fully anticipate every possible political circumstance in advance, meaning the monarch's role is not merely ceremonial in the strict sense but functions as a rarely invoked constitutional backstop whose value depends paradoxically on remaining almost entirely unused, since a monarch who exercised reserve powers frequently or unpredictably would undermine the very apolitical, non-partisan status that makes the reserve power's occasional exercise broadly acceptable to a public accustomed to a monarch who does not ordinarily intervene in day-to-day political decisions, meaning the reserve power's legitimacy is sustained specifically by its extreme rarity of use rather than despite it.",
+      "questions": [
+        {
+          "question_id": "p15-03-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A constitutional monarch's reserve powers have been formally abolished in every jurisdiction."
+            },
+            {
+              "id": "B",
+              "text": "The monarch's reserve powers function as a rarely invoked constitutional backstop whose legitimacy is sustained specifically by their extreme rarity of use, since frequent exercise would undermine the apolitical status that makes their occasional use acceptable."
+            },
+            {
+              "id": "C",
+              "text": "Constitutional convention has formally changed the monarch's legal powers over time."
+            },
+            {
+              "id": "D",
+              "text": "The monarch exercises full political discretion in all governmental decisions."
+            },
+            {
+              "id": "E",
+              "text": "Reserve powers are exercised regularly in ordinary political circumstances."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central paradox about legitimacy through rarity.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-03-q2",
+          "type": "inference",
+          "prompt": "The passage implies the monarch's formal legal powers and actual political discretion have become decoupled through:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulated constitutional convention rather than any change to the formal legal powers themselves"
+            },
+            {
+              "id": "B",
+              "text": "A formal reduction in the monarch's legal powers enacted by legislation"
+            },
+            {
+              "id": "C",
+              "text": "The complete abolition of the monarchy in most jurisdictions"
+            },
+            {
+              "id": "D",
+              "text": "A requirement that the monarch exercise reserve powers frequently"
+            },
+            {
+              "id": "E",
+              "text": "No process at all; the two have always been identical"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the decoupling.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-03-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's claim that legitimacy is sustained 'by its extreme rarity of use rather than despite it' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Highlight a paradoxical but coherent relationship between infrequent use and continued acceptability"
+            },
+            {
+              "id": "B",
+              "text": "Prove that reserve powers have never actually been exercised by any monarch"
+            },
+            {
+              "id": "C",
+              "text": "Argue that reserve powers should be exercised more frequently to strengthen legitimacy"
+            },
+            {
+              "id": "D",
+              "text": "Show that convention has no bearing on how reserve powers are perceived"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about hereditary succession rules"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This clarifies the specific, paradoxical logic of the passage's central claim.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-03-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'reserve powers' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Discretion retained by a head of state for genuinely exceptional circumstances not covered by ordinary convention"
+            },
+            {
+              "id": "B",
+              "text": "Powers exercised routinely in day-to-day government"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for royal assent generally"
+            },
+            {
+              "id": "D",
+              "text": "Powers that have been formally abolished by statute"
+            },
+            {
+              "id": "E",
+              "text": "Powers exercised only on the advice of elected ministers"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as discretion retained for exceptional circumstances convention cannot anticipate.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-04",
+      "topic": "Universal basic services versus cash transfers",
+      "word_count": 250,
+      "text": "Universal basic services proposals extend free, publicly provided access to a defined set of essential services, healthcare, education, a baseline level of housing or transport, to the entire population regardless of income, an alternative to cash-transfer approaches, such as universal basic income, that instead provide recipients with money to purchase equivalent services themselves on an open market, a distinction proponents of basic services argue matters because services subject to significant market failure, healthcare's information asymmetries between provider and patient, housing markets prone to supply constraints and speculative price dynamics, may not be reliably and affordably provided through ordinary market provision even where recipients possess adequate purchasing power via a cash transfer.\\n\\nProponents of cash transfers respond that basic services proposals substitute a specific, centrally determined bundle of services for the individually variable preferences a cash transfer allows recipients to express through their own spending choices, a paternalism concern distinct from the market-failure argument, since even accepting that certain services suffer genuine market failures requiring public provision or heavy regulation, this does not obviously justify extending uniform, centrally specified provision to every service in the basic bundle, particularly where individual circumstances and preferences regarding, for instance, transport needs or housing type vary considerably and a uniform service specification may serve some recipients' actual needs poorly compared to a cash transfer they could allocate according to their own specific circumstances, meaning the basic-services-versus-cash-transfer debate turns partly on an empirical question, how prevalent and severe market failure actually is across the specific services proposed, and partly on a values question, how much weight to give centrally determined service provision against individually expressed preference.",
+      "questions": [
+        {
+          "question_id": "p15-04-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cash transfers always outperform universal basic services in every respect."
+            },
+            {
+              "id": "B",
+              "text": "The basic-services-versus-cash-transfer debate turns partly on an empirical question about the prevalence of market failure and partly on a values question about centrally determined provision versus individually expressed preference."
+            },
+            {
+              "id": "C",
+              "text": "Universal basic services proposals have no rationale of any kind."
+            },
+            {
+              "id": "D",
+              "text": "Market failure never occurs in healthcare or housing markets."
+            },
+            {
+              "id": "E",
+              "text": "Individual preferences never vary regarding transport or housing needs."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's closing framing of the debate as empirical-plus-values.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-04-q2",
+          "type": "inference",
+          "prompt": "The passage implies proponents of basic services believe cash transfers may fail to secure adequate services because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Certain services are subject to significant market failure that ordinary market provision may not reliably or affordably address even with adequate purchasing power"
+            },
+            {
+              "id": "B",
+              "text": "Recipients never actually spend cash transfers on any service"
+            },
+            {
+              "id": "C",
+              "text": "Cash transfers are always smaller than the cost of basic services"
+            },
+            {
+              "id": "D",
+              "text": "Markets never experience any failure of any kind"
+            },
+            {
+              "id": "E",
+              "text": "Basic services are always more expensive to provide than cash transfers"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the market-failure rationale for basic services.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-04-q3",
+          "type": "logical_structure",
+          "prompt": "The proponents of cash transfers' response in the second paragraph relates to the market-failure argument by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Accepting that some market failure may justify public provision while raising a distinct paternalism concern about uniform provision across the entire bundle"
+            },
+            {
+              "id": "B",
+              "text": "Fully denying that any market failure exists in any service"
+            },
+            {
+              "id": "C",
+              "text": "Proving that basic services always serve every recipient's needs perfectly"
+            },
+            {
+              "id": "D",
+              "text": "Introducing an unrelated argument about tax rates"
+            },
+            {
+              "id": "E",
+              "text": "Concluding that all public services should be abolished"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This response concedes part of the argument while raising a distinct concern.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-05",
+      "topic": "The doctrine of anticipatory breach",
+      "word_count": 242,
+      "text": "Anticipatory breach allows an innocent party to treat a contract as breached, and to seek remedies immediately, where the other party clearly indicates, before the time for performance has actually arrived, that they will not perform their contractual obligations when the time comes, rather than requiring the innocent party to wait until the actual performance date passes before any remedy becomes available, a doctrine justified on the reasoning that requiring the innocent party to wait for an already-certain non-performance to formally occur serves no genuine purpose and may cause needless additional harm, since the innocent party could otherwise take earlier mitigating action, arranging a substitute contract elsewhere, once non-performance becomes clear.\\n\\nThe doctrine requires the repudiating party's indication of non-performance to be sufficiently clear and unequivocal, since treating an ambiguous statement, particularly one made during ongoing, good-faith negotiation over contract terms or timing, as an anticipatory breach risks penalising legitimate negotiation and communication between contracting parties, converting ordinary back-and-forth discussion about a contract's performance into a premature, potentially unjustified termination of the entire agreement, meaning courts require the repudiation to go beyond mere difficulty, reluctance, or renegotiation attempts and constitute an actual, clear renunciation of the obligation to perform at all, a standard that requires courts to distinguish genuine repudiation from the ordinary friction and negotiation that accompanies many commercial relationships without prematurely treating every difficult conversation as a breach.",
+      "questions": [
+        {
+          "question_id": "p15-05-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Anticipatory breach requires waiting until the actual performance date passes."
+            },
+            {
+              "id": "B",
+              "text": "Anticipatory breach requires a clear, unequivocal renunciation of the obligation to perform, since treating ambiguous negotiation as breach would penalise legitimate commercial communication."
+            },
+            {
+              "id": "C",
+              "text": "Any difficult conversation during a contract automatically constitutes anticipatory breach."
+            },
+            {
+              "id": "D",
+              "text": "No court has ever recognised the doctrine of anticipatory breach."
+            },
+            {
+              "id": "E",
+              "text": "Innocent parties are never permitted to seek remedies before the performance date."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the clarity requirement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-05-q2",
+          "type": "inference",
+          "prompt": "The passage implies allowing anticipatory breach benefits the innocent party by permitting them to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Take earlier mitigating action, such as arranging a substitute contract, once non-performance becomes clear"
+            },
+            {
+              "id": "B",
+              "text": "Avoid any obligation to mitigate their own losses"
+            },
+            {
+              "id": "C",
+              "text": "Wait indefinitely before seeking any remedy"
+            },
+            {
+              "id": "D",
+              "text": "Ignore the original contract entirely without consequence"
+            },
+            {
+              "id": "E",
+              "text": "Prevent the other party from ever renegotiating terms"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the rationale for permitting earlier remedy.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-05-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of ongoing negotiation functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Explain why courts require a stringent clarity standard before finding anticipatory breach"
+            },
+            {
+              "id": "B",
+              "text": "Prove that negotiation always constitutes anticipatory breach"
+            },
+            {
+              "id": "C",
+              "text": "Show that anticipatory breach has never been successfully argued in any case"
+            },
+            {
+              "id": "D",
+              "text": "Argue that renegotiation should never be permitted during a contract"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about contract formation requirements"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This discussion explains the rationale for the stringent clarity standard.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-06",
+      "topic": "The ethics of predictive risk scoring in child protection",
+      "word_count": 250,
+      "text": "Child protection agencies in some jurisdictions use predictive risk-scoring tools, drawing on data such as prior agency contact, housing instability, or parental history, to help identify which families warrant closer investigation or intervention, a use defended on the reasoning that caseworkers, facing large caseloads and limited time to review each referral, benefit from a systematic tool that can help prioritise attention toward cases with a statistically higher likelihood of serious harm, potentially catching cases an overworked caseworker's individual judgement might otherwise deprioritise or miss entirely.\\n\\nCritics raise a concern specific to this domain distinct from general algorithmic fairness concerns raised elsewhere: many of the input variables such tools rely on, prior agency contact, use of public assistance programmes, correlate strongly with poverty and with the very fact of having previously been investigated, meaning families already subject to agency scrutiny, disproportionately drawn from lower-income and minority communities for reasons including but not limited to actual differences in risk, generate the data that trains the tool to flag similar families for future scrutiny, a feedback loop in which past agency attention itself becomes a predictive input for future agency attention, independent of whether that attention reflects underlying risk or simply reflects which communities the agency has historically monitored most closely, a specific version of the general problem of training predictive tools on data generated by the very enforcement or intervention process the tool is meant to inform, rather than on an independent measure of the outcome the tool actually purports to predict.",
+      "questions": [
+        {
+          "question_id": "p15-06-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Predictive risk-scoring tools have no potential benefit of any kind in child protection."
+            },
+            {
+              "id": "B",
+              "text": "Critics identify a feedback loop specific to child protection risk scoring, in which past agency attention itself becomes a predictive input for future attention, independent of whether it reflects underlying risk or historical patterns of monitoring."
+            },
+            {
+              "id": "C",
+              "text": "Caseworkers never face any caseload or time constraints."
+            },
+            {
+              "id": "D",
+              "text": "Prior agency contact has no correlation with any input variable used by these tools."
+            },
+            {
+              "id": "E",
+              "text": "All families flagged by these tools are correctly identified as high-risk."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's identification of the specific feedback-loop concern.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-06-q2",
+          "type": "inference",
+          "prompt": "The passage implies the feedback loop arises because the tool is trained on data generated by:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The very enforcement or intervention process the tool is meant to inform, rather than an independent measure of the outcome it purports to predict"
+            },
+            {
+              "id": "B",
+              "text": "A completely independent, randomly sampled measure of family risk"
+            },
+            {
+              "id": "C",
+              "text": "Data with no relationship to poverty or prior agency contact"
+            },
+            {
+              "id": "D",
+              "text": "Families never previously subject to any agency scrutiny"
+            },
+            {
+              "id": "E",
+              "text": "A measure entirely unrelated to housing instability"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the feedback loop.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-06-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's distinction between 'this domain' and 'general algorithmic fairness concerns raised elsewhere' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a specific mechanism distinct from more general fairness critiques discussed in other contexts"
+            },
+            {
+              "id": "B",
+              "text": "Prove that general algorithmic fairness concerns are never relevant to any domain"
+            },
+            {
+              "id": "C",
+              "text": "Show that child protection tools are identical to all other predictive tools"
+            },
+            {
+              "id": "D",
+              "text": "Argue that no predictive tool should ever be used in any context"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about caseworker training programmes"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This distinguishes the specific feedback-loop mechanism from more general fairness concerns.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-06-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'feedback loop' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A self-reinforcing cycle in which past outcomes of a process become inputs that shape future applications of that same process"
+            },
+            {
+              "id": "B",
+              "text": "A formal complaint mechanism for families under investigation"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for caseload prioritisation"
+            },
+            {
+              "id": "D",
+              "text": "A one-time data collection exercise with no ongoing effect"
+            },
+            {
+              "id": "E",
+              "text": "A tool used exclusively to measure caseworker performance"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Describes the self-reinforcing cycle in which past agency attention shapes future predictions.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-07",
+      "topic": "Judicial appointments and politicisation",
+      "word_count": 248,
+      "text": "Methods of selecting judges vary considerably across legal systems, ranging from direct popular election, used for some courts in parts of the United States, to appointment by elected officials, often with legislative confirmation, to appointment through professional, largely insulated judicial commissions with limited direct political input, a variation reflecting an underlying disagreement about which selection method best balances judicial independence, protecting judges from political pressure that might otherwise compromise impartial decision-making, against judicial accountability, ensuring judges remain answerable in some meaningful way to the public whose disputes they ultimately resolve and whose laws they interpret.\\n\\nElection-based selection maximises direct accountability but raises a concern distinct from ordinary electoral politics: judicial decisions in individual cases are meant to apply law impartially to specific facts rather than to reflect majority preference, yet an elected judge facing re-election has an evident incentive to decide cases, particularly high-profile or emotionally charged ones, in ways likely to be popular with the electorate rather than strictly according to legal merit, an incentive structure fundamentally different from the incentive facing an elected legislator, whose role is precisely to reflect constituent preference in a way a judge's role, properly understood, is not meant to. Appointment-based systems address this concern but reintroduce a different one: an appointing official's own political preferences inevitably influence which candidates are selected, meaning appointment-based systems substitute accountability to the electorate at large for a more concentrated, one-time accountability to whichever official or body controls the appointment, a trade-off between diffuse ongoing electoral pressure and concentrated appointment-stage political influence that no selection method fully avoids.",
+      "questions": [
+        {
+          "question_id": "p15-07-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Judicial elections eliminate any concern about political influence on judicial decisions."
+            },
+            {
+              "id": "B",
+              "text": "Different judicial selection methods trade off judicial independence against accountability in different ways, with elections creating an incentive toward popular decisions and appointments substituting concentrated appointment-stage influence for diffuse electoral pressure, a trade-off no method fully avoids."
+            },
+            {
+              "id": "C",
+              "text": "Appointment-based systems have no political influence of any kind."
+            },
+            {
+              "id": "D",
+              "text": "All legal systems use identical judicial selection methods."
+            },
+            {
+              "id": "E",
+              "text": "Judges facing election never consider public opinion in any decision."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central trade-off argument across selection methods.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-07-q2",
+          "type": "inference",
+          "prompt": "The passage implies an elected judge's incentive differs from an elected legislator's because a judge's role is meant to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Apply law impartially to specific facts rather than reflect majority preference, unlike a legislator's representative role"
+            },
+            {
+              "id": "B",
+              "text": "Reflect constituent preference in every decision, identical to a legislator"
+            },
+            {
+              "id": "C",
+              "text": "Have no relationship to public opinion whatsoever"
+            },
+            {
+              "id": "D",
+              "text": "Be entirely insulated from any form of accountability"
+            },
+            {
+              "id": "E",
+              "text": "Be selected exclusively through legislative confirmation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the distinguishing feature of the judicial role.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-07-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of appointment-based systems in the second paragraph functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that this alternative addresses one concern while reintroducing a distinct one"
+            },
+            {
+              "id": "B",
+              "text": "Prove that appointment-based systems have no drawbacks whatsoever"
+            },
+            {
+              "id": "C",
+              "text": "Argue that election-based selection is always superior"
+            },
+            {
+              "id": "D",
+              "text": "Show that judicial independence and accountability are identical concepts"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about legislative confirmation hearings"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This shows the trade-off persists in a different form under appointment systems.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-07-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'judicial independence' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Protection of judges from political pressure that might compromise impartial decision-making"
+            },
+            {
+              "id": "B",
+              "text": "A synonym for judicial accountability"
+            },
+            {
+              "id": "C",
+              "text": "A requirement that all judges be elected"
+            },
+            {
+              "id": "D",
+              "text": "The power of a legislature to confirm judicial appointments"
+            },
+            {
+              "id": "E",
+              "text": "A judge's personal financial independence from government salary"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Contrasted with accountability, referring to protection from political pressure.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-08",
+      "topic": "The economics of platform monopsony in labour markets",
+      "word_count": 250,
+      "text": "Labour market monopsony describes a situation in which a small number of employers, or in extreme cases a single dominant employer, face limited competition for a particular category of worker within a local or specialised labour market, granting the employer sufficient wage-setting power to pay workers less than a genuinely competitive labour market would produce, since workers facing few alternative employers have limited ability to seek a better wage elsewhere regardless of their actual marginal productivity to the employer. Digital labour platforms, matching workers with short-term tasks or gigs through an app or website, have been argued by some economists to exhibit a distinct form of this dynamic despite the apparent existence of many workers and, often, multiple competing platforms.\\n\\nThe argument rests on a specific mechanism: even where multiple platforms nominally compete, workers on any given platform accumulate platform-specific reputation, ratings, completed task history, that does not transfer to a competing platform, creating a switching cost that functions similarly to the limited outside options characterising traditional monopsony, since a worker with an established reputation on one platform faces a real cost, starting over with no rating history, in moving to a nominally competing platform, even where that competing platform would otherwise offer better terms, meaning the platform's effective wage-setting power derives not from the complete absence of competing platforms in the traditional monopsony sense but from switching costs that function analogously, locking in workers whose accumulated platform-specific reputation has, in practice, limited value anywhere else, a mechanism distinct from but producing effects comparable to conventional labour market monopsony.",
+      "questions": [
+        {
+          "question_id": "p15-08-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Digital labour platforms always face full and unrestricted competition with no wage-setting power."
+            },
+            {
+              "id": "B",
+              "text": "Digital labour platforms can exhibit monopsony-like effects through platform-specific reputation switching costs, distinct from but producing effects comparable to conventional labour market monopsony despite the apparent existence of multiple competing platforms."
+            },
+            {
+              "id": "C",
+              "text": "Traditional monopsony requires the complete absence of any competing employer."
+            },
+            {
+              "id": "D",
+              "text": "Worker reputation always transfers seamlessly between competing platforms."
+            },
+            {
+              "id": "E",
+              "text": "No digital labour platform has ever been studied by economists."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central argument about the switching-cost mechanism.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-08-q2",
+          "type": "inference",
+          "prompt": "The passage implies a worker's platform-specific reputation creates a switching cost because that reputation:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Does not transfer to a competing platform, forcing the worker to start over with no rating history"
+            },
+            {
+              "id": "B",
+              "text": "Automatically transfers to any competing platform"
+            },
+            {
+              "id": "C",
+              "text": "Has no relationship to a worker's earning potential"
+            },
+            {
+              "id": "D",
+              "text": "Is identical across all platforms by design"
+            },
+            {
+              "id": "E",
+              "text": "Applies only to workers on a single dominant platform"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the source of the switching cost.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-08-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's comparison between traditional monopsony and the platform mechanism functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Show that a distinct mechanism, switching costs, can produce effects analogous to conventional monopsony even where multiple employers nominally compete"
+            },
+            {
+              "id": "B",
+              "text": "Prove that platform labour markets are legally identical to traditional monopsonies"
+            },
+            {
+              "id": "C",
+              "text": "Show that traditional monopsony never actually occurs in any labour market"
+            },
+            {
+              "id": "D",
+              "text": "Argue that digital platforms should be banned from operating"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about consumer-facing platform pricing"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This comparison is the passage's central analytical move.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-09",
+      "topic": "The doctrine of nemo dat quod non habet",
+      "word_count": 242,
+      "text": "The property law principle nemo dat quod non habet, one cannot give what one does not have, holds that a person transferring property generally cannot convey better title to it than they themselves possess, meaning a buyer who unknowingly purchases stolen goods from a thief generally acquires no valid ownership regardless of their own good faith and full payment, since the thief never held valid title capable of being transferred in the first place, a rule that protects an original owner's property rights against the risk of losing them through a transaction the owner had no part in and never consented to.\\n\\nThe rule's strict application, however, creates a distinct cost for good-faith purchasers who have no practical means of verifying a seller's true title before completing an ordinary commercial transaction, and most legal systems accordingly recognise specific exceptions, protecting a good-faith purchaser who buys through certain recognised commercial channels, such as an authorised dealer or a public market meeting specified conditions, on the reasoning that commerce depends on purchasers being able to rely on apparent authority to sell without conducting an exhaustive title investigation before every transaction, meaning the exceptions represent a deliberate policy trade-off, favouring the original owner's property rights in ordinary private transactions while favouring commercial reliability and good-faith purchaser protection in specific transactional contexts where verifying title is particularly impractical and where treating every such purchase as void would undermine the basic functioning of ordinary commerce.",
+      "questions": [
+        {
+          "question_id": "p15-09-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Nemo dat quod non habet has no exceptions in any legal system."
+            },
+            {
+              "id": "B",
+              "text": "While nemo dat protects original owners' property rights, most systems recognise specific commercial exceptions reflecting a deliberate policy trade-off between owner protection and commercial reliability."
+            },
+            {
+              "id": "C",
+              "text": "A good-faith purchaser always acquires valid title regardless of the seller's own title."
+            },
+            {
+              "id": "D",
+              "text": "Stolen goods can never be recovered by their original owner under any circumstances."
+            },
+            {
+              "id": "E",
+              "text": "Commercial transactions never require any verification of title."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's account of the rule and its recognised exceptions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-09-q2",
+          "type": "inference",
+          "prompt": "The passage implies the recognised exceptions exist because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Commerce depends on purchasers being able to rely on apparent authority to sell without exhaustive title investigation before every transaction"
+            },
+            {
+              "id": "B",
+              "text": "Original owners never have any legitimate property interest"
+            },
+            {
+              "id": "C",
+              "text": "Good-faith purchasers never actually exist in any transaction"
+            },
+            {
+              "id": "D",
+              "text": "Stolen goods can never be identified by any means"
+            },
+            {
+              "id": "E",
+              "text": "All commercial transactions occur through authorised dealers"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the rationale for the exceptions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-09-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's description of the exceptions as a 'deliberate policy trade-off' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Frame the exceptions as a considered balance between competing values rather than an inconsistency in the rule"
+            },
+            {
+              "id": "B",
+              "text": "Prove that nemo dat quod non habet has been entirely abandoned"
+            },
+            {
+              "id": "C",
+              "text": "Show that original owners never receive any protection"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all commercial transactions should be void by default"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about criminal theft prosecution"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This framing presents the exceptions as principled rather than as an inconsistency.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-09-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'apparent authority' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "The outward appearance that a seller has the right to sell, on which a purchaser may reasonably rely"
+            },
+            {
+              "id": "B",
+              "text": "A court's formal jurisdiction over a dispute"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for stolen property"
+            },
+            {
+              "id": "D",
+              "text": "A legal requirement that all sales occur in writing"
+            },
+            {
+              "id": "E",
+              "text": "The original owner's actual legal title"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Refers to the outward appearance of a right to sell that commerce depends on purchasers being able to rely on.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-10",
+      "topic": "The ethics of memory-altering technology",
+      "word_count": 250,
+      "text": "Emerging research into pharmacological methods of selectively weakening or altering the emotional intensity of specific traumatic memories, potentially administered shortly after a traumatic event to reduce the later development of severe post-traumatic symptoms, raises an ethical question distinct from ordinary medical risk-benefit assessment: whether deliberately altering a person's memory of an event, even one causing genuine ongoing suffering, threatens something valuable about the continuity and authenticity of a person's autobiographical narrative, the sense in which a person's memories, including painful ones, constitute a truthful record of what actually happened to them and contribute to who they have become, a value some philosophers argue is not fully captured by a purely welfare-focused calculation of reduced suffering.\\n\\nDefenders of the technology's therapeutic use respond that this authenticity concern, while raising a genuine question, may rest on a questionable premise: that memory in its natural, unaltered state constitutes an especially accurate or privileged record of the past, when in fact ordinary human memory is already well documented to be reconstructive, selective, and prone to significant distortion over time through entirely natural psychological processes, unrelated to any deliberate pharmacological intervention, meaning the contrast between 'natural' memory as authentic and pharmacologically altered memory as somehow inauthentic may overstate how privileged or accurate unaltered memory actually is to begin with, though critics respond that this observation, while accurate regarding memory's general unreliability, does not fully answer the distinct concern about deliberately intervening to alter a specific memory for a specific purpose, which differs in kind from the passive, unintentional distortion ordinary memory undergoes without any deliberate external intervention.",
+      "questions": [
+        {
+          "question_id": "p15-10-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Memory-altering technology has no potential therapeutic benefit of any kind."
+            },
+            {
+              "id": "B",
+              "text": "Defenders argue the authenticity concern rests on an overstated premise about unaltered memory's accuracy, but critics respond that deliberate intervention differs in kind from memory's ordinary, passive distortion, a distinction the defenders' observation does not fully answer."
+            },
+            {
+              "id": "C",
+              "text": "Human memory is always a perfectly accurate record of past events."
+            },
+            {
+              "id": "D",
+              "text": "No philosopher has ever raised a concern about memory-altering technology."
+            },
+            {
+              "id": "E",
+              "text": "Post-traumatic symptoms are never affected by any medical intervention."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's dialectical structure between defenders and critics.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-10-q2",
+          "type": "inference",
+          "prompt": "The passage implies defenders challenge the authenticity concern by pointing out that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ordinary human memory is already reconstructive, selective, and prone to distortion through natural psychological processes"
+            },
+            {
+              "id": "B",
+              "text": "Memory is always a perfectly privileged and accurate record of the past"
+            },
+            {
+              "id": "C",
+              "text": "No traumatic memory has ever been documented"
+            },
+            {
+              "id": "D",
+              "text": "Pharmacological intervention never affects memory in any way"
+            },
+            {
+              "id": "E",
+              "text": "Autobiographical narrative has no relationship to memory whatsoever"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the defenders' challenge to the authenticity premise.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-10-q3",
+          "type": "logical_structure",
+          "prompt": "The critics' final response distinguishing deliberate intervention from passive distortion functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Concede the defenders' point about memory's general unreliability while showing it does not fully resolve the distinct concern about deliberate alteration"
+            },
+            {
+              "id": "B",
+              "text": "Fully reject the defenders' observation about memory's reconstructive nature"
+            },
+            {
+              "id": "C",
+              "text": "Prove that memory-altering technology has no effect on autobiographical narrative"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all forms of memory distortion are ethically identical"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about pharmaceutical regulation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This response accepts part of the defenders' point while maintaining a distinct objection.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-11",
+      "topic": "Devolution and asymmetric federalism",
+      "word_count": 248,
+      "text": "Devolution, transferring specific governing powers from a central government to sub-national regions, differs from a fully federal system in that the powers devolved are typically granted by ordinary statute rather than entrenched in a written constitution, meaning the central government retains, at least in strict legal theory, the power to reclaim devolved authority through ordinary legislative process, a structural difference from federal systems where sub-national governments possess constitutionally protected authority the central government cannot unilaterally revoke.\\n\\nAsymmetric devolution, in which different regions within the same state receive different degrees or categories of devolved power, reflecting differences in each region's own political demand for autonomy or distinct historical and cultural circumstances, complicates this picture further, since it requires the central government to justify differential treatment of regions within a single state, treatment that can generate resentment among regions receiving lesser devolved powers who may perceive the asymmetry as reflecting an arbitrary allocation rather than any principled distinction, particularly where the specific historical or political justification for greater devolution to one region is contested or not obviously applicable to the requesting region seeking comparable treatment, meaning asymmetric devolution, whatever its practical advantages in accommodating genuinely distinct regional circumstances, carries an inherent risk of generating exactly the kind of comparative grievance among less-devolved regions that a more uniform, symmetric approach to devolution would avoid, even where the uniform approach might otherwise poorly fit the genuinely differing circumstances asymmetric devolution was designed to accommodate.",
+      "questions": [
+        {
+          "question_id": "p15-11-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Devolved powers are always constitutionally entrenched and cannot be reclaimed by a central government."
+            },
+            {
+              "id": "B",
+              "text": "Asymmetric devolution can accommodate genuinely distinct regional circumstances but carries an inherent risk of generating comparative grievance among less-devolved regions that a more uniform approach would avoid, even at the cost of poorly fitting differing regional circumstances."
+            },
+            {
+              "id": "C",
+              "text": "All regions within a devolved state always receive identical powers."
+            },
+            {
+              "id": "D",
+              "text": "Devolution is legally identical to a fully federal system in every respect."
+            },
+            {
+              "id": "E",
+              "text": "No region has ever requested greater devolved powers than another."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central trade-off argument about asymmetric devolution.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-11-q2",
+          "type": "inference",
+          "prompt": "The passage implies devolution differs from a fully federal system because devolved powers are:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Typically granted by ordinary statute, meaning the central government retains the power to reclaim them through ordinary legislative process"
+            },
+            {
+              "id": "B",
+              "text": "Always constitutionally entrenched and unable to be revoked"
+            },
+            {
+              "id": "C",
+              "text": "Identical in legal status to federal constitutional powers"
+            },
+            {
+              "id": "D",
+              "text": "Never granted to any sub-national region under any circumstances"
+            },
+            {
+              "id": "E",
+              "text": "Permanently fixed once granted, with no possibility of change"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the key structural distinction from federalism.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-11-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's discussion of comparative grievance among less-devolved regions functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Identify a specific risk asymmetric devolution carries despite its practical advantages"
+            },
+            {
+              "id": "B",
+              "text": "Prove that asymmetric devolution has never actually been implemented"
+            },
+            {
+              "id": "C",
+              "text": "Show that symmetric devolution has no advantages of any kind"
+            },
+            {
+              "id": "D",
+              "text": "Argue that devolution should never be granted to any region"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about central government budget allocation"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This identifies the specific risk the passage's central trade-off relies on.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-11-q4",
+          "type": "vocabulary_in_context",
+          "prompt": "As used in the passage, 'asymmetric devolution' most nearly refers to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A devolution scheme in which different regions of the same state receive different degrees or categories of devolved power"
+            },
+            {
+              "id": "B",
+              "text": "A scheme in which every region receives identical powers"
+            },
+            {
+              "id": "C",
+              "text": "A synonym for full federalism"
+            },
+            {
+              "id": "D",
+              "text": "A scheme in which no region receives any devolved power"
+            },
+            {
+              "id": "E",
+              "text": "A power granted only to the central government"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Defined directly as differential devolved power across regions within the same state.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "passage_id": "p15-12",
+      "topic": "The economics of too-big-to-fail and moral hazard",
+      "word_count": 250,
+      "text": "Financial institutions considered systemically important, large enough that their failure would risk severe disruption to the broader financial system and economy, are widely believed to benefit from an implicit expectation that governments will intervene to prevent their outright failure during a crisis, an expectation that, even absent any explicit guarantee, can measurably lower such institutions' borrowing costs relative to smaller, non-systemically-important competitors, since lenders to a systemically important institution price in a reduced expectation of loss given the perceived likelihood of government support in a crisis.\\n\\nThis implicit guarantee creates a specific moral hazard problem distinct from ordinary financial risk-taking: an institution whose creditors expect government support in a crisis has a correspondingly reduced incentive to manage its own risk-taking conservatively, since a substantial portion of the downside from excessive risk is effectively borne by the implicit government guarantee rather than falling entirely on the institution's own creditors and shareholders, a distortion in risk incentives specifically attributable to institutional size and systemic importance rather than to any feature of the institution's underlying business model, meaning two otherwise identical institutions, one large enough to be considered systemically important and one not, face different effective incentives to manage risk prudently purely as a function of size and its associated implicit guarantee, a distortion that regulatory responses, capital surcharges targeting systemically important institutions specifically, resolution regimes designed to allow orderly failure without a full bailout, attempt to address by either raising the direct cost of size or reducing the credibility of the implicit guarantee itself, though the practical credibility of any resolution regime's commitment to allow failure without intervention remains difficult to fully establish until genuinely tested by an actual crisis.",
+      "questions": [
+        {
+          "question_id": "p15-12-q1",
+          "type": "main_idea",
+          "prompt": "The passage's central argument is that:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Implicit government guarantees have no effect on financial institutions' borrowing costs."
+            },
+            {
+              "id": "B",
+              "text": "The implicit too-big-to-fail guarantee creates a moral hazard by reducing systemically important institutions' incentive to manage risk prudently, a distortion regulatory responses attempt to address though the credibility of resolution regimes remains difficult to fully establish absent an actual crisis test."
+            },
+            {
+              "id": "C",
+              "text": "All financial institutions face identical risk incentives regardless of size."
+            },
+            {
+              "id": "D",
+              "text": "Regulatory capital surcharges have fully eliminated the too-big-to-fail problem."
+            },
+            {
+              "id": "E",
+              "text": "Systemically important institutions always fail during a financial crisis."
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation": "Matches the passage's central moral hazard argument and its account of regulatory responses.",
+          "difficulty": "hard"
+        },
+        {
+          "question_id": "p15-12-q2",
+          "type": "inference",
+          "prompt": "The passage implies systemically important institutions have reduced incentive to manage risk prudently because:",
+          "options": [
+            {
+              "id": "A",
+              "text": "A substantial portion of the downside from excessive risk is effectively borne by the implicit government guarantee rather than falling entirely on creditors and shareholders"
+            },
+            {
+              "id": "B",
+              "text": "They are legally required to take on excessive risk"
+            },
+            {
+              "id": "C",
+              "text": "Smaller institutions never face any risk of failure"
+            },
+            {
+              "id": "D",
+              "text": "Government guarantees are always explicit and formally documented"
+            },
+            {
+              "id": "E",
+              "text": "Creditors always demand higher interest rates from large institutions"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "Stated directly as the mechanism behind the moral hazard.",
+          "difficulty": "medium"
+        },
+        {
+          "question_id": "p15-12-q3",
+          "type": "logical_structure",
+          "prompt": "The passage's final point about resolution regime credibility remaining 'difficult to fully establish' functions to:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Qualify the described regulatory response by noting a genuine limitation in verifying its effectiveness before an actual crisis occurs"
+            },
+            {
+              "id": "B",
+              "text": "Prove that resolution regimes have never been proposed by any regulator"
+            },
+            {
+              "id": "C",
+              "text": "Show that capital surcharges have completely eliminated moral hazard"
+            },
+            {
+              "id": "D",
+              "text": "Argue that all systemically important institutions should be immediately broken up"
+            },
+            {
+              "id": "E",
+              "text": "Introduce an unrelated point about central bank interest rate policy"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation": "This closing point qualifies the regulatory response's proven effectiveness.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
 }
 ];
