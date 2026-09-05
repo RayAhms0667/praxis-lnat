@@ -30,7 +30,7 @@ const state = {
   pendingPlan: null, // plan awaiting payment confirmation
   paymentReturn: null, // 'dashboard' (first-time onboarding) | 'account' (upgrading later)
   auth: null, // { email, name?, plan, paid } once logged in — plan/paid are null/false until checkout completes
-  marketingPractice: { qIndex: 0, answers: {} }, // free-practice teaser (uses PASSAGES[0])
+  marketingPractice: { qIndex: 0, selected: {}, answers: {} }, // free-practice teaser (uses PASSAGES[0])
   paperAttempt: null, // { paperIndex, order, pos, answers, timeLeft, timerId } — a Section A paper in progress
   paperResultsData: null, // set by submitPaper(), read by renderPaperResults()
   essayAttempt: null, // { index, text, timeLeft, timerId } — a Section B essay in progress
@@ -895,6 +895,7 @@ function mountTeaserPassage(container) {
       <div class="q-actions" id="t-actions"></div>
     `));
 
+    const selected = state.marketingPractice.selected[qIdx];
     const optsWrap = qpane.querySelector('#t-opts');
     q.options.forEach((optText, i) => {
       const opt = el(`<div class="option"><span class="opt-letter">${letter(i)}</span><span class="opt-text">${escapeHtml(optText)}</span></div>`);
@@ -903,7 +904,8 @@ function mountTeaserPassage(container) {
         else if (i === answered) opt.classList.add('incorrect');
         if (i === answered) opt.classList.add('selected');
       } else {
-        opt.onclick = () => { state.marketingPractice.answers[qIdx] = i; draw(); };
+        if (i === selected) opt.classList.add('selected');
+        opt.onclick = () => { state.marketingPractice.selected[qIdx] = i; draw(); };
       }
       optsWrap.appendChild(opt);
     });
@@ -923,6 +925,10 @@ function mountTeaserPassage(container) {
       const nextBtn = el(`<button class="btn btn-primary">Next question</button>`);
       nextBtn.onclick = () => { state.marketingPractice.qIndex++; draw(); };
       actions.appendChild(nextBtn);
+    } else if (answered === undefined) {
+      const submitBtn = el(`<button class="btn btn-primary" ${selected === undefined ? 'disabled' : ''}>Submit answer</button>`);
+      submitBtn.onclick = () => { state.marketingPractice.answers[qIdx] = selected; draw(); };
+      actions.appendChild(submitBtn);
     } else {
       actions.appendChild(el(`<span></span>`));
     }
@@ -1659,6 +1665,7 @@ function startMcqSession() {
   state.mcqSession = {
     order: available.map((_, i) => i),
     pos: 0,
+    selected: null,
     revealed: false,
     sessionAnswered: 0,
     sessionCorrect: 0,
@@ -1694,7 +1701,8 @@ function renderMcqPractice() {
   const actions = wrap.querySelector('#mcq-actions');
   const feedback = wrap.querySelector('#mcq-feedback');
 
-  function selectOption(optId) {
+  function submitSelected() {
+    const optId = session.selected;
     session.revealed = true;
     const isCorrect = optId === q.correct_option_id;
     session.sessionAnswered++;
@@ -1711,7 +1719,8 @@ function renderMcqPractice() {
       if (opt.id === q.correct_option_id) optEl.classList.add('correct');
       else if (prior && opt.id === prior.selected) optEl.classList.add('incorrect');
     } else {
-      optEl.onclick = () => selectOption(opt.id);
+      if (opt.id === session.selected) optEl.classList.add('selected');
+      optEl.onclick = () => { session.selected = opt.id; render(); };
     }
     optsWrap.appendChild(optEl);
   });
@@ -1727,6 +1736,7 @@ function renderMcqPractice() {
     nextBtn.onclick = () => {
       if (isLast) { finishMcqSession(); return; }
       session.pos++;
+      session.selected = null;
       session.revealed = false;
       render();
     };
@@ -1734,6 +1744,9 @@ function renderMcqPractice() {
   } else {
     actions.appendChild(el(`<button class="btn" id="mcq-finish-early">Finish practice</button>`));
     actions.querySelector('#mcq-finish-early').onclick = () => finishMcqSession();
+    const submitBtn = el(`<button class="btn btn-primary" ${session.selected ? '' : 'disabled'}>Submit answer</button>`);
+    submitBtn.onclick = () => submitSelected();
+    actions.appendChild(submitBtn);
   }
 }
 
