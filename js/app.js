@@ -609,7 +609,7 @@ function aboutPageHtml() {
       <p style="max-width:720px;color:var(--ink-soft);font-size:14.5px;line-height:1.65;margin-top:8px;">TwoStepsAhead started as one-to-one tutoring — working through past papers line by line with individual applicants. TwoStepsFurther is that same method, rebuilt so it doesn't require booking a session to access it: the same standard of material, available whenever you're ready to practise.</p>
 
       <div class="trust-row">
-        <span class="trust-badge"><span class="tb-dot"></span>Original content — nothing lifted or AI-generated</span>
+        <span class="trust-badge"><span class="tb-dot"></span>Original content — designed by us</span>
         <span class="trust-badge"><span class="tb-dot"></span>Secure checkout via Square</span>
         <span class="trust-badge"><span class="tb-dot"></span>One-off payment, no hidden subscription</span>
         <span class="trust-badge"><span class="tb-dot"></span>Written by LNAT-sitting graduates, not content writers</span>
