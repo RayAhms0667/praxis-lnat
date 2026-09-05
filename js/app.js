@@ -302,11 +302,13 @@ function renderHeader() {
     const emailLabel = state.auth && state.auth.email ? escapeHtml(state.auth.email) : '';
     HEADER_ACTION.innerHTML = `
       ${emailLabel ? `<button class="user-email" id="account-email-btn" title="Account settings">${emailLabel}</button>` : ''}
+      <button class="btn btn-ghost btn-sm" id="contact-btn">Contact</button>
       <button class="btn btn-ghost btn-sm" id="account-btn">Account</button>
       <button class="btn btn-ghost btn-sm" id="logout-btn">Log out</button>
     `;
     const goAccount = () => go('account');
     if (HEADER_ACTION.querySelector('#account-email-btn')) HEADER_ACTION.querySelector('#account-email-btn').onclick = goAccount;
+    HEADER_ACTION.querySelector('#contact-btn').onclick = () => go('contact');
     HEADER_ACTION.querySelector('#account-btn').onclick = goAccount;
     HEADER_ACTION.querySelector('#logout-btn').onclick = () => handleLogout();
   }
@@ -790,7 +792,9 @@ function mountContactForm(form) {
     try {
       let delivered = false;
       if (supabaseClient) {
-        const { error } = await supabaseClient.from('contact_enquiries').insert({ name, email, topic, message });
+        const { error } = await supabaseClient.functions.invoke('send-contact-email', {
+          body: { name, email, topic, message },
+        });
         if (error) throw error;
         delivered = true;
       }
@@ -1910,6 +1914,16 @@ function accountInitials() {
   return email ? email[0].toUpperCase() : '?';
 }
 
+function renderAppContact() {
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / Contact</div>
+    ${contactPageHtml()}
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  mountContactForm(wrap.querySelector('#contact-form'));
+}
+
 function renderAccount() {
   const tab = state.accountTab || 'profile';
   const wrap = el(`
@@ -2479,6 +2493,7 @@ function render() {
     case 'mcq-practice': renderMcqPractice(); break;
     case 'mcq-done': renderMcqDone(); break;
     case 'account': renderAccount(); break;
+    case 'contact': renderAppContact(); break;
     case 'choose-plan': renderChoosePlan(); break;
     case 'payment': renderPayment(); break;
     case 'confirming-payment': renderConfirmingPayment(); break;
