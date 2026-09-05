@@ -22,9 +22,9 @@ const PLAN_PRICES: Record<string, number> = {
   'masterclass': 13000,
 };
 const PLAN_NAMES: Record<string, string> = {
-  'crash-course': 'Praxis — Crash Course',
-  'intensive': 'Praxis — Intensive',
-  'masterclass': 'Praxis — Masterclass',
+  'crash-course': 'TwoStepsFurther — Crash Course',
+  'intensive': 'TwoStepsFurther — Intensive',
+  'masterclass': 'TwoStepsFurther — Masterclass',
 };
 
 Deno.serve(async (req) => {

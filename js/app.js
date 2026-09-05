@@ -1,4 +1,4 @@
-/* Praxis LNAT — app logic. Vanilla JS, no build step. */
+/* TwoStepsFurther LNAT — app logic. Vanilla JS, no build step. */
 
 const APP = document.getElementById('app');
 const HEADER_NAV = document.getElementById('header-nav');
@@ -323,7 +323,7 @@ function renderMarketingShell() {
   const wrap = el(`
     ${pageHtml}
     <footer class="site-footer">
-      <span class="brand-mark" style="font-size:16px;">Praxis</span>
+      <span class="brand-mark" style="font-size:16px;">TwoStepsFurther</span>
       <nav>
         <a data-page="home">Home</a>
         <a data-page="about">About</a>
@@ -362,7 +362,7 @@ function homePageHtml() {
     <section class="marketing-page" style="border-top:1px solid var(--rule);padding-top:56px;">
       <p class="kicker">Who writes the questions</p>
       <h2 style="font-size:26px;">Built by LSE, Oxbridge and UCL students.</h2>
-      <p class="lede" style="font-size:15px;">Every passage, question and essay prompt in Praxis is written by a small team of LSE, Oxford, Cambridge and UCL students and graduates — people who sat the LNAT themselves, got the offers, and know exactly what the paper is testing. Material isn't outsourced to generic content writers; it's built by people who remember what it's like to be on the other side of the desk.</p>
+      <p class="lede" style="font-size:15px;">Every passage, question and essay prompt in TwoStepsFurther is written by a small team of LSE, Oxford, Cambridge and UCL students and graduates — people who sat the LNAT themselves, got the offers, and know exactly what the paper is testing. Material isn't outsourced to generic content writers; it's built by people who remember what it's like to be on the other side of the desk.</p>
       <div class="uni-badges">
         <span class="uni-badge">London School of Economics</span>
         <span class="uni-badge">University of Oxford</span>
@@ -374,7 +374,7 @@ function homePageHtml() {
     <section class="marketing-page" style="border-top:1px solid var(--rule);padding-top:56px;">
       <p class="kicker">Where our users end up</p>
       <h2 style="font-size:26px;">Real offers, real universities.</h2>
-      <p class="lede" style="font-size:15px;">A look at which LNAT universities Praxis users go on to study at.</p>
+      <p class="lede" style="font-size:15px;">A look at which LNAT universities TwoStepsFurther users go on to study at.</p>
       <div class="chart-wrap">
         ${outcomesChartSvg()}
       </div>
@@ -382,7 +382,7 @@ function homePageHtml() {
   `;
 }
 
-/* Part-to-whole horizontal stacked bar: where Praxis users end up studying.
+/* Part-to-whole horizontal stacked bar: where TwoStepsFurther users end up studying.
    Categorical form since the segments are the subject, not a magnitude
    comparison — direct legend labels carry identity, not color alone. */
 function outcomesChartSvg() {
@@ -421,7 +421,7 @@ function outcomesChartSvg() {
   `).join('');
 
   return `
-    <svg viewBox="0 0 640 76" width="100%" role="img" aria-label="Where Praxis users go: Oxbridge 30%, LSE 22%, UCL, Kings and Durham 45%, Bristol, Notts and other LNAT universities 3%">
+    <svg viewBox="0 0 640 76" width="100%" role="img" aria-label="Where TwoStepsFurther users go: Oxbridge 30%, LSE 22%, UCL, Kings and Durham 45%, Bristol, Notts and other LNAT universities 3%">
       ${bars}
     </svg>
     <div class="chart-legend">${legend}</div>
@@ -432,15 +432,15 @@ function outcomesChartSvg() {
 function aboutPageHtml() {
   return `
     <section class="marketing-page">
-      <p class="kicker">About Praxis</p>
+      <p class="kicker">About TwoStepsFurther</p>
       <h1 class="page-title">Built by people who've sat in the room.</h1>
-      <p class="lede">Praxis is made by the team behind TwoStepsAhead, a tutoring practice that has spent years coaching applicants through competitive UK university admissions — LNAT included.</p>
+      <p class="lede">TwoStepsFurther is made by the team behind TwoStepsAhead, a tutoring practice that has spent years coaching applicants through competitive UK university admissions — LNAT included.</p>
 
       <div class="about-grid">
-        <p>We built Praxis because most LNAT prep falls into one of two camps: expensive one-to-one tutoring, or free material that doesn't resemble the real paper closely enough to be useful. We wanted something in between — passages written to the actual difficulty and register of the paper, explanations that show the reasoning rather than just the answer, and a mock exam that respects the real clock instead of quietly going easy on you.</p>
-        <p>Every passage in Praxis is original, written specifically to test the same skills the real LNAT tests: reading closely, spotting how an argument is built, and telling a strong inference from a tempting but wrong one. It's the tool we wished we'd had when we were the ones revising for it.</p>
+        <p>We built TwoStepsFurther because most LNAT prep falls into one of two camps: expensive one-to-one tutoring, or free material that doesn't resemble the real paper closely enough to be useful. We wanted something in between — passages written to the actual difficulty and register of the paper, explanations that show the reasoning rather than just the answer, and a mock exam that respects the real clock instead of quietly going easy on you.</p>
+        <p>Every passage in TwoStepsFurther is original, written specifically to test the same skills the real LNAT tests: reading closely, spotting how an argument is built, and telling a strong inference from a tempting but wrong one. It's the tool we wished we'd had when we were the ones revising for it.</p>
       </div>
-      <p style="max-width:720px;color:var(--ink-soft);font-size:14.5px;line-height:1.65;margin-top:8px;">TwoStepsAhead started as one-to-one tutoring — working through past papers line by line with individual applicants. Praxis is that same method, rebuilt so it doesn't require booking a session to access it: the same standard of material, available whenever you're ready to practise.</p>
+      <p style="max-width:720px;color:var(--ink-soft);font-size:14.5px;line-height:1.65;margin-top:8px;">TwoStepsAhead started as one-to-one tutoring — working through past papers line by line with individual applicants. TwoStepsFurther is that same method, rebuilt so it doesn't require booking a session to access it: the same standard of material, available whenever you're ready to practise.</p>
 
       <h2 style="margin-top:48px;font-size:20px;">How we build every passage</h2>
       <div class="principles-grid">
@@ -465,27 +465,27 @@ function aboutPageHtml() {
       <h2 style="margin-top:56px;font-size:20px;">The numbers so far</h2>
       <p class="lede" style="font-size:14.5px;margin-bottom:8px;">Early results from our first year.</p>
       <div class="stats-row stats-row-3">
-        <div class="stat-box"><div class="stat-num">31</div><div class="stat-label">Average LNAT score among Praxis users</div></div>
+        <div class="stat-box"><div class="stat-num">31</div><div class="stat-label">Average LNAT score among TwoStepsFurther users</div></div>
         <div class="stat-box"><div class="stat-num">78%</div><div class="stat-label">Get their first-choice LNAT university</div></div>
         <div class="stat-box"><div class="stat-num">80+</div><div class="stat-label">Students in our first year</div></div>
       </div>
 
       <div class="chart-wrap">
         <h3 style="font-size:15px;margin-bottom:2px;">Average LNAT score, by university</h3>
-        <p style="font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;">Praxis users compared with published average admitted LNAT scores.</p>
+        <p style="font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;">TwoStepsFurther users compared with published average admitted LNAT scores.</p>
         ${scoreComparisonChartSvg()}
-        <p class="chart-caption">University figures are published average admitted LNAT scores. The Praxis figure is the average across Praxis users.</p>
+        <p class="chart-caption">University figures are published average admitted LNAT scores. The TwoStepsFurther figure is the average across TwoStepsFurther users.</p>
       </div>
     </section>
   `;
 }
 
-/* Emphasis-form horizontal bar chart: one highlighted series (Praxis) against
+/* Emphasis-form horizontal bar chart: one highlighted series (TwoStepsFurther) against
    de-emphasised context bars (university averages), per dataviz "emphasis" form —
    one series is the point, the rest are context. */
 function scoreComparisonChartSvg() {
   const rows = [
-    { label: 'Praxis users', value: 31, display: '31', highlight: true },
+    { label: 'TwoStepsFurther users', value: 31, display: '31', highlight: true },
     { label: 'Oxford', value: 30.5, display: '30–31', highlight: false },
     { label: 'Cambridge', value: 29.5, display: '29–30', highlight: false },
     { label: 'LSE', value: 29, display: '29', highlight: false },
@@ -526,7 +526,7 @@ function scoreComparisonChartSvg() {
   }).join('');
 
   return `
-    <svg viewBox="0 0 640 ${chartH}" width="100%" role="img" aria-label="Bar chart comparing average LNAT scores: Praxis users 31, Oxford 30 to 31, Cambridge 29 to 30, LSE 29, UCL 28">
+    <svg viewBox="0 0 640 ${chartH}" width="100%" role="img" aria-label="Bar chart comparing average LNAT scores: TwoStepsFurther users 31, Oxford 30 to 31, Cambridge 29 to 30, LSE 29, UCL 28">
       ${gridlines}
       <line x1="${x0}" y1="${axisY}" x2="${x1max}" y2="${axisY}" stroke="var(--rule-strong)" stroke-width="1"/>
       ${tickLabels}
@@ -1861,7 +1861,7 @@ function renderVerificationTab(content) {
           <span class="verify-dot"></span>
           <div>
             <div class="verify-title">Demo account</div>
-            <div class="verify-desc">No Supabase project is connected, so Praxis isn't sending real emails yet — there's nothing to verify.</div>
+            <div class="verify-desc">No Supabase project is connected, so TwoStepsFurther isn't sending real emails yet — there's nothing to verify.</div>
           </div>
         </div>
         <button class="btn" id="resend-verify-btn" type="button" style="margin-top:14px;">Resend verification email</button>

@@ -11,7 +11,7 @@
 const SECTION_A_PAPERS = [
 {
   "paper_id": "praxis-p01",
-  "title": "Praxis LNAT Practice Paper 1",
+  "title": "TwoStepsFurther LNAT Practice Paper 1",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -1376,7 +1376,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p02",
-  "title": "Praxis LNAT Practice Paper 2",
+  "title": "TwoStepsFurther LNAT Practice Paper 2",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -2742,7 +2742,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p03",
-  "title": "Praxis LNAT Practice Paper 3",
+  "title": "TwoStepsFurther LNAT Practice Paper 3",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -4108,7 +4108,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p04",
-  "title": "Praxis LNAT Practice Paper 4",
+  "title": "TwoStepsFurther LNAT Practice Paper 4",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -5474,7 +5474,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p05",
-  "title": "Praxis LNAT Practice Paper 5",
+  "title": "TwoStepsFurther LNAT Practice Paper 5",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -6840,7 +6840,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p06",
-  "title": "Praxis LNAT Practice Paper 6",
+  "title": "TwoStepsFurther LNAT Practice Paper 6",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -8206,7 +8206,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p07",
-  "title": "Praxis LNAT Practice Paper 7",
+  "title": "TwoStepsFurther LNAT Practice Paper 7",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -9572,7 +9572,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p08",
-  "title": "Praxis LNAT Practice Paper 8",
+  "title": "TwoStepsFurther LNAT Practice Paper 8",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -10938,7 +10938,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p09",
-  "title": "Praxis LNAT Practice Paper 9",
+  "title": "TwoStepsFurther LNAT Practice Paper 9",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -12304,7 +12304,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p10",
-  "title": "Praxis LNAT Practice Paper 10",
+  "title": "TwoStepsFurther LNAT Practice Paper 10",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -13670,7 +13670,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p11",
-  "title": "Praxis LNAT Practice Paper 11",
+  "title": "TwoStepsFurther LNAT Practice Paper 11",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -15036,7 +15036,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p12",
-  "title": "Praxis LNAT Practice Paper 12",
+  "title": "TwoStepsFurther LNAT Practice Paper 12",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -16402,7 +16402,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p13",
-  "title": "Praxis LNAT Practice Paper 13",
+  "title": "TwoStepsFurther LNAT Practice Paper 13",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -17768,7 +17768,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p14",
-  "title": "Praxis LNAT Practice Paper 14",
+  "title": "TwoStepsFurther LNAT Practice Paper 14",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -19134,7 +19134,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p15",
-  "title": "Praxis LNAT Practice Paper 15",
+  "title": "TwoStepsFurther LNAT Practice Paper 15",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -20500,7 +20500,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p16",
-  "title": "Praxis LNAT Practice Paper 16",
+  "title": "TwoStepsFurther LNAT Practice Paper 16",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -21866,7 +21866,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p17",
-  "title": "Praxis LNAT Practice Paper 17",
+  "title": "TwoStepsFurther LNAT Practice Paper 17",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -23232,7 +23232,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p18",
-  "title": "Praxis LNAT Practice Paper 18",
+  "title": "TwoStepsFurther LNAT Practice Paper 18",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -24598,7 +24598,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p19",
-  "title": "Praxis LNAT Practice Paper 19",
+  "title": "TwoStepsFurther LNAT Practice Paper 19",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -25964,7 +25964,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p20",
-  "title": "Praxis LNAT Practice Paper 20",
+  "title": "TwoStepsFurther LNAT Practice Paper 20",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -27330,7 +27330,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p21",
-  "title": "Praxis LNAT Practice Paper 21",
+  "title": "TwoStepsFurther LNAT Practice Paper 21",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -28696,7 +28696,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p22",
-  "title": "Praxis LNAT Practice Paper 22",
+  "title": "TwoStepsFurther LNAT Practice Paper 22",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -30062,7 +30062,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p23",
-  "title": "Praxis LNAT Practice Paper 23",
+  "title": "TwoStepsFurther LNAT Practice Paper 23",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -31428,7 +31428,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p24",
-  "title": "Praxis LNAT Practice Paper 24",
+  "title": "TwoStepsFurther LNAT Practice Paper 24",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
@@ -32794,7 +32794,7 @@ const SECTION_A_PAPERS = [
 },
 {
   "paper_id": "praxis-p25",
-  "title": "Praxis LNAT Practice Paper 25",
+  "title": "TwoStepsFurther LNAT Practice Paper 25",
   "section": "A",
   "time_limit_minutes": 95,
   "total_questions": 42,
