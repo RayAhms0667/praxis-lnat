@@ -29,8 +29,8 @@ html,body{margin:0;padding:0;}
 body{
   background:var(--paper-raised);
   background-image:
-    radial-gradient(ellipse at top left, rgba(22,163,74,.05), transparent 55%),
-    radial-gradient(ellipse at bottom right, rgba(22,163,74,.035), transparent 55%);
+    radial-gradient(ellipse at top left, rgba(30,58,95,.05), transparent 55%),
+    radial-gradient(ellipse at bottom right, rgba(75,87,104,.035), transparent 55%);
   color:var(--ink);
   font-family:var(--sans);
   font-size:15.5px;
