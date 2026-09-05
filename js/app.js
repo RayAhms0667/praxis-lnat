@@ -32,6 +32,8 @@ const state = {
   marketingPractice: { qIndex: 0, answers: {} }, // free-practice teaser (uses PASSAGES[0])
   paperAttempt: null, // { paperIndex, order, pos, answers, timeLeft, timerId } — a Section A paper in progress
   paperResultsData: null, // set by submitPaper(), read by renderPaperResults()
+  essayAttempt: null, // { index, text, timeLeft, timerId } — a Section B essay in progress
+  essayDoneData: null, // set by finishEssay(), read by renderEssayDone()
 };
 
 /* ---------------- Supabase-backed auth (falls back to local demo mode) ----------------
@@ -133,6 +135,12 @@ function loadPaperProgress() {
 }
 function savePaperProgress(p) { localStorage.setItem('praxis_paper_progress', JSON.stringify(p)); }
 
+function loadEssayProgress() {
+  try { return JSON.parse(localStorage.getItem('praxis_essay_progress') || '{}'); }
+  catch (e) { return {}; }
+}
+function saveEssayProgress(p) { localStorage.setItem('praxis_essay_progress', JSON.stringify(p)); }
+
 /* ---------------- helpers ---------------- */
 function letter(i) { return String.fromCharCode(65 + i); }
 function el(html) {
@@ -157,6 +165,10 @@ function go(route, opts) {
   if (route !== 'section-a-paper' && state.paperAttempt && state.paperAttempt.timerId) {
     clearInterval(state.paperAttempt.timerId);
     state.paperAttempt.timerId = null;
+  }
+  if (route !== 'section-b-essay' && state.essayAttempt && state.essayAttempt.timerId) {
+    clearInterval(state.essayAttempt.timerId);
+    state.essayAttempt.timerId = null;
   }
   state.route = route;
   Object.assign(state, opts || {});
@@ -772,6 +784,10 @@ function renderDashboard() {
     ? Math.round(completedPapers.reduce((s, p) => s + (paperProgress[p.paper_id].score / paperProgress[p.paper_id].total), 0) / completedPapers.length * 100)
     : null;
 
+  const essayProgress = loadEssayProgress();
+  const availableEssays = SECTION_B_ESSAYS.slice(0, tier.essays);
+  const completedEssays = availableEssays.filter(e => essayProgress[e.question_id] && essayProgress[e.question_id].completed);
+
   APP.appendChild(el(`
     <section class="hero">
       <p class="kicker">${escapeHtml(tier.name)} plan</p>
@@ -781,7 +797,7 @@ function renderDashboard() {
 
     <div class="stats-row">
       <div class="stat-box"><div class="stat-num">${completedPapers.length}/${tier.papers}</div><div class="stat-label">Papers completed</div></div>
-      <div class="stat-box"><div class="stat-num">0/${tier.essays}</div><div class="stat-label">Essays written</div></div>
+      <div class="stat-box"><div class="stat-num">${completedEssays.length}/${tier.essays}</div><div class="stat-label">Essays written</div></div>
       <div class="stat-box"><div class="stat-num">0/${tier.mcq}</div><div class="stat-label">MCQs answered</div></div>
       <div class="stat-box"><div class="stat-num">${avgScore === null ? '—' : avgScore + '%'}</div><div class="stat-label">Average score</div></div>
     </div>
@@ -811,31 +827,6 @@ function renderDashboard() {
   document.getElementById('card-section-a').onclick = () => go('section-a');
   document.getElementById('card-section-b').onclick = () => go('section-b');
   document.getElementById('card-mcq').onclick = () => go('mcq');
-}
-
-function renderPlaceholderList(opts) {
-  const { crumbLabel, heading, blurb, count, itemLabel, itemMeta } = opts;
-  const wrap = el(`
-    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / ${escapeHtml(crumbLabel)}</div>
-    <div class="section-heading"><h2>${escapeHtml(heading)}</h2></div>
-    <p style="color:var(--ink-soft);font-size:13.5px;max-width:600px;margin-bottom:20px;">${blurb}</p>
-    <div class="passage-list" id="placeholder-list"></div>
-  `);
-  APP.appendChild(wrap);
-  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
-  const list = wrap.querySelector('#placeholder-list');
-  for (let i = 1; i <= count; i++) {
-    list.appendChild(el(`
-      <div class="passage-row" style="cursor:default;">
-        <span class="pr-num">${String(i).padStart(2, '0')}</span>
-        <div class="pr-main">
-          <div class="pr-title">${escapeHtml(itemLabel)} ${i}</div>
-          <div class="pr-cat">${escapeHtml(itemMeta)}</div>
-        </div>
-        <span class="pr-status coming">Coming soon</span>
-      </div>
-    `));
-  }
 }
 
 function renderSectionA() {
@@ -1100,14 +1091,197 @@ function renderPaperResults() {
 
 function renderSectionB() {
   const tier = getTier();
-  renderPlaceholderList({
-    crumbLabel: 'Section B',
-    heading: `Essay prompts — ${tier.name} plan`,
-    blurb: 'Prompts to plan and write against a 40-minute clock, just like the real Section B. New prompts are being added regularly.',
-    count: tier.essays,
-    itemLabel: 'Essay',
-    itemMeta: 'Untimed practice or 40-minute mock',
+  const progress = loadEssayProgress();
+
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / Section B</div>
+    <div class="section-heading"><h2>Essay prompts — ${escapeHtml(tier.name)} plan</h2></div>
+    <p style="color:var(--ink-soft);font-size:13.5px;max-width:600px;margin-bottom:20px;">Choose a prompt and write a structured, persuasive essay against a 40-minute clock, just like the real Section B (${escapeHtml(SECTION_B_WORD_GUIDANCE)}). More prompts unlock here as they're written.</p>
+    <div class="passage-list" id="essays-list"></div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+
+  const list = wrap.querySelector('#essays-list');
+  for (let i = 1; i <= tier.essays; i++) {
+    const essay = SECTION_B_ESSAYS[i - 1];
+    if (essay) {
+      const prog = progress[essay.question_id];
+      const statusText = prog && prog.completed
+        ? `Completed — ${prog.wordCount} words`
+        : prog
+          ? `Draft saved — ${prog.wordCount} words`
+          : 'Write essay';
+      const row = el(`
+        <button class="passage-row">
+          <span class="pr-num">${String(i).padStart(2, '0')}</span>
+          <div class="pr-main">
+            <div class="pr-title">${escapeHtml(essay.prompt)}</div>
+            <div class="pr-cat">${escapeHtml(essay.category)} · 40 min</div>
+          </div>
+          <span class="pr-status ${prog && prog.completed ? 'done' : ''}">${escapeHtml(statusText)}</span>
+        </button>
+      `);
+      row.onclick = () => confirmStartEssay(i - 1);
+      list.appendChild(row);
+    } else {
+      list.appendChild(el(`
+        <div class="passage-row" style="cursor:default;">
+          <span class="pr-num">${String(i).padStart(2, '0')}</span>
+          <div class="pr-main">
+            <div class="pr-title">Essay ${i}</div>
+            <div class="pr-cat">Untimed practice or 40-minute mock</div>
+          </div>
+          <span class="pr-status coming">Coming soon</span>
+        </div>
+      `));
+    }
+  }
+}
+
+function confirmStartEssay(index) {
+  const essay = SECTION_B_ESSAYS[index];
+  const progress = loadEssayProgress();
+  const existing = progress[essay.question_id];
+  if (existing) { startEssay(index); return; }
+  showConfirm(
+    'Start this essay?',
+    `40 minutes on the clock, ${escapeHtml(SECTION_B_WORD_GUIDANCE)} — just like the real thing. Your draft autosaves as you write, and you can finish early once you're happy with it.`,
+    'Start writing',
+    () => startEssay(index)
+  );
+}
+
+function startEssay(index) {
+  const essay = SECTION_B_ESSAYS[index];
+  const progress = loadEssayProgress();
+  const existing = progress[essay.question_id];
+  state.essayAttempt = {
+    index,
+    text: (existing && existing.text) || '',
+    timeLeft: 40 * 60,
+    timerId: null,
+  };
+  go('section-b-essay');
+  startEssayTimer();
+}
+
+function startEssayTimer() {
+  const attempt = state.essayAttempt;
+  attempt.timerId = setInterval(() => {
+    attempt.timeLeft--;
+    const pill = document.getElementById('essay-timer-pill');
+    if (pill) {
+      const low = attempt.timeLeft <= 300;
+      pill.className = 'timer-pill' + (low ? ' low' : '');
+      pill.innerHTML = `<span class="timer-dot"></span>${fmtSecs(attempt.timeLeft)}`;
+    }
+    if (attempt.timeLeft <= 0) {
+      clearInterval(attempt.timerId);
+      finishEssay(true);
+    }
+  }, 1000);
+}
+
+function renderSectionBEssay() {
+  const attempt = state.essayAttempt;
+  const essay = SECTION_B_ESSAYS[attempt.index];
+
+  const wrap = el(`
+    <div class="breadcrumb" style="display:flex;justify-content:space-between;align-items:center;">
+      <span>${escapeHtml(essay.category)} — do not refresh this page</span>
+      <span id="essay-timer-pill" class="timer-pill ${attempt.timeLeft <= 300 ? 'low' : ''}"><span class="timer-dot"></span>${fmtSecs(attempt.timeLeft)}</span>
+    </div>
+    <div class="section-heading" style="margin-top:18px;"><h2>${escapeHtml(essay.prompt)}</h2></div>
+    <div class="essay-toolbar"><div class="word-count" id="essay-wc">0 words</div></div>
+    <textarea class="essay-input" id="essay-textarea" style="min-height:50vh;" placeholder="Begin writing here.">${escapeHtml(attempt.text)}</textarea>
+    <div class="q-actions" style="margin-top:16px;">
+      <button class="btn btn-primary" id="essay-finish-btn">Finish essay</button>
+    </div>
+  `);
+  APP.appendChild(wrap);
+
+  const textarea = wrap.querySelector('#essay-textarea');
+  const wc = wrap.querySelector('#essay-wc');
+  function updateWc() {
+    const n = wordCount(textarea.value);
+    wc.textContent = `${n} word${n === 1 ? '' : 's'}`;
+    wc.className = 'word-count' + (n > 0 && n < 400 ? ' warn' : n > 750 ? ' over' : '');
+  }
+  updateWc();
+
+  let saveTimeout;
+  textarea.addEventListener('input', () => {
+    attempt.text = textarea.value;
+    updateWc();
+    clearTimeout(saveTimeout);
+    saveTimeout = setTimeout(() => {
+      const progress = loadEssayProgress();
+      const existing = progress[essay.question_id];
+      progress[essay.question_id] = {
+        text: attempt.text,
+        wordCount: wordCount(attempt.text),
+        completed: existing ? existing.completed : false,
+        date: Date.now(),
+      };
+      saveEssayProgress(progress);
+    }, 400);
   });
+
+  wrap.querySelector('#essay-finish-btn').onclick = () => confirmFinishEssay();
+}
+
+function confirmFinishEssay() {
+  const attempt = state.essayAttempt;
+  const n = wordCount(attempt.text);
+  showConfirm(
+    'Finish this essay?',
+    n < 200
+      ? `You've written only ${n} words. Finishing now will save it as complete. You can still come back and edit it later.`
+      : `You've written ${n} words. This will save your essay as complete — you can still come back and edit it later.`,
+    'Finish',
+    () => finishEssay(false)
+  );
+}
+
+function finishEssay(timedOut) {
+  const attempt = state.essayAttempt;
+  if (attempt.timerId) clearInterval(attempt.timerId);
+  const essay = SECTION_B_ESSAYS[attempt.index];
+
+  const progress = loadEssayProgress();
+  progress[essay.question_id] = {
+    text: attempt.text,
+    wordCount: wordCount(attempt.text),
+    completed: true,
+    date: Date.now(),
+  };
+  saveEssayProgress(progress);
+
+  go('essay-done', {
+    essayDoneData: { essay, wordCount: wordCount(attempt.text), timedOut },
+  });
+  state.essayAttempt = null;
+}
+
+function renderEssayDone() {
+  const d = state.essayDoneData;
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / Section B / Done</div>
+    <div class="results-hero">
+      <div class="score-big">${d.wordCount}</div>
+      <div class="score-frac">words${d.timedOut ? ' · time expired' : ''}</div>
+      <div class="score-verdict">Section B isn't scored by the test itself — universities assess reasoning, structure, and clarity of argument. Read back over your essay and check you've addressed the strongest counterargument to your position.</div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;">
+      <button class="btn btn-primary" id="ed-dash">Back to dashboard</button>
+      <button class="btn" id="ed-list">Back to Section B</button>
+    </div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#ed-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#ed-list').onclick = () => go('section-b');
 }
 
 function renderMcq() {
@@ -1755,6 +1929,8 @@ function render() {
     case 'section-a-paper': renderSectionAPaper(); break;
     case 'paper-results': renderPaperResults(); break;
     case 'section-b': renderSectionB(); break;
+    case 'section-b-essay': renderSectionBEssay(); break;
+    case 'essay-done': renderEssayDone(); break;
     case 'mcq': renderMcq(); break;
     case 'account': renderAccount(); break;
     case 'choose-plan': renderChoosePlan(); break;
