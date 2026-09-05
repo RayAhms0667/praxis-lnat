@@ -8,9 +8,9 @@
   --ink-faint: #868b96;
   --rule: #e2e8f0;
   --rule-strong: #cbd5e1;
-  --maroon: #2563eb;
-  --maroon-dark: #1d4ed8;
-  --navy: #334155;
+  --maroon: #1e3a5f;
+  --maroon-dark: #14293f;
+  --navy: #4b5768;
   --good: #16a34a;
   --good-bg: #eafbf0;
   --bad: #dc2626;
@@ -249,7 +249,7 @@ p{margin:0 0 1em;}
   width:100%;
   text-align:left;
 }
-.passage-row:hover{background:rgba(37,99,235,.05);}
+.passage-row:hover{background:rgba(30,58,95,.05);}
 .passage-row .pr-num{
   font-family:var(--mono);
   font-size:12px;
