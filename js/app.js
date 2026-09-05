@@ -777,6 +777,17 @@ function contactPageHtml() {
   `;
 }
 
+const CONTACT_RECIPIENT_EMAIL = 'rayyanahmad2021rs@gmail.com';
+
+function openContactMailto(name, email, topic, message) {
+  const subject = `New enquiry (${topic || 'General enquiry'}) from ${name}`;
+  const body = `From: ${name} <${email}>\nTopic: ${topic || 'General enquiry'}\n\n${message}`;
+  const mailtoUrl = `mailto:${CONTACT_RECIPIENT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const link = document.createElement('a');
+  link.href = mailtoUrl;
+  link.click();
+}
+
 function mountContactForm(form) {
   if (!form) return;
   const msg = form.querySelector('#contact-msg');
@@ -790,18 +801,17 @@ function mountContactForm(form) {
     const submitBtn = form.querySelector('button[type="submit"]');
     submitBtn.disabled = true;
     try {
-      let delivered = false;
       if (supabaseClient) {
         const { error } = await supabaseClient.functions.invoke('send-contact-email', {
           body: { name, email, topic, message },
         });
         if (error) throw error;
-        delivered = true;
       }
+      openContactMailto(name, email, topic, message);
       msg.appendChild(el(`<div class="account-success">${
-        delivered
-          ? `Thanks, ${escapeHtml(name.split(/\s+/)[0])} — your enquiry has been received. We'll get back to you soon.`
-          : `Thanks for reaching out. This is a demo site, so this form isn't wired up to actually send anywhere yet — but this is exactly how it'll work once it is.`
+        supabaseClient
+          ? `Thanks, ${escapeHtml(name.split(/\s+/)[0])} — we've opened your email app with your message ready to send. Just hit send there to reach us. (If nothing opened, email us directly at ${CONTACT_RECIPIENT_EMAIL}.)`
+          : `Thanks for reaching out. This is a demo site, so nothing is actually saved yet — but this is exactly how it'll work once it is.`
       }</div>`));
       form.reset();
     } catch (err) {
