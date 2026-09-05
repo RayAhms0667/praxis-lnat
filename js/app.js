@@ -22,8 +22,9 @@ const state = {
   route: 'dashboard', // used only while area === 'app' — includes onboarding steps 'choose-plan' / 'payment'
   accountTab: 'profile', // 'profile' | 'security' | 'verification' | 'subscription' — used only while route === 'account'
   marketingRoute: 'home', // 'home' | 'about' | 'pricing' | 'free-practice' | 'contact' — used only while area === 'marketing'
-  authMode: 'login', // 'login' | 'signup' — used only while area === 'auth'
+  authMode: 'login', // 'login' | 'signup' | 'forgot' | 'reset-password' — used only while area === 'auth'
   authError: null,
+  authNotice: null, // informational (non-error) message on the auth page, e.g. "check your email"
   selectedPlan: 'intensive', // plan pre-picked from a pricing card, carried into sign-up
   planPreselected: false, // true only when selectedPlan came from an explicit pricing-card click
   pendingPlan: null, // plan awaiting payment confirmation
@@ -72,6 +73,20 @@ async function authSignIn(email, password) {
     };
   }
   return { email }; // demo mode: any credentials "work"
+}
+
+async function authRequestPasswordReset(email) {
+  if (!supabaseClient) return; // demo mode: nothing to send, caller shows a demo-mode notice
+  const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
+    redirectTo: window.location.origin + window.location.pathname,
+  });
+  if (error) throw error;
+}
+
+async function authUpdatePassword(newPassword) {
+  if (!supabaseClient) throw new Error('Demo mode — there is no real account to update.');
+  const { error } = await supabaseClient.auth.updateUser({ password: newPassword });
+  if (error) throw error;
 }
 
 /* ---------------- persistence ---------------- */
@@ -219,8 +234,9 @@ function handleLogout() {
 
 function goToAuth(mode, plan) {
   state.area = 'auth';
-  state.authMode = mode === 'signup' ? 'signup' : 'login';
+  state.authMode = (mode === 'signup' || mode === 'forgot') ? mode : 'login';
   state.authError = null;
+  state.authNotice = null;
   if (plan && TIERS[plan]) {
     state.selectedPlan = plan;
     state.planPreselected = true;
@@ -2195,6 +2211,9 @@ function renderSubscriptionTab(content) {
    AUTH PAGE — dedicated log in / sign up screen (not part of the scroll)
    ================================================================== */
 function renderAuthPage() {
+  if (state.authMode === 'forgot') { renderForgotPasswordPage(); return; }
+  if (state.authMode === 'reset-password') { renderResetPasswordPage(); return; }
+
   const mode = state.authMode === 'signup' ? 'signup' : 'login';
 
   const wrap = el(`
@@ -2223,6 +2242,12 @@ function renderAuthPage() {
             <span>Password</span>
             <input type="password" id="auth-password" class="input" placeholder="${mode === 'signup' ? 'At least 8 characters' : '••••••••'}" ${mode === 'signup' ? 'minlength="8"' : ''} required>
           </label>
+          ${mode === 'signup' ? `
+          <label class="field">
+            <span>Confirm password</span>
+            <input type="password" id="auth-password-confirm" class="input" placeholder="Re-enter your password" minlength="8" required>
+          </label>` : `
+          <p style="margin:-6px 0 16px;text-align:right;"><a id="forgot-link" style="color:var(--maroon);font-size:12.5px;cursor:pointer;">Forgot password?</a></p>`}
           <button type="submit" class="btn btn-primary btn-block">${mode === 'signup' ? 'Create account' : 'Log in'}</button>
         </form>
       </div>
@@ -2230,17 +2255,27 @@ function renderAuthPage() {
   `);
   APP.appendChild(wrap);
 
+  if (mode === 'login') {
+    wrap.querySelector('#forgot-link').onclick = () => goToAuth('forgot');
+  }
+
   const form = wrap.querySelector('#auth-form');
   form.onsubmit = async (e) => {
     e.preventDefault();
     const submitBtn = form.querySelector('button[type="submit"]');
-    submitBtn.disabled = true;
     try {
       let user;
       if (mode === 'signup') {
+        const password = wrap.querySelector('#auth-password').value;
+        const passwordConfirm = wrap.querySelector('#auth-password-confirm').value;
+        if (password !== passwordConfirm) {
+          state.authError = "Passwords don't match.";
+          render();
+          return;
+        }
+        submitBtn.disabled = true;
         const name = wrap.querySelector('#auth-name').value.trim();
         const email = wrap.querySelector('#auth-email').value.trim();
-        const password = wrap.querySelector('#auth-password').value;
         user = await authSignUp(name, email, password);
         user.plan = null;
         user.paid = false;
@@ -2256,6 +2291,7 @@ function renderAuthPage() {
           state.route = 'choose-plan';
         }
       } else {
+        submitBtn.disabled = true;
         const email = wrap.querySelector('#auth-email').value.trim();
         const password = wrap.querySelector('#auth-password').value;
         user = await authSignIn(email, password);
@@ -2268,6 +2304,121 @@ function renderAuthPage() {
         state.authError = null;
         state.area = 'app';
         state.route = 'dashboard'; // the onboarding gate redirects if not paid up yet
+      }
+      render();
+      window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+    } catch (err) {
+      state.authError = (err && err.message) || 'Something went wrong. Please try again.';
+      submitBtn.disabled = false;
+      render();
+    }
+  };
+}
+
+function renderForgotPasswordPage() {
+  const wrap = el(`
+    <div class="auth-page">
+      <div class="auth-card">
+        <h2>Reset your password</h2>
+        <p class="lede" style="font-size:14px;margin-bottom:22px;">Enter your account email and we'll send you a link to choose a new password.</p>
+
+        ${state.authError ? `<div class="auth-error">${escapeHtml(state.authError)}</div>` : ''}
+        ${state.authNotice ? `<div class="account-success">${escapeHtml(state.authNotice)}</div>` : ''}
+
+        <form id="forgot-form">
+          <label class="field">
+            <span>Email</span>
+            <input type="email" id="forgot-email" class="input" placeholder="you@example.com" required>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block">Send reset link</button>
+        </form>
+        <p class="login-note" style="margin-top:16px;"><a id="back-to-login" style="color:var(--maroon);cursor:pointer;">Back to log in</a></p>
+      </div>
+    </div>
+  `);
+  APP.appendChild(wrap);
+
+  wrap.querySelector('#back-to-login').onclick = () => goToAuth('login');
+
+  const form = wrap.querySelector('#forgot-form');
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const submitBtn = form.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    const email = wrap.querySelector('#forgot-email').value.trim();
+    try {
+      await authRequestPasswordReset(email);
+      state.authError = null;
+      state.authNotice = supabaseClient
+        ? `If an account exists for ${email}, a reset link is on its way — it can take a minute or two to arrive.`
+        : 'Demo mode — no real email is sent, but this is exactly how it would work with a real account.';
+      render();
+    } catch (err) {
+      state.authError = (err && err.message) || 'Something went wrong. Please try again.';
+      submitBtn.disabled = false;
+      render();
+    }
+  };
+}
+
+function renderResetPasswordPage() {
+  const wrap = el(`
+    <div class="auth-page">
+      <div class="auth-card">
+        <h2>Choose a new password</h2>
+        <p class="lede" style="font-size:14px;margin-bottom:22px;">You've followed a reset link — set a new password to finish.</p>
+
+        ${state.authError ? `<div class="auth-error">${escapeHtml(state.authError)}</div>` : ''}
+
+        <form id="reset-form">
+          <label class="field">
+            <span>New password</span>
+            <input type="password" id="reset-password" class="input" placeholder="At least 8 characters" minlength="8" required>
+          </label>
+          <label class="field">
+            <span>Confirm new password</span>
+            <input type="password" id="reset-password-confirm" class="input" placeholder="Re-enter your new password" minlength="8" required>
+          </label>
+          <button type="submit" class="btn btn-primary btn-block">Update password</button>
+        </form>
+      </div>
+    </div>
+  `);
+  APP.appendChild(wrap);
+
+  const form = wrap.querySelector('#reset-form');
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const password = wrap.querySelector('#reset-password').value;
+    const passwordConfirm = wrap.querySelector('#reset-password-confirm').value;
+    if (password !== passwordConfirm) {
+      state.authError = "Passwords don't match.";
+      render();
+      return;
+    }
+    submitBtn.disabled = true;
+    try {
+      await authUpdatePassword(password);
+      state.authError = null;
+      const { data: { session } } = await supabaseClient.auth.getSession();
+      if (session && session.user) {
+        const prevAuth = loadAuth();
+        const resolved = await resolvePlanAndPaid(session.user.id, prevAuth);
+        const user = {
+          id: session.user.id,
+          email: session.user.email,
+          name: session.user.user_metadata && session.user.user_metadata.name,
+          plan: resolved.plan,
+          paid: resolved.paid,
+        };
+        saveAuth(user);
+        state.auth = user;
+        state.area = 'app';
+        state.route = 'dashboard';
+      } else {
+        state.area = 'auth';
+        state.authMode = 'login';
       }
       render();
       window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
@@ -2362,7 +2513,15 @@ async function boot() {
       state.route = resumingCheckout ? 'confirming-payment' : 'dashboard';
     }
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
-      if (event === 'SIGNED_IN' && session && session.user) {
+      if (event === 'PASSWORD_RECOVERY') {
+        // Landed here via the emailed reset link — Supabase has already
+        // signed the user in on a temporary basis so they can set a new
+        // password; don't route them into the app until they've done that.
+        state.area = 'auth';
+        state.authMode = 'reset-password';
+        state.authError = null;
+        render();
+      } else if (event === 'SIGNED_IN' && session && session.user) {
         const prevAuth = loadAuth();
         const { plan, paid } = await resolvePlanAndPaid(session.user.id, prevAuth);
         state.auth = {
