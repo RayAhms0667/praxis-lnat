@@ -34,6 +34,8 @@ const state = {
   paperResultsData: null, // set by submitPaper(), read by renderPaperResults()
   essayAttempt: null, // { index, text, timeLeft, timerId } — a Section B essay in progress
   essayDoneData: null, // set by finishEssay(), read by renderEssayDone()
+  mcqSession: null, // { order, pos, answeredThisSession } — an MCQ Quick Practice run in progress
+  mcqDoneData: null, // set by finishMcqSession(), read by renderMcqDone()
 };
 
 /* ---------------- Supabase-backed auth (falls back to local demo mode) ----------------
@@ -140,6 +142,12 @@ function loadEssayProgress() {
   catch (e) { return {}; }
 }
 function saveEssayProgress(p) { localStorage.setItem('praxis_essay_progress', JSON.stringify(p)); }
+
+function loadMcqProgress() {
+  try { return JSON.parse(localStorage.getItem('praxis_mcq_progress') || '{}'); }
+  catch (e) { return {}; }
+}
+function saveMcqProgress(p) { localStorage.setItem('praxis_mcq_progress', JSON.stringify(p)); }
 
 /* ---------------- helpers ---------------- */
 function letter(i) { return String.fromCharCode(65 + i); }
@@ -788,6 +796,10 @@ function renderDashboard() {
   const availableEssays = SECTION_B_ESSAYS.slice(0, tier.essays);
   const completedEssays = availableEssays.filter(e => essayProgress[e.question_id] && essayProgress[e.question_id].completed);
 
+  const mcqProgress = loadMcqProgress();
+  const availableMcqs = MCQ_QUESTIONS.slice(0, tier.mcq);
+  const answeredMcqs = availableMcqs.filter(q => mcqProgress[q.question_id]);
+
   APP.appendChild(el(`
     <section class="hero">
       <p class="kicker">${escapeHtml(tier.name)} plan</p>
@@ -798,7 +810,7 @@ function renderDashboard() {
     <div class="stats-row">
       <div class="stat-box"><div class="stat-num">${completedPapers.length}/${tier.papers}</div><div class="stat-label">Papers completed</div></div>
       <div class="stat-box"><div class="stat-num">${completedEssays.length}/${tier.essays}</div><div class="stat-label">Essays written</div></div>
-      <div class="stat-box"><div class="stat-num">0/${tier.mcq}</div><div class="stat-label">MCQs answered</div></div>
+      <div class="stat-box"><div class="stat-num">${answeredMcqs.length}/${tier.mcq}</div><div class="stat-label">MCQs answered</div></div>
       <div class="stat-box"><div class="stat-num">${avgScore === null ? '—' : avgScore + '%'}</div><div class="stat-label">Average score</div></div>
     </div>
 
@@ -1286,16 +1298,145 @@ function renderEssayDone() {
 
 function renderMcq() {
   const tier = getTier();
+  const available = MCQ_QUESTIONS.slice(0, tier.mcq);
+  const progress = loadMcqProgress();
+  const answered = available.filter(q => progress[q.question_id]);
+  const correct = answered.filter(q => progress[q.question_id].correct);
+  const accuracy = answered.length ? Math.round((correct.length / answered.length) * 100) : null;
+
   const wrap = el(`
     <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / MCQ Quick Practice</div>
     <div class="results-hero">
-      <div class="score-big">${tier.mcq}</div>
-      <div class="score-frac">questions in the ${escapeHtml(tier.name)} plan</div>
-      <div class="score-verdict">Quick Practice is coming soon — short, standalone reasoning questions for topping up between longer sessions.</div>
+      <div class="score-big">${available.length}</div>
+      <div class="score-frac">standalone question${available.length === 1 ? '' : 's'} available in the ${escapeHtml(tier.name)} plan${available.length < tier.mcq ? ` (of ${tier.mcq} total — more added regularly)` : ''}</div>
+      <div class="score-verdict">${answered.length ? `You've answered ${answered.length} so far, ${accuracy}% correct.` : 'Short, standalone reasoning questions with immediate feedback — a quick top-up between longer sessions.'}</div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;justify-content:center;">
+      <button class="btn btn-primary" id="mcq-start" ${available.length ? '' : 'disabled'}>Start practice</button>
     </div>
   `);
   APP.appendChild(wrap);
   wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  if (available.length) wrap.querySelector('#mcq-start').onclick = () => startMcqSession();
+}
+
+function startMcqSession() {
+  const tier = getTier();
+  const available = MCQ_QUESTIONS.slice(0, tier.mcq);
+  state.mcqSession = {
+    order: available.map((_, i) => i),
+    pos: 0,
+    revealed: false,
+    sessionAnswered: 0,
+    sessionCorrect: 0,
+  };
+  go('mcq-practice');
+}
+
+function renderMcqPractice() {
+  const tier = getTier();
+  const available = MCQ_QUESTIONS.slice(0, tier.mcq);
+  const session = state.mcqSession;
+  const q = available[session.order[session.pos]];
+  const progress = loadMcqProgress();
+  const prior = progress[q.question_id];
+  const isLast = session.pos === session.order.length - 1;
+
+  const wrap = el(`
+    <div class="breadcrumb"><span>Question ${session.pos + 1} of ${session.order.length} — MCQ Quick Practice</span></div>
+    <div class="passage-pane" style="max-width:640px;margin:0 auto 18px;">
+      <p class="p-cat">${escapeHtml(q.topic)}</p>
+      <div class="p-body"><p>${escapeHtml(q.passage)}</p></div>
+    </div>
+    <div style="max-width:640px;margin:0 auto;">
+      <div class="q-text">${escapeHtml(q.prompt)}</div>
+      <div class="options" id="mcq-opts"></div>
+      <div id="mcq-feedback"></div>
+      <div class="q-actions" id="mcq-actions"></div>
+    </div>
+  `);
+  APP.appendChild(wrap);
+
+  const optsWrap = wrap.querySelector('#mcq-opts');
+  const actions = wrap.querySelector('#mcq-actions');
+  const feedback = wrap.querySelector('#mcq-feedback');
+
+  function selectOption(optId) {
+    session.revealed = true;
+    const isCorrect = optId === q.correct_option_id;
+    session.sessionAnswered++;
+    if (isCorrect) session.sessionCorrect++;
+    const p = loadMcqProgress();
+    p[q.question_id] = { selected: optId, correct: isCorrect, date: Date.now() };
+    saveMcqProgress(p);
+    render();
+  }
+
+  q.options.forEach(opt => {
+    const optEl = el(`<div class="option"><span class="opt-letter">${opt.id}</span><span class="opt-text">${escapeHtml(opt.text)}</span></div>`);
+    if (session.revealed) {
+      if (opt.id === q.correct_option_id) optEl.classList.add('correct');
+      else if (prior && opt.id === prior.selected) optEl.classList.add('incorrect');
+    } else {
+      optEl.onclick = () => selectOption(opt.id);
+    }
+    optsWrap.appendChild(optEl);
+  });
+
+  if (session.revealed) {
+    feedback.appendChild(el(`
+      <div class="review-item" style="margin-top:14px;">
+        <div class="review-item-head"><span class="ri-q">${prior && prior.correct ? 'Correct' : 'Incorrect'}</span><span class="review-badge ${prior && prior.correct ? 'correct' : 'incorrect'}">${prior && prior.correct ? 'Correct' : 'Incorrect'}</span></div>
+        <div class="review-item-body"><div class="explanation"><strong>Why:</strong> ${escapeHtml(q.explanation)}</div></div>
+      </div>
+    `));
+    const nextBtn = el(`<button class="btn btn-primary">${isLast ? 'Finish practice' : 'Next question'}</button>`);
+    nextBtn.onclick = () => {
+      if (isLast) { finishMcqSession(); return; }
+      session.pos++;
+      session.revealed = false;
+      render();
+    };
+    actions.appendChild(nextBtn);
+  } else {
+    actions.appendChild(el(`<button class="btn" id="mcq-finish-early">Finish practice</button>`));
+    actions.querySelector('#mcq-finish-early').onclick = () => finishMcqSession();
+  }
+}
+
+function finishMcqSession() {
+  const session = state.mcqSession;
+  go('mcq-done', {
+    mcqDoneData: { sessionAnswered: session.sessionAnswered, sessionCorrect: session.sessionCorrect },
+  });
+  state.mcqSession = null;
+}
+
+function renderMcqDone() {
+  const tier = getTier();
+  const d = state.mcqDoneData;
+  const available = MCQ_QUESTIONS.slice(0, tier.mcq);
+  const progress = loadMcqProgress();
+  const answered = available.filter(q => progress[q.question_id]);
+  const correct = answered.filter(q => progress[q.question_id].correct);
+  const accuracy = answered.length ? Math.round((correct.length / answered.length) * 100) : null;
+
+  const wrap = el(`
+    <div class="breadcrumb"><a id="bc-dash">Dashboard</a> / MCQ Quick Practice / Done</div>
+    <div class="results-hero">
+      <div class="score-big">${d.sessionAnswered ? `${d.sessionCorrect}/${d.sessionAnswered}` : '—'}</div>
+      <div class="score-frac">correct this session</div>
+      <div class="score-verdict">Overall: ${answered.length}/${available.length} answered, ${accuracy === null ? '—' : accuracy + '%'} correct.</div>
+    </div>
+    <div style="display:flex;gap:10px;margin-top:20px;">
+      <button class="btn btn-primary" id="md-dash">Back to dashboard</button>
+      <button class="btn" id="md-again">Practice again</button>
+    </div>
+  `);
+  APP.appendChild(wrap);
+  wrap.querySelector('#bc-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#md-dash').onclick = () => go('dashboard');
+  wrap.querySelector('#md-again').onclick = () => startMcqSession();
 }
 
 /* ==================================================================
@@ -1932,6 +2073,8 @@ function render() {
     case 'section-b-essay': renderSectionBEssay(); break;
     case 'essay-done': renderEssayDone(); break;
     case 'mcq': renderMcq(); break;
+    case 'mcq-practice': renderMcqPractice(); break;
+    case 'mcq-done': renderMcqDone(); break;
     case 'account': renderAccount(); break;
     case 'choose-plan': renderChoosePlan(); break;
     case 'payment': renderPayment(); break;
