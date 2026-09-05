@@ -996,6 +996,11 @@ select.input{cursor:pointer;}
 }
 
 @media (max-width: 820px){
+  .site-header-inner{flex-wrap:wrap;row-gap:10px;padding:14px 20px;}
+  .brand-sub{display:none;}
+  .header-right{flex-wrap:wrap;width:100%;justify-content:flex-start;row-gap:10px;}
+  .header-nav{flex-wrap:wrap;row-gap:6px;}
+  .header-action{flex-wrap:wrap;row-gap:8px;}
   .exam-layout{grid-template-columns:1fr;}
   .passage-pane{border-right:none;border-bottom:1px solid var(--rule);max-height:none;}
   .mode-grid{grid-template-columns:1fr;}
