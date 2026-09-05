@@ -712,7 +712,7 @@ function pricingPageHtml() {
       <h1 class="page-title">Choose how deep you want to go.</h1>
       <p class="lede">Every plan includes full access while it's active — no separate paywalls once you're in.</p>
       <div class="pricing-grid">${cards}</div>
-      <p class="pricing-note">Plans are a one-off payment — no subscriptions, no refunds, switch plans anytime. Checkout isn't wired up yet, so "Get started" takes you to sign-up for now.</p>
+      <p class="pricing-note">Plans are a one-off payment — no subscriptions, no refunds, switch plans anytime.</p>
     </section>
   `;
 }
@@ -2238,7 +2238,6 @@ function renderAuthPage() {
           </label>
           <button type="submit" class="btn btn-primary btn-block">${mode === 'signup' ? 'Create account' : 'Log in'}</button>
         </form>
-        <p class="login-note" style="margin-top:16px;">${supabaseClient ? 'Connected to Supabase — accounts are real.' : 'Demo mode — no Supabase project connected yet (see js/supabase-config.js), so this stays local to this device.'}</p>
       </div>
     </div>
   `);
