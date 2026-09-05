@@ -134,23 +134,60 @@ function loadTeaserEssays() {
 }
 function saveTeaserEssays(d) { localStorage.setItem('praxis_teaser_essays', JSON.stringify(d)); }
 
+/* ---- Progress persistence: localStorage for instant reads, synced in
+   the background to the user_progress table so it actually follows the
+   account rather than just the browser it was earned on. ---- */
+function syncProgressToCloud(kind, data) {
+  if (!supabaseClient || !state.auth || !state.auth.id) return;
+  supabaseClient.from('user_progress')
+    .upsert({ user_id: state.auth.id, kind, data, updated_at: new Date().toISOString() })
+    .then(({ error }) => { if (error) console.error(`Progress sync (${kind}) failed:`, error.message); });
+}
+
+// Later date wins per item, so a cloud fetch never clobbers a newer
+// local change that just hasn't finished syncing yet.
+function mergeProgressData(local, cloud) {
+  const merged = { ...local };
+  for (const key of Object.keys(cloud || {})) {
+    const cloudEntry = cloud[key];
+    const localEntry = merged[key];
+    if (!localEntry || (cloudEntry.date || 0) >= (localEntry.date || 0)) merged[key] = cloudEntry;
+  }
+  return merged;
+}
+
+async function loadCloudProgress(userId) {
+  if (!supabaseClient || !userId) return;
+  try {
+    const { data, error } = await supabaseClient.from('user_progress').select('kind, data').eq('user_id', userId);
+    if (error || !data) return;
+    const byKind = {};
+    data.forEach(row => { byKind[row.kind] = row.data; });
+    if (byKind.paper) savePaperProgress(mergeProgressData(loadPaperProgress(), byKind.paper));
+    if (byKind.essay) saveEssayProgress(mergeProgressData(loadEssayProgress(), byKind.essay));
+    if (byKind.mcq) saveMcqProgress(mergeProgressData(loadMcqProgress(), byKind.mcq));
+  } catch (e) {
+    console.error('Could not load cloud progress:', e.message);
+  }
+}
+
 function loadPaperProgress() {
   try { return JSON.parse(localStorage.getItem('praxis_paper_progress') || '{}'); }
   catch (e) { return {}; }
 }
-function savePaperProgress(p) { localStorage.setItem('praxis_paper_progress', JSON.stringify(p)); }
+function savePaperProgress(p) { localStorage.setItem('praxis_paper_progress', JSON.stringify(p)); syncProgressToCloud('paper', p); }
 
 function loadEssayProgress() {
   try { return JSON.parse(localStorage.getItem('praxis_essay_progress') || '{}'); }
   catch (e) { return {}; }
 }
-function saveEssayProgress(p) { localStorage.setItem('praxis_essay_progress', JSON.stringify(p)); }
+function saveEssayProgress(p) { localStorage.setItem('praxis_essay_progress', JSON.stringify(p)); syncProgressToCloud('essay', p); }
 
 function loadMcqProgress() {
   try { return JSON.parse(localStorage.getItem('praxis_mcq_progress') || '{}'); }
   catch (e) { return {}; }
 }
-function saveMcqProgress(p) { localStorage.setItem('praxis_mcq_progress', JSON.stringify(p)); }
+function saveMcqProgress(p) { localStorage.setItem('praxis_mcq_progress', JSON.stringify(p)); syncProgressToCloud('mcq', p); }
 
 /* ---- Cookie consent banner — shown once until dismissed ---- */
 function initCookieBanner() {
@@ -2328,6 +2365,7 @@ function renderAuthPage() {
         state.authError = null;
         state.area = 'app';
         state.route = 'dashboard'; // the onboarding gate redirects if not paid up yet
+        await loadCloudProgress(user.id);
       }
       render();
       window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
@@ -2536,6 +2574,7 @@ async function boot() {
       saveAuth(state.auth);
       state.area = 'app';
       state.route = resumingCheckout ? 'confirming-payment' : 'dashboard';
+      await loadCloudProgress(state.auth.id);
     }
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
       if (event === 'PASSWORD_RECOVERY') {
@@ -2559,6 +2598,7 @@ async function boot() {
         if (state.area !== 'app') {
           state.area = 'app';
           state.route = window.location.search.includes('checkout=return') ? 'confirming-payment' : 'dashboard';
+          await loadCloudProgress(state.auth.id);
           render();
         }
       } else if (event === 'SIGNED_OUT') {

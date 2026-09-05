@@ -77,6 +77,20 @@ button{font-family:inherit;}
   font-size:22px;
   letter-spacing:.01em;
   color:var(--maroon);
+  display:inline-flex;
+  align-items:center;
+  gap:.36em;
+}
+.brand-mark::before{
+  content:"";
+  display:block;
+  width:1.1em;
+  height:1.1em;
+  flex-shrink:0;
+  background-image:url('../assets/favicon.svg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  border-radius:.27em;
 }
 .brand-sub{
   font-family:var(--mono);

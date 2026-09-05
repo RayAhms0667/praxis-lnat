@@ -71,3 +71,41 @@ create table if not exists checkout_sessions (
 );
 
 alter table checkout_sessions enable row level security;
+
+-- ============================================================
+-- 4. User progress — Section A paper scores, Section B essay
+--    drafts/completions, and MCQ answers, synced from localStorage
+--    so progress actually follows the account (not just the
+--    browser). Each user can only read/write their own rows.
+-- ============================================================
+create table if not exists user_progress (
+  user_id uuid not null references auth.users(id) on delete cascade,
+  kind text not null check (kind in ('paper', 'essay', 'mcq')),
+  data jsonb not null default '{}'::jsonb,
+  updated_at timestamptz not null default now(),
+  primary key (user_id, kind)
+);
+
+alter table user_progress enable row level security;
+
+drop policy if exists "Users can read their own progress" on user_progress;
+create policy "Users can read their own progress"
+  on user_progress
+  for select
+  to authenticated
+  using (auth.uid() = user_id);
+
+drop policy if exists "Users can insert their own progress" on user_progress;
+create policy "Users can insert their own progress"
+  on user_progress
+  for insert
+  to authenticated
+  with check (auth.uid() = user_id);
+
+drop policy if exists "Users can update their own progress" on user_progress;
+create policy "Users can update their own progress"
+  on user_progress
+  for update
+  to authenticated
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
